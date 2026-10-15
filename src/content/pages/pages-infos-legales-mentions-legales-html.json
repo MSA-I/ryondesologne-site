@@ -1,0 +1,241 @@
+{
+  "id": "pages-infos-legales-mentions-legales-html",
+  "url": "https://www.rayondesologne.fr/pages/infos-legales/mentions-legales.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Mentions légales"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "Adresse : xxxxx"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Téléphone : 07 60 03 86 21"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Directeur de la publication : Sainjon Charline"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Hébergeur : E-monsite Crédit photo : Rayon de Sologne Le site www.rayondesologne.fr est la propriété de Rayon de Sologne\" (Siret : xxxxxx - TVA :xxxxxxx). Il est interdit de reproduire pour un usage autre que privé les éléments figurant sur ce site (textes, images, fichiers pdf, vidéos…) sans autorisation préalable de Rayon de Sologne. L’établissement de liens est en revanche autorisé. Son nom de domaine est également déposé et protégé."
+    },
+    {
+      "n": 11,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 12,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 13,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 14,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 29,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 30,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 31,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 32,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 33,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 34,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 35,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 36,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 37,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 38,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 39,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 40,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 41,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 42,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 43,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 44,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 45,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 46,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 47,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

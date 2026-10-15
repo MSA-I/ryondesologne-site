@@ -1,0 +1,82 @@
+/* Global baseline: mobile-native Baseline, body type, focus, reduced motion. Values are tokens (tokens.css); see policy/mobile.md §2. */
+@import "./tokens.css";
+@import "./fonts.css";
+
+/* Mobile-native baseline. No user-scalable=no anywhere: inputs carry the zoom fix. */
+html {
+  -webkit-tap-highlight-color: transparent; /* the press state replaces the browser highlight */
+  -webkit-text-size-adjust: 100%;           /* no font inflation in landscape */
+}
+
+/* 16px minimum (--fs-field 18px): iOS zooms the page on focus under 16px. */
+input, textarea, select {
+  font-size: var(--fs-field);
+}
+
+/* Controls only. Links stay selectable: they are content. */
+button, [role="button"] {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  overflow-x: clip;
+  font-family: var(--font-text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--encre);
+  background: var(--brume-creme);
+  font-synthesis: none;
+}
+
+/* Mirrors --bp-phone-max (760px); media queries cannot read custom properties. */
+@media (max-width: 760px) {
+  body {
+    font-size: var(--fs-body-phone);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Visible focus on every focusable element (§4 Focus). */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: var(--focus-offset);
+}
+
+/* Anchors land below the sticky header. */
+[id] {
+  scroll-margin-top: var(--space-6);
+}
+
+/* Quiet version of every motion: no transitions, animations or smooth scroll. Reacts to a live change of the setting. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Screen-reader-only text. */
+.visually-hidden {
+  position: absolute !important;
+  width: var(--border-1) !important;
+  height: var(--border-1) !important;
+  padding: 0 !important;
+  margin: calc(var(--border-1) * -1) !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

@@ -1,0 +1,113 @@
+---
+// La grange, salle de séminaire (DESIGN §12 meeting-room page, séminaire light). Text from pages-la-grange-salle-de-seminaire-html
+// (blocks cited; rw-grange-8 applies through t() on block 8) and two paragraphs of the merged draft pages-page-3-html; no typed copy.
+// No phone or price here: the old page has none and none is invented (client question CRO-32); the pill opens the seminar request.
+// Unused blocks are listed in 06-build/omitted/T30.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import Cta from "../../components/kit/Cta.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, approved } from "../../lib/content";
+import { NAV } from "../../lib/site";
+
+const P = "pages-la-grange-salle-de-seminaire-html";
+const D3 = "pages-page-3-html";
+const REQ = "pages-salle-seminaire-privatisee-html";
+const PAGE = "/pages/la-grange-salle-de-seminaire.html";
+const SEM = "/pages/salle-de-mariage-et-reception-1762943209.html";
+// The tour link of the old page (hrefs are not in the block text; 01-scan/raw/pages-la-grange-salle-de-seminaire-html.html). A link, no script.
+const TOUR = "https://www.mariages.net/domaine-mariage/rayon-de-sologne--e257691/tours/6576";
+const SUBJECT = NAV.find((i) => i.href === SEM)!.label; // "Réservations Séminaires"
+
+// Approved title; the old meta description verbatim (01-scan/raw).
+const title = approved("meta-title", P);
+const description =
+  "Magnifique salle en pleine nature pour accueillir vos reunions et séminaires dans un cadre champêtre. Service traiteur et animation sur place situé à 1h d'orleans, blois, bourges, tours, chateauroux et seulement 2h de paris.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("la-grange: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// The opening's figure, cut from block 13; the pull quote, the first sentence of block 16.
+const chairs = t(P, 13).match(/(150) (chaises)/);
+const quote = t(P, 16).match(/^[^.]*\./)?.[0];
+if (!chairs || !quote) throw new Error("la-grange: chairs figure / quote sentence not found in blocks 13 / 16");
+
+const strip = (s: string) => s.replace(/^-/, "");
+const light = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="seminaire-dans-la-grange-rayon-de-sologne-41320-1120x840"
+  printBox={560}
+  cta={{ href: "/contact/contact.html", label: t(REQ, 24), subject: SUBJECT }}
+  stats={[{ figure: chairs[1], words: chairs[2] }]}
+  crumbs={[
+    { label: t(P, 1), href: "/" },
+    { label: SUBJECT, href: SEM },
+    { label: t(P, 6) },
+  ]}
+>
+  <Chapter tone="creme" class="grange-chap" title={t(P, 7)} titleId="grange-reception" marginPrint={marginPrint(0)}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 10)}</p>
+    <ul class="grange-liste">
+      {[11, 12, 13, 14, 15].map((n) => <li>{strip(t(P, n))}</li>)}
+    </ul>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" class="grange-chap" marginPrint={marginPrint(1)} side="start">
+    <p>{t(D3, 8)}</p>
+    <p>{t(D3, 9)}</p>
+    <p>{t(P, 16)}</p>
+    <Cta2 href={TOUR} label={t(P, 17)} newTab />
+  </Chapter>
+
+  <Chapter tone="light" class="grange-chap" light={light} marginPrint={marginPrint(2)}>
+    <div class="ferme-bande">
+      <div class="ferme-liens">
+        <Cta2 href="/pages/le-restaurant.html" label={t(P, 2)} />
+        <Cta2 href={SEM} label={t(REQ, 23)} />
+        <Cta2 href={SEM} label={SUBJECT} />
+      </div>
+      <Cta href="/contact/contact.html" label={t(REQ, 24)} subject={SUBJECT} />
+    </div>
+  </Chapter>
+</OfferPage>
+
+<style is:global>
+  .grange-liste { margin: 0 0 var(--space-3); padding-inline-start: 1.1em; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .grange-liste li { margin: 0 0 var(--space-1); }
+  @media (max-width: 760px) { .grange-liste { font-size: var(--fs-body-phone); } }
+  /* one closing band: the cta2 links, then the request pill, spaced */
+  .ferme-bande { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-5); }
+  .ferme-liens { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); }
+  .chap-corps .ferme-liens .cta2 { margin: 0; }
+  .ferme-bande .cta { padding-block: var(--space-2); text-align: center; }
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.grange-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.grange-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.grange-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+</style>

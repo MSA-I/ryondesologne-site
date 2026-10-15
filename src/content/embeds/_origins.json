@@ -1,0 +1,47 @@
+{
+  "note": "third-party origins the planner uses (feeds T39 CSP); the planner script may load more at run time (connect-src/api calls to be confirmed live)",
+  "origins": [
+    {
+      "origin": "https://gadget.open-system.fr",
+      "directive": "style-src",
+      "pages": [
+        "pages-colonie-et-salle-des-fetes",
+        "pages-l-auberge-du-grand-liot",
+        "pages-la-maison-des-invites",
+        "pages-la-maison-des-invites-1791124532",
+        "pages-le-manoir-du-grand-liot",
+        "pages-reservations",
+        "pages-salle-de-mariage-et-reception",
+        "pages-une-salle-pour-un-anniversaire"
+      ]
+    },
+    {
+      "origin": "https://gadget.open-system.fr",
+      "directive": "img-src",
+      "pages": [
+        "pages-colonie-et-salle-des-fetes",
+        "pages-l-auberge-du-grand-liot",
+        "pages-la-maison-des-invites",
+        "pages-la-maison-des-invites-1791124532",
+        "pages-le-manoir-du-grand-liot",
+        "pages-reservations",
+        "pages-salle-de-mariage-et-reception",
+        "pages-une-salle-pour-un-anniversaire"
+      ]
+    },
+    {
+      "origin": "https://gadget.open-system.fr",
+      "directive": "script-src",
+      "pages": [
+        "pages-colonie-et-salle-des-fetes",
+        "pages-l-auberge-du-grand-liot",
+        "pages-la-maison-des-invites",
+        "pages-la-maison-des-invites-1791124532",
+        "pages-le-manoir-du-grand-liot",
+        "pages-reservations",
+        "pages-salle-de-mariage-et-reception",
+        "pages-une-salle-pour-un-anniversaire"
+      ]
+    }
+  ]
+}

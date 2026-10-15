@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import AlbumRows from "../../components/AlbumRows.astro";
+import { t } from "../../lib/content";
+import { albumCount } from "../../components/album-count";
+
+// /album/ (DESIGN §11): the home Album rows as a full page on the colonie light, H1 "Album" in Imbue.
+// Copy: album.json block 6 (H1), names 8..18, counts 7..17 (the old album index puts each count before its name).
+// Old <title> and (empty) meta description: the approved ones arrive with the SEO layer (T38).
+const P = "album";
+const title = "Album";
+const description = t(P, 6);
+const albums = await getCollection("albums");
+const path = (id: string) => new URL(albums.find((a) => a.id === id)!.data.url).pathname;
+const set = [
+  { id: "album-restaurant", key: "restaurant", n: 8, printId: "28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496" },
+  { id: "album-photos-manoir", key: "photos-manoir", n: 10 },
+  { id: "album-photos-auberge", key: "photos-auberge", n: 12 },
+  { id: "album-photos-colonie", key: "photos-colonie", n: 14, printId: "aire-de-jeux-rayon-de-sologne-496x496" },
+  { id: "album-photos-mariage", key: "photos-mariage", n: 16, printId: "etang-rayon-de-sologne-496x496" },
+  { id: "album-seminaire-reunion", key: "seminaire-reunion", n: 18, printId: "seminaire-dans-la-grange-rayon-de-sologne-41320-496x496" },
+];
+const rows = set.map((s) => ({ key: s.key, label: t(P, s.n), count: String(albumCount(s.key)), href: path(s.id), printId: s.printId }));
+---
+<Base title={title} description={description} canonicalPath="/album/" current="/album/">
+  <AlbumRows rows={rows} light="colonie" place compact>
+    <h1 slot="title" class="album-titre" data-effect="kinetic">{t(P, 6)}</h1>
+  </AlbumRows>
+</Base>

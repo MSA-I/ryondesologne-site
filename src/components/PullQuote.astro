@@ -1,0 +1,18 @@
+---
+// A sentence of the page's own text, set again in Imbue (DESIGN §12). It repeats text already in the reading
+// column, so assistive technology skips it; callers take the sentence from t() (a verbatim excerpt).
+interface Props {
+  text: string;
+  class?: string;
+}
+const { text, class: cls } = Astro.props;
+---
+<p class:list={["pullquote", cls]} aria-hidden="true">{text}</p>
+<style>
+  .pullquote {
+    margin: 0; max-width: var(--measure-line);
+    font-family: var(--font-display); font-weight: var(--fw-quote);
+    font-size: var(--fs-quote); line-height: var(--lh-quote); letter-spacing: 0;
+    text-wrap: balance;
+  }
+</style>

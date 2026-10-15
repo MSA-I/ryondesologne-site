@@ -1,0 +1,421 @@
+{
+  "id": "actualites-voyages",
+  "url": "https://www.rayondesologne.fr/actualites/voyages/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Organiser un évènement"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Portes ouvertes du domaine le 2 juillet 2022"
+    },
+    {
+      "n": 8,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 10,
+      "tag": "span",
+      "text": "Le 31/05/2022"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Lire la suite"
+    },
+    {
+      "n": 12,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Organiser un évènement"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "CHANTIER NATURE AU GRAND LIOT"
+    },
+    {
+      "n": 15,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 17,
+      "tag": "span",
+      "text": "Le 10/11/2021"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "Voici le lien pour vous inscrire à notre premier chantier participatif du 21 novembre prochain."
+    },
+    {
+      "n": 19,
+      "tag": "p",
+      "text": "Un chantier nature où vous avez besoin de gants où nous prendrons le temps de vous découvrir et de vous expliquer notre projet autour d'un bon nettoyage et d'un bon désherbage ;)"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Cliquez ici"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Un mariage à romorantin département du 41?"
+    },
+    {
+      "n": 22,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 24,
+      "tag": "span",
+      "text": "Le 27/08/2021"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "Organisation d'un mariage à Romorantin ou dans sa région?"
+    },
+    {
+      "n": 26,
+      "tag": "p",
+      "text": "Vous cherchez un traiteur mariage proche de romorantin, ou vous cherchez une salle de mariage en sologne, ou il vous faut un gite pour toute votre famille à romorantin voir une wedding planner?"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "Ne cherchez plus, nous avons un corps de ferme prêt à l'emploi à vous proposer! La location d'une fermette en sologne, enfin, un ensemble de gites avec une salle de mariage à votre disposition au centre de la France avec une vraie grande grange de mariage à seulement 2h de paris!"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "Nous avons la solution pour un grand nombre de couchages pour votre mariage sur place, pour éviter de reprendre la voiture après la fête! Une privaisiton le week end du vendredi 14h au dimanche 15h ou en semaine du mardi midi au jeudi matin."
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "Découvrez dans notre rubrique , nos tarifs pour une fête organisée de février à décembre!"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Salle de mariage et reception"
+    },
+    {
+      "n": 31,
+      "tag": "p",
+      "text": "Bonne naviguation à vous!"
+    },
+    {
+      "n": 32,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Organiser un évènement"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "Quels type d'évènements accueillerons nous d'ici 2022?"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "Le 03/05/2021"
+    },
+    {
+      "n": 38,
+      "tag": "p",
+      "text": "On ne garde pas la surprise plus longtemps!"
+    },
+    {
+      "n": 39,
+      "tag": "p",
+      "text": "Nous avons grandi et travaillé depuis toujours en Région CVL. Nous avons donc à plusieurs reprises pu constater les besoins et manques de notre territoire et c'est aussi dans cette logique, que nous souhaitons répondre aux attentes du territoire en accueillant vos fêtes et animations."
+    },
+    {
+      "n": 40,
+      "tag": "p",
+      "text": "-Stages et séminaires bien être"
+    },
+    {
+      "n": 41,
+      "tag": "p",
+      "text": "-Cousinades"
+    },
+    {
+      "n": 42,
+      "tag": "p",
+      "text": "-Enterrement de vie de jeunes filles"
+    },
+    {
+      "n": 43,
+      "tag": "p",
+      "text": "-Séminaires entreprises"
+    },
+    {
+      "n": 44,
+      "tag": "p",
+      "text": "-Mariages (cela serait dommage de travailler depuis 2008 dans ce domaine et de ne pas pensez à vous ;) )"
+    },
+    {
+      "n": 45,
+      "tag": "p",
+      "text": "- Fête de village"
+    },
+    {
+      "n": 46,
+      "tag": "p",
+      "text": "-Thé dansant et autres animations pour les séniors"
+    },
+    {
+      "n": 47,
+      "tag": "p",
+      "text": "-Espace de coworking"
+    },
+    {
+      "n": 48,
+      "tag": "p",
+      "text": "Vous avez d'autres idées faites les nous connaitre, c'est aussi comme cela que nous voulons grandir!"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 54,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 61,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 62,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 63,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 65,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 66,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 67,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 68,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 69,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 70,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 71,
+      "tag": "@title",
+      "text": "Porte ouverte"
+    },
+    {
+      "n": 72,
+      "tag": "@alt",
+      "text": "Porte ouverte"
+    },
+    {
+      "n": 73,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 74,
+      "tag": "@alt",
+      "text": "Presentation"
+    },
+    {
+      "n": 75,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Salle mariage champetre boheme chic"
+    },
+    {
+      "n": 77,
+      "tag": "@title",
+      "text": "Salle de mariage et reception"
+    },
+    {
+      "n": 78,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 79,
+      "tag": "@title",
+      "text": "Creation tiers lieux rayon de sologne"
+    },
+    {
+      "n": 80,
+      "tag": "@alt",
+      "text": "Creation tiers lieux rayon de sologne"
+    },
+    {
+      "n": 81,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 82,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 83,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

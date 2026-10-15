@@ -1,0 +1,164 @@
+---
+// Contact (DESIGN §12 Contact; Coordonnées merged in, C4). Text from the two old pages (blocks cited), facts from contact.json.
+import Base from "../../layouts/Base.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import Print from "../../components/kit/Print.astro";
+import MailForm from "../../components/MailForm.astro";
+import "../../styles/kit.css";
+import { img } from "../../lib/assets";
+import { t, approved, fact, factTel } from "../../lib/content";
+import { ft } from "../../lib/site";
+
+const P = "contact-contact-html";
+const C = "pages-coordonnees-html";
+const field = img("etang-rayon-de-sologne-field", { box: 4096, sizes: "100vw", blurred: true });
+
+// External destinations of the old pages (hrefs are not in the block text).
+const ZENCHEF = "https://bookings.zenchef.com/results?rid=371471&pid=1001";
+const MAPS = "https://maps.app.goo.gl/HPHdVpx6bdLHLmQZ7";
+const INSTAGRAM = "https://www.instagram.com/rayondesologne/";
+const FACEBOOK = "https://www.facebook.com/charlineetmaxime/";
+const REVIEW = "https://g.page/r/CXnSsVb4mGzgEAE/review";
+
+const address = `${fact("address-street")}, ${fact("address-postcode")} ${fact("address-city")}, ${fact("address-country")}`;
+const phones = [
+  { label: ft("contact-audience-restaurant"), key: "phone-restaurant", site: fact("website-restaurant") },
+  { label: ft("contact-audience-gites"), key: "phone-domaine" },
+];
+const mails = [
+  { label: ft("contact-audience-gites"), notes: [t(P, 16)], key: "email-gites" },
+  { label: ft("contact-audience-mariage"), notes: [t(C, 15)], key: "email-mariage" },
+  { label: ft("contact-audience-seminaire"), notes: [t(P, 18), t(C, 17)], key: "email-seminaire" },
+];
+---
+<Base
+  title={approved("meta-title", P)}
+  description={approved("meta-description", P)}
+  canonicalPath="/contact/contact.html"
+  current="/contact/contact.html"
+>
+  <section class="bande">
+    <div class="fond" aria-hidden="true">
+      <picture>
+        {field.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="100vw" />)}
+        <img src={field.src} width={field.width} height={field.height} alt="" loading="eager" decoding="async" />
+      </picture>
+      <span class="brume"></span>
+    </div>
+    <h1>{t(P, 6)}</h1>
+  </section>
+
+  <div class="corps">
+    <div class="canaux">
+      <section class="groupe" aria-labelledby="c-tel">
+        <h2 id="c-tel">{t(P, 12)}</h2>
+        <ul class="lignes">
+          {phones.map((l) => (
+            <li class="ligne">
+              <h3>{l.label}</h3>
+              <p><a class="lien" href={`tel:${factTel(l.key)}`} dir="ltr">{fact(l.key)}</a></p>
+              {l.site && <p class="note" dir="ltr">{l.site}</p>}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="groupe" aria-labelledby="c-mail">
+        <h2 id="c-mail">{t(P, 15)}</h2>
+        <ul class="lignes">
+          {mails.map((l) => (
+            <li class="ligne">
+              <h3>{l.label}</h3>
+              {l.notes.map((n) => <p class="note">{n}</p>)}
+              <p><a class="lien" href={`mailto:${fact(l.key)}`} dir="ltr">{fact(l.key)}</a></p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="groupe avis">
+        <p>{t("home", 42)}</p>
+        <Cta2 href={REVIEW} label={t("home", 43)} newTab />
+      </section>
+
+      <section class="groupe lieu">
+        <address>
+          <p>{t(P, 7)}</p>
+          <p>{t(C, 8)}</p>
+          <p>{fact("address-name")}</p>
+          <p>{fact("address-street")}<br />{fact("address-postcode")} {fact("address-city")}<br />{fact("address-country")}</p>
+        </address>
+        <ul class="liens">
+          <li><Cta2 href={MAPS} label={address} newTab /></li>
+          <li><Cta2 href={ZENCHEF} label={t(C, 19)} newTab /></li>
+        </ul>
+        <p class="note">{t(C, 21)}</p>
+        <ul class="liens">
+          <li><Cta2 href={INSTAGRAM} label={t(C, 20)} newTab /></li>
+          <li><Cta2 href={FACEBOOK} label={t(C, 22)} newTab /></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="droite">
+      <div class="formulaire">
+        <MailForm fields="contact" />
+      </div>
+      <!-- p7-fix-v5 item 2: the owners' portrait as the margin print under the form panel, balancing the long channel column -->
+      <Print id="rayon-de-sologne-sainjon-charline-et-maxime-repreneur-grand-liot" box={358} sizes="(max-width: 760px) 100vw, 358px" effect="reveal" class="portrait" />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .bande {
+    position: relative; isolation: isolate; overflow: hidden;
+    min-height: 40vh; min-height: 40svh;
+    display: flex; align-items: flex-end;
+    padding: var(--nav-panel-top) var(--pad) var(--space-4);
+  }
+  .bande .fond { background: var(--brume); }
+  .bande .brume { position: absolute; inset: 0; background: var(--brume); opacity: var(--brume-calme-opacity); }
+  h1 {
+    margin: 0; font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+  .corps {
+    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--gap-columns); align-items: start;
+    padding: var(--space-5) var(--pad); background: var(--brume-creme); color: var(--encre);
+  }
+  .canaux { display: grid; gap: var(--space-4); min-width: 0; }
+  .groupe { min-width: 0; }
+  .groupe h2 {
+    margin: 0 0 var(--space-3); font-weight: var(--fw-h2-text); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text);
+    text-wrap: balance;
+  }
+  .lignes { display: grid; gap: var(--space-3); }
+  .ligne h3 { margin: 0; font-weight: var(--fw-ui-h); font-size: var(--fs-ui-h); line-height: var(--lh-ui-h); }
+  .ligne p, .groupe > p, address p { margin: 0; }
+  .note { font-size: var(--fs-meta); line-height: var(--lh-body); max-width: var(--container-text); }
+  .lien {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); font-size: var(--fs-lead); overflow-wrap: anywhere;
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+  }
+  .avis { display: grid; gap: var(--space-2); justify-items: start; }
+  .avis p { max-width: var(--container-text); font-size: var(--fs-body); line-height: var(--lh-body); }
+  .lieu { display: grid; gap: var(--space-2); justify-items: start; }
+  address { font-style: normal; display: grid; gap: var(--space-1); font-size: var(--fs-body); line-height: var(--lh-body); }
+  .liens { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
+  .droite { display: grid; gap: var(--space-4); min-width: 0; align-self: stretch; grid-template-rows: auto 1fr; }
+  .droite :global(.portrait) { width: min(100%, 358px); justify-self: end; align-self: end; }
+  .formulaire { padding: var(--space-4); background: var(--brume); min-width: 0; }
+  @media (max-width: 960px) {
+    .corps { grid-template-columns: minmax(0, 1fr); row-gap: var(--space-5); }
+    .droite :global(.portrait) { justify-self: start; }
+  }
+  @media (max-width: 760px) {
+    h1 { font-size: var(--fs-display-phone); }
+    .bande .brume { opacity: var(--brume-calme-opacity-phone); }
+    .formulaire { padding: var(--space-3); }
+    .corps { padding-block: var(--space-4); }
+  }
+</style>

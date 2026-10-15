@@ -1,0 +1,13 @@
+{
+  "name": "Rayon de Sologne",
+  "short_name": "Rayon de Sologne",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#c6dbe9",
+  "background_color": "#ebf3f9",
+  "icons": [
+    { "src": "/media/favicon/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/media/favicon/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,28 @@
+---
+// CGU. Blocks 6-20 of pages-infos-legales-conditions-generales-d-utilisation-cgu-h, verbatim; the "xxxxxxx" address becomes [דרוש תוכן: …] (client list).
+// A paragraph's capitals heading ("PROPRIETE INTELLECTUELLE :") is set in strong, text unchanged.
+import LegalPage from "../../../layouts/LegalPage.astro";
+import { t, blocks, approved } from "../../../lib/content";
+import { showPlaceholders } from "../../../lib/site";
+
+const P = "pages-infos-legales-conditions-generales-d-utilisation-cgu-h";
+const I = "pages-infos-legales";
+const paras = blocks(P, 7, 20).map((b) => {
+  const m = b.text.match(/^([A-ZÉÈÀ][A-ZÉÈÀ'’ \-]+ :)( [\s\S]*)?$/);
+  return { head: m?.[1], rest: m ? (m[2] ?? "") : b.text };
+});
+---
+<LegalPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/pages/infos-legales/conditions-generales-d-utilisation-cgu.html"
+  h1={t(P, 6)}
+  crumbs={[{ label: t(I, 1), href: "/" }, { label: t(I, 6), href: "/pages/infos-legales/" }, { label: t(P, 6) }]}
+>
+  {paras.filter((p) => showPlaceholders || !/x{3,}/i.test(p.rest)).map((p) => (
+    <p>
+      {p.head && <strong>{p.head}</strong>}
+      {p.rest.split(/(x{3,})/i).map((s) => (/^x{3,}$/i.test(s) ? <span lang="he">[דרוש תוכן: adresse e-mail de contact]</span> : s))}
+    </p>
+  ))}
+</LegalPage>

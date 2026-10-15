@@ -1,0 +1,956 @@
+[
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 22,
+  "text": "L",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 23,
+  "text": "M",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 24,
+  "text": "M",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 25,
+  "text": "J",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 26,
+  "text": "V",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 27,
+  "text": "S",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 28,
+  "text": "D",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 29,
+  "text": "1",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 30,
+  "text": "2",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 31,
+  "text": "3",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 32,
+  "text": "4",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 33,
+  "text": "5",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 34,
+  "text": "6",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 35,
+  "text": "7",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 36,
+  "text": "8",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 37,
+  "text": "9",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 38,
+  "text": "10",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 39,
+  "text": "11",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 40,
+  "text": "12",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 41,
+  "text": "13",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 42,
+  "text": "14",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 43,
+  "text": "15",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 44,
+  "text": "16",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 45,
+  "text": "17",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 46,
+  "text": "18",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 47,
+  "text": "19",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 48,
+  "text": "20",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 49,
+  "text": "21",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 50,
+  "text": "22",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 51,
+  "text": "23",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 52,
+  "text": "24",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 53,
+  "text": "25",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 54,
+  "text": "26",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 55,
+  "text": "27",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 56,
+  "text": "28",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 57,
+  "text": "29",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 58,
+  "text": "30",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 59,
+  "text": "31",
+  "reason": "Calendar cells of the old planner widget; the client's planner (PlannerEmbed) draws them at run time"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 64,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (global constraint 2)"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 65,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (global constraint 2)"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 66,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (global constraint 2)"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 67,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (global constraint 2)"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 68,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 69,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 70,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 71,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 72,
+  "text": "Contact",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 73,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer credits line; the site footer (T08) carries it"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 74,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 75,
+  "text": "CGU",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 76,
+  "text": "CGV",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 77,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 78,
+  "text": "Franck Chemin",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 79,
+  "text": "One Seb photos",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 80,
+  "text": "Margaud Noée",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 81,
+  "text": "Malfoy Melanie",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 82,
+  "text": "Gestion des cookies",
+  "reason": "Old header/footer navigation, legal and cookie links; the site header and footer (T08) carry them"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 103,
+  "text": "et celui de 2027 se remplit vite,",
+  "reason": "Fragment of block 102, already shown whole"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 111,
+  "text": "Logoentete",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 112,
+  "text": "Logoentete",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 113,
+  "text": "brand",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 114,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 115,
+  "text": "BurgerMenu",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 116,
+  "text": "Votre recherche",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 117,
+  "text": "Logo rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 118,
+  "text": "Mariage x et x 758 websize",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 119,
+  "text": "Mariage x et x 758 websize",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 120,
+  "text": "Salle de reception illuminee rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 121,
+  "text": "Salle de reception illuminee rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 122,
+  "text": "Grange decoree pour un mariage rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 123,
+  "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 124,
+  "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 125,
+  "text": "La grange de nuit rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 126,
+  "text": "La grange de nuit rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 127,
+  "text": "Terrasse maison des invites gite rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 128,
+  "text": "Terrasse maison des invites gite rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 129,
+  "text": "La chambre du marie a l auberge rayon de sologne41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 130,
+  "text": "Salle de bain attenante a la chambre nuptiale dans le manoir rayon de sologne41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 131,
+  "text": "Cour manoir rayon de sologne 41320",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 132,
+  "text": "Chambre nuptiale du manoir rayon de sologne413202 1",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 133,
+  "text": "Chambre nuptiale du manoir rayon de sologne413202 1",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 134,
+  "text": "Photo couple rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 135,
+  "text": "Photo couple rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 136,
+  "text": "Belle grange rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 137,
+  "text": "Belle grange rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 138,
+  "text": "Bar a soft mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 139,
+  "text": "Bar a soft mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 140,
+  "text": "la place de village rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 141,
+  "text": "la place de village rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 142,
+  "text": "atelier decoupe au mariage d'x x mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 143,
+  "text": "atelier decoupe au mariage d'x x mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 144,
+  "text": "Bouquets de fleurs rayon de sologne 41320 3",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 145,
+  "text": "Bouquets de fleurs rayon de sologne 41320 3",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 146,
+  "text": "Au pied du chene rayon de solognze",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 147,
+  "text": "Au pied du chene rayon de solognze",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 148,
+  "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 149,
+  "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 150,
+  "text": "Campagne chic mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 151,
+  "text": "Campagne chic mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 152,
+  "text": "x x mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 153,
+  "text": "x x mariage rayon de sologne",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 154,
+  "text": "Mois précédent",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 155,
+  "text": "Sélectionnez le mois",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 156,
+  "text": "Mois suivant",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 157,
+  "text": "Suivant",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 158,
+  "text": "Lundi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 159,
+  "text": "Lundi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 160,
+  "text": "Mardi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 161,
+  "text": "Mardi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 162,
+  "text": "Mercredi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 163,
+  "text": "Mercredi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 164,
+  "text": "Jeudi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 165,
+  "text": "Jeudi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 166,
+  "text": "Vendredi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 167,
+  "text": "Vendredi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 168,
+  "text": "Samedi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 169,
+  "text": "Samedi",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 170,
+  "text": "Dimanche",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 171,
+  "text": "Dimanche",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 172,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 173,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 174,
+  "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 175,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 176,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 177,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 178,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 179,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 180,
+  "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 181,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 182,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 183,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 184,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 185,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 186,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n3900,00 € / 2 nuits",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 187,
+  "text": "26/10/2026",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 188,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n3900,00 € / 2 nuits",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 189,
+  "text": "27/10/2026",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 190,
+  "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 191,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 192,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 193,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 194,
+  "text": "Réserver",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 195,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 196,
+  "text": "Scroll top",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 197,
+  "text": "Fermer",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 198,
+  "text": "Copy link",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 199,
+  "text": "Share",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 200,
+  "text": "Partager",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 201,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 202,
+  "text": "Share Buttons",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 203,
+  "text": "Partager",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 204,
+  "text": "Tout voir",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 205,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ },
+ {
+  "page": "pages-salle-de-mariage-et-reception-html",
+  "n": 206,
+  "text": "Cookies",
+  "reason": "Attribute of an old image, widget or header (alt/title/placeholder/aria); images take approved or scanned alts, and photo titles carrying wedding-couple names are never used"
+ }
+]

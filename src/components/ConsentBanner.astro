@@ -1,0 +1,59 @@
+---
+import { ft } from "../lib/site";
+---
+<section
+  class="consent"
+  data-site-studio-consent
+  data-site-studio-component="consent-banner"
+  role="region"
+  aria-labelledby="consent-titre"
+  tabindex="-1"
+  hidden
+>
+  <h2 class="consent-titre" id="consent-titre">{ft("consent.title")}</h2>
+  <p class="consent-texte">{ft("consent-banner-text")}</p>
+  <div class="consent-actions">
+    <button type="button" class="cta2 consent-btn" data-kit="cta2" data-consent="accept">{ft("consent.accept")}</button>
+    <button type="button" class="cta2 consent-btn" data-kit="cta2" data-consent="reject">{ft("consent.reject")}</button>
+  </div>
+</section>
+
+<style>
+  .consent {
+    position: fixed; z-index: 30; inset-inline: 0; bottom: 0;
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center;
+    column-gap: var(--space-4); row-gap: 0;
+    padding: var(--space-2) var(--pad) calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
+    background: var(--brume-creme); color: var(--encre);
+    border-start-start-radius: var(--radius-nav); border-start-end-radius: var(--radius-nav);
+    max-height: 50svh; overflow-y: auto; overscroll-behavior: contain;
+  }
+  .consent[hidden] { display: none; }
+  :global(body) { padding-bottom: var(--consent-h, 0px); }
+  .consent:focus-visible { outline: 2px solid currentColor; outline-offset: var(--focus-offset); }
+  .consent-titre { grid-column: 1; margin: 0; font-family: var(--font-text); font-size: var(--fs-small); font-weight: var(--fw-action); line-height: var(--lh-small); }
+  .consent-texte { grid-column: 1; margin: 0; max-width: 90ch; font-size: var(--fs-small); line-height: var(--lh-small); text-wrap: pretty; }
+  .consent-actions { grid-column: 2; grid-row: 1 / span 2; display: flex; gap: var(--space-2); }
+  .consent-btn {
+    flex: 0 0 auto; min-width: 120px; justify-content: center; appearance: none; background: none; border: 0; margin: 0;
+    color: inherit; font-family: inherit; cursor: pointer; text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .consent-btn:focus-visible { outline: 2px solid currentColor; outline-offset: var(--focus-offset); }
+  .consent-btn:active { text-decoration-thickness: calc(var(--border-1) * 2); }
+  @media (hover: hover) and (pointer: fine) {
+    .consent-btn:hover { text-decoration-thickness: calc(var(--border-1) * 2); }
+  }
+  /* phones: the title stays as the region's name, read aloud only; text and buttons stack tight */
+  @media (max-width: 760px) {
+    .consent { grid-template-columns: 1fr; row-gap: 0; padding: var(--space-1) var(--pad) calc(var(--space-1) + env(safe-area-inset-bottom, 0px)); }
+    .consent-titre {
+      position: absolute; width: var(--border-1); height: var(--border-1); margin: calc(var(--border-1) * -1);
+      overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+    }
+    .consent-texte { font-size: var(--fs-meta-phone); line-height: var(--lh-small); }
+    .consent-actions { grid-column: 1; grid-row: auto; }
+    .consent-actions { gap: var(--space-1); }
+    .consent-btn { flex: 1 1 0; min-width: 0; padding-block: 0; min-height: var(--tap-min); }
+  }
+</style>

@@ -1,0 +1,45 @@
+---
+// Réservation index (DESIGN §12 form pages; light = séminaire). The old page lists one item: Salle de mariage.
+// Lines 6, 7, 11-15 verbatim; the date search (8-10, placeholders 37-38) is listed in omitted/T32.json.
+// Title kept as scanned ("Réservation"): the approved rewrite is applied by the SEO layer (T38).
+import FormPage from "../../layouts/FormPage.astro";
+import Cta from "../../components/kit/Cta.astro";
+import { t, approved } from "../../lib/content";
+
+const P = "reservation";
+const RES = "reservation-salle-de-mariage-html"; // block 83 "Réserver": the action label of the wedding request
+---
+<FormPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/reservation/"
+  h1={t(P, 6)}
+  light={{ use: "seminaire", photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" }}
+>
+  <p class="fp-accroche">{t(P, 7)}</p>
+  <section class="fp-item" aria-labelledby="resa-item">
+    <div class="fp-item-tete">
+      <h2 id="resa-item">{t(P, 11)}</h2>
+      <ul class="fp-stats">
+        {[12, 13, 14].map((n) => <li data-kit="stat" class="fp-stat">{t(P, n)}</li>)}
+      </ul>
+    </div>
+    <div class="fp-item-corps">
+      <p>{t(P, 15)}</p>
+      <div class="fp-aller"><Cta href="/reservation/salle-de-mariage.html" label={t(RES, 83)} /></div>
+    </div>
+  </section>
+</FormPage>
+
+<style is:global>
+  .fp-lignes .fp-accroche { font-weight: var(--fw-h2-text); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  /* one item laid across the band: title and figures left, the line and the action right (7 / 5, as the page grid) */
+  .fp-lignes:has(.fp-item) { max-width: none; }
+  .fp-lignes .fp-item { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--gap-columns); row-gap: var(--space-3); align-items: start; }
+  .fp-lignes .fp-item-tete, .fp-lignes .fp-item-corps { display: grid; gap: var(--space-2); justify-items: start; min-width: 0; }
+  .fp-lignes .fp-accroche { max-width: var(--measure); }
+  @media (max-width: 960px) { .fp-lignes .fp-item { grid-template-columns: minmax(0, 1fr); } }
+  .fp-lignes .fp-stats { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); }
+  .fp-lignes .fp-stat { font-weight: var(--fw-action); }
+  .fp-lignes .fp-aller .cta { padding-block: var(--space-2); text-align: center; }
+</style>

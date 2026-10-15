@@ -1,0 +1,36 @@
+---
+import "../../styles/kit.css";
+import { ft } from "../../lib/site";
+interface Props {
+  items: { label: string; href?: string }[];
+}
+const { items } = Astro.props;
+// BreadcrumbList from the visible items: name = the label exactly; a crumb without href is the current page (canonical = Astro.url on Astro.site).
+const site = Astro.site ?? new URL("https://www.rayondesologne.fr");
+const abs = (h: string) => new URL(h, site).href;
+const jsonld = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: items.map((it, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: it.label,
+    item: abs(it.href && i < items.length - 1 ? it.href : Astro.url.pathname),
+  })),
+}).replace(/</g, "\\u003c");
+---
+<nav class="breadcrumbs" aria-label={ft("breadcrumbs")} data-site-studio-component="breadcrumbs">
+  <ol>
+    {items.map((it, i) => (
+      <li>
+        {it.href && i < items.length - 1 ? <a href={it.href}>{it.label}</a> : <span aria-current="page">{it.label}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={jsonld} is:inline></script>
+
+<style>
+  /* hit area >= 44 x 44 with no visual change: padding grown, margin takes it back */
+  .breadcrumbs a { min-inline-size: var(--tap-min); justify-content: center; padding-inline: var(--space-1); margin-inline: calc(var(--space-1) * -1); box-sizing: border-box; }
+</style>

@@ -1,0 +1,109 @@
+---
+// Lodging / meeting-room template (DESIGN §12 "Lodging pages"): Base + InnerOpening (wide print beside the H1, capacity stat),
+// the client's planner directly under the opening, the page's chapters (default slot: Chapter with margin prints, plans via
+// <figure class="plan">), then the closing: back Cta2 to the parent offer + the booking pill. Reused by T27, T28, T29.
+import { getCollection } from "astro:content";
+import Base from "./Base.astro";
+import InnerOpening from "../components/InnerOpening.astro";
+import PlannerEmbed from "../components/PlannerEmbed.astro";
+import Cta from "../components/kit/Cta.astro";
+import Cta2 from "../components/kit/Cta2.astro";
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  /** content id of the page ("pages-le-manoir-du-grand-liot-html"); the planner embed file is named after it */
+  pageId?: string;
+  h1: string;
+  /** "gites" for lodgings, "seminaire" for meeting rooms */
+  light: "gites" | "seminaire";
+  /** assets.json id of the opening print (wide crop, --print-height-wide) */
+  printId: string;
+  printBox?: number;
+  capacity?: { figure: string; words: string; lead?: string };
+  phone?: { label: string; tel: string };
+  planner?: { page: string; key: string; legend?: string };
+  /** H2 at the top of the planner band ("Réservation en ligne de ce gite") */
+  plannerTitle?: string;
+  /** the offer page this lodging belongs to; omitted on the hub itself */
+  parent?: { label: string; href: string };
+  /** the one request action: pill in the opening and again at the end */
+  booking: { href: string; label: string; subject?: boolean | string };
+  crumbs?: { label: string; href?: string }[];
+}
+const { title, description, canonicalPath, h1, light, printId, printBox = 512, capacity, phone, planner, plannerTitle, parent, booking, crumbs } = Astro.props;
+// the lodging's own album (the old pages showed these galleries); a lodging without an album gets no link
+const ALBUM_OF: Record<string, string> = {
+  "/pages/le-manoir-du-grand-liot.html": "album-photos-manoir",
+  "/pages/l-auberge-du-grand-liot.html": "album-photos-auberge",
+  "/pages/colonie-et-salle-des-fetes.html": "album-photos-colonie",
+};
+const albumId = ALBUM_OF[canonicalPath];
+const album = albumId ? (await getCollection("albums")).find((a) => a.id === albumId) : undefined;
+const albumHref = album ? new URL(album.data.url).pathname : undefined;
+const photoId = light === "gites" ? "mariage-11-field" : "seminaire-dans-la-grange-rayon-de-sologne-41320-field";
+---
+<Base title={title} description={description} canonicalPath={canonicalPath} current={canonicalPath}>
+  <div class="lodging" data-lodging={light}>
+    <InnerOpening
+      h1={h1}
+      light={{ use: light, photoId }}
+      printId={printId}
+      printBox={printBox}
+      cta={booking}
+      phone={phone}
+      stats={capacity ? [capacity] : undefined}
+      crumbs={crumbs}
+    />
+    {planner && (
+      <section class="lodging-planner" aria-labelledby={plannerTitle ? "lodging-planner-titre" : undefined}>
+        <div class="lodging-planner-col">
+          {plannerTitle && <h2 id="lodging-planner-titre" class="lodging-planner-titre" data-effect="kinetic">{plannerTitle}</h2>}
+          <PlannerEmbed page={planner.page} key={planner.key} legend={planner.legend} id="disponibilites" />
+        </div>
+      </section>
+    )}
+    <slot />
+    <slot name="end" />
+    <section class="lodging-fin">
+      {parent && <Cta2 href={parent.href} label={parent.label} />}
+      {album && albumHref && <Cta2 href={albumHref} label={album.data.name} class="lodging-album" />}
+      <Cta href={booking.href} label={booking.label} subject={booking.subject} />
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  /* the lodging's own photo as a wide print beside the H1 (DESIGN §12): --print-height-wide tall, cropped on its width */
+  .lodging .ouv .ouv-print img { width: 100%; height: var(--print-height-wide); object-fit: cover; }
+  .lodging-planner { background: var(--brume-creme); color: var(--encre); padding: var(--space-4) var(--pad) 0; }
+  .lodging-planner-col { max-width: var(--measure); }
+  .lodging-planner-titre {
+    margin: 0 0 var(--space-2); max-width: 18em;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-quote); line-height: var(--lh-quote); letter-spacing: 0; text-wrap: balance;
+  }
+  @media (max-width: 760px) { .lodging-planner-titre { font-size: var(--fs-figure-phone); } }
+  .lodging-liste { margin: 0 0 var(--space-3); padding-inline-start: var(--space-4); list-style: disc; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .lodging-liste li { margin: 0 0 var(--space-1); }
+  /* the planner box starts on the heading line (its own 24 px padding would push it in) */
+  .lodging .lodging-planner .planner { margin-block: 0; padding-inline: 0; }
+  /* several margin prints in one chapter stack with a gap */
+  .lodging .chap-marge { display: grid; gap: var(--space-3); align-content: end; justify-items: start; }
+  @media (min-width: 1181px) { .lodging .chap-marge { justify-items: end; } }
+  .lodging-fin {
+    background: var(--brume-creme); color: var(--encre);
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: var(--space-3) var(--space-4);
+    padding: var(--space-5) var(--pad);
+  }
+  /* the creme chapter above already ends in --space-5 of air: the closing row does not add a second band of it */
+  .lodging .chap--creme + .lodging-fin { padding-top: 0; }
+  .lodging .chap--creme:last-of-type .chap-corps .cta2:last-child { margin-bottom: 0; }
+  .lodging-fin .cta { padding-block: var(--space-1); line-height: 1.2; text-align: center; }
+  /* a room plan is shown whole, never square-cropped */
+  .lodging .plan { margin: 0 0 var(--space-3); }
+  .lodging .plan img { width: 100%; height: auto; object-fit: contain; }
+  @media (max-width: 760px) {
+    .lodging .ouv .ouv-print img { height: auto; aspect-ratio: 4 / 3; }
+  }
+</style>

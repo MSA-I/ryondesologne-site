@@ -1,0 +1,53 @@
+---
+// Legal-page template (DESIGN §12, quiet inner page): Base + the H1 on brume-crème, then plain text in --measure.
+// No photo, no pan, no reveal, no kinetic. Text arrives through the default slot (read via t()/blocks() by the page).
+import "../styles/kit.css";
+import Base from "./Base.astro";
+import Breadcrumbs from "../components/kit/Breadcrumbs.astro";
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  h1: string;
+  crumbs?: { label: string; href?: string }[];
+}
+const { title, description, canonicalPath, h1, crumbs } = Astro.props;
+---
+<Base title={title} description={description} canonicalPath={canonicalPath} current={canonicalPath}>
+  <article class="legal" data-site-studio-component="legal-page">
+    <header class="legal-tete">
+      {crumbs && <Breadcrumbs items={crumbs} />}
+      <h1 class="legal-titre">{h1}</h1>
+    </header>
+    <div class="legal-corps"><slot /></div>
+  </article>
+</Base>
+
+<style is:global>
+  .legal { background: var(--brume-creme); color: var(--encre); padding: var(--nav-panel-top) var(--pad) var(--space-6); min-height: 70vh; min-height: 70svh; }
+  .legal-tete { display: flex; flex-direction: column; gap: var(--space-3); padding-block: var(--space-5) var(--space-4); }
+  .legal-titre {
+    margin: 0; max-width: 14em; overflow-wrap: anywhere;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+  .legal-corps { max-width: var(--measure); font-size: var(--fs-body); line-height: var(--lh-body); }
+  .legal-corps p { margin: 0 0 var(--space-3); overflow-wrap: anywhere; }
+  .legal-corps strong { font-weight: var(--fw-h2-text); }
+  .legal-corps a {
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  .legal-corps a:active { opacity: 0.7; }
+  .legal-liste { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+  .legal-liste a { display: inline-flex; align-items: center; min-height: var(--tap-min); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+
+  @media (max-width: 760px) {
+    .legal { padding-bottom: var(--space-5); }
+    .legal-tete { padding-block: var(--space-4) var(--space-3); }
+    .legal-titre { font-size: var(--fs-display-phone); max-width: none; }
+    .legal-corps { font-size: var(--fs-body-phone); }
+    .legal-liste a { font-size: var(--fs-lead-phone); }
+  }
+</style>

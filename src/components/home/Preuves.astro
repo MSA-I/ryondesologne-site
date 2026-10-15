@@ -1,0 +1,95 @@
+---
+// Home proof: the score, two reviews and the labels, on the morning mist again.
+// Ported 1:1 from the approved board D (04-direction/board/D/index.html lines 114-139 + style.css "3. proof" rules). No entrance motion (DESIGN §6).
+import Stat from "../kit/Stat.astro";
+import { img } from "../../lib/assets";
+import { tr } from "../../lib/content";
+
+// The pond field under the leading column (blurred row, the blur hides resolution: T05 ruling).
+const field = img("etang-rayon-de-sologne-field", { box: 640, sizes: "50vw", loading: "lazy", blurred: true });
+
+// Trust text baked into the old home banners, transcribed verbatim (src/content/facts/transcribed.json, read through tr()).
+// A review key holds "<quote> — <name>": the quote is the blockquote, the credit is "<reviews-label>, <name>".
+const SCORE = { figure: tr("rating-score"), source: tr("rating-source") };
+const TITLE = tr("reviews-thanks");
+const REVIEWS = ["review-1", "review-2"].map((k) => {
+  const [text, name] = tr(k).split(" — ");
+  return { text, by: `${tr("reviews-label")}, ${name}` };
+});
+const LABELS_TITLE = tr("labels-title");
+const LABELS = [1, 2, 3].map((n) => ({ name: tr(`label-${n}-title`), line: tr(`label-${n}-line`) }));
+---
+<section class="preuves" aria-labelledby="preuves-titre">
+  <div class="fond fond-brume" aria-hidden="true">
+    <picture>
+      {field.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="50vw" />)}
+      <img src={field.src} width={field.width} height={field.height} alt="" loading="lazy" decoding="async" />
+    </picture>
+    <span class="brume-calme"></span>
+  </div>
+  <div class="preuves-note">
+    <Stat class="note-chiffre" size="xl" figure={SCORE.figure} words="" source={SCORE.source} />
+    <h2 id="preuves-titre" class="preuves-titre">{TITLE}</h2>
+  </div>
+  <div class="avis">
+    {REVIEWS.map((r) => (
+      <figure class="avis-un">
+        <blockquote><p>{r.text}</p></blockquote>
+        <figcaption>{r.by}</figcaption>
+      </figure>
+    ))}
+  </div>
+  <div class="labels">
+    <h3 class="labels-titre">{LABELS_TITLE}</h3>
+    <ul class="labels-liste">
+      {LABELS.map((l) => (
+        <li><span class="label-nom">{l.name}</span><span class="label-ligne">{l.line}</span></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style is:global>
+  /* ---------- 3. proof: the score, two reviews, the labels (the morning mist again) ---------- */
+  .preuves {
+    position: relative; isolation: isolate; overflow: hidden;
+    color: var(--encre); background: var(--brume-creme);
+    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--space-5); row-gap: var(--space-6);
+    padding: var(--space-5) var(--pad) var(--space-6);
+  }
+  /* split light: the hazed photo lies under the leading column only and fades into the mist-cream ground */
+  .preuves .fond {
+    right: auto; width: 46%; background: var(--brume);
+    -webkit-mask-image: linear-gradient(to right, #000 62%, transparent); mask-image: linear-gradient(to right, #000 62%, transparent);
+  }
+  .preuves .fond img { filter: blur(var(--blur-field)) saturate(1.3); transform: scale(1.22); }
+  .preuves .brume-calme { position: absolute; inset: 0; background: var(--brume); opacity: var(--brume-calme-opacity); }
+  .preuves-note { align-self: start; }
+  .preuves .note-chiffre { gap: var(--space-2); }
+  .preuves .stat-words:empty { display: none; }
+  .preuves .stat--xl .stat-source { font-size: var(--fs-lead); font-weight: var(--fw-action); }
+  .preuves-titre { margin: var(--space-3) 0 0; font-family: var(--font-text); font-weight: var(--fw-h2-text); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); text-wrap: balance; }
+  .avis { display: grid; gap: var(--space-5); align-content: center; }
+  .avis-un { margin: 0; }
+  .avis-un blockquote { margin: 0; }
+  .avis-un blockquote p { margin: 0; font-family: var(--font-display); font-weight: var(--fw-quote); font-size: var(--fs-quote); line-height: var(--lh-quote); letter-spacing: 0; }
+  .avis-un figcaption { margin-top: var(--space-2); font-size: var(--fs-small); font-weight: var(--fw-small); }
+  .labels { grid-column: 1 / -1; }
+  .labels-titre { margin: 0 0 var(--space-3); font-family: var(--font-text); font-weight: var(--fw-ui-h); font-size: var(--fs-ui-h); line-height: var(--lh-body); }
+  .labels-liste { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); margin: 0; padding: 0; list-style: none; }
+  .label-nom { display: block; font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-figure); line-height: var(--lh-figure); }
+  .label-ligne { display: block; margin-top: var(--space-1); font-size: var(--fs-small); }
+
+  /* phone: one column; the half field becomes a top band (46% of the section, fading downward) re-cropped to the pond's sky */
+  @media (max-width: 760px) {
+    .preuves { grid-template-columns: 1fr; row-gap: var(--space-5); padding: var(--space-5) var(--pad); }
+    .preuves .fond {
+      width: 100%; bottom: auto; height: 46%;
+      -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent);
+    }
+    .preuves .fond img { transform: none; object-view-box: inset(0% 8% 52% 22%); }
+    .preuves .brume-calme { opacity: var(--brume-calme-opacity-phone); }
+    .labels-liste { grid-template-columns: 1fr; gap: var(--space-3); }
+    .label-nom { font-size: var(--fs-figure-phone); }
+  }
+</style>

@@ -1,0 +1,2276 @@
+[
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 40,
+  "text": "L",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 41,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 42,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 43,
+  "text": "J",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 44,
+  "text": "V",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 45,
+  "text": "S",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 46,
+  "text": "D",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 47,
+  "text": "1",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 48,
+  "text": "2",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 49,
+  "text": "3",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 50,
+  "text": "4",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 51,
+  "text": "5",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 52,
+  "text": "6",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 53,
+  "text": "7",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 54,
+  "text": "8",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 55,
+  "text": "9",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 56,
+  "text": "10",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 57,
+  "text": "11",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 58,
+  "text": "12",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 59,
+  "text": "13",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 60,
+  "text": "14",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 61,
+  "text": "15",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 62,
+  "text": "16",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 63,
+  "text": "17",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 64,
+  "text": "18",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 65,
+  "text": "19",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 66,
+  "text": "20",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 67,
+  "text": "21",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 68,
+  "text": "22",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 69,
+  "text": "23",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 70,
+  "text": "24",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 71,
+  "text": "25",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 72,
+  "text": "26",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 73,
+  "text": "27",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 74,
+  "text": "28",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 75,
+  "text": "29",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 76,
+  "text": "30",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 77,
+  "text": "31",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 78,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 79,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 80,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 81,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 82,
+  "text": "Réservations Gites",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 83,
+  "text": "Réservations Mariage",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 84,
+  "text": "Newsletter",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 85,
+  "text": "Nos dernières actus",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 86,
+  "text": "Contact",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 87,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 88,
+  "text": "Mention legales",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 89,
+  "text": "CGU",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 90,
+  "text": "CGV",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 91,
+  "text": "RGPD",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 92,
+  "text": "Franck Chemin",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 93,
+  "text": "One Seb photos",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 94,
+  "text": "Margaud Noée",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 95,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 96,
+  "text": "Gestion des cookies",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 97,
+  "text": "Logoentete",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 98,
+  "text": "Logoentete",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 99,
+  "text": "brand",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 100,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 101,
+  "text": "BurgerMenu",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 102,
+  "text": "Votre recherche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 103,
+  "text": "Mariage x et x 11 websize2",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 104,
+  "text": "Stage ferme pedagogique rayon de sologne 41320",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 105,
+  "text": "Rayondesolognephotochambremanoir41",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 106,
+  "text": "Cour manoir rayon de sologne 41320",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 107,
+  "text": "Salle de bain attenante a la chambre nuptiale dans le manoir rayon de sologne41320",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 108,
+  "text": "Terrasse gite xxl manoir rayon de sologne",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 109,
+  "text": "x x mariage 137 seminaire rayon de sologne 1",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 110,
+  "text": "salon manoir gite xxl salle des fêtes",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 111,
+  "text": "Grand liot 1",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 112,
+  "text": "Coinsalondanslamanoirchezrayondesologne41320",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 113,
+  "text": "Cour du manoir rayon de sologne",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 114,
+  "text": "Espacebibliothequedanslemanoirchezrayondesologne41320",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 115,
+  "text": "Mois précédent",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 116,
+  "text": "Sélectionnez le mois",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 117,
+  "text": "Mois suivant",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 118,
+  "text": "Suivant",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 119,
+  "text": "Lundi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 120,
+  "text": "Lundi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 121,
+  "text": "Mardi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 122,
+  "text": "Mardi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 123,
+  "text": "Mercredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 124,
+  "text": "Mercredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 125,
+  "text": "Jeudi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 126,
+  "text": "Jeudi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 127,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 128,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 129,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 130,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 131,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 132,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 133,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 134,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 135,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 136,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 137,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 138,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 139,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 140,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 141,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 142,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 143,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 144,
+  "text": "22/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 145,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 146,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 147,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 148,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 149,
+  "text": "26/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 150,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 151,
+  "text": "27/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 152,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 153,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 154,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 155,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 156,
+  "text": "Réserver",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 157,
+  "text": "Gestion des cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 158,
+  "text": "Scroll top",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 159,
+  "text": "Fermer",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 160,
+  "text": "Copy link",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 161,
+  "text": "Share",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 162,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 163,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 164,
+  "text": "Share Buttons",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 165,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 166,
+  "text": "Tout voir",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 167,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-le-manoir-du-grand-liot-html",
+  "n": 168,
+  "text": "Cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 23,
+  "text": "L",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 24,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 25,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 26,
+  "text": "J",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 27,
+  "text": "V",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 28,
+  "text": "S",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 29,
+  "text": "D",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 30,
+  "text": "1",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 31,
+  "text": "2",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 32,
+  "text": "3",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 33,
+  "text": "4",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 34,
+  "text": "5",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 35,
+  "text": "6",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 36,
+  "text": "7",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 37,
+  "text": "8",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 38,
+  "text": "9",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 39,
+  "text": "10",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 40,
+  "text": "11",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 41,
+  "text": "12",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 42,
+  "text": "13",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 43,
+  "text": "14",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 44,
+  "text": "15",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 45,
+  "text": "16",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 46,
+  "text": "17",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 47,
+  "text": "18",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 48,
+  "text": "19",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 49,
+  "text": "20",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 50,
+  "text": "21",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 51,
+  "text": "22",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 52,
+  "text": "23",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 53,
+  "text": "24",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 54,
+  "text": "25",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 55,
+  "text": "26",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 56,
+  "text": "27",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 57,
+  "text": "28",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 58,
+  "text": "29",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 59,
+  "text": "30",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 60,
+  "text": "31",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 61,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 62,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 63,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 64,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 65,
+  "text": "Réservations Gites",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 66,
+  "text": "Réservations Mariage",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 67,
+  "text": "Newsletter",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 68,
+  "text": "Nos dernières actus",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 69,
+  "text": "Contact",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 70,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 71,
+  "text": "Mention legales",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 72,
+  "text": "CGU",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 73,
+  "text": "CGV",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 74,
+  "text": "RGPD",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 75,
+  "text": "Franck Chemin",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 76,
+  "text": "One Seb photos",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 77,
+  "text": "Margaud Noée",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 78,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 79,
+  "text": "Gestion des cookies",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 80,
+  "text": "Logoentete",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 81,
+  "text": "Logoentete",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 82,
+  "text": "brand",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 83,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 84,
+  "text": "BurgerMenu",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 85,
+  "text": "Votre recherche",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 86,
+  "text": "Mois précédent",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 87,
+  "text": "Sélectionnez le mois",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 88,
+  "text": "Mois suivant",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 89,
+  "text": "Suivant",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 90,
+  "text": "Lundi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 91,
+  "text": "Lundi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 92,
+  "text": "Mardi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 93,
+  "text": "Mardi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 94,
+  "text": "Mercredi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 95,
+  "text": "Mercredi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 96,
+  "text": "Jeudi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 97,
+  "text": "Jeudi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 98,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 99,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 100,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 101,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 102,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 103,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 104,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 105,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 106,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 107,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 108,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 109,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 110,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 111,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 112,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 113,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 114,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 115,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 116,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 117,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 118,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 119,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 120,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 121,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 122,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 123,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 124,
+  "text": "Réserver",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 125,
+  "text": "Gestion des cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 126,
+  "text": "Scroll top",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 127,
+  "text": "Fermer",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 128,
+  "text": "Copy link",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 129,
+  "text": "Share",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 130,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 131,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 132,
+  "text": "Share Buttons",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 133,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 134,
+  "text": "Tout voir",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 135,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-l-auberge-du-grand-liot-html",
+  "n": 136,
+  "text": "Cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 16,
+  "text": "entrée",
+  "reason": "Photo caption of the old gallery image, not a sentence of the page; the photo ships as the margin print with its alt"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 25,
+  "text": "L",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 26,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 27,
+  "text": "M",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 28,
+  "text": "J",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 29,
+  "text": "V",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 30,
+  "text": "S",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 31,
+  "text": "D",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 32,
+  "text": "1",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 33,
+  "text": "2",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 34,
+  "text": "3",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 35,
+  "text": "4",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 36,
+  "text": "5",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 37,
+  "text": "6",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 38,
+  "text": "7",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 39,
+  "text": "8",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 40,
+  "text": "9",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 41,
+  "text": "10",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 42,
+  "text": "11",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 43,
+  "text": "12",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 44,
+  "text": "13",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 45,
+  "text": "14",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 46,
+  "text": "15",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 47,
+  "text": "16",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 48,
+  "text": "17",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 49,
+  "text": "18",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 50,
+  "text": "19",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 51,
+  "text": "20",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 52,
+  "text": "21",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 53,
+  "text": "22",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 54,
+  "text": "23",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 55,
+  "text": "24",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 56,
+  "text": "25",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 57,
+  "text": "26",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 58,
+  "text": "27",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 59,
+  "text": "28",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 60,
+  "text": "29",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 61,
+  "text": "30",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 62,
+  "text": "31",
+  "reason": "Rendered calendar of the old planner (the client's widget refills it at run time)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 63,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 64,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 65,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 66,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 67,
+  "text": "Réservations Gites",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 68,
+  "text": "Réservations Mariage",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 69,
+  "text": "Newsletter",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 70,
+  "text": "Nos dernières actus",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 71,
+  "text": "Contact",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 72,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 73,
+  "text": "Mention legales",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 74,
+  "text": "CGU",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 75,
+  "text": "CGV",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 76,
+  "text": "RGPD",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 77,
+  "text": "Franck Chemin",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 78,
+  "text": "One Seb photos",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 79,
+  "text": "Margaud Noée",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 80,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 81,
+  "text": "Gestion des cookies",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 82,
+  "text": "Logoentete",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 83,
+  "text": "Logoentete",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 84,
+  "text": "brand",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 85,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 86,
+  "text": "BurgerMenu",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 87,
+  "text": "Votre recherche",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 88,
+  "text": "Mois précédent",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 89,
+  "text": "Sélectionnez le mois",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 90,
+  "text": "Mois suivant",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 91,
+  "text": "Suivant",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 92,
+  "text": "Lundi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 93,
+  "text": "Lundi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 94,
+  "text": "Mardi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 95,
+  "text": "Mardi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 96,
+  "text": "Mercredi",
+  "reason": "Old footer, newsletter link, credits or cookie button; the site footer (T08) and consent banner (T09) carry them"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 97,
+  "text": "Mercredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 98,
+  "text": "Jeudi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 99,
+  "text": "Jeudi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 100,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 101,
+  "text": "Vendredi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 102,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 103,
+  "text": "Samedi",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 104,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 105,
+  "text": "Dimanche",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 106,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 107,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 108,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 109,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 110,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 111,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 112,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 113,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 114,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 115,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 116,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 117,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 118,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 119,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 120,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 121,
+  "text": "26/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 122,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 123,
+  "text": "27/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 124,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 125,
+  "text": "28/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 126,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 127,
+  "text": "29/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 128,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n180,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 129,
+  "text": "30/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 130,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n180,00 € / 1 nuit",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 131,
+  "text": "31/10/2026",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 132,
+  "text": "Réserver",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 133,
+  "text": "Gestion des cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 134,
+  "text": "Scroll top",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 135,
+  "text": "Fermer",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 136,
+  "text": "Copy link",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 137,
+  "text": "Share",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 138,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 139,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 140,
+  "text": "Share Buttons",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 141,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 142,
+  "text": "Tout voir",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 143,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ },
+ {
+  "page": "pages-la-maison-des-invites-html",
+  "n": 144,
+  "text": "Cookies",
+  "reason": "Attribute text of the old page (planner cell titles, widget labels, share widget, banner); the site and the client's widget carry their own"
+ }
+]

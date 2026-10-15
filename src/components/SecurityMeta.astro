@@ -1,0 +1,32 @@
+---
+// T39: CSP as <meta http-equiv>, built from what the site really uses.
+// Planner origins are read from src/content/embeds/_origins.json (T12), never typed here.
+// frame-ancestors, HSTS, X-Content-Type-Options, Referrer-Policy, Permissions-Policy cannot be set by a meta:
+// they live in public/_headers and 06-build/security-headers.md.
+import origins from "../content/embeds/_origins.json";
+
+const by = (d: string) => [...new Set(origins.origins.filter((o) => o.directive === d).map((o) => o.origin))];
+const planner = [...new Set(origins.origins.map((o) => o.origin))];
+// Origins the planner reaches at run time (JSONP script calls to its for-system back end), found by running
+// the built pages under this CSP in a browser; _origins.json lists only what the markup names.
+const PLANNER_API = ["https://*.for-system.com"];
+const GA_SCRIPT = ["https://www.googletagmanager.com"];
+const GA_CONNECT = ["https://www.googletagmanager.com", "https://*.google-analytics.com", "https://*.analytics.google.com"];
+const GA_IMG = ["https://www.googletagmanager.com", "https://*.google-analytics.com"];
+
+const csp = [
+  "default-src 'self'",
+  `script-src ${["'self'", ...GA_SCRIPT, ...by("script-src"), ...PLANNER_API].join(" ")}`,
+  `connect-src ${["'self'", ...GA_CONNECT, ...planner, ...PLANNER_API].join(" ")}`,
+  `img-src ${["'self'", "data:", ...GA_IMG, ...by("img-src")].join(" ")}`,
+  `style-src ${["'self'", "'unsafe-inline'", ...by("style-src")].join(" ")}`,
+  `font-src ${["'self'", ...planner].join(" ")}`,
+  `frame-src ${planner.join(" ")}`,
+  "base-uri 'self'",
+  "form-action 'self' mailto:",
+  "object-src 'none'",
+  // the planner's theme CSS names one image over http://: upgrade it instead of allowing http
+  "upgrade-insecure-requests",
+].join("; ");
+---
+<meta http-equiv="Content-Security-Policy" content={csp} />

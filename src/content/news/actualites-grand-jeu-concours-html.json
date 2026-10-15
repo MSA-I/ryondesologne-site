@@ -1,0 +1,294 @@
+{
+  "id": "actualites-grand-jeu-concours-html",
+  "url": "https://www.rayondesologne.fr/actualites/grand-jeu-concours.html",
+  "category": "actualites",
+  "title": "Grand jeu concours !",
+  "date": "Le 10/11/2023",
+  "isoDate": "2023-11-10",
+  "author": "charline sainjon",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Grand jeu concours !"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 9,
+      "tag": "time",
+      "text": "Le 10/11/2023"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Grand jeu concours"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Tentez de gagner un bon de 100 € valable au Bistrot Du Grand Liot jusqu'au 31 décembre 2023."
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Pour participer, il faut :"
+    },
+    {
+      "n": 13,
+      "tag": "li",
+      "text": "Être abonné à Bistrot Du Grand Liot et rayon de Sologne"
+    },
+    {
+      "n": 14,
+      "tag": "li",
+      "text": "Invité trois amis en commentaire"
+    },
+    {
+      "n": 15,
+      "tag": "li",
+      "text": "Partager cette publication en mentionnant le Bistrot Du Grand Liot"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Bonne chance à tous, les gagnants seront contactés en message privé."
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Attention : de faux profils peuvent vous contacter, ce n'est pas la page officielle. Ne donner aucune information personnelles et bancaire."
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "Le jeu est 100 % gratuit, ne cliquer sur aucun lien."
+    },
+    {
+      "n": 19,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 20,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 21,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 22,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 37,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 38,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 39,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 40,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 42,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 43,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 45,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 46,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 47,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 48,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 49,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 51,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 52,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 53,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 55,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 56,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ],
+  "images": [
+    "grand-jeu-concours-2-news"
+  ]
+}

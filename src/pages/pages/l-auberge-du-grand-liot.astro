@@ -1,0 +1,66 @@
+---
+// L'auberge du Grand Liot (DESIGN §12 lodging page). Text from pages-l-auberge-du-grand-liot-html (blocks cited), no typed copy.
+// Blocks 6-22 are used (19 = planner heading, 20-22 = planner legend); 1-5, 23-136 (nav, calendar markup, share widget, footer, attributes) are listed in
+// 06-build/omitted/T28.json.
+import LodgingPage from "../../layouts/LodgingPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, fact, factTel } from "../../lib/content";
+
+const P = "pages-l-auberge-du-grand-liot-html";
+const PAGE = "/pages/l-auberge-du-grand-liot.html";
+const RES = "pages-reservations-html";
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "L'auberge du grand liot gite de groupe proche beauval chambord";
+const description =
+  "Superbe gite 4 chambres typique de la sologne pour des vacances  a la campagne, dans le 41 en region centre à 30 minutes de beauval, chambord ou cheverny";
+
+// Destinations of the old links (01-scan/raw/pages-l-auberge-du-grand-liot-html.html).
+const PDF_AUBERGE = "/medias/files/auberge-rayon-de-sologne-compressed.pdf";
+const VISIT = "https://my.matterport.com/show/?m=gFXW73G3tSp&play=1&lang=fr&hl=2&brand=0&title=0&vr=0&ss=143&sr=-.08,.39";
+const PDF_OPTIONS = "/medias/files/option-gite-rayon-de-sologne-compresse.pdf";
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+
+// Opening stat, cut from the client's own sentence (block 8).
+const guests = t(P, 8).match(/(jusqu'à) (\d+) (personnes)/);
+if (!guests) throw new Error("auberge: capacity phrase not found in block 8");
+
+const light = { use: "gites" as const, photoId: "mariage-11-field" };
+const margin = (id: string) => ({ id, box: 248 });
+---
+<LodgingPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  pageId={P}
+  h1={t(P, 6)}
+  light="gites"
+  printId="la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-1120x840"
+  printBox={512}
+  capacity={{ lead: guests[1], figure: guests[2], words: guests[3] }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  planner={{ page: "pages-l-auberge-du-grand-liot", key: "OSMB-123001-5", legend: [20, 21, 22].map((n) => t(P, n)).join(" ") }}
+  plannerTitle={t(P, 19)}
+  parent={{ label: t(P, 3), href: "/pages/reservations.html" }}
+  booking={{ href: "/pages/reservations.html#reserver", label: t(RES, 104) }}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: t(P, 6) }]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="auberge-typique" marginPrint={margin("img-20220922-105036")}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <h3>{t(P, 10)}</h3>
+    <ul class="lodging-liste">
+      {[11, 12].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+  </Chapter>
+
+  <Chapter tone="light" light={light} marginPrint={margin("chambre-rdc-2")}>
+    <p>{t(P, 13)}</p>
+    <p>{t(P, 14)}</p>
+    <Cta2 href={PDF_AUBERGE} label={t(P, 15)} icon="file" />
+    <Cta2 href={VISIT} label={t(P, 16)} newTab />
+    <Cta2 href={PDF_OPTIONS} label={t(P, 17)} icon="file" />
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 18)} icon="file" />
+  </Chapter>
+</LodgingPage>

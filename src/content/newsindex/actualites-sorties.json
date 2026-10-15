@@ -1,0 +1,341 @@
+{
+  "id": "actualites-sorties",
+  "url": "https://www.rayondesologne.fr/actualites/sorties/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Nos Partenaires"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Nouveau partenariat"
+    },
+    {
+      "n": 8,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 10,
+      "tag": "span",
+      "text": "Le 09/12/2021"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Nous y voila ,rayon de sologne lance officiellement son lancement pour accueillir votre mariage sur notre domaine champêtre!"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "En 2022 nous pourrons accueillir via le manoir des mariages en petit comités jusqu'a 60 personnes."
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Dès 2023 nous pourrons accueillir via la grange des mariages jusqu'à 150 personnes."
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Retrouvez notre fiche sur"
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "<a href='https://www.mariages.net' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp257691.png' style='border-width:0px;' /></a>"
+    },
+    {
+      "n": 16,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Nos Partenaires"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Appel a candidatures ;)"
+    },
+    {
+      "n": 19,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 21,
+      "tag": "span",
+      "text": "Le 03/05/2021"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "Oyez Oyez !"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "Comme vous le savez Rayon de Sologne, est en pleine création! Nous avons à coeur de porter notre région et ses savoirs faires et cela nous amène à constater nos limites! Nous pensons que nous serons meilleurs et plus forts en nous entourants de profesionnels et d'experts dans leurs domaines respectifs!"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "*Nous souhaitons mettre en place une épicerie fine et cherchons donc des producteurs et artisans locaux qui seraient interessés pour une mise en avant à nos voyageurs!"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "*Nous voulons accueillir des stages et séminaires bien être, si vous êtes en quête d'un lieu rural en pleine nature proposant hebergement, gite et animations nature complémentaires nous sommes fait pour vous!"
+    },
+    {
+      "n": 26,
+      "tag": "p",
+      "text": "*Enfin, nous sommes ouverts à toutes propositions d'association à un projet complémentaire au notre, qui chercherait un endroit ou s'implanter comme une \"school forest\", la création d'espace de parmaculture, ou autre ferme pedagogique par exemple!"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "*N'hésitez pas même si vous habitez à quelques minutes de chez nous, à participer à nos journées portes ouvertes ou nous organiserons des chantiers bénévoles participatif, pour nous faire connaitre localement et coconstruire ensemble ce magnifique lieu de vie ;)"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "On vous attend nombreux et on vous remercie par avance pour votre aide"
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "Voici de nouveaux nos coordonnées, n'hésitez pas à nous appeler pour avoir plus d'informations"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "07 60 03 86 21 ou rayondesologne@gmail.com"
+    },
+    {
+      "n": 31,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Nos Partenaires"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Création d'un premier billet"
+    },
+    {
+      "n": 34,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 36,
+      "tag": "span",
+      "text": "Le 21/04/2021"
+    },
+    {
+      "n": 37,
+      "tag": "p",
+      "text": "Rayon de Sologne, va bientot sortir de terre pour vous proposer une expérience nature authentique en région centre val de loire. Proche des chateaux de la loire, de Beauval et bien d'autres sites touristiques très connu il y a un petit coin de paradis à découvrir!"
+    },
+    {
+      "n": 38,
+      "tag": "p",
+      "text": "Suivez notre aventure de création de gites en sologne"
+    },
+    {
+      "n": 39,
+      "tag": "p",
+      "text": "Charline et Maxime"
+    },
+    {
+      "n": 40,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 41,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 42,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 43,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 44,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 45,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 46,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 54,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 55,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 56,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 57,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 58,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 59,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 60,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 61,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "Appel candidature rayondesologne"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 65,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 66,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 67,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

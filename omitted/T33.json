@@ -1,0 +1,1094 @@
+[
+ {
+  "page": "about-privacypolicy",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 7,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 8,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 9,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 10,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 11,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 12,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 13,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 14,
+  "text": "CGU",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 15,
+  "text": "CGV",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 16,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 17,
+  "text": "Franck Chemin",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 18,
+  "text": "One Seb photos",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 19,
+  "text": "Margaud Noée",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 20,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 21,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 22,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 23,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 24,
+  "text": "brand",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 25,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 26,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 27,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 28,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 29,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "about-privacypolicy",
+  "n": 30,
+  "text": "Cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 10,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 11,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 12,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 13,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 14,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 15,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 16,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 17,
+  "text": "CGU",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 18,
+  "text": "CGV",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 19,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 20,
+  "text": "Franck Chemin",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 21,
+  "text": "One Seb photos",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 22,
+  "text": "Margaud Noée",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 23,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 24,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 25,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 26,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 27,
+  "text": "brand",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 28,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 29,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 30,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 31,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 32,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales",
+  "n": 33,
+  "text": "Cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 11,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 12,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 13,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 14,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 15,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 16,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 17,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 18,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 19,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 20,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 21,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 22,
+  "text": "CGU",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 23,
+  "text": "CGV",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 24,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 25,
+  "text": "Franck Chemin",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 26,
+  "text": "One Seb photos",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 27,
+  "text": "Margaud Noée",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 28,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 29,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 30,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 31,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 32,
+  "text": "brand",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 33,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 34,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 35,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 36,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 37,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 38,
+  "text": "Cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 39,
+  "text": "Fermer",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 40,
+  "text": "Copy link",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 41,
+  "text": "Share",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 42,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 43,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 44,
+  "text": "Share Buttons",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 45,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 46,
+  "text": "Tout voir",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-mentions-legales-html",
+  "n": 47,
+  "text": "AddToAny Utility Frame",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 21,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 22,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 23,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 24,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 25,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 26,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 27,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 28,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 29,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 30,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 31,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 32,
+  "text": "CGU",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 33,
+  "text": "CGV",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 34,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 35,
+  "text": "Franck Chemin",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 36,
+  "text": "One Seb photos",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 37,
+  "text": "Margaud Noée",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 38,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 39,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 40,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 41,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 42,
+  "text": "brand",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 43,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 44,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 45,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 46,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 47,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 48,
+  "text": "Cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 49,
+  "text": "Fermer",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 50,
+  "text": "Copy link",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 51,
+  "text": "Share",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 52,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 53,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 54,
+  "text": "Share Buttons",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 55,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 56,
+  "text": "Tout voir",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+  "n": 57,
+  "text": "AddToAny Utility Frame",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 13,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 14,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 15,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 16,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 17,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 18,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 19,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 20,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 21,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 22,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 23,
+  "text": "Mention legales",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 24,
+  "text": "CGU",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 25,
+  "text": "CGV",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 26,
+  "text": "RGPD",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 27,
+  "text": "Franck Chemin",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 28,
+  "text": "One Seb photos",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 29,
+  "text": "Margaud Noée",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 30,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer line (copyright and photo credits); the site footer carries them"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 31,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 32,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 33,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 34,
+  "text": "brand",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 35,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 36,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 37,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 38,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 39,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 40,
+  "text": "Cookies",
+  "reason": "Old cookie control; replaced by the site's consent banner (T09)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 41,
+  "text": "Fermer",
+  "reason": "Old template attribute (logo alt, menu, search, scroll-top); the site header carries these"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 42,
+  "text": "Copy link",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 43,
+  "text": "Share",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 44,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 45,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 46,
+  "text": "Share Buttons",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 47,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 48,
+  "text": "Tout voir",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ },
+ {
+  "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+  "n": 49,
+  "text": "AddToAny Utility Frame",
+  "reason": "AddToAny share widget, not shipped (no new third party)"
+ }
+]

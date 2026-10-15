@@ -1,0 +1,878 @@
+[
+  {
+    "page": "pages-presentation-html",
+    "n": 1,
+    "text": "Accueil",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 2,
+    "text": "Restaurant / Traiteur",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 3,
+    "text": "Réservations Gites",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 4,
+    "text": "Réservations Mariage",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 5,
+    "text": "Réservations Séminaires",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 8,
+    "text": "Présentation",
+    "reason": "Second heading \"Présentation\", identical to the H1 (n=6); the H1 is shown, chapters start at the text"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 25,
+    "text": "Partager",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 26,
+    "text": "Facebook",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 27,
+    "text": "X",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 28,
+    "text": "Email",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 29,
+    "text": "Réservations Gites",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 30,
+    "text": "Réservations Mariage",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 31,
+    "text": "Newsletter",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 32,
+    "text": "Nos dernières actus",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 33,
+    "text": "Contact",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 34,
+    "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 35,
+    "text": "Mention legales",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 36,
+    "text": "CGU",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 37,
+    "text": "CGV",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 38,
+    "text": "RGPD",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 39,
+    "text": "Franck Chemin",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 40,
+    "text": "One Seb photos",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 41,
+    "text": "Margaud Noée",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 42,
+    "text": "Malfoy Melanie",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 43,
+    "text": "Gestion des cookies",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 44,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 45,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 46,
+    "text": "brand",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 47,
+    "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 48,
+    "text": "BurgerMenu",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 49,
+    "text": "Votre recherche",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 50,
+    "text": "Plan rayon de sologne 2023",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 51,
+    "text": "Gestion des cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 52,
+    "text": "Scroll top",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 53,
+    "text": "Cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 54,
+    "text": "Fermer",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 55,
+    "text": "Copy link",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 56,
+    "text": "Share",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 57,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 58,
+    "text": "Trouver instantanément un service à ajouter",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 59,
+    "text": "Share Buttons",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 60,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 61,
+    "text": "Tout voir",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-presentation-html",
+    "n": 62,
+    "text": "AddToAny Utility Frame",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 1,
+    "text": "Accueil",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 2,
+    "text": "Restaurant / Traiteur",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 3,
+    "text": "Réservations Gites",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 4,
+    "text": "Réservations Mariage",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 5,
+    "text": "Réservations Séminaires",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 23,
+    "text": "Partager",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 24,
+    "text": "Facebook",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 25,
+    "text": "X",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 26,
+    "text": "Email",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 27,
+    "text": "Réservations Gites",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 28,
+    "text": "Réservations Mariage",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 29,
+    "text": "Newsletter",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 30,
+    "text": "Nos dernières actus",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 31,
+    "text": "Contact",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 32,
+    "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 33,
+    "text": "Mention legales",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 34,
+    "text": "CGU",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 35,
+    "text": "CGV",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 36,
+    "text": "RGPD",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 37,
+    "text": "Franck Chemin",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 38,
+    "text": "One Seb photos",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 39,
+    "text": "Margaud Noée",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 40,
+    "text": "Malfoy Melanie",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 41,
+    "text": "Gestion des cookies",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 42,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 43,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 44,
+    "text": "brand",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 45,
+    "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 46,
+    "text": "BurgerMenu",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 47,
+    "text": "Votre recherche",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 48,
+    "text": "Sologne se relaxer instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 49,
+    "text": "Sologne se promener instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 50,
+    "text": "Sologne ressentir instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 51,
+    "text": "Sologne ralentir instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 52,
+    "text": "Sologne observer instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 53,
+    "text": "Sologne experimenter instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 54,
+    "text": "Sologne etre pied nu instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 55,
+    "text": "Sologne ecouter instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 56,
+    "text": "Sologne deguster instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 57,
+    "text": "Sologne deambuler instagram rayondesologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 58,
+    "text": "Carte touristique rayon de sologne proche romorantin",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 59,
+    "text": "Carte touristique rayon de sologne proche romorantin",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 60,
+    "text": "Gestion des cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 61,
+    "text": "Scroll top",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 62,
+    "text": "Fermer",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 63,
+    "text": "Copy link",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 64,
+    "text": "Share",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 65,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 66,
+    "text": "Trouver instantanément un service à ajouter",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 67,
+    "text": "Share Buttons",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 68,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 69,
+    "text": "Tout voir",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 70,
+    "text": "AddToAny Utility Frame",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "n": 71,
+    "text": "Cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 1,
+    "text": "Accueil",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 2,
+    "text": "Restaurant / Traiteur",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 3,
+    "text": "Réservations Gites",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 4,
+    "text": "Réservations Mariage",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 5,
+    "text": "Réservations Séminaires",
+    "reason": "Old header navigation link; the build's header (T08) carries the navigation"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 35,
+    "text": "Partager",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 36,
+    "text": "Facebook",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 37,
+    "text": "X",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 38,
+    "text": "Email",
+    "reason": "AddToAny share widget, not shipped (no third party)"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 39,
+    "text": "Réservations Gites",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 40,
+    "text": "Réservations Mariage",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 41,
+    "text": "Newsletter",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 42,
+    "text": "Nos dernières actus",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 43,
+    "text": "Contact",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 44,
+    "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 45,
+    "text": "Mention legales",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 46,
+    "text": "CGU",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 47,
+    "text": "CGV",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 48,
+    "text": "RGPD",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 49,
+    "text": "Franck Chemin",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 50,
+    "text": "One Seb photos",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 51,
+    "text": "Margaud Noée",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 52,
+    "text": "Malfoy Melanie",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 53,
+    "text": "Gestion des cookies",
+    "reason": "Old footer, legal and credits link text; the build's footer (T08) carries them"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 54,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 55,
+    "text": "Logoentete",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 56,
+    "text": "brand",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 57,
+    "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 58,
+    "text": "BurgerMenu",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 59,
+    "text": "Votre recherche",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 60,
+    "text": "En famille a la nature",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 61,
+    "text": "Chevres ferme pedagogique rayon de sologne41320",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 62,
+    "text": "verre de vin",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 63,
+    "text": "Brame du cerf sologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 64,
+    "text": "Oenologie rayon de sologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 65,
+    "text": "en pleine nature sologne",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 66,
+    "text": "Gestion des cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 67,
+    "text": "Scroll top",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 68,
+    "text": "Cookies",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 69,
+    "text": "Fermer",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 70,
+    "text": "Copy link",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 71,
+    "text": "Share",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 72,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 73,
+    "text": "Trouver instantanément un service à ajouter",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 74,
+    "text": "Share Buttons",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 75,
+    "text": "Partager",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 76,
+    "text": "Tout voir",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "n": 77,
+    "text": "AddToAny Utility Frame",
+    "reason": "Attribute of the old template (logo alt, burger, search, share/cookie widgets); replaced by the build's own header, footer and consent"
+  }
+]

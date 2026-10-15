@@ -1,0 +1,272 @@
+{
+  "id": "actualites-nouveau-partenariat-html",
+  "url": "https://www.rayondesologne.fr/actualites/nouveau-partenariat.html",
+  "category": "actualites",
+  "title": "Nouveau partenariat",
+  "date": "Le 09/12/2021",
+  "isoDate": "2021-12-09",
+  "author": "charline sainjon",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Nouveau partenariat"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 9,
+      "tag": "time",
+      "text": "Le 09/12/2021"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Nous y voila ,rayon de sologne lance officiellement son lancement pour accueillir votre mariage sur notre domaine champêtre!"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "En 2022 nous pourrons accueillir via le manoir des mariages en petit comités jusqu'a 60 personnes."
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Dès 2023 nous pourrons accueillir via la grange des mariages jusqu'à 150 personnes."
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Retrouvez notre fiche sur"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "<a href='https://www.mariages.net' title='Mariages.net'><img alt='Mariages.net' src='https://www.mariages.net/images/sellos/label-partenaire--pp257691.png' style='border-width:0px;' /></a>"
+    },
+    {
+      "n": 15,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 16,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 17,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 18,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 33,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 34,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 35,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 36,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 37,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 38,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 39,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 40,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 41,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 42,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 43,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 44,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 45,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 46,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 47,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 48,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 49,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 51,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 52,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ],
+  "images": []
+}

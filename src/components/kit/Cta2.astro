@@ -1,0 +1,15 @@
+---
+import "../../styles/kit.css";
+import Icon from "./Icon.astro";
+import { ft } from "../../lib/site";
+interface Props {
+  href: string;
+  label: string;
+  icon?: "arrow" | "file" | "external";
+  newTab?: boolean;
+  class?: string;
+}
+const { href, label, newTab = false, class: cls } = Astro.props;
+const icon = Astro.props.icon ?? (newTab ? "external" : "arrow");
+---
+<a class:list={["cta2", cls]} data-kit="cta2" data-site-studio-component="button-secondary" href={href} target={newTab ? "_blank" : undefined} rel={newTab ? "noopener" : undefined}>{label}{icon === "file" && <span class="visually-hidden"> {ft("link.pdf-hint")}</span>}{newTab && <span class="visually-hidden"> {ft("link.newtab-hint")}</span>} <Icon name={icon} /></a>

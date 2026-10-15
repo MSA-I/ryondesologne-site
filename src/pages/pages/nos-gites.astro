@@ -1,0 +1,147 @@
+---
+// Nos gîtes (DESIGN §12 lodging hub): capacities and links of the five lodgings (blocks 10-16) as doors, the comparison image whole.
+// Blocks 1, 6-18 are used; the rest (nav, share widget, footer, attributes) is listed in 06-build/omitted/T27.json.
+import LodgingPage from "../../layouts/LodgingPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Print from "../../components/kit/Print.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import Icon from "../../components/kit/Icon.astro";
+import { t, tr, trTable, fact, factTel } from "../../lib/content";
+
+const P = "pages-nos-gites-html";
+const PAGE = "/pages/nos-gites.html";
+const RES = "pages-reservations-html";
+// p7-fix-v5 item 5: the old HTML was `gite<span>s</span>` (rendered "gites"); the scan inserted a space. Joined at render, wording otherwise verbatim.
+const gitesLabel = (s: string) => s.replace(/gite s(?=\s|$)/, "gites");
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "gite de groupe en sologne : rayon de sologne";
+const description =
+  "Découvrez nos gites de groupe en sologne proche de romorantin : 5 hébergements de 4 à 55 couchages pour famille, cousinades, et séjour de groupe.";
+
+// Destinations of the old links (hrefs are not in the block text; 01-scan/raw/pages-nos-gites-html.html).
+const gites = [
+  { n: 11, page: "pages-le-manoir-du-grand-liot-html", href: "/pages/le-manoir-du-grand-liot.html", print: "manoir-grand-liot-rayon-de-sologne-1-1120x840" },
+  { n: 12, page: "pages-colonie-et-salle-des-fetes-html", href: "/pages/colonie-et-salle-des-fetes.html", print: "anniversaire-grand-liot-langon-41321-1120x840" },
+  { n: 14, page: "pages-la-maison-des-invites-html", href: "/pages/la-maison-des-invites.html", print: "terrasse-maison-des-invites-gite-rayon-de-sologne" },
+  { n: 15, page: "pages-l-auberge-du-grand-liot-html", href: "/pages/l-auberge-du-grand-liot.html", print: "la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-1120x840" },
+  { n: 16, page: "pages-la-maison-des-invites-1791124532-html", href: "/pages/la-maison-des-invites-1791124532.html", print: "vue-aerienne-rayon-de-sologne-par-onesebphoto-1120x840" },
+];
+const groups = [
+  { h: 10, items: gites.slice(0, 2) },
+  { h: 13, items: gites.slice(2) },
+];
+// One verbatim line per door: the first sentence of the lodging page's own lead (block 7).
+const line = (page: string) => {
+  const s = t(page, 7);
+  return s.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? s;
+};
+const cmp = trTable("gites-comparison");
+const cmpTitle = tr("gites-comparison-title");
+const cmpSub = tr("gites-comparison-subtitle");
+// table row order -> index in `gites` (manoir, colonie, auberge, maison des invités, hirondelles)
+const rowHref = [0, 1, 3, 2, 4].map((i) => gites[i].href);
+const more = t("pages-page-d-accueil-html", 19);
+---
+<LodgingPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={gitesLabel(t(P, 6))}
+  light="gites"
+  printId="chambre-nuptiale-du-manoir-rayon-de-sologne413202-1-1024x768"
+  printBox={512}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  booking={{ href: "/pages/reservations.html#reserver", label: t(RES, 104) }}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: gitesLabel(t(P, 6)) }]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="gites-aventure">
+    <p>{t(P, 8)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={{ use: "gites", photoId: "mariage-11-field" }} title={t(P, 9)} titleId="gites-choisir" wide class="gites-choisir">
+    {groups.map((g, i) => (
+      <div class="gites-groupe">
+        <h3 id={`gites-groupe-${i}`}>{t(P, g.h)}</h3>
+        <ul class="gites-liste" aria-labelledby={`gites-groupe-${i}`} style={`--n:${g.items.length}`}>
+          {g.items.map((it) => (
+            <li class="gite" data-door data-kit="card">
+              <Print id={it.print} box={248} sizes="(max-width: 760px) 100vw, 248px" effect="reveal" class="gite-print" />
+              <div class="gite-texte">
+                <p class="gite-titre" id={`gite-titre-${it.n}`}>{t(P, it.n)}</p>
+                <p class="gite-ligne">{line(it.page)}</p>
+                {/* own anchor, same kit markup as Cta2: its name = the link text + the lodging heading (no new text) */}
+                <a class="cta2" data-kit="cta2" data-site-studio-component="button-secondary" href={it.href} id={`gite-lien-${it.n}`} aria-labelledby={`gite-lien-${it.n} gite-titre-${it.n}`}>{more} <Icon name="arrow" /></a>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+    <div class="gites-comparatif">
+      <div class="gites-table-wrap" role="region" aria-labelledby="gites-cmp-cap" tabindex="0">
+        <table class="gites-table">
+          <caption id="gites-cmp-cap"><span class="gites-cap-titre">{cmpTitle}</span> <span class="gites-cap-sous">{cmpSub}</span></caption>
+          <thead>
+            <tr>{cmp.headers.map((h) => <th scope="col">{h}</th>)}</tr>
+          </thead>
+          <tbody>
+            {cmp.rows.map((r, i) => (
+              <tr>
+                <th scope="row"><a href={rowHref[i]}>{r[0]}</a></th>
+                {r.slice(1).map((c, j) => <td data-label={cmp.headers[j + 1]}>{c}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <figure class="plan gites-image" aria-hidden="true">
+        <Print id="comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne" box={724} sizes="(max-width: 760px) 100vw, 724px" alt="" />
+      </figure>
+    </div>
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 17)} titleId="gites-sejour">
+    <Cta2 href="/pages/animation-nature.html" label={t(P, 18)} />
+  </Chapter>
+</LodgingPage>
+
+<style is:global>
+  /* p7-final-pages-b: the two groups (2 + 3 doors) share one row of five equal columns on wide screens, so no column is left short */
+  .gites-liste { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-4) var(--space-3); grid-template-columns: repeat(var(--n, 1), minmax(0, 1fr)); }
+  .chap--wide.gites-choisir .chap-corps { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  @media (min-width: 1181px) { .chap--wide.gites-choisir .chap-corps { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); } }
+  .gites-groupe { min-width: 0; }
+  .gite { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+  .gite-print { width: min(100%, var(--print-width)); }
+  .gite-print img { aspect-ratio: 4 / 3; object-fit: cover; }
+  .gite-texte { min-width: 0; }
+  .chap-corps .gite-titre { margin: 0 0 var(--space-1); font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); text-wrap: balance; }
+  .chap-corps .gite-ligne { margin: 0 0 var(--space-2); font-size: var(--fs-reading); }
+  .gites-comparatif { grid-column: 1 / -1; display: grid; gap: var(--space-4); grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 1181px) { .gites-comparatif { grid-template-columns: minmax(0, 1fr) minmax(0, 724px); align-items: start; } }
+  .gites-table-wrap { overflow-x: auto; }
+  .gites-table { width: 100%; border-collapse: separate; border-spacing: 0 var(--space-2); font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .gites-table caption { text-align: start; padding-bottom: var(--space-2); }
+  .gites-cap-titre { display: block; font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); }
+  .gites-table th, .gites-table td { text-align: start; padding: var(--space-1) var(--space-2); vertical-align: top; font-weight: inherit; }
+  .gites-table thead th { font-weight: var(--fw-h2-text); }
+  .gites-table tbody th { font-weight: var(--fw-h2-text); min-width: 11em; }
+  .gites-table tbody a { text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1); }
+  .gites-table tbody a:active { opacity: .7; }
+  .gites-table-wrap:focus-visible { outline: 2px solid currentColor; outline-offset: var(--focus-offset); }
+  .gites-image { margin: 0; }
+  @media (max-width: 760px) {
+    /* p7-fix-v5 item 4: each row becomes a stacked card, the header labels inline before each cell (verbatim, from data-label) */
+    .gites-table-wrap { overflow: visible; }
+    .gites-table, .gites-table tbody, .gites-table tr, .gites-table th, .gites-table td { display: block; width: 100%; }
+    .gites-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .gites-table caption { display: block; }
+    .gites-table tbody tr { margin: 0 0 var(--space-3); }
+    .chap--wide.gites-choisir .gites-liste { grid-template-columns: minmax(0, 1fr); }
+    .gites-table tbody th { min-width: 0; padding: 0 0 var(--space-1); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); }
+    .gites-table td { padding: var(--space-1) 0 0; overflow-wrap: anywhere; }
+    .gites-table td::before { content: attr(data-label) "\00a0: "; font-weight: var(--fw-h2-text); }
+    .chap--wide.gites-choisir .chap-corps { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

@@ -1,0 +1,202 @@
+---
+// Home opening, "la brume se lève": the name on the mist over the estate pond.
+// Ported 1:1 from the approved board D (04-direction/board/D/index.html lines 31-54 + style.css opening rules).
+import Cta from "../kit/Cta.astro";
+import Stat from "../kit/Stat.astro";
+import { img } from "../../lib/assets";
+import { t, tr } from "../../lib/content";
+import { ft } from "../../lib/site";
+
+// Layers shown under a blur go through the blurred option (assets.ts); the clearing row has no `blurred` flag, so its box stays <= max_css_width.
+const field = img("etang-rayon-de-sologne-field", { box: 640, sizes: "100vw", loading: "eager", fetchpriority: "high", blurred: true });
+const clearing = img("etang-rayon-de-sologne-clearing", { box: 375, sizes: "100vw", loading: "eager", blurred: true });
+const print = img("etang-rayon-de-sologne-496x372", { box: 248, sizes: "248px", loading: "eager" });
+
+// Satellite texts: transcribed.json via tr(); the CTA label is home block 7. The aria-label is functional text (home-satellites-label).
+const SATELLITES_LABEL = ft("home-satellites-label");
+---
+<section class="ouverture" data-part="hero">
+  <figure class="champ-ouverture" data-wow aria-hidden="true">
+    <picture>
+      {field.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="100vw" />)}
+      <img class="champ-flou" src={field.src} width={field.width} height={field.height} alt="" loading="eager" fetchpriority="high" decoding="async" />
+    </picture>
+    <span class="brume"></span>
+    <span class="brume-coin"></span>
+    <div class="eclaircie">
+      <div class="eclaircie-net">
+        <div class="eclaircie-rond">
+          <div class="eclaircie-fond">
+            <picture>
+              {clearing.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="100vw" />)}
+              <img src={clearing.src} width={clearing.width} height={clearing.height} alt="" loading="eager" fetchpriority="low" decoding="async" />
+            </picture>
+            <span class="brume-mince"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </figure>
+
+  <h1 class="titre-nom" data-beat="1">RAYON DE SOLOGNE <small class="titre-sous" data-kit="tag">UNE EXPÉRIENCE AUTHENTIQUE</small></h1>
+
+  <ul class="satellites" aria-label={SATELLITES_LABEL}>
+    <Stat as="li" class="sat" satellite="rating" figure={tr("rating-score")} words={tr("reviews-label")} />
+    <li class="sat" data-satellite="label"><span class="sat-legende">{tr("satellite-label")}</span></li>
+  </ul>
+
+  <picture>
+    {print.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="248px" />)}
+    <img class="tirage-ouverture" data-beat="2" src={print.src} width={print.width} height={print.height} alt={print.alt} loading="eager" decoding="async" />
+  </picture>
+
+  <p class="action-zone">
+    <Cta beat={3} href="/contact/contact.html" label={t("home", 7)} />
+  </p>
+</section>
+
+<style is:global>
+  /* ---------- 1. opening: the haze field ---------- */
+  .ouverture {
+    position: relative;
+    min-height: 100vh; min-height: 100svh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto auto;
+    padding: 0 0 var(--space-4);
+    overflow: hidden; /* no isolation: the header logo multiplies onto the field */
+    pointer-events: none; /* the header sits under this positioned box in paint order; only the hero's own links take input */
+  }
+  .ouverture a { pointer-events: auto; }
+  .ouverture picture { display: contents; }
+  .champ-ouverture { position: absolute; inset: 0; margin: 0; z-index: -1; overflow: hidden; background: var(--brume); }
+  .champ-flou {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover;
+    filter: blur(var(--blur-field)) saturate(1.3);
+    transform: scale(1.22);
+  }
+  .brume { position: absolute; inset: 0; background: var(--brume); opacity: var(--brume-opacity); }
+  /* the grey patch where the blurred right bank meets the sky (top right): the mist lies thicker there, locally. A sibling
+     layer of the same brume, outside the .brume opacity group (inside it, brume over brume would composite to nothing). */
+  .brume-coin {
+    position: absolute; inset: 0; background: var(--brume); opacity: var(--brume-coin-opacity);
+    -webkit-mask-image: var(--shape-brume-coin);
+    mask-image: var(--shape-brume-coin);
+  }
+  /* signature: the mist lifts where the pointer is. .eclaircie is the first screen; its layer is positioned on the whole
+     field so the clearing registers with the blurred photo below it. */
+  .eclaircie { width: 100%; height: 100vh; height: 100svh; }
+  .eclaircie-net {
+    position: absolute; inset: 0; opacity: 0;
+    /* the text-free bands: the mist stays on the header, the tagline and satellites row and where the name lies (static mask). */
+    --bandes: linear-gradient(to bottom, transparent 0, transparent var(--nav-bas, 96px), black calc(var(--nav-bas, 96px) + 48px),
+      black calc(var(--nom-haut, 400px) - 56px), transparent var(--nom-haut, 400px), transparent var(--nom-bas, 640px), black calc(var(--nom-bas, 640px) + 56px));
+    -webkit-mask-image: var(--bandes); mask-image: var(--bandes);
+    will-change: opacity;
+  }
+  /* the clearing (= --shape-clearing: black to 9vmax, transparent at 26vmax) is a fixed disc that brume.js moves by transform only;
+     the photo inside moves the opposite way, so it stays registered with the blurred field. No repaint per frame: the pointer
+     costs the compositor a translate, not a masked, blurred full-screen raster (Lighthouse mobile TBT 4.6 s with the mask variable). */
+  .eclaircie-rond {
+    position: absolute; left: 0; top: 0; width: 52vmax; height: 52vmax;
+    -webkit-mask-image: radial-gradient(circle at 50% 50%, black 0, black 9vmax, transparent 26vmax);
+    mask-image: radial-gradient(circle at 50% 50%, black 0, black 9vmax, transparent 26vmax);
+    will-change: transform;
+  }
+  .eclaircie-fond { position: absolute; left: 0; top: 0; width: var(--hero-w, 100vw); height: var(--hero-h, 100svh); will-change: transform; }
+  .eclaircie-fond img { width: 100%; height: 100%; object-fit: cover; filter: blur(var(--blur-clear)) saturate(1.15); transform: scale(1.22); }
+  .brume-mince { position: absolute; inset: 0; background: var(--brume); opacity: var(--brume-floor-opacity); }
+
+  /* the H1 is one verbatim line: the name as text, the subline as <small> placed top-left */
+  .titre-nom {
+    grid-column: 1 / -1; grid-row: 2;
+    display: block; margin: 0;
+    padding-inline: var(--pad);
+    font-family: var(--font-display);
+    font-weight: var(--fw-name);
+    font-size: var(--fs-name);
+    line-height: var(--lh-name);
+    letter-spacing: var(--tr-name);
+    white-space: nowrap;
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+  .titre-sous {
+    position: absolute; top: var(--tagline-top); left: var(--pad);
+    font-family: var(--font-text); font-weight: var(--fw-tag);
+    font-size: var(--fs-tag); letter-spacing: var(--tr-tag); line-height: 1.3; /* the one tracked-caps label of the page */
+  }
+  .satellites {
+    position: absolute; top: var(--sat-top); right: var(--pad);
+    display: flex; gap: var(--space-4); align-items: baseline;
+    font-size: var(--fs-meta); line-height: var(--lh-small);
+  }
+  .sat { display: flex; align-items: baseline; gap: var(--space-1); }
+  .sat-legende { font-weight: var(--fw-small); }
+
+  .tirage-ouverture {
+    grid-column: 2; grid-row: 3;
+    margin: var(--space-3) var(--pad) 0 0;
+    width: var(--print-width); height: var(--print-height-wide); object-fit: cover; object-position: 50% 55%;
+    border-radius: var(--radius-print);
+  }
+  .action-zone { grid-column: 1; grid-row: 3; margin: var(--space-3) 0 0 var(--pad); align-self: start; }
+
+  /* wide screens: the clearing layer is less hazed (the 750 px source is upscaled) */
+  @media (min-width: 1181px) {
+    .eclaircie-fond img { filter: blur(var(--blur-clear-wide)) saturate(1.15); }
+  }
+
+  /* ---------- phone: the first screen holds the name, the sharp print and the action ---------- */
+  @media (max-width: 760px) {
+    .ouverture {
+      /* the pill stays above the consent banner of the first visit (DESIGN §13): the first screen is shorter by the banner's height */
+      min-height: calc(100svh - var(--space-6) - var(--space-2));
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto auto;
+      padding: 0 0 var(--space-4);
+    }
+    /* less blur on the phone: the water, the far bank and the trees keep their shapes under the mist */
+    .champ-flou { filter: blur(var(--blur-field-phone)) saturate(1.2); transform: scale(1.1); }
+    .eclaircie-fond img { filter: blur(var(--blur-clear-phone)) saturate(1.1); transform: scale(1.1); }
+    .brume { opacity: var(--brume-opacity-phone); }
+    /* phone: the same local mist follows the blurred bank, down the right edge and along the far bank above the name */
+    .brume-coin { opacity: var(--brume-coin-opacity-phone);
+      -webkit-mask-image: linear-gradient(to left, black 0, rgb(0 0 0 / 0.6) 25%, transparent 58%), linear-gradient(to bottom, transparent 44%, rgb(0 0 0 / 0.8) 52%, rgb(0 0 0 / 0.5) 60%, transparent 70%);
+      mask-image: linear-gradient(to left, black 0, rgb(0 0 0 / 0.6) 25%, transparent 58%), linear-gradient(to bottom, transparent 44%, rgb(0 0 0 / 0.8) 52%, rgb(0 0 0 / 0.5) 60%, transparent 70%); }
+    .titre-sous { top: var(--tagline-top-phone); font-size: var(--fs-tag-phone); }
+    .satellites { position: static; grid-row: 1; margin: var(--sat-top-phone) var(--pad) 0; gap: var(--space-3); font-size: var(--fs-meta-phone); }
+    .tirage-ouverture {
+      grid-column: 1; grid-row: 2; align-self: center; justify-self: end;
+      margin: var(--space-3) var(--pad);
+      width: var(--print-width); height: var(--print-height-wide);
+    }
+    .titre-nom {
+      grid-row: 3;
+      white-space: normal;
+      font-size: var(--fs-name-phone);
+      line-height: var(--lh-name);
+    }
+    .action-zone { grid-column: 1; grid-row: 4; margin: var(--space-3) var(--pad) 0; }
+  }
+
+  /* short phones (360 x 740 and the like): the same first screen, tightened so the pill still clears the consent banner (DESIGN §13) */
+  @media (max-width: 760px) and (max-height: 800px) {
+    .satellites { margin-top: calc(var(--sat-top-phone) - var(--space-1)); }
+    .tirage-ouverture { margin: var(--space-1) var(--pad) 0; height: calc(var(--print-height-wide) - var(--space-3)); }
+    .action-zone { margin-top: var(--space-2); }
+  }
+
+  /* quiet: reduced motion (live, by media query) or a weak phone (brume.js sets data-quiet): the still mist field */
+  .ouverture[data-quiet] .eclaircie-net { display: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .eclaircie-net { display: none; }
+  }
+</style>
+
+<script>
+  import { initBrume } from "../../scripts/brume.js";
+  const hero = document.querySelector<HTMLElement>(".ouverture");
+  if (hero) initBrume(hero);
+</script>

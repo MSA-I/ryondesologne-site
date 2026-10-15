@@ -1,0 +1,2120 @@
+[
+ {
+  "page": "album",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album",
+  "n": 19,
+  "text": "Mai 1",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 20,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 21,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 22,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 23,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 24,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 25,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 26,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 27,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 28,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 29,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album",
+  "n": 30,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album",
+  "n": 31,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album",
+  "n": 32,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album",
+  "n": 33,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album",
+  "n": 34,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album",
+  "n": 35,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 36,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 37,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 38,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 39,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 40,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 47,
+  "text": "Mai 1",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 48,
+  "text": "English may menu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 49,
+  "text": "Mariage rayon de sologne x et x ingrid thierry photographe 001 websize",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 50,
+  "text": "Chambre nuptiale manoir rayon de sologne41320",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 51,
+  "text": "Mariage x et x rayon de sologne 41320",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 52,
+  "text": "Mariage x et x 804 2 websize",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 53,
+  "text": "Mariage x et x rayon de sologne 41320 16",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 54,
+  "text": "Photo de charline",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 55,
+  "text": "Photos des marie s rayon de sologne 41 1",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 56,
+  "text": "Salle d eau colonie rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 57,
+  "text": "Salle de repas colonie restaurant rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 58,
+  "text": "Espace de travail salle colonie rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 59,
+  "text": "Cuisine de la colonie restaurant rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 60,
+  "text": "Couloir dortoir chambre colonie rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 61,
+  "text": "Chambre 2 colonie dortoir rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 62,
+  "text": "Chambre 1 de la colonie rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 63,
+  "text": "Bar du restaurant salle rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 64,
+  "text": "Terrasse de la colonie avec tables exterieures rayon de sologne",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 65,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 66,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album",
+  "n": 67,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 57,
+  "text": "Préc.",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 58,
+  "text": "1",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 59,
+  "text": "2",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 60,
+  "text": "Suiv.",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 61,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 62,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 63,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 64,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 65,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 66,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 67,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 68,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 69,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 70,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 71,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 72,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 73,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 74,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 75,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 76,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 77,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 78,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 79,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 80,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 81,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 132,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 133,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-restaurant",
+  "n": 134,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 7,
+  "text": "Photo couple rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 8,
+  "text": "Arche naturelle manoir rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 9,
+  "text": "Campagne chic mariage rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 10,
+  "text": "Mariage a rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 11,
+  "text": "Au pied du chene rayon de solognze",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 12,
+  "text": "Manoir rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 13,
+  "text": "Chambre manoir rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 14,
+  "text": "Plan rayon de sologne 2023",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 15,
+  "text": "Déco table manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 16,
+  "text": "Table champetre rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 17,
+  "text": "Anniversaire grand liot 41",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 18,
+  "text": "Jeux au manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 19,
+  "text": "Table déco manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 20,
+  "text": "Vue aerienne rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 21,
+  "text": "Cuisine au manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 22,
+  "text": "Salon cheminee du manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 23,
+  "text": "Piano au manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 24,
+  "text": "Salle de bain manoir",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 25,
+  "text": "Espace boudoir rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 26,
+  "text": "Img 20220331 093421 resized 20220404 101631576",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 27,
+  "text": "Img 20220331 092952 resized 20220404 101631801",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 28,
+  "text": "Img 20220330 232819 resized 20220404 101632218",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 29,
+  "text": "Img 20220330 232508 resized 20220404 101632602",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 30,
+  "text": "Img 20220330 232017 resized 20220404 101632995",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 31,
+  "text": "Img 20220330 231424 resized 20220404 101633177",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 32,
+  "text": "Img 20220331 093221 resized 20220401 095526608",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 33,
+  "text": "Img 20220213 081940 resized 20220401 095528673",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 34,
+  "text": "Img 20220228 114002 resized 20220228 114337637",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 35,
+  "text": "Img 20220226 112838 resized 20220228 114336637",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 36,
+  "text": "1682164896795",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 37,
+  "text": "Ceremonie laique chene rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 38,
+  "text": "1682164896684",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 39,
+  "text": "1682164896660",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 40,
+  "text": "1682164896636",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 41,
+  "text": "1682164896863",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 42,
+  "text": "1682164896891",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 43,
+  "text": "1682164896914",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 44,
+  "text": "1682164896795 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 45,
+  "text": "1682164896684 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 46,
+  "text": "1682164896636 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 47,
+  "text": "Chambre nuptiale manoir rayon de sologne41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 48,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 49,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 50,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 51,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 52,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 53,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 54,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 55,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 56,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 57,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 58,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 59,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 60,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 61,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 62,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 63,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 64,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 65,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 66,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 67,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 68,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 110,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 111,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-manoir",
+  "n": 112,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 7,
+  "text": "Salon auberge rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 8,
+  "text": "Auberge rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 9,
+  "text": "Jardin auberge",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 10,
+  "text": "Chmabre auberge rayondesologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 11,
+  "text": "Chambre rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 12,
+  "text": "Chambre 3 etage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 13,
+  "text": "Chambre auberge rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 14,
+  "text": "Chambre rdc 2",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 15,
+  "text": "Chambre auberge à l'étage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 16,
+  "text": "Chambre auberge rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 17,
+  "text": "Chambre auberge à l'étage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 18,
+  "text": "Salon et cuisine ouverte auberge rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 19,
+  "text": "Chambre auberge rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 20,
+  "text": "Salle de bain auberge",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 21,
+  "text": "Douche auberge",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 22,
+  "text": "Plan rayon de sologne grand liot",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 23,
+  "text": "1682164896711",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 24,
+  "text": "Plan de chambres auberge rdc",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 25,
+  "text": "Plan de chambres auberge e tage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 26,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 27,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 28,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 29,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 30,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 31,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 32,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 33,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 34,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 35,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 36,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 37,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 38,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 39,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 40,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 41,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 42,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 43,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 44,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 45,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 46,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 66,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 67,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-auberge",
+  "n": 68,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 7,
+  "text": "Plan de chambre petite colonie",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 8,
+  "text": "Plan de chambre grande colonie",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 9,
+  "text": "Salle d eau colonie rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 10,
+  "text": "Salle de repas colonie restaurant rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 11,
+  "text": "Espace de travail salle colonie rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 12,
+  "text": "Cuisine de la colonie restaurant rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 13,
+  "text": "Couloir dortoir chambre colonie rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 14,
+  "text": "Chambre 2 colonie dortoir rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 15,
+  "text": "Chambre 1 de la colonie rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 16,
+  "text": "Bar du restaurant salle rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 17,
+  "text": "Terrasse de la colonie avec tables exterieures rayon de sologne 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 18,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 19,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 20,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 21,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 22,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 23,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 24,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 25,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 26,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 27,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 28,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 29,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 30,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 31,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 32,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 33,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 34,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 35,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 36,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 37,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 38,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 50,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 51,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-colonie",
+  "n": 52,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 57,
+  "text": "Préc.",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 58,
+  "text": "1",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 59,
+  "text": "2",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 60,
+  "text": "Suiv.",
+  "reason": "Old pagination (the album page shows all its photos)"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 61,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 62,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 63,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 64,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 65,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 66,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 67,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 68,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 69,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 70,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 71,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 72,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 73,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 74,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 75,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 76,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 77,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 78,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 79,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 80,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 81,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 132,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 133,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-photos-mariage",
+  "n": 134,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 7,
+  "text": "Soiree rayon de sologne et juillet 41320 6",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 8,
+  "text": "amenagement ludique pour seminaire",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 9,
+  "text": "Regroupement entreprise reunion rayon de sologne centre france 41",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 10,
+  "text": "groupe parc du manoir rayon de sologne",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 11,
+  "text": "Anniversaire grand liot langon 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 12,
+  "text": "fete d anniversaire location salle",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 13,
+  "text": "Semianire rayon de sologne terrasse langon",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 14,
+  "text": "terrasse salle langon exterieur",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 15,
+  "text": "Soiree rayon de sologne et juillet 41320 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 16,
+  "text": "devant guinguette",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 17,
+  "text": "Salle langon modulable reunion rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 18,
+  "text": "salle langon modulable",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 19,
+  "text": "Soiree rayon de sologne et juillet 41320 5",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 20,
+  "text": "espace devant la guinguette préau",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 21,
+  "text": "Salle restaurant groupe proche romorantin pour anniversaire",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 22,
+  "text": "salle romorantin pour un repas",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 23,
+  "text": "Soiree rayon de sologne et juillet 41320 7",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 24,
+  "text": "espace jeux proche guinguette",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 25,
+  "text": "Salle anniversaire rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 26,
+  "text": "salle romo pour un anniversaire",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 27,
+  "text": "Soiree rayon de sologne et juillet 41320 2",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 28,
+  "text": "soiree entreprise colorcon",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 29,
+  "text": "Soiree rayon de sologne et juillet 41320 4",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 30,
+  "text": "soiree entreprise",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 31,
+  "text": "Soiree rayon de sologne et juillet 41320 3",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 32,
+  "text": "soiree colorcon",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 33,
+  "text": "Seminaire domaine rayon de sologne 41320 6",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 34,
+  "text": "inauguration seminaire",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 35,
+  "text": "Soiree rayon de sologne et juillet 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 36,
+  "text": "animation fete de village",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 37,
+  "text": "Soiree rayon de sologne et juillet 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 38,
+  "text": "concert chez rayon de sologne",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 39,
+  "text": "Seminaire domaine rayon de sologne 41320 5",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 40,
+  "text": "conference sous la guinguette",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 41,
+  "text": "Seminaire domaine rayon de sologne 41320 4",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 42,
+  "text": "espace de travail au sein du manoir",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 43,
+  "text": "Salle groupe restaurant proche romorantin",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 44,
+  "text": "salle réunion travail",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 45,
+  "text": "Seminaire domaine rayon de sologne 41320 3",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 46,
+  "text": "reunion booster",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 47,
+  "text": "Salle anniversaire romorantin 41",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 48,
+  "text": "Seminaire domaine rayon de sologne 41320 2",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 49,
+  "text": "booster camp reseau entreprendre",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 50,
+  "text": "Seminaire domaine rayon de sologne 41320 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 51,
+  "text": "grange pour un repas associatif",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 52,
+  "text": "Rayondesolognephotoseminairegrange41 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 53,
+  "text": "salle grange seminaire",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 54,
+  "text": "Rayondesolognephotoseminairegrange41",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 55,
+  "text": "grange pour repas dinatoire",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 56,
+  "text": "Seminaire domaine rayon de sologne 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 57,
+  "text": "aire de jeux",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 58,
+  "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320 1",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 59,
+  "text": "reunion équipe",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 60,
+  "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 61,
+  "text": "travail en sous groupe en extérieur",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 62,
+  "text": "Charline rayon de sologne 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 63,
+  "text": "exterieur",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 64,
+  "text": "Seminaire soiree du 2 juillet 2026 rayon de sologne 41320",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 65,
+  "text": "Porte ouverte septembre 2026 visite sans rdv et gratuite hebergement salle reception salle reunion 2h de paris rayon de sologne",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 66,
+  "text": "Réservations Gites",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 67,
+  "text": "Réservations Mariage",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 68,
+  "text": "Newsletter",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 69,
+  "text": "Nos dernières actus",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 70,
+  "text": "Contact",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 71,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer line; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 72,
+  "text": "Mention legales",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 73,
+  "text": "CGU",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 74,
+  "text": "CGV",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 75,
+  "text": "RGPD",
+  "reason": "Old footer navigation; the site footer carries it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 76,
+  "text": "Franck Chemin",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 77,
+  "text": "One Seb photos",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 78,
+  "text": "Margaud Noée",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 79,
+  "text": "Malfoy Melanie",
+  "reason": "Photo-credit link of the old footer; the site footer carries the credits"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 80,
+  "text": "Gestion des cookies",
+  "reason": "Old cookie button; the consent banner replaces it"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 81,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 82,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 83,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 84,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 85,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 86,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 118,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 119,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ },
+ {
+  "page": "album-seminaire-reunion",
+  "n": 120,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, cookie widget labels), not shipped"
+ }
+]

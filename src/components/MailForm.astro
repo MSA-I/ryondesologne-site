@@ -1,0 +1,145 @@
+---
+// Mail-app form (DESIGN §13): opens the visitor's mail app, pre-filled. Labels are the old site's, read through t();
+// messages through ft(). States on the <form>: idle -> sending -> sent | error (scripts/mailform.js).
+import "../styles/kit.css";
+import { t, fact } from "../lib/content";
+import { ft, NAV } from "../lib/site";
+import routing from "../data/mail-routing.json";
+
+interface Props {
+  fields: "contact" | "mariage" | "newsletter" | "seminaire";
+  /** fixed recipient; otherwise routed by subject (src/data/mail-routing.json) */
+  to?: string;
+  /** contact: initial subject (the ?sujet= parameter fills it at run time); other forms: the fixed subject */
+  subject?: string;
+  class?: string;
+}
+const { fields, to, subject, class: cls } = Astro.props;
+
+const CONTACT = "contact-contact-html";
+const BOOKING = "reservation-salle-de-mariage-html";
+const NEWS = "newsletters-subscribe";
+const label = {
+  name: t(CONTACT, 20), email: t(CONTACT, 21), subject: t(CONTACT, 22), message: t(CONTACT, 23),
+  send: t(CONTACT, 27),
+  legend: t(BOOKING, 83), from: t(BOOKING, 84), until: t(BOOKING, 85), validate: t(BOOKING, 86),
+  newsEmail: t(NEWS, 37), consent: t(NEWS, 14), save: t(NEWS, 15), newsSubject: t(NEWS, 10),
+};
+const nav = (n: string) => NAV.find((i) => i.label === n)!.label;
+
+const submitLabel = { contact: label.send, mariage: label.validate, seminaire: label.validate, newsletter: label.save }[fields];
+const fixedSubject =
+  fields === "mariage" ? subject ?? nav("Réservations Mariage")
+  : fields === "seminaire" ? subject ?? nav("Réservations Séminaires")
+  : fields === "newsletter" ? subject ?? label.newsSubject
+  : undefined;
+const fixedTo = to ?? (fields === "newsletter" ? routing["Réservations Mariage"] : undefined);
+const p = `mf-${fields}-`;
+---
+<form
+  class:list={["mf", cls]}
+  action={`mailto:${fixedTo ?? routing.default}`}
+  method="get"
+  enctype="text/plain"
+  data-mailform={fields}
+  data-state="idle"
+  data-to={fixedTo}
+  data-subject={fixedSubject}
+  data-sending={ft("form.sending")}
+  data-sent={ft("form.sent")}
+  data-err-required={ft("form.error-required")}
+  data-err-email={ft("form.error-email")}
+  data-err-form={ft("form.error")}
+  aria-label={fields === "contact" ? t(CONTACT, 6) : fields === "newsletter" ? label.newsSubject : fixedSubject}
+  novalidate
+>
+  {fields === "contact" && (
+    <>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}name`}>{label.name}</label>
+        <input id={`${p}name`} name="66e919718c04000000021785" type="text" autocomplete="name" required data-field data-label={label.name} />
+        <p class="mf-err" id={`${p}name-err`} data-error></p>
+      </div>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}email`}>{label.email}</label>
+        <input id={`${p}email`} name="66e919718c7100000002ed18" type="email" autocomplete="email" inputmode="email" required data-field data-label={label.email} />
+        <p class="mf-err" id={`${p}email-err`} data-error></p>
+      </div>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}sujet`}>{label.subject}</label>
+        <input id={`${p}sujet`} name="66e919718c9e00000002cda5" type="text" autocomplete="off" value={subject ?? ""} required data-field data-subject-field data-label={label.subject} />
+        <p class="mf-err" id={`${p}sujet-err`} data-error></p>
+      </div>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}message`}>{label.message}</label>
+        <textarea id={`${p}message`} name="66e919718ccd00000002de09" rows="8" autocomplete="off" required data-field data-label={label.message}></textarea>
+        <p class="mf-err" id={`${p}message-err`} data-error></p>
+      </div>
+    </>
+  )}
+  {(fields === "mariage" || fields === "seminaire") && (
+    <fieldset class="mf-dates">
+      <legend class="visually-hidden">{label.legend}</legend>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}from`}>{label.from}</label>
+        <input id={`${p}from`} name="booking_resa_from" type="date" autocomplete="off" required data-field data-label={label.from} />
+        <p class="mf-err" id={`${p}from-err`} data-error></p>
+      </div>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}to`}>{label.until}</label>
+        <input id={`${p}to`} name="booking_resa_to" type="date" autocomplete="off" required data-field data-label={label.until} />
+        <p class="mf-err" id={`${p}to-err`} data-error></p>
+      </div>
+    </fieldset>
+  )}
+  {fields === "newsletter" && (
+    <>
+      <div class="mf-field" data-field-wrap data-kit="field">
+        <label for={`${p}email`}>{label.newsEmail}</label>
+        <input id={`${p}email`} name="email" type="email" autocomplete="email" inputmode="email" required data-field data-label={label.newsEmail} />
+        <p class="mf-err" id={`${p}email-err`} data-error></p>
+      </div>
+      <p class="mf-consent">{label.consent}</p>
+    </>
+  )}
+
+  <p class="mf-err mf-form-err" role="alert" data-form-error></p>
+  <div class="mf-actions">
+    <button class="cta" type="submit" data-kit="cta" data-site-studio-component="button-primary" data-submit data-label={submitLabel}>{submitLabel}</button>
+  </div>
+  <p class="mf-status" role="status" data-status></p>
+  {fields === "contact" && <p class="mf-fallback">{ft("form.mail-fallback")}</p>}
+</form>
+
+<script>
+  import { initMailForms } from "../scripts/mailform.js";
+  initMailForms();
+</script>
+
+<style>
+  .mf { display: grid; gap: var(--space-3); margin: 0; }
+  .mf-field { display: grid; gap: var(--space-1); min-width: 0; }
+  .mf-field label { font-weight: var(--fw-label); font-size: var(--fs-label); color: var(--encre); }
+  .mf-field input, .mf-field textarea {
+    box-sizing: border-box; width: 100%; min-height: var(--tap-min); margin: 0;
+    padding: var(--space-2);
+    font-family: inherit; font-size: var(--fs-field); line-height: var(--lh-body);
+    color: var(--encre); background: var(--brume-creme);
+    border: 0; border-bottom: var(--border-field) solid var(--encre); border-radius: var(--radius-field);
+    appearance: none;
+  }
+  .mf-field textarea { resize: vertical; }
+  .mf-field [aria-invalid="true"] { border-bottom: var(--border-field-error) solid var(--encre); }
+  .mf-err { margin: 0; min-height: 0; font-weight: var(--fw-label); font-size: var(--fs-meta); color: var(--encre); }
+  .mf-err:empty { display: none; }
+  .mf-dates { display: grid; gap: var(--space-3); margin: 0; padding: 0; border: 0; min-width: 0; }
+  @media (min-width: 761px) { .mf-dates { grid-template-columns: 1fr 1fr; } }
+  .mf-consent { margin: 0; font-size: var(--fs-meta); line-height: var(--lh-body); }
+  .mf-actions { display: flex; }
+  .mf .cta { border: 0; cursor: pointer; font-family: inherit; }
+  .mf .cta[aria-disabled="true"] { cursor: default; pointer-events: none; }
+  .mf-status { margin: 0; font-size: var(--fs-body); line-height: var(--lh-body); }
+  .mf-status:empty { display: none; }
+  .mf-status :global(a) { font-weight: var(--fw-action); text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1); overflow-wrap: anywhere; }
+  .mf-fallback { margin: 0; font-size: var(--fs-meta); line-height: var(--lh-body); }
+</style>

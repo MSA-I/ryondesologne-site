@@ -1,0 +1,114 @@
+---
+// Notre territoire la Sologne (DESIGN §12 area page). Text from pages-notre-territoire-la-sologne-html; no typed copy.
+// The 10 territory cards carry their text inside the image: shown whole, alt = the approved transcription (assets.ts).
+// Blocks 1-5, 23-71 (nav, share widget, footer, attributes) are listed in 06-build/omitted/T31.json.
+import StoryPage from "../../layouts/StoryPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import Print from "../../components/kit/Print.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import MenuText from "../../components/MenuText.astro";
+import { img, asset } from "../../lib/assets";
+import { t } from "../../lib/content";
+import { menusFor, menuOfAsset, menuId } from "../../lib/menus";
+
+const P = "pages-notre-territoire-la-sologne-html";
+const PAGE = "/pages/notre-territoire-la-sologne.html";
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "Découvrez les activités animations loisirs de la sologne";
+const description =
+  "Nous allons vous donner envie de découvrir la sologne, et d'y rester plusieurs nuits pour prendre le temps d'aimer notre région!";
+
+// Calameo hrefs of blocks 15, 17, 19, 21 (not in the block text; 01-scan/raw/pages-notre-territoire-la-sologne-html.html).
+// `lead` = the text block that precedes the link in the source ("2)", "3)", "4)").
+const cartes: { href: string; label: number; lead?: number }[] = [
+  { href: "https://fr.calameo.com/read/005717877f0afbe1127fe", label: 15 },
+  { href: "https://fr.calameo.com/read/001509668140842cfa179", label: 17, lead: 16 },
+  { href: "https://fr.calameo.com/read/001900268842a8fb7c05b", label: 19, lead: 18 },
+  { href: "https://fr.calameo.com/read/001509668d24a42ec4f4f", label: 21, lead: 20 },
+];
+const cards = [
+  "sologne-se-relaxer", "sologne-se-promener", "sologne-ressentir", "sologne-ralentir", "sologne-observer",
+  "sologne-experimenter", "sologne-etre-pied-nu", "sologne-ecouter", "sologne-deguster", "sologne-deambuler",
+];
+const light = { use: "gites" as const, photoId: "etang-rayon-de-sologne-field" };
+const quote = t(P, 12);
+// verbatim transcription of the map image, shown below it and linked by aria-describedby
+const CARTE = "carte-touristique-rayon-de-sologne-proche-romorantin";
+const carteMenu = menuOfAsset(menusFor(PAGE), asset(CARTE));
+const carteImg = img(CARTE, { box: 496, sizes: "(max-width: 760px) 100vw, 496px" });
+---
+<StoryPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  fieldId="etang-rayon-de-sologne-field"
+  print={{ id: "chambres-hotes-sologne-960x720", box: 560 }}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="terr-slow">
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 10)}</p>
+    <p>{t(P, 11)}</p>
+    <p>{t(P, 12)}</p>
+    <p>{t(P, 13)}</p>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <section class="terr">
+    <p class="terr-intro">{t(P, 14)}</p>
+    <ul class="terr-cartes" role="list">
+      {cards.map((id) => (
+        <li><Print id={id} box={264} sizes="(max-width: 760px) 100vw, 264px" effect="reveal" /></li>
+      ))}
+    </ul>
+    <ol class="terr-liens" role="list">
+      {cartes.map((c) => (
+        <li>
+          {c.lead && <span class="terr-lead">{t(P, c.lead)}</span>}
+          <Cta2 href={c.href} label={t(P, c.label)} newTab />
+        </li>
+      ))}
+    </ol>
+    <figure class="terr-carte">
+      {carteMenu ? (
+        <picture class="print" data-effect="reveal">
+          {carteImg.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="(max-width: 760px) 100vw, 496px" />)}
+          <img src={carteImg.src} width={carteImg.width} height={carteImg.height} alt={carteImg.alt} loading="lazy" decoding="async" aria-describedby={menuId(carteMenu)} />
+        </picture>
+      ) : <Print id={CARTE} box={496} sizes="(max-width: 760px) 100vw, 496px" effect="reveal" />}
+      <figcaption>{t(P, 22)}</figcaption>
+      {carteMenu && <MenuText menu={carteMenu} />}
+    </figure>
+  </section>
+</StoryPage>
+
+<style is:global>
+  .terr { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) var(--pad); display: grid; gap: var(--space-4); }
+  .terr-intro { margin: 0; max-width: var(--measure); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  .terr-cartes {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: var(--space-3);
+  }
+  .terr-cartes .print { width: 100%; }
+  .terr-liens { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); max-width: var(--measure); }
+  .terr-liens li { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) var(--space-2); font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .terr-liens .cta2 { min-height: var(--tap-min); display: inline-flex; align-items: center; }
+  .terr-carte { margin: 0; max-width: 496px; }
+  .terr-carte .print { display: block; }
+  .terr-carte .print img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: var(--radius-print); }
+  .terr-carte .menu-text { margin-top: var(--space-3); }
+  .terr-carte figcaption { margin-top: var(--space-2); font-size: var(--fs-meta); }
+  @media (max-width: 760px) {
+    .terr-intro { font-size: var(--fs-lead-phone); }
+    /* p7-fix-v5 item 6: one card per row, the baked caps lines stay legible */
+    .terr-cartes { grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+    .terr-liens li { font-size: var(--fs-body-phone); }
+    .terr-carte figcaption { font-size: var(--fs-meta-phone); }
+  }
+</style>

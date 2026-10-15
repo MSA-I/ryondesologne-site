@@ -1,0 +1,61 @@
+---
+// Colonie et salle des fêtes (DESIGN §12 lodging page). Text from pages-colonie-et-salle-des-fetes-html, blocks 6-32, verbatim.
+// Blocks 1-5 and 33-153 (nav, planner markup, share widget, footer, attributes) are listed in 06-build/omitted/T29.json.
+import LodgingPage from "../../layouts/LodgingPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, fact, factTel } from "../../lib/content";
+
+const P = "pages-colonie-et-salle-des-fetes-html";
+const PAGE = "/pages/colonie-et-salle-des-fetes.html";
+const RES = "pages-reservations-html";
+const GITES = "pages-nos-gites-html";
+// p7-fix-v5 item 5: the old HTML was `gite<span>s</span>` (rendered "gites"); the scan inserted a space. Joined at render, wording otherwise verbatim.
+const gitesLabel = (s: string) => s.replace(/gite s(?=\s|$)/, "gites");
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "salle des fetes anniversaire romorantin";
+const description =
+  "la location de notre petite salle est ideale pour un anniversaire, une fete de famille ou un repas à 40 nous incluons le couchage pour votre sécurité";
+
+// Capacity stat cut from block 9: "jusqu'à 55 personnes".
+const cap = t(P, 9).match(/(jusqu'à) (\d+) (personnes)/);
+if (!cap) throw new Error("colonie: capacity phrase not found in block 9");
+
+// Old link destinations (hrefs are not in the block text; 01-scan/raw/pages-colonie-et-salle-des-fetes-html.html).
+const PDF_COLONIE = "/medias/files/hebergement-colonie-rayon-de-sologne-compresse-2.pdf";
+const PDF_OPTIONS = "/medias/files/option-gite-rayon-de-sologne-compresse.pdf";
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+const legend = [30, 31, 32].map((n) => t(P, n)).join(" ");
+---
+<LodgingPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  pageId={P}
+  h1={t(P, 6)}
+  light="gites"
+  printId="anniversaire-grand-liot-langon-41321-1120x840"
+  printBox={512}
+  capacity={{ lead: cap[1], figure: cap[2], words: cap[3] }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  plannerTitle={t(P, 29)}
+  planner={{ page: "pages-colonie-et-salle-des-fetes", key: "OSMB-123001-4", legend }}
+  parent={{ label: gitesLabel(t(GITES, 6)), href: "/pages/nos-gites.html" }}
+  booking={{ href: "#disponibilites", label: t(RES, 104) }}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: gitesLabel(t(GITES, 6)), href: "/pages/nos-gites.html" }, { label: t(P, 6) }]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="colonie-salle" marginPrint={{ id: "salle-de-repas-colonie-restaurant-rayon-de-sologne", box: 248 }}>
+    {[8, 9, 10, 11, 12, 13, 14, 15, 16, 17].map((n) => <p>{t(P, n)}</p>)}
+  </Chapter>
+
+  <Chapter tone="light" light={{ use: "colonie", photoId: "aire-de-jeux-rayon-de-sologne-field" }} marginPrint={{ id: "cuisine-de-la-colonie-restaurant-rayon-de-sologne", box: 248 }}>
+    <p>{t(P, 18)}</p>
+    <ul class="lodging-liste">
+      {[19, 20, 21, 22, 23, 24, 25].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+    <Cta2 href={PDF_COLONIE} label={t(P, 26)} icon="file" newTab />
+    <Cta2 href={PDF_OPTIONS} label={t(P, 27)} icon="file" newTab />
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 28)} icon="file" newTab />
+  </Chapter>
+</LodgingPage>

@@ -1,0 +1,21 @@
+---
+import "../../styles/kit.css";
+interface Props {
+  figure: string;
+  /** the Alegreya legend beside the figure */
+  words: string;
+  /** the Alegreya source line after the figure (proof: "Google") */
+  source?: string;
+  /** only the card's kinds; inner-page price/capacity/phone omit it (OPEN 6) */
+  satellite?: "rating" | "label";
+  size?: "sat" | "figure" | "xl";
+  as?: "p" | "li" | "div";
+  class?: string;
+}
+const { figure, words, source, satellite, size = "sat", as: Tag = "p", class: cls } = Astro.props;
+---
+<Tag class:list={["stat", `stat--${size}`, cls]} data-kit="stat" data-satellite={satellite}>
+  <span class="stat-figure">{figure}</span>{" "}
+  <span class="stat-words">{words}</span>
+  {source && <>{" "}<span class="stat-source">{source}</span></>}
+</Tag>

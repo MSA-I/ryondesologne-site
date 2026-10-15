@@ -1,0 +1,286 @@
+{
+  "id": "pages-nos-gites-html",
+  "url": "https://www.rayondesologne.fr/pages/nos-gites.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Nos gite s de groupe en sologne"
+    },
+    {
+      "n": 7,
+      "tag": "h2",
+      "text": "Une micro aventure en sologne pour votre séjour"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Réunissez votre famille, vos amis ou votre groupe de coeur en Sologne. Nos hébergements sont independants et privatisés pour votre groupe, avec différentes capacités et, pour certains, avec une salle de reception sur place. Choisissez le gite adapté à votre séjour et découvrez le plus en détail."
+    },
+    {
+      "n": 9,
+      "tag": "h2",
+      "text": "Quel gite choisir pour votre groupe ?"
+    },
+    {
+      "n": 10,
+      "tag": "h3",
+      "text": "2 Gites XXL avec salle de réception inclue"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Le manoir avec 38 couchages en chambres + une salle de réception"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "La colonie avec espace collectif incluant 55 couchages + 3 salles des fêtes"
+    },
+    {
+      "n": 13,
+      "tag": "h3",
+      "text": "Gite plus classiques"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "La maison des invités avec 4 chambres (10pers)"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "L'auberge incluant 4 grandes chambres + jardin (15pers)"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Hirondelle 4 chambres (7/8pers)"
+    },
+    {
+      "n": 17,
+      "tag": "h2",
+      "text": "Profitez de votre séjour au coeur de la Sologne"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Que Faire durant votre visite ?"
+    },
+    {
+      "n": 19,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 20,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 21,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 22,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 37,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 38,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 39,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 40,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 42,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 43,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "Comparatif gite de groupe en sologne gite xxl rayon de sologne"
+    },
+    {
+      "n": 45,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 46,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 47,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 48,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 49,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 51,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 52,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 53,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 55,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 56,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

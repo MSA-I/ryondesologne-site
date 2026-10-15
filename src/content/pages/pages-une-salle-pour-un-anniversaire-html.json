@@ -1,0 +1,1191 @@
+{
+  "id": "pages-une-salle-pour-un-anniversaire-html",
+  "url": "https://www.rayondesologne.fr/pages/une-salle-pour-un-anniversaire.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Une Salle d'anniversaire près de Romorantin"
+    },
+    {
+      "n": 7,
+      "tag": "h2",
+      "text": "Anniversaire surprise avec salle et couchages"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Vous organisez un anniversaire surprise, ou vous souhaitez organiser un gros week end entre copains, c'est notre spécialité! Chaque week-end nous accueillons chez rayon de Sologne des fêtes pour des 20, 30, 40, 50 ans et bien plus encore!"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Le plus agréable pour tout le monde... Vous n'avez pas à vous inquietez de reprendre la voiture après la fête car nous incluons le couchage avec la salle voir même la partie traiteur si vous avez besoin."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Nous pouvons accueillir sur le domaine 2 fêtes en meme temps sans difficulté car nos espaces sont éloignés et complétement autonome. Chacun son ambiance, chacun son rythme personne ne se gènera!"
+    },
+    {
+      "n": 11,
+      "tag": "h2",
+      "text": "Les prestations incluses dans nos tarifs"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Notre offre comprend"
+    },
+    {
+      "n": 13,
+      "tag": "li",
+      "text": "1 espace pour manger avec la vaisselle associée (comme ça pas de budget jetable)"
+    },
+    {
+      "n": 14,
+      "tag": "li",
+      "text": "1 espace pour danser (penser a vous munir d'une sono et jeux de lumière)"
+    },
+    {
+      "n": 15,
+      "tag": "li",
+      "text": "1 espace jeu (babyfoot, bibliothèque, jeux de société...)"
+    },
+    {
+      "n": 16,
+      "tag": "li",
+      "text": "1 cuisine aménagée"
+    },
+    {
+      "n": 17,
+      "tag": "li",
+      "text": "1 terrasse extérieure"
+    },
+    {
+      "n": 18,
+      "tag": "li",
+      "text": "jusqu'à 55 lits individuels"
+    },
+    {
+      "n": 19,
+      "tag": "h2",
+      "text": "Service traiteur sur place"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Profitez un maximum de vos invités, notre chef de cuisine et son service traiteur vous propose un menu sur mesure pour votre groupe! Nous vous livrons chaud dans votre hébergement comme cela personne n'a a s'embeter à cuisiner!"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Notre service traiteur"
+    },
+    {
+      "n": 22,
+      "tag": "h2",
+      "text": "Consultez les disponibilités et tarifs de nos salles"
+    },
+    {
+      "n": 23,
+      "tag": "h3",
+      "text": "Manoir salle de 50 personnes"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "1 Salle 50 personnes + 38 couchages en chambre"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "Consultez les tarifs en cliquant la date souhaitée"
+    },
+    {
+      "n": 26,
+      "tag": "th",
+      "text": "L"
+    },
+    {
+      "n": 27,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 28,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 29,
+      "tag": "th",
+      "text": "J"
+    },
+    {
+      "n": 30,
+      "tag": "th",
+      "text": "V"
+    },
+    {
+      "n": 31,
+      "tag": "th",
+      "text": "S"
+    },
+    {
+      "n": 32,
+      "tag": "th",
+      "text": "D"
+    },
+    {
+      "n": 33,
+      "tag": "span",
+      "text": "1"
+    },
+    {
+      "n": 34,
+      "tag": "span",
+      "text": "2"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "3"
+    },
+    {
+      "n": 36,
+      "tag": "span",
+      "text": "4"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "5"
+    },
+    {
+      "n": 38,
+      "tag": "span",
+      "text": "6"
+    },
+    {
+      "n": 39,
+      "tag": "span",
+      "text": "7"
+    },
+    {
+      "n": 40,
+      "tag": "span",
+      "text": "8"
+    },
+    {
+      "n": 41,
+      "tag": "span",
+      "text": "9"
+    },
+    {
+      "n": 42,
+      "tag": "span",
+      "text": "10"
+    },
+    {
+      "n": 43,
+      "tag": "span",
+      "text": "11"
+    },
+    {
+      "n": 44,
+      "tag": "span",
+      "text": "12"
+    },
+    {
+      "n": 45,
+      "tag": "span",
+      "text": "13"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "14"
+    },
+    {
+      "n": 47,
+      "tag": "span",
+      "text": "15"
+    },
+    {
+      "n": 48,
+      "tag": "span",
+      "text": "16"
+    },
+    {
+      "n": 49,
+      "tag": "span",
+      "text": "17"
+    },
+    {
+      "n": 50,
+      "tag": "span",
+      "text": "18"
+    },
+    {
+      "n": 51,
+      "tag": "span",
+      "text": "19"
+    },
+    {
+      "n": 52,
+      "tag": "span",
+      "text": "20"
+    },
+    {
+      "n": 53,
+      "tag": "span",
+      "text": "21"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "22"
+    },
+    {
+      "n": 55,
+      "tag": "span",
+      "text": "23"
+    },
+    {
+      "n": 56,
+      "tag": "span",
+      "text": "24"
+    },
+    {
+      "n": 57,
+      "tag": "span",
+      "text": "25"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "26"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "27"
+    },
+    {
+      "n": 60,
+      "tag": "span",
+      "text": "28"
+    },
+    {
+      "n": 61,
+      "tag": "span",
+      "text": "29"
+    },
+    {
+      "n": 62,
+      "tag": "span",
+      "text": "30"
+    },
+    {
+      "n": 63,
+      "tag": "span",
+      "text": "31"
+    },
+    {
+      "n": 64,
+      "tag": "h3",
+      "text": "Colonie salle de 55 personnes"
+    },
+    {
+      "n": 65,
+      "tag": "p",
+      "text": "3 salles 55 personnes + 55 couchages en semi collectif"
+    },
+    {
+      "n": 66,
+      "tag": "p",
+      "text": "Consultez les tarifs en cliquant sur la date souhaitée"
+    },
+    {
+      "n": 67,
+      "tag": "th",
+      "text": "L"
+    },
+    {
+      "n": 68,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 69,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 70,
+      "tag": "th",
+      "text": "J"
+    },
+    {
+      "n": 71,
+      "tag": "th",
+      "text": "V"
+    },
+    {
+      "n": 72,
+      "tag": "th",
+      "text": "S"
+    },
+    {
+      "n": 73,
+      "tag": "th",
+      "text": "D"
+    },
+    {
+      "n": 74,
+      "tag": "span",
+      "text": "1"
+    },
+    {
+      "n": 75,
+      "tag": "span",
+      "text": "2"
+    },
+    {
+      "n": 76,
+      "tag": "span",
+      "text": "3"
+    },
+    {
+      "n": 77,
+      "tag": "span",
+      "text": "4"
+    },
+    {
+      "n": 78,
+      "tag": "span",
+      "text": "5"
+    },
+    {
+      "n": 79,
+      "tag": "span",
+      "text": "6"
+    },
+    {
+      "n": 80,
+      "tag": "span",
+      "text": "7"
+    },
+    {
+      "n": 81,
+      "tag": "span",
+      "text": "8"
+    },
+    {
+      "n": 82,
+      "tag": "span",
+      "text": "9"
+    },
+    {
+      "n": 83,
+      "tag": "span",
+      "text": "10"
+    },
+    {
+      "n": 84,
+      "tag": "span",
+      "text": "11"
+    },
+    {
+      "n": 85,
+      "tag": "span",
+      "text": "12"
+    },
+    {
+      "n": 86,
+      "tag": "span",
+      "text": "13"
+    },
+    {
+      "n": 87,
+      "tag": "span",
+      "text": "14"
+    },
+    {
+      "n": 88,
+      "tag": "span",
+      "text": "15"
+    },
+    {
+      "n": 89,
+      "tag": "span",
+      "text": "16"
+    },
+    {
+      "n": 90,
+      "tag": "span",
+      "text": "17"
+    },
+    {
+      "n": 91,
+      "tag": "span",
+      "text": "18"
+    },
+    {
+      "n": 92,
+      "tag": "span",
+      "text": "19"
+    },
+    {
+      "n": 93,
+      "tag": "span",
+      "text": "20"
+    },
+    {
+      "n": 94,
+      "tag": "span",
+      "text": "21"
+    },
+    {
+      "n": 95,
+      "tag": "a",
+      "text": "22"
+    },
+    {
+      "n": 96,
+      "tag": "span",
+      "text": "23"
+    },
+    {
+      "n": 97,
+      "tag": "span",
+      "text": "24"
+    },
+    {
+      "n": 98,
+      "tag": "span",
+      "text": "25"
+    },
+    {
+      "n": 99,
+      "tag": "a",
+      "text": "26"
+    },
+    {
+      "n": 100,
+      "tag": "a",
+      "text": "27"
+    },
+    {
+      "n": 101,
+      "tag": "a",
+      "text": "28"
+    },
+    {
+      "n": 102,
+      "tag": "a",
+      "text": "29"
+    },
+    {
+      "n": 103,
+      "tag": "a",
+      "text": "30"
+    },
+    {
+      "n": 104,
+      "tag": "a",
+      "text": "31"
+    },
+    {
+      "n": 105,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 106,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 107,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 108,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 109,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 110,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 111,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 112,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 113,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 114,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 115,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 116,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 117,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 118,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 119,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 120,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 121,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 122,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 123,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 124,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 125,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 126,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 127,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 128,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 129,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 130,
+      "tag": "@alt",
+      "text": "Ciel etoile salle de reception rayon de sologne 41320"
+    },
+    {
+      "n": 131,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 4"
+    },
+    {
+      "n": 132,
+      "tag": "@alt",
+      "text": "Regroupement entreprise reunion rayon de sologne centre france 41"
+    },
+    {
+      "n": 133,
+      "tag": "@alt",
+      "text": "x x mariage 137 seminaire rayon de sologne 1"
+    },
+    {
+      "n": 134,
+      "tag": "@alt",
+      "text": "repas en extérieur anniversaire 50 ans rayon de sologne"
+    },
+    {
+      "n": 135,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320"
+    },
+    {
+      "n": 136,
+      "tag": "@alt",
+      "text": "Mariage x et x 758 websize"
+    },
+    {
+      "n": 137,
+      "tag": "@alt",
+      "text": "Stage ferme pedagogique rayon de sologne 41320"
+    },
+    {
+      "n": 138,
+      "tag": "@aria-label",
+      "text": "Mois précédent"
+    },
+    {
+      "n": 139,
+      "tag": "@title",
+      "text": "Sélectionnez le mois"
+    },
+    {
+      "n": 140,
+      "tag": "@aria-label",
+      "text": "Mois suivant"
+    },
+    {
+      "n": 141,
+      "tag": "@title",
+      "text": "Suivant"
+    },
+    {
+      "n": 142,
+      "tag": "@aria-label",
+      "text": "Lundi"
+    },
+    {
+      "n": 143,
+      "tag": "@title",
+      "text": "Lundi"
+    },
+    {
+      "n": 144,
+      "tag": "@aria-label",
+      "text": "Mardi"
+    },
+    {
+      "n": 145,
+      "tag": "@title",
+      "text": "Mardi"
+    },
+    {
+      "n": 146,
+      "tag": "@aria-label",
+      "text": "Mercredi"
+    },
+    {
+      "n": 147,
+      "tag": "@title",
+      "text": "Mercredi"
+    },
+    {
+      "n": 148,
+      "tag": "@aria-label",
+      "text": "Jeudi"
+    },
+    {
+      "n": 149,
+      "tag": "@title",
+      "text": "Jeudi"
+    },
+    {
+      "n": 150,
+      "tag": "@aria-label",
+      "text": "Vendredi"
+    },
+    {
+      "n": 151,
+      "tag": "@title",
+      "text": "Vendredi"
+    },
+    {
+      "n": 152,
+      "tag": "@aria-label",
+      "text": "Samedi"
+    },
+    {
+      "n": 153,
+      "tag": "@title",
+      "text": "Samedi"
+    },
+    {
+      "n": 154,
+      "tag": "@aria-label",
+      "text": "Dimanche"
+    },
+    {
+      "n": 155,
+      "tag": "@title",
+      "text": "Dimanche"
+    },
+    {
+      "n": 156,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 157,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 158,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 159,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 160,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 161,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 162,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 163,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 164,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 165,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 166,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 167,
+      "tag": "@aria-label",
+      "text": "22/10/2026"
+    },
+    {
+      "n": 168,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 169,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 170,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 171,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 172,
+      "tag": "@aria-label",
+      "text": "26/10/2026"
+    },
+    {
+      "n": 173,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit"
+    },
+    {
+      "n": 174,
+      "tag": "@aria-label",
+      "text": "27/10/2026"
+    },
+    {
+      "n": 175,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 176,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 177,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 178,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 179,
+      "tag": "@aria-label",
+      "text": "Réserver"
+    },
+    {
+      "n": 180,
+      "tag": "@aria-label",
+      "text": "Mois précédent"
+    },
+    {
+      "n": 181,
+      "tag": "@title",
+      "text": "Sélectionnez le mois"
+    },
+    {
+      "n": 182,
+      "tag": "@aria-label",
+      "text": "Mois suivant"
+    },
+    {
+      "n": 183,
+      "tag": "@title",
+      "text": "Suivant"
+    },
+    {
+      "n": 184,
+      "tag": "@aria-label",
+      "text": "Lundi"
+    },
+    {
+      "n": 185,
+      "tag": "@title",
+      "text": "Lundi"
+    },
+    {
+      "n": 186,
+      "tag": "@aria-label",
+      "text": "Mardi"
+    },
+    {
+      "n": 187,
+      "tag": "@title",
+      "text": "Mardi"
+    },
+    {
+      "n": 188,
+      "tag": "@aria-label",
+      "text": "Mercredi"
+    },
+    {
+      "n": 189,
+      "tag": "@title",
+      "text": "Mercredi"
+    },
+    {
+      "n": 190,
+      "tag": "@aria-label",
+      "text": "Jeudi"
+    },
+    {
+      "n": 191,
+      "tag": "@title",
+      "text": "Jeudi"
+    },
+    {
+      "n": 192,
+      "tag": "@aria-label",
+      "text": "Vendredi"
+    },
+    {
+      "n": 193,
+      "tag": "@title",
+      "text": "Vendredi"
+    },
+    {
+      "n": 194,
+      "tag": "@aria-label",
+      "text": "Samedi"
+    },
+    {
+      "n": 195,
+      "tag": "@title",
+      "text": "Samedi"
+    },
+    {
+      "n": 196,
+      "tag": "@aria-label",
+      "text": "Dimanche"
+    },
+    {
+      "n": 197,
+      "tag": "@title",
+      "text": "Dimanche"
+    },
+    {
+      "n": 198,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 199,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 200,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 201,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 202,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 203,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 204,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 205,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 206,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 207,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 208,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 209,
+      "tag": "@aria-label",
+      "text": "22/10/2026"
+    },
+    {
+      "n": 210,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 211,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 212,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 213,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 214,
+      "tag": "@aria-label",
+      "text": "26/10/2026"
+    },
+    {
+      "n": 215,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 216,
+      "tag": "@aria-label",
+      "text": "27/10/2026"
+    },
+    {
+      "n": 217,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 218,
+      "tag": "@aria-label",
+      "text": "28/10/2026"
+    },
+    {
+      "n": 219,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit"
+    },
+    {
+      "n": 220,
+      "tag": "@aria-label",
+      "text": "29/10/2026"
+    },
+    {
+      "n": 221,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n1190,00 € / 1 nuit"
+    },
+    {
+      "n": 222,
+      "tag": "@aria-label",
+      "text": "30/10/2026"
+    },
+    {
+      "n": 223,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n1190,00 € / 1 nuit"
+    },
+    {
+      "n": 224,
+      "tag": "@aria-label",
+      "text": "31/10/2026"
+    },
+    {
+      "n": 225,
+      "tag": "@aria-label",
+      "text": "Réserver"
+    },
+    {
+      "n": 226,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 227,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 228,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 229,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 230,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 231,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 232,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 233,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 234,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 235,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 236,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    },
+    {
+      "n": 237,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

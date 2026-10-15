@@ -1,0 +1,264 @@
+{
+  "id": "actualites-menu-de-decembre-1-html",
+  "url": "https://www.rayondesologne.fr/actualites/menu-de-decembre-1.html",
+  "category": "actualites",
+  "title": "Menu de décembre",
+  "date": "Le 15/12/2023",
+  "isoDate": "2023-12-15",
+  "author": "charline sainjon",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Menu de décembre"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 9,
+      "tag": "time",
+      "text": "Le 15/12/2023"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Retrouvez le menu du mois de décembre,"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "En formule (entrée, plat, dessert) à 42 € ou à la carte. C'est l'occasion de venir partager un moment entre amis ou en famille."
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Pour vos réservations : direction le site Internet du Bistrot Du Grand Liot : bistrotdugrandliot.fr / 02 34 33 11 39"
+    },
+    {
+      "n": 13,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 14,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 15,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 16,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 31,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 32,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 33,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 34,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 35,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 36,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 37,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 38,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 39,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 40,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 41,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 42,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 43,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 44,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 45,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 46,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 47,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 48,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 49,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 50,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ],
+  "images": [
+    "menu-2023-2025-news"
+  ]
+}

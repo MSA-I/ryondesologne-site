@@ -1,0 +1,326 @@
+{
+  "id": "pages-la-grange-salle-de-seminaire-html",
+  "url": "https://www.rayondesologne.fr/pages/la-grange-salle-de-seminaire.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "La grange salle de séminaire"
+    },
+    {
+      "n": 7,
+      "tag": "h2",
+      "text": "Salle de reception pour vos animations entreprises et associatives"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Notre grange est un élément centrale de notre activité évènementielle!"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Nous accueillons chaque année des entreprises, des associations... qui ont besoin de se regrouper, travailler, partager, échanger en toute tranquillité et disposer d'espaces privatifs . Chaque semaine nous souhaitons vous proposer des repas dansants, des animations locales et faire vivre les lieux pour les groupes de notre région en plus d'accueillir des entreprises pour une journée de travail."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Notre salle comprend :"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "-un grand espace vide de 200m²"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "-des murs beiges pour permettre la videoprojection"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "-du mobilier (150 chaises, 18tables rondes, 4 tables rectangles)"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "-un videoprojecteur"
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "-une cour interieure avec un bar centrale circulaire"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Nous accueillons des groupes en journée, en soirée, voir sur plusieurs jours comme nous avons du couchage sur place. Nous pouvons vous accompagner sur vos repas dès un accueil café, pour un repas le minuit, un bar à cocktail, un apéritif ... bref nous personnalisons notre accompagnement à vos besoins!"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Découvrez notre Visite Virtuelle"
+    },
+    {
+      "n": 18,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 19,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 20,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 21,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 36,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 37,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 38,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 39,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 40,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 41,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 42,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 43,
+      "tag": "@title",
+      "text": "en bord de lac sologne"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "en bord de lac sologne"
+    },
+    {
+      "n": 45,
+      "tag": "@title",
+      "text": "grange rayon de sologne salle seminaire mariage avec mobilier"
+    },
+    {
+      "n": 46,
+      "tag": "@alt",
+      "text": "grange rayon de sologne salle seminaire mariage avec mobilier"
+    },
+    {
+      "n": 47,
+      "tag": "@title",
+      "text": "Salle reception mariage rayon de sologne 41320 onesebphoto"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "Salle reception mariage rayon de sologne 41320 onesebphoto"
+    },
+    {
+      "n": 49,
+      "tag": "@title",
+      "text": "la place de village rayon de sologne"
+    },
+    {
+      "n": 50,
+      "tag": "@alt",
+      "text": "la place de village rayon de sologne"
+    },
+    {
+      "n": 51,
+      "tag": "@title",
+      "text": "colonie chez rayon de sologne 41 salle séminaire"
+    },
+    {
+      "n": 52,
+      "tag": "@alt",
+      "text": "colonie chez rayon de sologne 41 salle séminaire"
+    },
+    {
+      "n": 53,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 55,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 56,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 57,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 58,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 59,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 60,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 61,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 62,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 63,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 64,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+---
+// Home section 6 "the stone house": À propos de nous (door), the owners' note and the two phones.
+// Ported 1:1 from the approved board D (04-direction/board/D/index.html lines 187-204 + style.css "6. back to the mist" rules, lines 351-368, and the phone rules at 499-501).
+// Copy: home.json blocks 8 (H2), 9 (line), 39 (owners' opening line), 40 (history and availability), 41 (sign-off); block 10 lives on /pages/presentation.html.
+// The "L'HISTOIRE DU LIEU" link and the phones come from site.ts. No entrance motion (DESIGN §6, LEDGER conflict 2); the print carries no reveal (its asset row has no effect).
+import Light from "../kit/Light.astro";
+import Print from "../kit/Print.astro";
+import Cta2 from "../kit/Cta2.astro";
+import { t } from "../../lib/content";
+import { HISTORY, PHONES } from "../../lib/site";
+const H = "home";
+---
+<section class="retour" aria-labelledby="propos-titre">
+  <Light use="gites" photoId="mariage-11-field" />
+  <div class="propos" data-door data-kit="card">
+    <h2 id="propos-titre" class="propos-titre">{t(H, 8)}</h2>
+    <Print id="etang-rayon-de-sologne-496x372" box={248} sizes="248px" class="propos-print" />
+    <p class="phrase">{t(H, 9)}</p>
+    <Cta2 href={HISTORY.href} label={HISTORY.label} />
+  </div>
+  <div class="mot">
+    <p class="mot-ouvert">{t(H, 39)}</p>
+    <p class="mot-texte">{t(H, 40)}</p>
+    <p class="mot-signature">{t(H, 41)}</p>
+    <ul class="telephones">
+      {PHONES.map((p) => (
+        <li><a href={`tel:${p.tel}`}>{p.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style is:global>
+  /* ---------- 6. back to the mist: about, the owners' note, the phones ---------- */
+  .retour {
+    position: relative; isolation: isolate; overflow: hidden;
+    background: var(--brume-creme);
+    display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: var(--gap-columns);
+    padding: var(--space-4) var(--pad) var(--space-5);
+  }
+  /* split light: the gîtes photo lies under the leading column only and fades into the mist-cream ground */
+  .retour > .fond {
+    right: auto; width: 46%;
+    -webkit-mask-image: linear-gradient(to right, #000 62%, transparent); mask-image: linear-gradient(to right, #000 62%, transparent);
+  }
+  .propos-titre { margin: 0 0 var(--space-4); font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display); }
+  .retour .propos-print { width: min(100%, var(--print-width)); margin-bottom: var(--space-3); }
+  .propos .phrase { margin: 0 0 var(--space-2); max-width: var(--measure-line); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  .mot { align-self: end; max-width: var(--measure-note); }
+  .mot-ouvert { margin: 0 0 var(--space-3); font-family: var(--font-display); font-weight: var(--fw-quote); font-size: var(--fs-quote); line-height: var(--lh-quote); }
+  .mot-texte { margin: 0 0 var(--space-2); font-size: var(--fs-reading); }
+  .mot-signature { margin: 0 0 var(--space-4); font-style: normal; font-weight: var(--fw-action); font-size: var(--fs-ui-h); line-height: var(--lh-body); }
+  .telephones { display: grid; gap: var(--space-1); }
+  .telephones a {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+
+  /* phone: the sections stack; the half field becomes a top band (46% of the section, fading downward) */
+  @media (max-width: 760px) {
+    .retour { grid-template-columns: 1fr; row-gap: var(--space-5); padding: var(--space-5) var(--pad); }
+    .retour > .fond {
+      width: 100%; bottom: auto; height: 46%;
+      -webkit-mask-image: linear-gradient(to bottom, #000 62%, transparent); mask-image: linear-gradient(to bottom, #000 62%, transparent);
+    }
+    .propos .phrase { font-size: var(--fs-lead-phone); }
+  }
+</style>

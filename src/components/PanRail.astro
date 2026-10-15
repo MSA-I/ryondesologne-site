@@ -1,0 +1,85 @@
+---
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import Print from "./kit/Print.astro";
+import Icon from "./kit/Icon.astro";
+import { ft } from "../lib/site";
+
+// Effect pan (DESIGN §6): one horizontal rail of the page's own photos, assets rows role "pan-rail:<page>", status produced.
+interface Props {
+  page: string;
+}
+const { page } = Astro.props;
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("PanRail: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; max_css_width?: number }[];
+const tiles = rows.filter((r) => r.role === `pan-rail:${page}` && r.status === "produced");
+const WIDE = 480; // desktop tile box (px), phone 300 (--pan-tile in the style); never above a row's max_css_width
+---
+{tiles.length > 0 && (
+  <section class="pan" data-effect="pan">
+    <ul class="pan-track" data-pan-track tabindex="0" aria-label={ft("pan-rail-region")}>
+      {tiles.map((r) => {
+        const box = Math.min(WIDE, r.max_css_width ?? WIDE);
+        return (
+          <li class="pan-tile">
+            <Print id={r.id} box={box} sizes={`(max-width: 760px) 300px, ${box}px`} />
+          </li>
+        );
+      })}
+    </ul>
+    <div class="pan-controls">
+      <button type="button" class="pan-btn" data-pan-prev aria-label={ft("pan-rail-prev")}><Icon name="prev" /></button>
+      <button type="button" class="pan-btn" data-pan-next aria-label={ft("pan-rail-next")}><Icon name="next" /></button>
+    </div>
+  </section>
+)}
+
+<style>
+  .pan { --pan-w: var(--pan-tile-phone); position: relative; margin: 0; }
+  .pan-track:focus-visible { outline: 2px solid var(--focus); outline-offset: calc(-1 * 2px); }
+  .pan-track {
+    display: flex; gap: var(--space-3); margin: 0; padding: 0 var(--pad); list-style: none;
+    overflow-x: auto; overflow-y: hidden;
+    scroll-snap-type: x mandatory; scroll-padding-inline: var(--pad);
+    overscroll-behavior-x: contain;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  .pan-track::-webkit-scrollbar { display: none; }
+  .pan-tile { flex: none; width: var(--pan-w); scroll-snap-align: start; }
+  .pan-controls { display: none; }
+  .pan-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: var(--menu-button); height: var(--menu-button); min-width: var(--tap-min); min-height: var(--tap-min);
+    padding: 0; border: 0; border-radius: var(--radius-icon);
+    background: var(--brume-creme); color: var(--encre);
+    cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none;
+    transition: background var(--dur-line) var(--ease-out), opacity var(--dur-line) var(--ease-out);
+  }
+  .pan-btn:active { background: var(--brume); }
+  .pan-btn:focus-visible { outline: 2px solid currentColor; outline-offset: var(--focus-offset); }
+  .pan-btn[aria-disabled="true"] { opacity: 0.4; cursor: default; }
+  @media (min-width: 761px) { .pan { --pan-w: var(--pan-tile); } }
+  /* prev/next only where there is a precise pointer; phones swipe */
+  @media (hover: hover) and (pointer: fine) {
+    .pan-controls { display: flex; gap: var(--space-2); padding: var(--space-3) var(--pad) 0; }
+    .pan-btn:not([aria-disabled="true"]):hover { background: var(--brume); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .pan-track { scroll-behavior: auto; }
+    .pan-btn { transition: none; }
+  }
+</style>
+
+<script>
+  import { initPan } from "../scripts/pan.js";
+  initPan();
+</script>

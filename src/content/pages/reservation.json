@@ -1,0 +1,211 @@
+{
+  "id": "reservation",
+  "url": "https://www.rayondesologne.fr/reservation/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Réservation"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "1 réservation disponible"
+    },
+    {
+      "n": 8,
+      "tag": "label",
+      "text": "Date de début"
+    },
+    {
+      "n": 9,
+      "tag": "label",
+      "text": "Date de fin"
+    },
+    {
+      "n": 10,
+      "tag": "button",
+      "text": "OK"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Salle de mariage"
+    },
+    {
+      "n": 12,
+      "tag": "span",
+      "text": "Surface : 200.00 m²"
+    },
+    {
+      "n": 13,
+      "tag": "span",
+      "text": "Capacité max. : 150"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Prix de base : gratuit"
+    },
+    {
+      "n": 15,
+      "tag": "div",
+      "text": "Location salle mariage en sologne proche romorantin"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 30,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 31,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 32,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 33,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 34,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 35,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 36,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 37,
+      "tag": "@placeholder",
+      "text": "Du"
+    },
+    {
+      "n": 38,
+      "tag": "@placeholder",
+      "text": "Au"
+    },
+    {
+      "n": 39,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 40,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 41,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+---
+// Réservations Séminaires (DESIGN §12 offer page). Text from pages-salle-de-mariage-et-reception-1762943209-html (blocks cited), the
+// request wording of pages-salle-seminaire-privatisee-html (24-26), facts; no typed copy. rw-sem-19 applies through t() on block 19.
+// Blocks 6-31 and 51-71 are used; 1-5, 32-50 and 72-125 (nav, share widget, footer, attributes) are listed in 06-build/omitted/T24.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import Door from "../../components/kit/Door.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, approved, fact, factTel } from "../../lib/content";
+import { NAV } from "../../lib/site";
+
+const P = "pages-salle-de-mariage-et-reception-1762943209-html";
+const REQ = "pages-salle-seminaire-privatisee-html";
+const PAGE = "/pages/salle-de-mariage-et-reception-1762943209.html";
+
+// External destinations of the old page (hrefs are not in the block text; 01-scan/raw/pages-salle-de-mariage-et-reception-1762943209-html.html).
+const MATTERPORT = "https://my.matterport.com/show/?m=gFXW73G3tSp&play=1&lang=fr&hl=2&brand=0&title=0&vr=0";
+const TOUR_MANOIR = `${MATTERPORT}&ss=177&sr=-2.94,-1.12`;
+const TOUR_GRANGE = `${MATTERPORT}&ss=274&sr=-3.11,.84`;
+const TOUR_COLONIE = `${MATTERPORT}&ss=1&sr=-.08,-.61`;
+const PDF_SEMINAIRE = "/medias/files/plaquette-seminaire-reunion-rayon-de-sologne-team-building-loir-et-cher-proche-orleans-tours-avec-couchages-compressed.pdf";
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+const SUBJECT = NAV.find((i) => i.href === PAGE)!.label; // "Réservations Séminaires"
+
+// Old <title> and meta description, verbatim (preserve.json seo-title; 01-scan/raw).
+const title = "Séminaire en Sologne avec hébergement et traiteur : Rayon de sologne";
+const description =
+  "Organisez votre séminaire en sologne près de Romorantin : salles de réunion, jusqu'à 100 couchages sur places dont 21 couchages, traiteur sur place et espace team building.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("seminaires: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// The opening's price stats, cut from blocks 67 and 71 (they are in the original text).
+const day = t(P, 67).match(/(à partir de) (\d+\s?€) (la journée)/);
+const grange = t(P, 71).match(/(à partir de) (\d+\s?€) (\/jour)/);
+if (!day || !grange) throw new Error("seminaires: price phrases not found in blocks 67 / 71");
+// The pull quote: a sentence of block 13 (chapter "séjour"), verbatim; not a list item of the atouts chapter it sits in.
+const quote = t(P, 13).match(/quoi de mieux que[^?]*?/)?.[0];
+if (!quote) throw new Error("seminaires: pull-quote sentence not found in block 13");
+
+// Contact lines: the phone and e-mail inside their sentences become links (text unchanged).
+const phone = fact("phone-domaine");
+const phoneTel = factTel("phone-domaine");
+const mail = fact("email-seminaire");
+const phoneDots = phone.replace(/ /g, ".");
+const around = (text: string, needle: string) => {
+  const i = text.indexOf(needle);
+  return i < 0 ? null : [text.slice(0, i), text.slice(i + needle.length)];
+};
+const line29 = around(t(P, 29), phone);
+const line26 = around(t(REQ, 26), phoneDots);
+const mail26 = line26 ? around(line26[0], mail) : null;
+if (!line29 || !mail26 || !line26) throw new Error("seminaires: phone / mail not found in blocks 29 / 26");
+
+const strip = (s: string) => s.replace(/^\*/, "");
+const light = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+const doorLights = [
+  light,
+  { use: "gites" as const, photoId: "mariage-11-field" },
+  light,
+];
+const rooms = [
+  { page: "pages-la-grange-salle-de-seminaire-html", href: "/pages/la-grange-salle-de-seminaire.html", line: 8, print: "seminaire-dans-la-grange-rayon-de-sologne-41320-496x496", id: "porte-salle-grange" },
+  { page: "pages-accueillir-votre-reunion-html", href: "/pages/accueillir-votre-reunion.html", line: 7, print: "regroupement-entreprise-reunion-rayon-de-sologne-centre-france-41-960x720", id: "porte-salle-reunion" },
+  { page: "pages-salle-seminaire-privatisee-html", href: "/pages/salle-seminaire-privatisee.html", line: 8, print: "salle-langon-modulable-reunion-rayon-de-sologne-960x720", id: "porte-salle-privatisee" },
+];
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="seminaire-dans-la-grange-rayon-de-sologne-41320-1120x840"
+  printBox={560}
+  cta={{ href: "/contact/contact.html", label: t(REQ, 24), subject: SUBJECT }}
+  phone={{ label: phone, tel: phoneTel }}
+  stats={[
+    { lead: day[1], figure: day[2], words: day[3] },
+    { lead: grange[1], figure: grange[2], words: grange[3] },
+  ]}
+>
+  <Chapter tone="creme" class="sem-chap" title={t(P, 7)} titleId="sem-lieu" marginPrint={marginPrint(0)}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 10)} titleId="sem-atouts">
+    <ul class="sem-liste">
+      {[51, 52, 53, 54, 55, 56, 57].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+    <ul class="sem-liste">
+      {[58, 59, 60, 61, 62].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 11)} titleId="sem-salles" wide>
+    <div>
+      <h3>{t(P, 63)}</h3>
+      <p>{t(P, 64)}</p>
+      <p>{t(P, 65)}</p>
+      <Cta2 href={TOUR_MANOIR} label={t(P, 66)} newTab />
+      <p>{t(P, 67)}</p>
+    </div>
+    <div>
+      <h3>{t(P, 68)}</h3>
+      <p>{t(P, 69)}</p>
+      <p>{t(P, 70)}</p>
+      <Cta2 href={TOUR_GRANGE} label={t(P, 66)} newTab />
+      <p>{t(P, 71)}</p>
+    </div>
+  </Chapter>
+
+  <Chapter tone="light" class="sem-chap" light={light} title={t(P, 12)} titleId="sem-residentiel" marginPrint={marginPrint(1)}>
+    <p>{t(P, 13)}</p>
+    <p>{t(P, 14)}</p>
+    <h3>{t(P, 15)}</h3>
+    <p>{t(P, 16)}</p>
+    <ul class="sem-liste">
+      <li>{strip(t(P, 17))}</li>
+      <li>{strip(t(P, 18))}</li>
+    </ul>
+    <p>{t(P, 19)}</p>
+    <Cta2 href={TOUR_COLONIE} label={t(P, 20)} newTab />
+    <h3>{t(P, 21)}</h3>
+    <p>{t(P, 22)}</p>
+    <ul class="sem-liste">
+      {[23, 24, 25, 26].map((n) => <li>{strip(t(P, n))}</li>)}
+    </ul>
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 27)} icon="file" />
+  </Chapter>
+
+  <Chapter tone="creme" class="sem-chap" title={t(P, 28)} titleId="sem-contact" side="start">
+    <p>{t(REQ, 25)}</p>
+    <p dir="auto">{mail26[0]}<a href={`mailto:${mail}`} dir="ltr">{mail}</a>{mail26[1]}<a href={`tel:${phoneTel}`} dir="ltr">{phoneDots}</a>{line26[1]}</p>
+    <p>{line29[0]}<a href={`tel:${phoneTel}`} dir="ltr">{phone}</a>{line29[1]}</p>
+    <p><a href={`mailto:${t(P, 30)}`} dir="ltr">{t(P, 30)}</a></p>
+    <Cta2 href={PDF_SEMINAIRE} label={t(P, 31)} icon="file" />
+  </Chapter>
+
+  <div slot="end">
+    <div class="sem-rail"><PanRail page={PAGE} /></div>
+    {rooms.map((r, i) => (
+      <Door
+        title={t(r.page, r.page === "pages-salle-seminaire-privatisee-html" ? 7 : 6)}
+        titleId={`${r.id}-titre`}
+        line={t(r.page, r.line)}
+        href={r.href}
+        linkLabel={t(r.page, r.page === "pages-salle-seminaire-privatisee-html" ? 7 : 6)}
+        printId={r.print}
+        printEffect="reveal"
+        box={248}
+        light={doorLights[i]}
+      />
+    ))}
+    <Door
+      title={t("album", 18)}
+      titleId="porte-album-seminaire-titre"
+      line={approved("meta-description", "album-seminaire-reunion")}
+      href="/album/seminaire-reunion/"
+      linkLabel={t("album", 6)}
+      printId="semianire-rayon-de-sologne-terrasse-langon-960x720"
+      printEffect="reveal"
+      box={248}
+      light={{ use: "gites", photoId: "mariage-11-field" }}
+    />
+  </div>
+</OfferPage>
+
+<style is:global>
+  .sem-rail { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) 0; }
+  .sem-liste { margin: 0 0 var(--space-3); padding-inline-start: 1.1em; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .sem-liste li { margin: 0 0 var(--space-1); }
+  @media (max-width: 760px) { .sem-liste { font-size: var(--fs-body-phone); } }
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.sem-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.sem-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.sem-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+</style>

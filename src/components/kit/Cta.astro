@@ -1,0 +1,15 @@
+---
+import "../../styles/kit.css";
+interface Props {
+  href: string;
+  label: string;
+  beat?: number | string;
+  /** appends ?sujet=<encoded label> to the contact link (C16) */
+  subject?: boolean | string;
+  class?: string;
+}
+const { href, label, beat, subject, class: cls } = Astro.props;
+const sujet = subject === true ? label : typeof subject === "string" ? subject : undefined;
+const target = sujet ? `${href}${href.includes("?") ? "&" : "?"}sujet=${encodeURIComponent(sujet)}` : href;
+---
+<a class:list={["cta", cls]} data-kit="cta" data-site-studio-component="button-primary" data-beat={beat} href={target}>{label}</a>

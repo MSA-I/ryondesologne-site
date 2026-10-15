@@ -1,0 +1,13 @@
+{
+  "page": "pages-l-auberge-du-grand-liot",
+  "items": [
+    {
+      "key": "OSMB-123001-5",
+      "containerHtml": "<div id=\"widget-produit-OSMB-123001-5\" class=\"WidgetDirect\"></div>",
+      "scriptSrc": [
+        "//gadget.open-system.fr/widgets-libs/rel/noyau-1.0.min.js"
+      ],
+      "init": "( function() {\n\tvar widgetProduit = AllianceReseaux.Widget.Instance( \"Produit\", { idPanier:\"U3RSU1M\", idIntegration:646, langue:\"fr\", ui:\"OSMB-123001-5\" } );\n\twidgetProduit.Initialise();\n})();"
+    }
+  ]
+}

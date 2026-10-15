@@ -1,0 +1,47 @@
+/* Effects reveal + kinetic (DESIGN §6). Classes are added by effects.js only when JS runs. */
+
+/* reveal: a print below the fold waits clipped, then opens once */
+.est-cache {
+  clip-path: var(--shape-print-hidden);
+  transition: clip-path var(--dur-print) var(--ease-out);
+}
+.est-cache.est-montre {
+  clip-path: var(--shape-print);
+}
+
+/* reveal probe: an empty box over the hidden print, watched by the observer */
+.est-sonde {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* kinetic: measured lines (aria-hidden clones) over the visually hidden original */
+.est-lignes {
+  display: block;
+}
+.est-ligne {
+  display: block;
+  opacity: 0;
+  transform: translateY(0.6em);
+  transition:
+    transform var(--dur-kinetic) var(--ease-out),
+    opacity var(--dur-kinetic) var(--ease-out);
+  transition-delay: calc(var(--i, 0) * var(--dur-kinetic-stagger));
+}
+[data-est-kinetic="in"] .est-ligne {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .est-cache,
+  .est-cache.est-montre {
+    clip-path: var(--shape-print);
+    transition: none;
+  }
+  .est-ligne {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

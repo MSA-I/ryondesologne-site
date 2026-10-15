@@ -1,0 +1,94 @@
+---
+// Présentation (DESIGN §12 story page). Text from pages-presentation-html and home n=10 (À propos, ruling T19); no typed copy.
+// Blocks 1-5, 8 (a second "Présentation"), 25-62 (nav, share widget, footer, attributes) are listed in 06-build/omitted/T31.json.
+import StoryPage from "../../layouts/StoryPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import Print from "../../components/kit/Print.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t } from "../../lib/content";
+import { HISTORY } from "../../lib/site";
+
+const P = "pages-presentation-html";
+const PAGE = "/pages/presentation.html";
+const PDF_HISTOIRE = "/medias/files/histoire-du-grand-liot.pdf.pdf"; // href of block 7 (01-scan/raw/pages-presentation-html.html)
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "gite de groupe en pleine nature campagne entre blois orleans";
+const description =
+  "gite, restaurant, animations nature  situé au coeur de france pour un week end ou des vacances rencontrez charline et maxime deux propriétaires passionnés";
+
+const light = { use: "gites" as const, photoId: "vue-aerienne-rayon-de-sologne-par-onesebphoto-field" };
+// Pull quotes: verbatim excerpts of the chapter's own text.
+const quote1 = t(P, 13).match(/^[^.]*\./)?.[0];
+const quote2 = t(P, 21);
+if (!quote1) throw new Error("presentation: pull-quote sentence not found in block 13");
+---
+<StoryPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  fieldId="vue-aerienne-rayon-de-sologne-par-onesebphoto-field"
+  print={{ id: "vue-aerienne-rayon-de-sologne-par-onesebphoto-1120x840", box: 560 }}
+>
+  <!-- p7-fix-v5 item 1: the history PDF link (block 7) is back in the opening, as on the old first screen -->
+  <div slot="lead"><Cta2 href={PDF_HISTOIRE} label={t(P, 7)} icon="file" /></div>
+
+  <Chapter tone="creme">
+    <p class="chap-avis">{t("home", 10)}</p>
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+    <p>{t(P, 11)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 12)}</p>
+    <p>{t(P, 13)}</p>
+    <p>{t(P, 14)}</p>
+    <PullQuote slot="quote" text={quote1} />
+  </Chapter>
+
+  <Chapter tone="creme" title={HISTORY.label} titleId="histoire-lieu">
+    <p class="chap-avis">{t(P, 15)}</p>
+    <p>{t(P, 16)}</p>
+    <p>{t(P, 17)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 18)}</p>
+    <p>{t(P, 19)}</p>
+    <p>{t(P, 20)}</p>
+    <p>{t(P, 21)}</p>
+    <p>{t(P, 22)}</p>
+    <p>{t(P, 23)}</p>
+    <PullQuote slot="quote" text={quote2} />
+  </Chapter>
+
+  <section class="histo-suite">
+    <figure class="histo-plan">
+      <Print id="plan-rayon-de-sologne-2023" box={438} sizes="(max-width: 760px) 100vw, 438px" effect="reveal" />
+    </figure>
+    <div class="histo-suite-texte">
+      <p>{t(P, 24)}</p>
+    </div>
+  </section>
+</StoryPage>
+
+<style is:global>
+  .histo-suite {
+    background: var(--brume-creme); color: var(--encre); padding: var(--space-5) var(--pad);
+    display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-4); align-items: end;
+  }
+  .histo-plan { margin: 0; max-width: 438px; }
+  .histo-suite-texte { max-width: var(--measure); }
+  .histo-suite-texte p { margin: 0 0 var(--space-3); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  @media (min-width: 1181px) {
+    .histo-suite { grid-template-columns: minmax(0, 1fr) minmax(0, var(--measure)) minmax(0, 1fr); column-gap: var(--gap-columns); }
+    .histo-plan { grid-column: 1; justify-self: end; }
+    .histo-suite-texte { grid-column: 2; }
+  }
+  @media (max-width: 760px) {
+    .histo-suite-texte p { font-size: var(--fs-lead-phone); }
+  }
+</style>

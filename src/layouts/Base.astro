@@ -1,0 +1,58 @@
+---
+import "../styles/base.css";
+import "../styles/site.css";
+import BaseHead from "../components/BaseHead.astro";
+import HeadBaseline from "../components/HeadBaseline.astro";
+import SecurityMeta from "../components/SecurityMeta.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import ConsentBanner from "../components/ConsentBanner.astro";
+import { ft } from "../lib/site";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  /** href of the current page, for aria-current in the header */
+  current?: string;
+  /** "dark" when the page opens on a dark field (the header turns light) */
+  light?: string;
+  noindex?: boolean;
+  /** home only: preload the Imbue and Alegreya 500 latin files */
+  home?: boolean;
+}
+const { title, description, canonicalPath, current, light, noindex, home = false } = Astro.props;
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <BaseHead title={title} description={description} canonicalPath={canonicalPath} noindex={noindex} />
+    <HeadBaseline />
+    <SecurityMeta />
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/favicon/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/favicon/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/media/favicon/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/media/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    {home && <link rel="preload" as="font" type="font/woff2" href="/fonts/imbue-latin-1.woff2" crossorigin />}
+    {home && <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-sans-latin-3.woff2" crossorigin />}
+  </head>
+  <body>
+    <a class="saut" href="#contenu">{ft("skip-link")}</a>
+    <Header current={current} light={light} />
+    <main id="contenu" tabindex="-1">
+      <slot />
+    </main>
+    <Footer />
+    <slot name="after" />
+    <ConsentBanner />
+    <script>
+      import { initMenu } from "../scripts/menu.js";
+      import { initConsent } from "../scripts/consent.js";
+      import { initEffects } from "../scripts/effects.js";
+      initMenu();
+      initConsent();
+      initEffects();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+[
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 26,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 27,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 28,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 29,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 30,
+  "text": "Réservations Gites",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 31,
+  "text": "Réservations Mariage",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 32,
+  "text": "Newsletter",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 33,
+  "text": "Nos dernières actus",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 34,
+  "text": "Contact",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 35,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 36,
+  "text": "Mention legales",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 37,
+  "text": "CGU",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 38,
+  "text": "CGV",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 39,
+  "text": "RGPD",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 40,
+  "text": "Franck Chemin",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 41,
+  "text": "One Seb photos",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 42,
+  "text": "Margaud Noée",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 43,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 44,
+  "text": "Gestion des cookies",
+  "reason": "Old footer / legal / credits / cookie links; the site footer (T08) and consent (T09) carry them"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 45,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 46,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 47,
+  "text": "brand",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 48,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 49,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 50,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 51,
+  "text": "Soupe de fraises bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 52,
+  "text": "Soupe de fraises bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 53,
+  "text": "plat bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 54,
+  "text": "plat bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 55,
+  "text": "dessert bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 56,
+  "text": "dessert bistrot du Grand Liot 41320",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 57,
+  "text": "salle du bistrot du grand liot restaurant romorantin",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 58,
+  "text": "salle du bistrot du grand liot restaurant romorantin",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 59,
+  "text": "Beaujolais nouveau bistrot du grand liot",
+  "reason": "Old image alt/title; the image shows with its approved alt (alt:<id> in approved.json) or the photo is not placed on this page"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 60,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 61,
+  "text": "Scroll top",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 62,
+  "text": "Fermer",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 63,
+  "text": "Copy link",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 64,
+  "text": "Share",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 65,
+  "text": "Partager",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 66,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 67,
+  "text": "Share Buttons",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 68,
+  "text": "Partager",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 69,
+  "text": "Tout voir",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 70,
+  "text": "AddToAny Utility Frame",
+  "reason": "Old template attribute (logo, burger menu, share, search widget), not shipped"
+ },
+ {
+  "page": "pages-le-restaurant-html",
+  "n": 71,
+  "text": "Cookies",
+  "reason": "Old template attribute (aria-label/placeholder of header, search, share or cookie widgets), not shipped"
+ }
+]

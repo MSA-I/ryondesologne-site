@@ -1,0 +1,686 @@
+{
+  "id": "pages-l-auberge-du-grand-liot-html",
+  "url": "https://www.rayondesologne.fr/pages/l-auberge-du-grand-liot.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "L'auberge du Grand Liot"
+    },
+    {
+      "n": 7,
+      "tag": "h2",
+      "text": "Un gite typique solognot"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Ce gite solognot qui est dans le prolongement de la longère et peut accueillir jusqu'à 15 personnes, dans un déco chinée, avec le charme des briquettes et du bois!"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Une maison typique de la sologne, vous attend avec son jardin privatif éclairé aux lanternes sous un magnifique saule pleureur."
+    },
+    {
+      "n": 10,
+      "tag": "h3",
+      "text": "Il est composé de"
+    },
+    {
+      "n": 11,
+      "tag": "li",
+      "text": "4 grandes chambres"
+    },
+    {
+      "n": 12,
+      "tag": "li",
+      "text": "2 salles de bains (un douche et une baignoire)"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "cette location est idéale jusqu'à 4 couples avec enfants qui souhaitent profiter d'un week end en famille! Au niveau des couchages vous avez un mélange de lits simples et lit en 140 et également des convertibles qui sont à privilégier pour les enfants."
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Son jardin ombragé privatif, donne directement sur la ferme pédagogique et le mobilier mis à disposition vous permet de profiter un maximum des extérieurs! Sur simple demande par mail, nous vous envoyons la description complète du gite avec plus de photos de ce dernier."
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Télécharger la plaquette de présentation du logement de groupe"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Faites la visite 3D de notre hebergement"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Découvrez les options pour la location du gite"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Téléchargez ici nos services traiteur pour votre séjour"
+    },
+    {
+      "n": 19,
+      "tag": "h2",
+      "text": "Réservations en ligne de notre gite"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Si le planning est en vert, le gite est disponible à la reservation."
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "Si une journée est en rouge, c'est simplement que le gite est déjà loué."
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "S'il est vert hachuré, cela veut simplement dire que le gite est libre mais qu'une arrivée ce jour là n'est pas possible."
+    },
+    {
+      "n": 23,
+      "tag": "th",
+      "text": "L"
+    },
+    {
+      "n": 24,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 25,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 26,
+      "tag": "th",
+      "text": "J"
+    },
+    {
+      "n": 27,
+      "tag": "th",
+      "text": "V"
+    },
+    {
+      "n": 28,
+      "tag": "th",
+      "text": "S"
+    },
+    {
+      "n": 29,
+      "tag": "th",
+      "text": "D"
+    },
+    {
+      "n": 30,
+      "tag": "span",
+      "text": "1"
+    },
+    {
+      "n": 31,
+      "tag": "span",
+      "text": "2"
+    },
+    {
+      "n": 32,
+      "tag": "span",
+      "text": "3"
+    },
+    {
+      "n": 33,
+      "tag": "span",
+      "text": "4"
+    },
+    {
+      "n": 34,
+      "tag": "span",
+      "text": "5"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "6"
+    },
+    {
+      "n": 36,
+      "tag": "span",
+      "text": "7"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "8"
+    },
+    {
+      "n": 38,
+      "tag": "span",
+      "text": "9"
+    },
+    {
+      "n": 39,
+      "tag": "span",
+      "text": "10"
+    },
+    {
+      "n": 40,
+      "tag": "span",
+      "text": "11"
+    },
+    {
+      "n": 41,
+      "tag": "span",
+      "text": "12"
+    },
+    {
+      "n": 42,
+      "tag": "span",
+      "text": "13"
+    },
+    {
+      "n": 43,
+      "tag": "span",
+      "text": "14"
+    },
+    {
+      "n": 44,
+      "tag": "span",
+      "text": "15"
+    },
+    {
+      "n": 45,
+      "tag": "span",
+      "text": "16"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "17"
+    },
+    {
+      "n": 47,
+      "tag": "span",
+      "text": "18"
+    },
+    {
+      "n": 48,
+      "tag": "span",
+      "text": "19"
+    },
+    {
+      "n": 49,
+      "tag": "span",
+      "text": "20"
+    },
+    {
+      "n": 50,
+      "tag": "span",
+      "text": "21"
+    },
+    {
+      "n": 51,
+      "tag": "span",
+      "text": "22"
+    },
+    {
+      "n": 52,
+      "tag": "span",
+      "text": "23"
+    },
+    {
+      "n": 53,
+      "tag": "span",
+      "text": "24"
+    },
+    {
+      "n": 54,
+      "tag": "span",
+      "text": "25"
+    },
+    {
+      "n": 55,
+      "tag": "span",
+      "text": "26"
+    },
+    {
+      "n": 56,
+      "tag": "span",
+      "text": "27"
+    },
+    {
+      "n": 57,
+      "tag": "span",
+      "text": "28"
+    },
+    {
+      "n": 58,
+      "tag": "span",
+      "text": "29"
+    },
+    {
+      "n": 59,
+      "tag": "span",
+      "text": "30"
+    },
+    {
+      "n": 60,
+      "tag": "span",
+      "text": "31"
+    },
+    {
+      "n": 61,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 62,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 63,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 64,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 65,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 66,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 67,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 68,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 69,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 70,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 71,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 72,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 73,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 74,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 75,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 76,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 77,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 78,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 79,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 80,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 81,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 82,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 83,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 84,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 85,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 86,
+      "tag": "@aria-label",
+      "text": "Mois précédent"
+    },
+    {
+      "n": 87,
+      "tag": "@title",
+      "text": "Sélectionnez le mois"
+    },
+    {
+      "n": 88,
+      "tag": "@aria-label",
+      "text": "Mois suivant"
+    },
+    {
+      "n": 89,
+      "tag": "@title",
+      "text": "Suivant"
+    },
+    {
+      "n": 90,
+      "tag": "@aria-label",
+      "text": "Lundi"
+    },
+    {
+      "n": 91,
+      "tag": "@title",
+      "text": "Lundi"
+    },
+    {
+      "n": 92,
+      "tag": "@aria-label",
+      "text": "Mardi"
+    },
+    {
+      "n": 93,
+      "tag": "@title",
+      "text": "Mardi"
+    },
+    {
+      "n": 94,
+      "tag": "@aria-label",
+      "text": "Mercredi"
+    },
+    {
+      "n": 95,
+      "tag": "@title",
+      "text": "Mercredi"
+    },
+    {
+      "n": 96,
+      "tag": "@aria-label",
+      "text": "Jeudi"
+    },
+    {
+      "n": 97,
+      "tag": "@title",
+      "text": "Jeudi"
+    },
+    {
+      "n": 98,
+      "tag": "@aria-label",
+      "text": "Vendredi"
+    },
+    {
+      "n": 99,
+      "tag": "@title",
+      "text": "Vendredi"
+    },
+    {
+      "n": 100,
+      "tag": "@aria-label",
+      "text": "Samedi"
+    },
+    {
+      "n": 101,
+      "tag": "@title",
+      "text": "Samedi"
+    },
+    {
+      "n": 102,
+      "tag": "@aria-label",
+      "text": "Dimanche"
+    },
+    {
+      "n": 103,
+      "tag": "@title",
+      "text": "Dimanche"
+    },
+    {
+      "n": 104,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 105,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 106,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 107,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 108,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit"
+    },
+    {
+      "n": 109,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit"
+    },
+    {
+      "n": 110,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 111,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 112,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 113,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 114,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 115,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 116,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 117,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 118,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 119,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 120,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 121,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 122,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 123,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 124,
+      "tag": "@aria-label",
+      "text": "Réserver"
+    },
+    {
+      "n": 125,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 126,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 127,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 128,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 129,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 130,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 131,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 132,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 133,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 134,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 135,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    },
+    {
+      "n": 136,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

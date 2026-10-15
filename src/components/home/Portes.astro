@@ -1,0 +1,40 @@
+---
+// Home section 3 "the two doors" (Mariage, Anniversaire), ported 1:1 from board D (index.html "4. the two celebrations" + style.css "3. the two celebrations").
+// Copy: home.json blocks 11 (H2), 12 (line), 14 (link, approved rewrite rw-home-14), 15, 17, 18 (rw-home-18). Blocks 13 and 16 live on their pages.
+// No entrance motion on the text (DESIGN §6); the prints carry data-effect="reveal" via Door printEffect.
+import Door from "../kit/Door.astro";
+import { t } from "../../lib/content";
+const H = "home";
+---
+<div class="fetes">
+  <Door
+    title={t(H, 11)}
+    titleId="porte-mariage-titre"
+    line={t(H, 12)}
+    href="/pages/salle-de-mariage-et-reception.html"
+    linkLabel={t(H, 14)}
+    printId="mariage-11-496x496"
+    printEffect="reveal"
+    box={248}
+    light={{ use: "gites", photoId: "mariage-11-field" }}
+  />
+  <Door
+    title={t(H, 15)}
+    titleId="porte-anniversaire-titre"
+    line={t(H, 17)}
+    href="/pages/une-salle-pour-un-anniversaire.html"
+    linkLabel={t(H, 18)}
+    printId="seminaire-dans-la-grange-rayon-de-sologne-41320-496x496"
+    printEffect="reveal"
+    square
+    box={248}
+    light={{ use: "seminaire", photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" }}
+  />
+</div>
+<style is:global>
+  .fetes { display: grid; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 1180px) {
+    .fetes { grid-template-columns: 1fr; }
+    .fetes .door { min-height: 0; padding: var(--space-5) var(--pad); gap: var(--space-4); }
+  }
+</style>

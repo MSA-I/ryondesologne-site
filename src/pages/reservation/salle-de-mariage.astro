@@ -1,0 +1,62 @@
+---
+// Wedding date request (DESIGN §12 form pages; light = gîtes). Lines 6-31 verbatim, tariff blocks 16-23 included (the rendered
+// calendar 32-82 and the share widget 87-90 are listed in omitted/T32.json). MailForm `mariage` ("Du" / "Au" / "Valider")
+// hands over to rayondesologne@gmail.com. Title and description are the old page's, verbatim.
+import FormPage from "../../layouts/FormPage.astro";
+import MailForm from "../../components/MailForm.astro";
+import { t } from "../../lib/content";
+
+const P = "reservation-salle-de-mariage-html";
+const R = "reservation";
+const tariff = (head: number, rows: number[]) => ({ head: t(P, head), rows: rows.map((n) => t(P, n)) });
+const tariffs = [tariff(16, [17, 18, 19]), tariff(20, [21, 22, 23])];
+---
+<FormPage
+  title="Regardez le planning mariage en sologne"
+  description="Louez notre grange rénovée spécialement pour vos fêtes de famille, profitez ensemble dans un écrin de bien être et pleine nature!"
+  canonicalPath="/reservation/salle-de-mariage.html"
+  h1={t(P, 6)}
+  light={{ use: "gites", photoId: "mariage-11-field" }}
+  crumbs={[{ label: t(R, 6), href: "/reservation/" }, { label: t(P, 6) }]}
+  formTitleId="resa-form"
+>
+  <p class="fp-accroche">{t(P, 7)}</p>
+  <ul class="fp-stats">
+    {[8, 9, 10].map((n) => <li data-kit="stat" class="fp-stat">{t(P, n)}</li>)}
+  </ul>
+  <p>{t(P, 11)}</p>
+  <p>{t(P, 12)} {t(P, 13)}</p>
+  <p>{t(P, 14)}</p>
+  <p>{t(P, 15)}</p>
+  {tariffs.map((x) => (
+    <section class="fp-tarif">
+      <p class="fp-tete">{x.head}</p>
+      <ul>{x.rows.map((r) => <li>{r}</li>)}</ul>
+    </section>
+  ))}
+  <section class="fp-tarif">
+    <p class="fp-tete">{t(P, 24)}</p>
+    <ul><li>{t(P, 25)}</li></ul>
+  </section>
+  <section class="fp-tarif">
+    <p class="fp-tete">{t(P, 26)}</p>
+    <p>{t(P, 27)}</p>
+    <p>{t(P, 28)}</p>
+  </section>
+  <section class="fp-tarif">
+    <p class="fp-tete">{t(P, 29)}</p>
+    <p>{t(P, 30)}</p>
+    <p>{t(P, 31)}</p>
+  </section>
+  <h2 slot="form" id="resa-form">{t(P, 83)}</h2>
+  <MailForm slot="form" fields="mariage" />
+</FormPage>
+
+<style is:global>
+  .fp-lignes .fp-accroche { font-weight: var(--fw-h2-text); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  .fp-lignes .fp-tete { font-weight: var(--fw-h2-text); }
+  .fp-lignes .fp-stats { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); }
+  .fp-lignes .fp-stat { font-weight: var(--fw-action); }
+  .fp-lignes .fp-tarif { display: grid; gap: var(--space-1); }
+  .fp-lignes .fp-tarif ul { list-style: none; padding: 0; display: grid; gap: var(--space-1); }
+</style>

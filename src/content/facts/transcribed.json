@@ -1,0 +1,139 @@
+{
+  "id": "transcribed",
+  "entries": [
+    {
+      "key": "rating-score",
+      "text": "4,8/5",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "rating-source",
+      "text": "Google",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "reviews-thanks",
+      "text": "Merci pour vos avis 5 étoiles",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "reviews-label",
+      "text": "Avis Google",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "review-1",
+      "text": "Lieu sublime, au calme ! Impeccable pour un week-end entre amis. Confort au rendez-vous. Propre. — Lucie A.",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "review-2",
+      "text": "Un déjeuner délicieux et copieux dans un cadre bucolique. Service top avec le sourire. — Mylène I.",
+      "source": "04-direction/board/D/sources.json#transcribed.reviews_banner (image avis-gite-de-groupe-rayon-de-sologne-bistrot-du-grand-liot-41-salle-mariage-seminaire-gite-xxl-traiteur.png)"
+    },
+    {
+      "key": "labels-title",
+      "text": "Nos labels & engagements",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-1-title",
+      "text": "Gîte classé 3 étoiles",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-1-line",
+      "text": "Classement Meublé de tourisme",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-2-title",
+      "text": "Tourisme & Handicap",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-2-line",
+      "text": "Auditif • Mental • Moteur • Visuel",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-3-title",
+      "text": "Accueil Vélo",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "label-3-line",
+      "text": "Des services adaptés aux voyageurs à vélo",
+      "source": "04-direction/board/D/sources.json#transcribed.labels_banner (image label-rayon-de-sologne-tourisme-handicap-accueil-velo-gite-meuble-3-etoiles.png)"
+    },
+    {
+      "key": "satellite-rating",
+      "text": "4,8/5 Avis Google",
+      "source": "04-direction/board/D/sources.json#satellites[0]"
+    },
+    {
+      "key": "satellite-label",
+      "text": "Gîte classé 3 étoiles",
+      "source": "04-direction/board/D/sources.json#satellites[1]"
+    },
+    {
+      "key": "history-link",
+      "text": "L'HISTOIRE DU LIEU",
+      "source": "03-copy/approved.json#label:header-history-link"
+    },
+    {
+      "key": "gites-comparison",
+      "table": {
+        "headers": [
+          "Hébergement",
+          "Couchages",
+          "Salle sur place",
+          "Idéal pour"
+        ],
+        "rows": [
+          [
+            "Le Manoir",
+            "38",
+            "Oui",
+            "Familles, cousinades, groupes"
+          ],
+          [
+            "La Colonie",
+            "55",
+            "Oui",
+            "Grands groupes, fêtes"
+          ],
+          [
+            "L’Auberge",
+            "15",
+            "Non",
+            "Familles, amis"
+          ],
+          [
+            "La Maison des invités",
+            "11",
+            "Non",
+            "Petits groupes, pros"
+          ],
+          [
+            "Les Hirondelles",
+            "4 à 8",
+            "Non",
+            "Petits séjours"
+          ]
+        ]
+      },
+      "source": "05-assets/assets.json#comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne (05-assets/files/photos/comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne-1440.jpg)"
+    },
+    {
+      "key": "gites-comparison-title",
+      "text": "Quel gîte choisir ?",
+      "source": "05-assets/assets.json#comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne (05-assets/files/photos/comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne-1440.jpg)"
+    },
+    {
+      "key": "gites-comparison-subtitle",
+      "text": "Comparez nos hébergements de groupe en Sologne",
+      "source": "05-assets/assets.json#comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne (05-assets/files/photos/comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne-1440.jpg)"
+    }
+  ]
+}

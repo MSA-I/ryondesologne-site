@@ -1,0 +1,236 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+import Light from "../../../components/kit/Light.astro";
+import Print from "../../../components/kit/Print.astro";
+import Cta2 from "../../../components/kit/Cta2.astro";
+import Breadcrumbs from "../../../components/kit/Breadcrumbs.astro";
+import Lightbox from "../../../components/Lightbox.astro";
+import MenuText from "../../../components/MenuText.astro";
+import { asset, img, altOf } from "../../../lib/assets";
+import { menusFor, menuOfAsset, menuId } from "../../../lib/menus";
+import { t } from "../../../lib/content";
+import { ft } from "../../../lib/site";
+
+export async function getStaticPaths() {
+  const albums = await getCollection("albums");
+  return albums.map((a) => ({
+    params: { album: new URL(a.data.url).pathname.split("/").filter(Boolean).pop()! },
+    props: { id: a.id },
+  }));
+}
+
+// Album page (DESIGN §11): opens on its offer's light, the album name as H1 (old title, the approved one arrives with T38),
+// cta2 back to the offer (UX-26), an editorial mosaic of the album's gallery rows (12 columns, spans 3-6, lead span 6),
+// every print a button that opens the lightbox.
+const { id } = Astro.props;
+const albums = await getCollection("albums");
+const album = albums.find((a) => a.id === id)!.data;
+const slug = new URL(album.url).pathname.split("/").filter(Boolean).pop()!;
+const canonicalPath = `/album/${slug}/`;
+const PAGE = id; // pages collection id (album-<slug>) = this album's old page
+
+const OFFER = {
+  "album-restaurant": { href: "/pages/le-restaurant.html", light: { use: "restaurant", photoId: "28c71597-b1bc-46c8-92a7-2f185bc7f681-field" } },
+  "album-photos-manoir": { href: "/pages/reservations.html", light: { use: "gites", photoId: "mariage-11-field" } },
+  "album-photos-auberge": { href: "/pages/reservations.html", light: { use: "gites", photoId: "mariage-11-field" } },
+  "album-photos-colonie": { href: "/pages/colonies-classes-vertes-ecole-alternative.html", light: { use: "colonie", photoId: "aire-de-jeux-rayon-de-sologne-field", crop: "sky" } },
+  "album-photos-mariage": { href: "/pages/salle-de-mariage-et-reception.html", light: { use: "gites", photoId: "mariage-11-field" } },
+  "album-seminaire-reunion": { href: "/pages/salle-de-mariage-et-reception-1762943209.html", light: { use: "seminaire", photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" } },
+} as const;
+const offer = OFFER[id as keyof typeof OFFER];
+const dark = offer.light.use === "restaurant";
+
+const h1 = t(PAGE, 6);
+const title = h1; // old <title> equals the H1 on five albums; the SEO layer replaces it
+const description = h1;
+
+// ---- prints -------------------------------------------------------------------------------------------------
+// Justified rows (DESIGN §11 "no blank bands"): the photos keep their order and are cut into rows of one shared height; a print's
+// width is proportional to its own aspect ratio, so every print of a row has the same height and nothing is cropped (plans and menus
+// stay whole). Rows are cut per screen class (desktop, wide tablet, narrow tablet, phone) by a small dynamic programme that keeps each
+// row near a target height without letting a print pass its max_css_width by more than a tolerance (the files hold twice that width). The grid has 960 columns with no column gap: the gap is the
+// figure's own padding, so spans stay proportional to the widths.
+const G = 24; // = --space-3, the gap of DESIGN §11
+const N = 960; // fine enough that rounding a span moves a print's height by about a pixel
+interface Cfg { key: string; W: number; Ht: number; nmax: number; tol: number }
+const CFGS: Cfg[] = [
+  { key: "d", W: 1376, Ht: 300, nmax: 6, tol: 1.15 },  // > 1180 px, 1440 proof width less its two paddings
+  { key: "tl", W: 1128, Ht: 290, nmax: 4, tol: 1.1 }, // 1001-1180 px, measured at 1180
+  { key: "ts", W: 956, Ht: 270, nmax: 3, tol: 1.12 },  // 761-1000 px, measured at 1000
+  { key: "p", W: 358, Ht: 230, nmax: 2, tol: 99 },     // <= 760 px, measured at 390
+];
+
+type Kind = "lead" | "plan" | "menu" | "photo";
+interface Cell { id: string; kind: Kind; ratio: number; maxw: number; alt: string; caption: string; pos: Record<string, { row: number; c1: number; c2: number }> }
+const cells: Cell[] = album.photos.map((pid, i) => {
+  const r = asset(pid);
+  const role = String(r.role ?? "");
+  const kind: Kind = role.includes("room plan") ? "plan" : role.includes("menu/notice") ? "menu" : role.includes("lead") || i === 0 ? "lead" : "photo";
+  const probe = img(pid, { box: Math.min(r.max_css_width ?? 400, 400), sizes: "100vw" });
+  const ratio = probe.width / probe.height;
+  const maxw = r.max_css_width ?? 640;
+  // a real caption (row.caption) is shown; menu/notice images show their description; a file-name caption stays in alt only
+  const alt = altOf(pid);
+  const rawCaption = typeof r.caption === "string" ? r.caption.trim() : "";
+  const caption = rawCaption || (kind === "menu" ? alt : "");
+  return { id: pid, kind, ratio, maxw, alt, caption, pos: {} };
+});
+
+function pack(cfg: Cfg) {
+  const n = cells.length;
+  const best: number[] = Array(n + 1).fill(Infinity);
+  const cut: number[] = Array(n + 1).fill(0);
+  best[0] = 0;
+  const rowOf = (i: number, j: number) => {
+    const part = cells.slice(i, j);
+    const sr = part.reduce((a, c) => a + c.ratio, 0);
+    const free = cfg.W - (part.length - 1) * G;
+    const Hfull = free / sr;
+    const Hcap = Math.min(...part.map((c) => (c.maxw * cfg.tol) / c.ratio));
+    const H = Math.min(Hfull, Hcap);
+    const blank = Math.max(0, (free - H * sr) / cfg.W);
+    return { H, blank };
+  };
+  for (let j = 1; j <= n; j++) {
+    // the last row may take one more print than the cap so a short run merges into the row above instead of standing alone
+    for (let k = 1; k <= (j === n ? cfg.nmax + 1 : cfg.nmax) && k <= j; k++) {
+      const { H, blank } = rowOf(j - k, j);
+      const cost = (H < cfg.Ht ? 6 : 3) * Math.log(H / cfg.Ht) ** 2 + 40 * blank + 0.02;
+      if (best[j - k] + cost < best[j]) { best[j] = best[j - k] + cost; cut[j] = k; }
+    }
+  }
+  const rows: [number, number][] = [];
+  for (let j = n; j > 0; j -= cut[j]) rows.unshift([j - cut[j], j]);
+  rows.forEach(([i, j], ri) => {
+    const part = cells.slice(i, j);
+    const { H } = rowOf(i, j);
+    const exact = part.map((c) => (N * (c.ratio * H + G)) / (cfg.W + G));
+    const total = Math.round(exact.reduce((a, b) => a + b, 0));
+    const span = exact.map((x) => Math.floor(x));
+    let left = total - span.reduce((a, b) => a + b, 0);
+    [...exact.keys()].sort((a, b) => exact[b] - Math.floor(exact[b]) - (exact[a] - Math.floor(exact[a]))).slice(0, left).forEach((k) => span[k]++);
+    let c = 1;
+    part.forEach((cell, k) => { cell.pos[cfg.key] = { row: ri + 1, c1: c, c2: c + span[k] }; c += span[k]; });
+  });
+}
+CFGS.forEach(pack);
+
+const area = (c: Cell, k: string) => `${c.pos[k].row} / ${c.pos[k].c1} / ${c.pos[k].row + 1} / ${c.pos[k].c2}`;
+const vw = (c: Cell, k: string) => ((c.pos[k].c2 - c.pos[k].c1) / N * 100).toFixed(1);
+const dpx = (c: Cell) => Math.round(((c.pos.d.c2 - c.pos.d.c1) / N) * (CFGS[0].W + G) - G);
+const sizesFor = (c: Cell) =>
+  `(max-width: 760px) ${vw(c, "p")}vw, (max-width: 1000px) ${vw(c, "ts")}vw, (max-width: 1180px) ${vw(c, "tl")}vw, min(${dpx(c)}px, ${vw(c, "d")}vw)`;
+
+// the srcset box is the smallest width the print is shown at (phone, desktop), so the srcset holds small files and the browser picks
+// a ~2x file per `sizes` instead of a 1336w file for a 130-313 px box
+const boxFor = (c: Cell) => {
+  const phonePx = Math.floor(Number(vw(c, "p")) * 3.58); // phone grid is 358 px at 390
+  const least = Math.max(1, Math.min(c.maxw, dpx(c), phonePx));
+  for (const b of [least, Math.min(c.maxw, dpx(c))]) {
+    try { img(c.id, { box: b, sizes: "100vw" }); return b; } catch { /* next */ }
+  }
+  return Math.min(c.maxw, dpx(c));
+};
+// verbatim menu transcriptions: visually hidden text per print, referenced by the print's button (aria-describedby); the Lightbox has no caption area
+const menus = menusFor(canonicalPath.replace(/\/$/, ""));
+const tiles = cells.map((c, i) => ({ ...c, box: boxFor(c), sizes: sizesFor(c), eager: i < 2 || c.pos.p.row === 1, menu: menuOfAsset(menus, asset(c.id)) }));
+
+// Lightbox: the print at its largest allowed width (<= 1280 px), falling back to the grid box.
+const lbItems = cells.map((c) => {
+  const want = Math.min(c.maxw, 1280);
+  let d;
+  let b = want;
+  for (const cand of [want, Math.min(c.maxw, 1000), Math.min(c.maxw, 800), dpx(c)]) {
+    try { d = img(c.id, { box: cand, sizes: "100vw", alt: c.alt }); b = cand; break; } catch { /* next */ }
+  }
+  const sizes = `(max-width: 760px) 100vw, ${b}px`;
+  const dd = img(c.id, { box: b, sizes, alt: c.alt });
+  return { alt: c.alt, box: b, sizes, sources: dd.sources, src: dd.src, width: dd.width, height: dd.height };
+});
+
+const crumbs = [
+  { label: t("album", 1), href: "/" },
+  { label: t("album", 6), href: "/album/" },
+  { label: h1 },
+];
+---
+<Base title={title} description={description} canonicalPath={canonicalPath} current="/album/" light={dark ? "dark" : undefined}>
+  <section class:list={["alb-ouv", dark && "alb-ouv--dark"]} data-site-studio-component="album-opening">
+    <Light {...offer.light} eager priority="high" />
+    <div class="alb-haut"><Breadcrumbs items={crumbs} /></div>
+    <div class="alb-texte">
+      <h1 class="alb-titre">{h1}</h1>
+      <Cta2 href={offer.href} label={ft("album.back")} />
+    </div>
+  </section>
+  <section class="alb-mosaique" aria-label={h1}>
+   <div class="alb-cadre"><div class="alb-grille">
+    {tiles.map((c, i) => (
+      <figure class={`alb-case alb-case--${c.kind}`} style={`--d:${area(c, "d")};--tl:${area(c, "tl")};--ts:${area(c, "ts")};--p:${area(c, "p")}`}>
+        <button type="button" class="alb-tirage" aria-haspopup="dialog" data-lightbox-open={i} aria-label={c.alt ? undefined : ft("lightbox-dialog")} aria-describedby={c.menu ? menuId(c.menu) : undefined}>
+          <Print id={c.id} box={c.box} sizes={c.sizes} loading={c.eager ? "eager" : "lazy"} fetchpriority={"low" as any /* Print/img() type only lists "high" (not in this task's OWNS); the opening field is the one high-priority image */} alt={c.alt} />
+        </button>
+        {c.menu && <MenuText menu={c.menu} hidden />}
+        {c.caption && <figcaption class="alb-legende">{c.caption}</figcaption>}
+      </figure>
+    ))}
+   </div></div>
+  </section>
+  <Lightbox items={lbItems} />
+</Base>
+
+<style is:global>
+  .alb-ouv {
+    position: relative; isolation: isolate; overflow: hidden;
+    min-height: 60vh; min-height: 60svh;
+    display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 1fr; row-gap: var(--space-4);
+    padding: var(--space-6) var(--pad) var(--space-5);
+    color: var(--encre);
+  }
+  .alb-ouv--dark { color: var(--on-dark); }
+  .alb-ouv--dark :focus-visible { outline-color: var(--focus-on-dark); }
+  .alb-texte { align-self: end; display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+  .alb-titre {
+    margin: 0; max-width: 11em;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+
+  /* 960 columns, no column gap: the gap is the figure's padding (half on each side, the grid pulled out by the same half) so that a
+     print's width stays proportional to its span; rows are placed explicitly per screen class (see the frontmatter) */
+  .alb-mosaique { background: var(--brume-creme); padding: var(--space-5) var(--pad) var(--space-6); }
+  .alb-grille {
+    display: grid; grid-template-columns: repeat(960, minmax(0, 1fr)); grid-auto-rows: auto; align-items: start;
+    width: calc(100% + var(--space-3)); margin: calc(var(--space-3) / -2);
+  }
+  .alb-cadre { max-width: 1376px; margin-inline: auto; }
+  .alb-case { grid-area: var(--d); margin: 0; min-width: 0; padding: calc(var(--space-3) / 2); }
+  @media (max-width: 1180px) { .alb-case { grid-area: var(--tl); } }
+  @media (max-width: 1000px) { .alb-case { grid-area: var(--ts); } }
+  .alb-tirage {
+    display: block; width: 100%; padding: 0; border: 0; background: none; color: inherit; font: inherit;
+    cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  }
+  .alb-tirage .print, .alb-tirage img { width: 100%; }
+  .alb-case--plan .alb-tirage img { object-fit: contain; }
+  .alb-tirage:active { opacity: 0.86; }
+  .alb-legende { margin-top: var(--space-1); font-size: var(--fs-small); line-height: var(--lh-small); font-weight: var(--fw-small); }
+
+  @media (hover: hover) and (pointer: fine) {
+    .alb-tirage { transition: opacity var(--dur-line) var(--ease-out); }
+    .alb-tirage:hover { opacity: 0.88; }
+  }
+
+  @media (max-width: 760px) {
+    .alb-ouv { min-height: 0; padding: var(--space-6) var(--pad) var(--space-4); }
+    .alb-titre { font-size: var(--fs-display-phone); max-width: none; }
+    .alb-mosaique { padding: var(--space-4) var(--pad) var(--space-5); }
+    .alb-case { grid-area: var(--p); }
+    .alb-legende { font-size: var(--fs-meta-phone); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .alb-tirage { transition: none; }
+  }
+</style>

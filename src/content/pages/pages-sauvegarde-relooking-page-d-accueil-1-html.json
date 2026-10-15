@@ -1,0 +1,456 @@
+{
+  "id": "pages-sauvegarde-relooking-page-d-accueil-1-html",
+  "url": "https://www.rayondesologne.fr/pages/sauvegarde-relooking/page-d-accueil-1.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Accueil"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "Rayon De Sologne, une expérience authentique pour vos vacances à la campagne!"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "RayonDeSologne, c'est un projet de famille où nous sommes en train de créer plusieurs gites dans une démarche responsable, durable et engagée !"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Où nous trouver? en Sologne, en Région Centre val de Loire. L 'implantation exacte reste encore à définir, car nous recherchons LE lieu qui nous fasse vibrer mais objectif ouverture fin 2021 ."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Nous ne sommes pas de spécialistes de l'écologie, nous avons juste à coeur de vous accueillir pour vos vacances, votre mariage ou même un week end entre copains tout en essayant de protéger un maximum notre planète !"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "L'objectif pricipal, couper avec le quotidien, grâce à la campagne, un bon repas , une chambre confortable et des activités nature et sport !"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "On rencontre, on découvre, on partage, on prend le temps d'être ensemble, tout cela en consommant responsable et local de l'assiette aux activités de loisirs que nous vous proposerons sur place."
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Vous pourrez faire le choix de vous isoler pour profiter du calme du lieu, ou partir à la rencontre des autres convives grâce à nos espaces partagés."
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Vous pouvez découvrir ici"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "comment à commencé notre aventure!"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Notre territoire"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "La sologne"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "(sa culture, son patrimoine, ses artisans, ses producteurs... un réseau à mettre en valeur)"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Nos hébergements"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "(gite de groupe, gite insolite, gite étape pour voie douce, salle de mariage)"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Notre table d'hotes"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Restaurant"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "(pour le petit dej', un repas du soir, un panier repas à prendre en amoureux...)"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Animations famille"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "S"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "ur place"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "(atelier pédagogique, DIY, pétanque, détente, sportif, ferme pédagogique...)"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "Dévouvrez notre projet étape par étape"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Nos critères de recherches"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Organiser un évènement"
+    },
+    {
+      "n": 31,
+      "tag": "span",
+      "text": "4"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Nos Partenaires"
+    },
+    {
+      "n": 33,
+      "tag": "span",
+      "text": "3"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "Actualités"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "23"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Blog"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "6"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "Prendre RDV"
+    },
+    {
+      "n": 39,
+      "tag": "p",
+      "text": "Inscrivez vous à la newsletter pour suivre l'avancé du projet!"
+    },
+    {
+      "n": 40,
+      "tag": "p",
+      "text": "(1 mail par trimestre pour suivre l'actu de Rayon De Sologne, attention la confirmation a la newsletter arrivera dans vos spams pensez à les consulter)"
+    },
+    {
+      "n": 41,
+      "tag": "button",
+      "text": "OK"
+    },
+    {
+      "n": 42,
+      "tag": "p",
+      "text": "Impatients de vous Accueillir"
+    },
+    {
+      "n": 43,
+      "tag": "p",
+      "text": "Charline & Maxime"
+    },
+    {
+      "n": 44,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 45,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 47,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 53,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 61,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 62,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 65,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 66,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 67,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 68,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 69,
+      "tag": "@title",
+      "text": "Carte loir et cher territoire sologne"
+    },
+    {
+      "n": 70,
+      "tag": "@alt",
+      "text": "Carte loir et cher territoire sologne"
+    },
+    {
+      "n": 71,
+      "tag": "@title",
+      "text": "Gite sologne"
+    },
+    {
+      "n": 72,
+      "tag": "@alt",
+      "text": "Gite sologne"
+    },
+    {
+      "n": 73,
+      "tag": "@title",
+      "text": "Table hotes rayon de sologne"
+    },
+    {
+      "n": 74,
+      "tag": "@alt",
+      "text": "Table hotes rayon de sologne"
+    },
+    {
+      "n": 75,
+      "tag": "@title",
+      "text": "Activite nature en sologne"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Activite nature en sologne"
+    },
+    {
+      "n": 77,
+      "tag": "@title",
+      "text": "Charline max rayon de sologne"
+    },
+    {
+      "n": 78,
+      "tag": "@alt",
+      "text": "Charline max rayon de sologne"
+    },
+    {
+      "n": 79,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 80,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 81,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 82,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 83,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 84,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 85,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 86,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 87,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 88,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 89,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 90,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

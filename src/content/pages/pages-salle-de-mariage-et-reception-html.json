@@ -1,0 +1,1036 @@
+{
+  "id": "pages-salle-de-mariage-et-reception-html",
+  "url": "https://www.rayondesologne.fr/pages/salle-de-mariage-et-reception.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h2",
+      "text": "Domaine avec une grange de 7m de haut avec ses poutres en bois offrant jusqu'à 120 couchages en Sologne"
+    },
+    {
+      "n": 7,
+      "tag": "h1",
+      "text": "Un domaine de mariage en Sologne avec Hébergement"
+    },
+    {
+      "n": 8,
+      "tag": "h2",
+      "text": "Un mariage champêtre au coeur de la Sologne"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Une envie d'un mariage bohème ou un mariage sur le thème campagne chic ? La Sologne est idéale pour accueillir un mariage champêtre, car elle est empreint de nature, de calme, de simplicité et d'authenticité."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Rayon de sologne, sera votre prestaire en Sologne pour les mariages prés de Romorantin 41200, les mariages IDF, ou tout autre regroupement de famille au centre de la FRANCE. Romorantin est la capitale de la Sologne est situé à 2h de paris, 1h d'orleans(45), tours(37), vierzon(18), blois(41), chateauroux(36) ou encore de bourges (18)! C'est donc le lieu parfait pour regrouper famille et amis, car avec une sortie autotoute à moins de 8 min, 1 gare à 15 minutes, et l'aéroport à 1h du domaine solognot on ne se pose plus de question!"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Depuis 2008, Charline a grandi dans l'organisation d'évènements et plus régulièrement dans le magnifique monde du mariage. Elle a participé aux mariages de centaines de couples dans les plus beaux domaines de la région Centre. Décoratrice d'intérieur et gérante d'agence d'évènementiel, elle sera aussi votre atout pour l'organisation du plus beau jour de votre vie!"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Pourquoi choisir Rayon de Sologne pour votre mariage ?"
+    },
+    {
+      "n": 13,
+      "tag": "h2",
+      "text": "Une grange de réception jusqu'à 150 invités"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Avec ces poutres apparentes, sa hauteur sous plafond et son espace de danse, notre grange accueille vos repas de mariage dans une ambiance champêtre et chaleureuse."
+    },
+    {
+      "n": 15,
+      "tag": "h2",
+      "text": "Jusqu'à 120couchages pour prolonger votre mariage"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Au domaine Rayon de Sologne, nous ne voyons pas votre mariage comme une simple soirée, mais plutot comme un vrai week end a célébrer! Pour cela vos invités vont pouvoir arriver dès le vendredi, laisser leur voiture au parking et ne la reprendre que le dimanche après midi!"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Nos avons à votre disposition 5 gites, dont 4 en chambres de 4 à 38 personnes et un plus collectif de 55 couchages! En tout vous allez pouvoir accueillir plus de 120 personnes à dormir dans un lit sur le domaine sans avoir peur de reprendre le volant en ayant bu ou en étant fatigué."
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "Le bonus, une aire de camping car et tentes et également disponible sur place."
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Tarifs et Formules pour votre mariage en Sologne"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Découvrez plus de photos de mariage"
+    },
+    {
+      "n": 21,
+      "tag": "h2",
+      "text": "Consultez les disponibilités pour votre mariage"
+    },
+    {
+      "n": 22,
+      "tag": "th",
+      "text": "L"
+    },
+    {
+      "n": 23,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 24,
+      "tag": "th",
+      "text": "M"
+    },
+    {
+      "n": 25,
+      "tag": "th",
+      "text": "J"
+    },
+    {
+      "n": 26,
+      "tag": "th",
+      "text": "V"
+    },
+    {
+      "n": 27,
+      "tag": "th",
+      "text": "S"
+    },
+    {
+      "n": 28,
+      "tag": "th",
+      "text": "D"
+    },
+    {
+      "n": 29,
+      "tag": "span",
+      "text": "1"
+    },
+    {
+      "n": 30,
+      "tag": "span",
+      "text": "2"
+    },
+    {
+      "n": 31,
+      "tag": "span",
+      "text": "3"
+    },
+    {
+      "n": 32,
+      "tag": "span",
+      "text": "4"
+    },
+    {
+      "n": 33,
+      "tag": "span",
+      "text": "5"
+    },
+    {
+      "n": 34,
+      "tag": "span",
+      "text": "6"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "7"
+    },
+    {
+      "n": 36,
+      "tag": "span",
+      "text": "8"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "9"
+    },
+    {
+      "n": 38,
+      "tag": "span",
+      "text": "10"
+    },
+    {
+      "n": 39,
+      "tag": "span",
+      "text": "11"
+    },
+    {
+      "n": 40,
+      "tag": "span",
+      "text": "12"
+    },
+    {
+      "n": 41,
+      "tag": "span",
+      "text": "13"
+    },
+    {
+      "n": 42,
+      "tag": "span",
+      "text": "14"
+    },
+    {
+      "n": 43,
+      "tag": "span",
+      "text": "15"
+    },
+    {
+      "n": 44,
+      "tag": "span",
+      "text": "16"
+    },
+    {
+      "n": 45,
+      "tag": "span",
+      "text": "17"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "18"
+    },
+    {
+      "n": 47,
+      "tag": "span",
+      "text": "19"
+    },
+    {
+      "n": 48,
+      "tag": "span",
+      "text": "20"
+    },
+    {
+      "n": 49,
+      "tag": "span",
+      "text": "21"
+    },
+    {
+      "n": 50,
+      "tag": "span",
+      "text": "22"
+    },
+    {
+      "n": 51,
+      "tag": "span",
+      "text": "23"
+    },
+    {
+      "n": 52,
+      "tag": "span",
+      "text": "24"
+    },
+    {
+      "n": 53,
+      "tag": "span",
+      "text": "25"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "26"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "27"
+    },
+    {
+      "n": 56,
+      "tag": "span",
+      "text": "28"
+    },
+    {
+      "n": 57,
+      "tag": "span",
+      "text": "29"
+    },
+    {
+      "n": 58,
+      "tag": "span",
+      "text": "30"
+    },
+    {
+      "n": 59,
+      "tag": "span",
+      "text": "31"
+    },
+    {
+      "n": 60,
+      "tag": "h2",
+      "text": "Visitez notre domaine de mariage à distance"
+    },
+    {
+      "n": 61,
+      "tag": "a",
+      "text": "Cliquez ici pour découvrir la visite 3D de la salle !"
+    },
+    {
+      "n": 62,
+      "tag": "a",
+      "text": "Découvrez notre Visite Virtuelle"
+    },
+    {
+      "n": 63,
+      "tag": "a",
+      "text": "Découvrez ici, nos inspirations mariage grâce a notre galerie photo pinterest"
+    },
+    {
+      "n": 64,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 65,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 66,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 67,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 68,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 69,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 70,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 71,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 72,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 73,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 74,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 75,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 76,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 77,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 78,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 79,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 80,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 81,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 82,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 83,
+      "tag": "li",
+      "text": "un lieu de vie avant d'être une salle de mariage, c'est donc idéal pour recevoir vos proches"
+    },
+    {
+      "n": 84,
+      "tag": "li",
+      "text": "une magnifique ferme avec des poutres et pierres apparantes, rénovée en salle de mariages pour 60 à 120 personnes avec un bel espace de danse (150 personnes sans piste de danse)"
+    },
+    {
+      "n": 85,
+      "tag": "li",
+      "text": "une cour intérieure entièrement conçue pour être à l'abris des regards dans une ambiance cosy où guirlandes led s'installeront à merveille"
+    },
+    {
+      "n": 86,
+      "tag": "li",
+      "text": "120 couchages en dur sur place pour offrir à vos invités un week end des vacances où l'on coupe du quotidien"
+    },
+    {
+      "n": 87,
+      "tag": "li",
+      "text": "un espace camping pour les aventuriers"
+    },
+    {
+      "n": 88,
+      "tag": "li",
+      "text": "plusieurs possibilités d'espaces cérémonie laïque en extérieur"
+    },
+    {
+      "n": 89,
+      "tag": "li",
+      "text": "la possibilité de privatiser le site"
+    },
+    {
+      "n": 90,
+      "tag": "li",
+      "text": "un service traiteur sur place , qui vous propose un menu fait maison, et de saison"
+    },
+    {
+      "n": 91,
+      "tag": "li",
+      "text": "de nombreuses animations sur place occuper vos invités le dimanche"
+    },
+    {
+      "n": 92,
+      "tag": "li",
+      "text": "un grand espace couvert la Guinguette, en cas de mauvais temps pour le cocktail"
+    },
+    {
+      "n": 93,
+      "tag": "li",
+      "text": "Un lieu isolé, sans voisin, sans restriction d'heure ou de volume"
+    },
+    {
+      "n": 94,
+      "tag": "li",
+      "text": "Tables et chaises en bois dépareillées, avec pret de vaiselles vintage disponible en option avec la location de la salle"
+    },
+    {
+      "n": 95,
+      "tag": "li",
+      "text": "Des objects de décorations vintage, champêtre, bohème inclu sur place"
+    },
+    {
+      "n": 96,
+      "tag": "li",
+      "text": "Un espace brocante avec de la déco en prêt"
+    },
+    {
+      "n": 97,
+      "tag": "li",
+      "text": "Des espaces naturels magnifiques pour votre shooting photo"
+    },
+    {
+      "n": 98,
+      "tag": "li",
+      "text": "Un book prestataire à vous transmettre clef en main avec des prestataires locaux"
+    },
+    {
+      "n": 99,
+      "tag": "li",
+      "text": "Une salle de jeux (billard, flechette, jeux scté)"
+    },
+    {
+      "n": 100,
+      "tag": "li",
+      "text": "Une immense aire de jeux pour les enfants"
+    },
+    {
+      "n": 101,
+      "tag": "li",
+      "text": "Une ferme pédagogique sur place pour les plus jeunes"
+    },
+    {
+      "n": 102,
+      "tag": "p",
+      "text": "Notre planning de 2026 est deja quasiment complet et celui de 2027 se remplit vite, pour les cérémonies allant jusqu'à 150 personnes assises."
+    },
+    {
+      "n": 103,
+      "tag": "span",
+      "text": "et celui de 2027 se remplit vite,"
+    },
+    {
+      "n": 104,
+      "tag": "p",
+      "text": "Vérifiez en temps réel nos disponibilités via le planning de réservation ci dessous!"
+    },
+    {
+      "n": 105,
+      "tag": "p",
+      "text": "Voici une petite idée de nos tarifs du vendredi 10h au dimanche 15H pour 2026/2027/2028:"
+    },
+    {
+      "n": 106,
+      "tag": "li",
+      "text": "Grange mariage avec 60 couchages inclus pour 4900€ en saison haute ou 3900€ en saison basse."
+    },
+    {
+      "n": 107,
+      "tag": "li",
+      "text": "Grange mariage avec 120 couchages inclus pour 6200€ en saison haute ou 5200€ en saison basse."
+    },
+    {
+      "n": 108,
+      "tag": "p",
+      "text": "Nous proposons une offre de 1000€ de remise pour les mariages qui se déroulent en semaine! Cela peut être une opportunité pour vous!"
+    },
+    {
+      "n": 109,
+      "tag": "p",
+      "text": "N'hésitez pas à poser une option à l'issue de votre visite, elle sera valable durant 15 jours"
+    },
+    {
+      "n": 110,
+      "tag": "p",
+      "text": "Cliquez ici pour découvrir en détail notre domaine de mariage"
+    },
+    {
+      "n": 111,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 112,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 113,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 114,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 115,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 116,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 117,
+      "tag": "@alt",
+      "text": "Logo rayon de sologne"
+    },
+    {
+      "n": 118,
+      "tag": "@title",
+      "text": "Mariage x et x 758 websize"
+    },
+    {
+      "n": 119,
+      "tag": "@alt",
+      "text": "Mariage x et x 758 websize"
+    },
+    {
+      "n": 120,
+      "tag": "@title",
+      "text": "Salle de reception illuminee rayon de sologne 41320"
+    },
+    {
+      "n": 121,
+      "tag": "@alt",
+      "text": "Salle de reception illuminee rayon de sologne 41320"
+    },
+    {
+      "n": 122,
+      "tag": "@alt",
+      "text": "Grange decoree pour un mariage rayon de sologne 41320"
+    },
+    {
+      "n": 123,
+      "tag": "@title",
+      "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto"
+    },
+    {
+      "n": 124,
+      "tag": "@alt",
+      "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto"
+    },
+    {
+      "n": 125,
+      "tag": "@title",
+      "text": "La grange de nuit rayon de sologne 41320"
+    },
+    {
+      "n": 126,
+      "tag": "@alt",
+      "text": "La grange de nuit rayon de sologne 41320"
+    },
+    {
+      "n": 127,
+      "tag": "@title",
+      "text": "Terrasse maison des invites gite rayon de sologne"
+    },
+    {
+      "n": 128,
+      "tag": "@alt",
+      "text": "Terrasse maison des invites gite rayon de sologne"
+    },
+    {
+      "n": 129,
+      "tag": "@alt",
+      "text": "La chambre du marie a l auberge rayon de sologne41320"
+    },
+    {
+      "n": 130,
+      "tag": "@alt",
+      "text": "Salle de bain attenante a la chambre nuptiale dans le manoir rayon de sologne41320"
+    },
+    {
+      "n": 131,
+      "tag": "@alt",
+      "text": "Cour manoir rayon de sologne 41320"
+    },
+    {
+      "n": 132,
+      "tag": "@title",
+      "text": "Chambre nuptiale du manoir rayon de sologne413202 1"
+    },
+    {
+      "n": 133,
+      "tag": "@alt",
+      "text": "Chambre nuptiale du manoir rayon de sologne413202 1"
+    },
+    {
+      "n": 134,
+      "tag": "@title",
+      "text": "Photo couple rayon de sologne"
+    },
+    {
+      "n": 135,
+      "tag": "@alt",
+      "text": "Photo couple rayon de sologne"
+    },
+    {
+      "n": 136,
+      "tag": "@title",
+      "text": "Belle grange rayon de sologne"
+    },
+    {
+      "n": 137,
+      "tag": "@alt",
+      "text": "Belle grange rayon de sologne"
+    },
+    {
+      "n": 138,
+      "tag": "@title",
+      "text": "Bar a soft mariage rayon de sologne"
+    },
+    {
+      "n": 139,
+      "tag": "@alt",
+      "text": "Bar a soft mariage rayon de sologne"
+    },
+    {
+      "n": 140,
+      "tag": "@title",
+      "text": "la place de village rayon de sologne"
+    },
+    {
+      "n": 141,
+      "tag": "@alt",
+      "text": "la place de village rayon de sologne"
+    },
+    {
+      "n": 142,
+      "tag": "@title",
+      "text": "atelier decoupe au mariage d'x x mariage rayon de sologne"
+    },
+    {
+      "n": 143,
+      "tag": "@alt",
+      "text": "atelier decoupe au mariage d'x x mariage rayon de sologne"
+    },
+    {
+      "n": 144,
+      "tag": "@title",
+      "text": "Bouquets de fleurs rayon de sologne 41320 3"
+    },
+    {
+      "n": 145,
+      "tag": "@alt",
+      "text": "Bouquets de fleurs rayon de sologne 41320 3"
+    },
+    {
+      "n": 146,
+      "tag": "@title",
+      "text": "Au pied du chene rayon de solognze"
+    },
+    {
+      "n": 147,
+      "tag": "@alt",
+      "text": "Au pied du chene rayon de solognze"
+    },
+    {
+      "n": 148,
+      "tag": "@title",
+      "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto"
+    },
+    {
+      "n": 149,
+      "tag": "@alt",
+      "text": "Salle reception seminaire mariage rayon de sologne par onesebphoto"
+    },
+    {
+      "n": 150,
+      "tag": "@title",
+      "text": "Campagne chic mariage rayon de sologne"
+    },
+    {
+      "n": 151,
+      "tag": "@alt",
+      "text": "Campagne chic mariage rayon de sologne"
+    },
+    {
+      "n": 152,
+      "tag": "@title",
+      "text": "x x mariage rayon de sologne"
+    },
+    {
+      "n": 153,
+      "tag": "@alt",
+      "text": "x x mariage rayon de sologne"
+    },
+    {
+      "n": 154,
+      "tag": "@aria-label",
+      "text": "Mois précédent"
+    },
+    {
+      "n": 155,
+      "tag": "@title",
+      "text": "Sélectionnez le mois"
+    },
+    {
+      "n": 156,
+      "tag": "@aria-label",
+      "text": "Mois suivant"
+    },
+    {
+      "n": 157,
+      "tag": "@title",
+      "text": "Suivant"
+    },
+    {
+      "n": 158,
+      "tag": "@aria-label",
+      "text": "Lundi"
+    },
+    {
+      "n": 159,
+      "tag": "@title",
+      "text": "Lundi"
+    },
+    {
+      "n": 160,
+      "tag": "@aria-label",
+      "text": "Mardi"
+    },
+    {
+      "n": 161,
+      "tag": "@title",
+      "text": "Mardi"
+    },
+    {
+      "n": 162,
+      "tag": "@aria-label",
+      "text": "Mercredi"
+    },
+    {
+      "n": 163,
+      "tag": "@title",
+      "text": "Mercredi"
+    },
+    {
+      "n": 164,
+      "tag": "@aria-label",
+      "text": "Jeudi"
+    },
+    {
+      "n": 165,
+      "tag": "@title",
+      "text": "Jeudi"
+    },
+    {
+      "n": 166,
+      "tag": "@aria-label",
+      "text": "Vendredi"
+    },
+    {
+      "n": 167,
+      "tag": "@title",
+      "text": "Vendredi"
+    },
+    {
+      "n": 168,
+      "tag": "@aria-label",
+      "text": "Samedi"
+    },
+    {
+      "n": 169,
+      "tag": "@title",
+      "text": "Samedi"
+    },
+    {
+      "n": 170,
+      "tag": "@aria-label",
+      "text": "Dimanche"
+    },
+    {
+      "n": 171,
+      "tag": "@title",
+      "text": "Dimanche"
+    },
+    {
+      "n": 172,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits"
+    },
+    {
+      "n": 173,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits"
+    },
+    {
+      "n": 174,
+      "tag": "@title",
+      "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour"
+    },
+    {
+      "n": 175,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 176,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 177,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 178,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 179,
+      "tag": "@title",
+      "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n3900,00 € / 2 nuits"
+    },
+    {
+      "n": 180,
+      "tag": "@title",
+      "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour"
+    },
+    {
+      "n": 181,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 182,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 183,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 184,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 185,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 186,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n3900,00 € / 2 nuits"
+    },
+    {
+      "n": 187,
+      "tag": "@aria-label",
+      "text": "26/10/2026"
+    },
+    {
+      "n": 188,
+      "tag": "@title",
+      "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n3900,00 € / 2 nuits"
+    },
+    {
+      "n": 189,
+      "tag": "@aria-label",
+      "text": "27/10/2026"
+    },
+    {
+      "n": 190,
+      "tag": "@title",
+      "text": "Hébergement disponible mais nous n'acceptons pas les arrivées ce jour"
+    },
+    {
+      "n": 191,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 192,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 193,
+      "tag": "@title",
+      "text": "Hébergement non disponible à cette date"
+    },
+    {
+      "n": 194,
+      "tag": "@aria-label",
+      "text": "Réserver"
+    },
+    {
+      "n": 195,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 196,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 197,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 198,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 199,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 200,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 201,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 202,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 203,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 204,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 205,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    },
+    {
+      "n": 206,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

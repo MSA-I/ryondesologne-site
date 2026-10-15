@@ -1,0 +1,41 @@
+---
+// CGV. Blocks 6-12 of pages-infos-legales-conditions-generales-de-vente-cgv-html, verbatim. Blocks render whole and in order (block 8, the e-mail, follows block 7 as its own line); phones become tel: links, the www line links home.
+import LegalPage from "../../../layouts/LegalPage.astro";
+import { t, approved } from "../../../lib/content";
+
+const P = "pages-infos-legales-conditions-generales-de-vente-cgv-html";
+const I = "pages-infos-legales";
+const mail = t(P, 8);
+
+const PHONE = /(\d{2}[ .]\d{2}[ .]\d{2}[ .]\d{2}[ .]\d{2})/;
+const isPhone = (s: string) => PHONE.test(s) && s.replace(PHONE, "") === "";
+const tel = (n: string) => `tel:+33${n.replace(/[ .]/g, "").slice(1)}`;
+const split = (s: string) => s.split(PHONE);
+// p7-fix-v5 item 7: block 7 is one 11 980-character paragraph (the old page was a wall too); it is cut before each "Article N" so every article is its own paragraph. Words unchanged.
+const articles = t(P, 7).split(/\s+(?=Article\s+[-–]?\s*\d+)/).map((s) => s.trim()).filter(Boolean);
+// p7-final-pages-a item 5: "Article 20 … -21 … – 22" (a dash before the number) now also start their own paragraph; "Article 23Ménage" / "24Réclamations" (number fused to the title) get a line break between, no new characters.
+const fused = (s: string) => { const m = s.match(/^(Article\s+\d+)(?=[A-Za-zÀ-ÿ])/); return m ? [m[1], s.slice(m[1].length)] : null; };
+const lines = [t(P, 9), t(P, 10), t(P, 11)];
+---
+<LegalPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/pages/infos-legales/conditions-generales-de-vente-cgv.html"
+  h1={t(P, 6)}
+  crumbs={[{ label: t(I, 1), href: "/" }, { label: t(I, 6), href: "/pages/infos-legales/" }, { label: t(P, 6) }]}
+>
+  {articles.map((l) => { const f = fused(l); return <p>{f && <>{f[0]}<br /></>}{split(f ? f[1] : l).map((x) => (isPhone(x) ? <a href={tel(x)} dir="ltr">{x}</a> : x))}</p>; })}
+  <p><a href={`mailto:${mail}`} dir="ltr">{mail}</a></p>
+  {lines.map((l) => <p>{split(l).map((x) => (isPhone(x) ? <a href={tel(x)} dir="ltr">{x}</a> : x))}</p>)}
+  <p><a href="https://www.rayondesologne.fr/" dir="ltr">{t(P, 12)}</a></p>
+</LegalPage>
+
+<style is:global>
+  /* CLS: the display face arrives after the first paint and the fallback serif is ~40% wider, so the H1 went from 3 lines to 2 and
+     pulled the text up. A size-adjusted local fallback keeps the same line breaks before and after the swap. */
+  @font-face { font-family: "Imbue Fallback"; src: local("Times New Roman"), local("Times"), local("Liberation Serif"); size-adjust: 72%; font-weight: 100 900; }
+  /* same for the body face: Arial scaled to Alegreya Sans' width (breadcrumb and text wrapped on one line count more after the swap) */
+  @font-face { font-family: "Alegreya Fallback"; src: local("Arial"), local("Liberation Sans"), local("Helvetica"); size-adjust: 84.3%; font-weight: 100 900; }
+  .legal { font-family: "Alegreya Sans", "Alegreya Fallback", "Gill Sans", sans-serif; }
+  .legal .legal-titre { font-family: Imbue, "Imbue Fallback", Didot, "Bodoni 72", serif; }
+</style>

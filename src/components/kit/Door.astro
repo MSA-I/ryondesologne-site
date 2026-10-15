@@ -1,0 +1,38 @@
+---
+import "../../styles/kit.css";
+import Print from "./Print.astro";
+import Light from "./Light.astro";
+import Cta2 from "./Cta2.astro";
+interface Props {
+  title: string;
+  titleId: string;
+  line: string;
+  href: string;
+  linkLabel: string;
+  printId: string;
+  /** css width of the print (<= its max_css_width) */
+  box: number;
+  /** its own light: use + the blurred photo row (+ crop) */
+  light: { use: "restaurant" | "seminaire" | "gites" | "colonie"; photoId: string; crop?: "sky" };
+  level?: 2 | 3;
+  printEffect?: "reveal";
+  /** board .tirage-carre: 1:1 crop instead of 4:5 */
+  square?: boolean;
+  /** sizes override when the print is cover-cropped (default: the box) */
+  sizes?: string;
+  class?: string;
+}
+const { title, titleId, line, href, linkLabel, printId, box, light, level = 2, printEffect, square = false, sizes, class: cls } = Astro.props;
+const H = `h${level}` as "h2" | "h3";
+---
+<article class:list={["door", `door-${light.use}`, cls]} data-door data-kit="card" data-site-studio-component="card" aria-labelledby={titleId}>
+  <Light {...light} />
+  <H id={titleId} class="door-title">{title}</H>
+  <div class="door-body">
+    <Print id={printId} box={box} sizes={sizes ?? `(max-width: 760px) 100vw, ${box}px`} class:list={["door-print", square && "door-print-square"]} effect={printEffect} />
+    <div class="door-text">
+      <p class="door-line">{line}</p>
+      <Cta2 href={href} label={linkLabel} />
+    </div>
+  </div>
+</article>

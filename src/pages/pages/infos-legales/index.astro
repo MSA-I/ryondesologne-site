@@ -1,0 +1,23 @@
+---
+// Infos légales index (quiet legal page). Blocks 6-9 of pages-infos-legales; nav/footer blocks are carried by the site header and footer.
+import LegalPage from "../../../layouts/LegalPage.astro";
+import { t, approved } from "../../../lib/content";
+
+const P = "pages-infos-legales";
+const links = [
+  { n: 7, href: "/pages/infos-legales/mentions-legales.html" },
+  { n: 8, href: "/pages/infos-legales/conditions-generales-d-utilisation-cgu.html" },
+  { n: 9, href: "/pages/infos-legales/conditions-generales-de-vente-cgv.html" },
+];
+---
+<LegalPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/pages/infos-legales/"
+  h1={t(P, 6)}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: t(P, 6) }]}
+>
+  <ul class="legal-liste">
+    {links.map((l) => <li><a href={l.href}>{t(P, l.n)}</a></li>)}
+  </ul>
+</LegalPage>

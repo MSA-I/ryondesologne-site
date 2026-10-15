@@ -1,0 +1,133 @@
+---
+// The client's for-system / open-system planner (idIntegration 646). Keeps its own look (DESIGN §5, planners row):
+// the container sits on brume-creme at the text column's full width, the client's legend is visible text above it.
+// The planner scripts load only here, when the box nears the viewport (IntersectionObserver), never at page load.
+// Inline init code is a generated module (src/content/embeds/<page>.init.js): no inline script, no unsafe-inline.
+interface Props {
+  page: string; // "pages-reservations" or the content id "pages-reservations-html"
+  key: string; // "OSMB-123001-1"
+  legend?: string; // the client's legend text; absent -> the literal gap marker (round 2b)
+  id?: string; // anchor id (the offer pill links to the first planner)
+}
+type Item = { key: string; containerHtml: string; scriptSrc: string[]; init: string };
+import { showPlaceholders } from "../lib/site";
+// Gap marker kept for restore: "[דרוש תוכן: légende du planning]"
+const GAP_LEGEND = "[דרוש תוכן: légende du planning]";
+const { page, key, legend = showPlaceholders ? GAP_LEGEND : "", id } = Astro.props;
+
+const files = import.meta.glob("../content/embeds/*.json", { eager: true }) as Record<string, { default: { page: string; items: Item[] } }>;
+const wanted = page.replace(/-html$/, "");
+const entry = Object.entries(files).find(([p]) => p.endsWith(`/${wanted}.json`));
+if (!entry) throw new Error(`PlannerEmbed: no embed file for page "${page}"`);
+const item = entry[1].default.items.find((i) => i.key === key);
+if (!item) throw new Error(`PlannerEmbed: page "${page}" has no planner "${key}"`);
+---
+
+<div
+  class="planner"
+  data-site-studio-embed
+  data-state="idle"
+  data-planner-page={wanted}
+  data-planner-key={item.key}
+  data-planner-src={JSON.stringify(item.scriptSrc)}
+  id={id}
+>
+  {legend !== "" && <p class="planner-legend">{legend}</p>}
+  <div class="planner-box" set:html={item.containerHtml} />
+</div>
+
+<script>
+  const loaded = new Map<string, Promise<void>>();
+  const loadScript = (src: string) => {
+    const url = src.startsWith("//") ? "https:" + src : src;
+    if (!loaded.has(url)) {
+      loaded.set(
+        url,
+        new Promise<void>((resolve, reject) => {
+          const s = document.createElement("script");
+          s.src = url;
+          s.async = true;
+          s.onload = () => resolve();
+          s.onerror = () => reject(new Error("planner script failed: " + url));
+          document.head.appendChild(s);
+        }),
+      );
+    }
+    return loaded.get(url)!;
+  };
+  const modules = import.meta.glob("../content/embeds/*.init.js") as Record<string, () => Promise<{ inits: Record<string, () => void> }>>;
+
+  const start = async (el: HTMLElement) => {
+    if (el.dataset.state !== "idle") return;
+    el.dataset.state = "loading";
+    try {
+      const page = el.dataset.plannerPage!;
+      const key = el.dataset.plannerKey!;
+      const srcs: string[] = JSON.parse(el.dataset.plannerSrc || "[]");
+      const load = Object.entries(modules).find(([p]) => p.endsWith(`/${page}.init.js`))?.[1];
+      if (!load) throw new Error("planner init missing: " + page);
+      for (const s of srcs) await loadScript(s);
+      const { inits } = await load();
+      inits[key]();
+      el.dataset.state = "ready";
+    } catch (e) {
+      el.dataset.state = "error";
+    }
+  };
+
+  const boxes = document.querySelectorAll<HTMLElement>("[data-site-studio-embed][data-planner-key]");
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            io.unobserve(e.target);
+            start(e.target as HTMLElement);
+          }
+        }
+      },
+      { rootMargin: "300px 0px" },
+    );
+    boxes.forEach((b) => io.observe(b));
+  } else {
+    boxes.forEach((b) => start(b as HTMLElement));
+  }
+</script>
+
+<style>
+  .planner {
+    inline-size: 100%;
+    max-inline-size: 100%;
+    background: var(--brume-creme);
+    color: var(--encre);
+    padding: var(--space-3);
+    margin-block: var(--space-4);
+    scroll-margin-top: var(--space-6);
+    contain: layout;
+  }
+  .planner-legend {
+    margin: 0 0 var(--space-2);
+    font-size: var(--fs-body);
+    line-height: 1.4;
+    max-inline-size: var(--measure);
+    text-wrap: balance;
+  }
+  .planner-box {
+    min-block-size: var(--space-6);
+    max-inline-size: 100%;
+    overflow-x: auto;
+  }
+  /* Third-party widget (open-system) injects white text on #66cc33 (2.04:1). Keep the client's green fill (availability signal), switch text to the ink token (~8:1). */
+  /* The widget's own sheet carries high-specificity colour rules, hence the long chain; it must out-rank them. */
+  .planner .planner-box :global(.OsPlanning .ui-datepicker table.ui-datepicker-calendar tbody tr td a.ui-state-default) {
+    color: var(--encre) !important;
+  }
+  /* 2.4.7: the widget resets outlines; month select and prev/next links get the focus ring (ink on brume-creme) */
+  .planner .planner-box :global(.OsPlanning select:focus-visible),
+  .planner .planner-box :global(.OsPlanning a:focus-visible),
+  .planner .planner-box :global(.OsPlanning button:focus-visible),
+  .planner .planner-box :global(.OsPlanning input:focus-visible) {
+    outline: 2px solid var(--focus) !important;
+    outline-offset: var(--focus-offset) !important;
+  }
+</style>

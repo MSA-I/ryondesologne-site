@@ -1,0 +1,116 @@
+/* Kit components (T07), ported from board D style.css. Tokens only (tokens.css); no frame, ring or shadow (--frame: none). */
+
+/* icon: one stroked set */
+.icon { flex: none; width: var(--icon-size); height: var(--icon-size); fill: none; stroke: currentColor; stroke-width: var(--icon-stroke); stroke-linecap: round; stroke-linejoin: round; }
+/* the menu glyph is drawn on a 32 grid and shown at 1.4x the icon size: the same optical stroke as the arrow */
+.icon-menu { width: calc(var(--icon-size) * 1.4); height: calc(var(--icon-size) * 1.4); stroke-width: calc(var(--icon-stroke) * 32 / 28); transition: transform var(--dur-menu) var(--ease-out); }
+.icon-menu-line { stroke-dasharray: 12 63; transition: stroke-dasharray var(--dur-menu) var(--ease-out), stroke-dashoffset var(--dur-menu) var(--ease-out); }
+[aria-expanded="true"] > .icon-menu { transform: rotate(-45deg); }
+[aria-expanded="true"] > .icon-menu .icon-menu-line { stroke-dasharray: 20 300; stroke-dashoffset: -32.42px; }
+
+/* cta: the rouille pill */
+.cta {
+  display: inline-flex; align-items: center; min-height: var(--btn-height);
+  padding: 0 var(--btn-pad-x);
+  border-radius: var(--radius-cta);
+  background: var(--rouille); color: var(--on-action);
+  font-weight: var(--fw-action); font-size: var(--fs-action); letter-spacing: var(--tr-action);
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: background var(--dur-line) var(--ease-out);
+}
+.cta:active { background: var(--rouille-appui); }
+.cta:focus-visible { outline-color: var(--focus); }
+@media (hover: hover) and (pointer: fine) {
+  .cta:hover { background: var(--rouille-appui); }
+}
+
+/* cta2: the text action */
+.cta2 {
+  display: inline-flex; align-items: center; gap: var(--space-1);
+  min-height: var(--tap-min);
+  padding-block: var(--space-1);
+  font-weight: var(--fw-action); font-size: var(--fs-action);
+  text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+  touch-action: manipulation;
+}
+
+/* press feedback on every input type (no hover change on cta2, DESIGN §4): the underline thickens while pressed */
+.cta2:active { text-decoration-thickness: var(--border-field); }
+
+/* stat: an Imbue figure, its words in Alegreya, no box */
+.stat { margin: 0; display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--space-1); }
+.stat-figure { font-family: var(--font-display); font-weight: var(--fw-stat-xl); font-size: var(--fs-sat); line-height: var(--lh-sat); letter-spacing: 0; font-variant-numeric: lining-nums; }
+.stat-words { font-weight: var(--fw-small); font-size: var(--fs-meta); line-height: var(--lh-small); }
+.stat-source { font-weight: var(--fw-action); font-size: var(--fs-ui-h); }
+.stat--xl { gap: var(--space-2); }
+.stat--xl .stat-figure { font-size: var(--fs-stat-xl); line-height: var(--lh-stat-xl); letter-spacing: var(--tr-stat-xl); }
+.stat--xl .stat-words { font-size: var(--fs-lead); }
+.stat--figure .stat-figure { font-size: var(--fs-figure); line-height: var(--lh-figure); }
+@media (max-width: 760px) {
+  .stat--sat .stat-figure { font-size: var(--fs-sat-phone); }
+  .stat--figure .stat-figure { font-size: var(--fs-figure-phone); }
+}
+
+/* light: a blurred photograph under a flat clamp of its role colour; the caller's parent carries isolation: isolate */
+.fond { position: absolute; inset: 0; z-index: -1; overflow: hidden; margin: 0; }
+.fond picture { display: contents; }
+.fond img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(var(--blur-light)); transform: scale(1.2); }
+.fond-sky img { object-position: 0 0; transform: scale(2.6); transform-origin: 0 0; }
+.clamp { position: absolute; inset: 0; }
+.clamp-restaurant { background: var(--clamp-restaurant); opacity: var(--clamp-restaurant-opacity); }
+.clamp-seminaire { background: var(--clamp-seminaire); opacity: var(--clamp-seminaire-opacity); }
+.clamp-gites { background: var(--clamp-gites); opacity: var(--clamp-gites-opacity); }
+.clamp-colonie { background: var(--clamp-colonie); opacity: var(--clamp-colonie-opacity); }
+
+/* door: a print, an Imbue title and one line with its cta2, on its own light */
+.door {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: flex; flex-direction: column; gap: var(--space-4);
+  padding: var(--space-5) var(--pad);
+  color: var(--encre);
+  border-radius: var(--radius-card);
+}
+.door-restaurant { color: var(--on-dark); }
+.door-restaurant .cta2:focus-visible { outline-color: var(--focus-on-dark); }
+/* max-width 9em: literal from board D .porte-titre (style.css:286); no token carries it */
+.door-title {
+  margin: 0; max-width: 9em;
+  font-family: var(--font-display); font-weight: var(--fw-display);
+  font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+}
+.door-body { display: flex; align-items: flex-end; gap: var(--space-4); }
+.door-print { flex: none; width: var(--print-width); }
+.door-print img { width: 100%; aspect-ratio: 4 / 5; height: auto; object-fit: cover; }
+.door-print-square img { aspect-ratio: 1; }
+.door-text { max-width: 30ch; }
+.door-line { margin: 0 0 var(--space-2); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+/* a door that is a band of its own (inner pages, over 1180 px): the title on the --pad line in the left half, the print and its line in the right half; the band is as tall as its print */
+@media (min-width: 1181px) {
+  .door { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; column-gap: var(--gap-columns); }
+  .door-title { align-self: start; }
+  .door-body { justify-content: flex-start; }
+  /* the home's two doors sit side by side, each a full screen tall */
+  .fetes .door { display: flex; min-height: 86vh; min-height: 86svh; justify-content: space-between; gap: var(--space-5); padding: var(--space-6) var(--pad) var(--space-5); }
+  .fetes .door-body { justify-content: flex-start; }
+}
+@media (max-width: 760px) {
+  .door-title { font-size: var(--fs-display-phone); }
+  .door-body { flex-direction: column; align-items: flex-start; gap: var(--space-3); }
+  .door-print { width: min(100%, var(--print-width)); }
+  .door-line { font-size: var(--fs-lead-phone); }
+}
+
+/* breadcrumbs: plain meta links */
+.breadcrumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; }
+.breadcrumbs li { display: inline-flex; align-items: center; min-height: var(--tap-min); font-size: var(--fs-meta); line-height: var(--lh-small); }
+.breadcrumbs li + li::before { content: "/" / ""; padding-inline: var(--space-1); }
+.breadcrumbs a { text-decoration: none; display: inline-flex; align-items: center; min-height: var(--tap-min); touch-action: manipulation; }
+.breadcrumbs a:active { text-decoration: underline; text-underline-offset: var(--underline-offset); }
+.breadcrumbs [aria-current="page"] { font-weight: var(--fw-label); }
+@media (hover: hover) and (pointer: fine) {
+  .breadcrumbs a:hover { text-decoration: underline; text-underline-offset: var(--underline-offset); }
+}
+@media (max-width: 760px) {
+  .breadcrumbs li { font-size: var(--fs-meta-phone); }
+}

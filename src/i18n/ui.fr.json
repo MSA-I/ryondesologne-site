@@ -1,0 +1,390 @@
+[
+  {
+    "key": "header-history-link",
+    "text": "L'HISTOIRE DU LIEU",
+    "lang": "fr",
+    "where": "label:header-history-link",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "logo-link",
+    "text": "Rayon de Sologne, retour à l'accueil",
+    "lang": "fr",
+    "where": "label:logo-link",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "menu-button-open",
+    "text": "Ouvrir le menu",
+    "lang": "fr",
+    "where": "label:menu-button-open",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "menu-button-close",
+    "text": "Fermer le menu",
+    "lang": "fr",
+    "where": "label:menu-button-close",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "skip-link",
+    "text": "Aller au contenu principal",
+    "lang": "fr",
+    "where": "label:skip-link",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "nav-main",
+    "text": "Navigation principale",
+    "lang": "fr",
+    "where": "label:nav-main",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "footer-offers",
+    "text": "Offres du domaine",
+    "lang": "fr",
+    "where": "label:footer-offers",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "footer-domain",
+    "text": "Le domaine",
+    "lang": "fr",
+    "where": "label:footer-domain",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "scroll-top",
+    "text": "Retour en haut de page",
+    "lang": "fr",
+    "where": "label:scroll-top",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "pan-rail-region",
+    "text": "Photos du domaine, à faire défiler horizontalement",
+    "lang": "fr",
+    "where": "label:pan-rail-region",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "pan-rail-prev",
+    "text": "Photos précédentes",
+    "lang": "fr",
+    "where": "label:pan-rail-prev",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "pan-rail-next",
+    "text": "Photos suivantes",
+    "lang": "fr",
+    "where": "label:pan-rail-next",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "lightbox-dialog",
+    "text": "Photo agrandie",
+    "lang": "fr",
+    "where": "label:lightbox-dialog",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "lightbox-prev",
+    "text": "Photo précédente",
+    "lang": "fr",
+    "where": "label:lightbox-prev",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "lightbox-next",
+    "text": "Photo suivante",
+    "lang": "fr",
+    "where": "label:lightbox-next",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "lightbox-close",
+    "text": "Fermer",
+    "lang": "fr",
+    "where": "label:lightbox-close",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-restaurant",
+    "text": "Restaurant",
+    "lang": "fr",
+    "where": "label:contact-audience-restaurant",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-gites",
+    "text": "Gîtes, anniversaires et séminaires",
+    "lang": "fr",
+    "where": "label:contact-audience-gites",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-mariage",
+    "text": "Mariage",
+    "lang": "fr",
+    "where": "label:contact-audience-mariage",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-seminaire",
+    "text": "Séminaires",
+    "lang": "fr",
+    "where": "label:contact-audience-seminaire",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-colonies",
+    "text": "Colonies, Classes vertes",
+    "lang": "fr",
+    "where": "label:contact-audience-colonies",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "contact-audience-traiteur",
+    "text": "Traiteur",
+    "lang": "fr",
+    "where": "label:contact-audience-traiteur",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "form.sending",
+    "text": "Ouverture de votre messagerie…",
+    "lang": "fr",
+    "where": "label:form.sending",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "form.sent",
+    "text": "Votre message est prêt dans votre messagerie. Il part quand vous l'envoyez depuis celle-ci. Si rien ne s'ouvre, écrivez-nous à l'adresse affichée sur cette page.",
+    "lang": "fr",
+    "where": "label:form.sent",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "form.error",
+    "text": "Un champ est vide ou incorrect. Vérifiez-le, puis réessayez.",
+    "lang": "fr",
+    "where": "label:form.error",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "form.error-required",
+    "text": "Ce champ est obligatoire.",
+    "lang": "fr",
+    "where": "label:form.error-required",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "form.error-email",
+    "text": "Saisissez une adresse e-mail valide.",
+    "lang": "fr",
+    "where": "label:form.error-email",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "consent-banner-text",
+    "text": "Ce site dépose des cookies pour mesurer son audience. Vous pouvez accepter ou refuser, et changer votre choix à tout moment depuis le lien Gestion des cookies, en bas de page.",
+    "lang": "fr",
+    "where": "label:consent-banner-text",
+    "status": "approved",
+    "approved": true,
+    "source": "03-copy/approved.json",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "key": "consent.accept",
+    "text": "Accepter",
+    "lang": "fr",
+    "where": "label:consent.accept",
+    "status": "scanned",
+    "approved": false,
+    "source": "01-scan/raw/home.html $.RGPDCookies accept_button"
+  },
+  {
+    "key": "consent.reject",
+    "text": "Refuser",
+    "lang": "fr",
+    "where": "label:consent.reject",
+    "status": "scanned",
+    "approved": false,
+    "source": "01-scan/raw/home.html $.RGPDCookies refuse_button"
+  },
+  {
+    "key": "consent.title",
+    "text": "Gestion des cookies",
+    "lang": "fr",
+    "where": "label:consent.title",
+    "status": "scanned",
+    "approved": false,
+    "source": "01-scan/raw/home.html $.RGPDCookies modal_title"
+  },
+  {
+    "key": "link.pdf-hint",
+    "text": "PDF",
+    "lang": "fr",
+    "where": "label:link.pdf-hint",
+    "status": "scanned",
+    "approved": false,
+    "source": "01-scan/raw/*.html (format word, as in the newsletter link text)"
+  },
+  {
+    "key": "link.newtab-hint",
+    "text": "s'ouvre dans un nouvel onglet",
+    "lang": "fr",
+    "where": "label:link.newtab-hint",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: hint for links with target=_blank; Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "breadcrumbs",
+    "text": "Fil d'Ariane",
+    "lang": "fr",
+    "where": "label:breadcrumbs",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: aria-label of the breadcrumb nav on inner pages; Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "news.back",
+    "text": "Retour aux actualités",
+    "lang": "fr",
+    "where": "label:news.back",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: back link on a news article (old site lists news under /actualites); Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "album.back",
+    "text": "Retour à la page de l'offre",
+    "lang": "fr",
+    "where": "label:album.back",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: album page back cta to its offer page (DESIGN §11, UX-26); Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "404.message",
+    "text": "Cette page n'existe pas ou plus.",
+    "lang": "fr",
+    "where": "label:404.message",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: 404 page body; Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "404.home",
+    "text": "Retour à l'accueil",
+    "lang": "fr",
+    "where": "label:404.home",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: 404 page link to the home page; Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "form.mail-fallback",
+    "text": "Votre messagerie ne s'ouvre pas ? Écrivez-nous à l'adresse affichée sur cette page.",
+    "lang": "fr",
+    "where": "label:form.mail-fallback",
+    "status": "approved",
+    "approved": true,
+    "source": "T06 draft: fallback line under the contact form (mailto flow, DESIGN/policy components.md); Moshe 2026-10-14 \"לאשר את שבעתם (מומלץ)\""
+  },
+  {
+    "key": "home-satellites-label",
+    "text": "Avis et labels",
+    "lang": "fr",
+    "where": "label:home-satellites-label",
+    "status": "approved",
+    "approved": true,
+    "source": "rounds/P7a.md #1; Moshe \"לאשר (מומלץ)\" 2026-10-15"
+  }
+]

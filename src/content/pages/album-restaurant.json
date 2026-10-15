@@ -1,0 +1,676 @@
+{
+  "id": "album-restaurant",
+  "url": "https://www.rayondesologne.fr/album/restaurant/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Restaurant"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Menu du restaurant du Bistrot du Grand Liot"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Restaurant du Bistrot du Grand Liot"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Plateau mignardise traiteur rayon de sologne bistrot grand liot 1"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Des petit mignardises du restaurant Bistrot"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Restaurant du bistrot Grand Liot"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Tableau du menu du Bistrot du Grand Liot"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Mini tarte citron rayon de sologne"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Veau marengo bistrot du grand liot"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Tarte aux figues restaurant grand liot"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "1664010048634"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Menu du mois d'avril"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "menu du mois de mai"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "English may menu"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "menu de juin"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "English June menu"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Menu de l'été"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "Soirée à thème d'aout"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "summer menu English version"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Menu de septembre"
+    },
+    {
+      "n": 40,
+      "tag": "a",
+      "text": "September menu"
+    },
+    {
+      "n": 41,
+      "tag": "a",
+      "text": "Soirée côte de boeuf 12/09/24"
+    },
+    {
+      "n": 42,
+      "tag": "a",
+      "text": "Soirée Guinguette 26/09/24"
+    },
+    {
+      "n": 43,
+      "tag": "a",
+      "text": "Bistrot du grand Liot verrines sucré salé 41"
+    },
+    {
+      "n": 44,
+      "tag": "a",
+      "text": "Bistrot du Grand Liot charcuterie"
+    },
+    {
+      "n": 45,
+      "tag": "a",
+      "text": "Bistrot du Grand Liot tartine speck camembert"
+    },
+    {
+      "n": 46,
+      "tag": "a",
+      "text": "Bistrot du Grand Liot verrines salé"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "Restaurant Bistrot du Grand Liot Cookie et Brownie"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "Restaurant Bistrot du Grand Liot saumon"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Mini Gourmandise restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Mini Gourmandise restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Tarte au figue restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Sucré traiteur Bistrot du Grand Liot"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "Plat du Restaurant Bistrot du grand Liot"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "Découpe de Saumon Bistrot du Grand Liot"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "Formule barbecue Restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "Découpe du porc rayon de sologne 41"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "Préc."
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "1"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "2"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "Suiv."
+    },
+    {
+      "n": 61,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 62,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 63,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 64,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 65,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 66,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 67,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 68,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 69,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 70,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 71,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 72,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 73,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 74,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 75,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 77,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 78,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 79,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 80,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 81,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 82,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 83,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 84,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 85,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 86,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 87,
+      "tag": "@alt",
+      "text": "Menu du restaurant du Bistrot du Grand Liot"
+    },
+    {
+      "n": 88,
+      "tag": "@alt",
+      "text": "Restaurant du Bistrot du Grand Liot"
+    },
+    {
+      "n": 89,
+      "tag": "@alt",
+      "text": "Plateau mignardise traiteur rayon de sologne bistrot grand liot 1"
+    },
+    {
+      "n": 90,
+      "tag": "@alt",
+      "text": "Des petit mignardises du restaurant Bistrot"
+    },
+    {
+      "n": 91,
+      "tag": "@alt",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 92,
+      "tag": "@alt",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 93,
+      "tag": "@alt",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 94,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 95,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 96,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 97,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 98,
+      "tag": "@alt",
+      "text": "Restaurant du bistrot Grand Liot"
+    },
+    {
+      "n": 99,
+      "tag": "@alt",
+      "text": "Pâtisserie du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 100,
+      "tag": "@alt",
+      "text": "Plat du restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 101,
+      "tag": "@alt",
+      "text": "Tableau du menu du Bistrot du Grand Liot"
+    },
+    {
+      "n": 102,
+      "tag": "@alt",
+      "text": "Mini tarte citron rayon de sologne"
+    },
+    {
+      "n": 103,
+      "tag": "@alt",
+      "text": "Veau marengo bistrot du grand liot"
+    },
+    {
+      "n": 104,
+      "tag": "@alt",
+      "text": "Tarte aux figues restaurant grand liot"
+    },
+    {
+      "n": 105,
+      "tag": "@alt",
+      "text": "1664010048634"
+    },
+    {
+      "n": 106,
+      "tag": "@alt",
+      "text": "Menu du mois d'avril"
+    },
+    {
+      "n": 107,
+      "tag": "@alt",
+      "text": "menu du mois de mai"
+    },
+    {
+      "n": 108,
+      "tag": "@alt",
+      "text": "English may menu"
+    },
+    {
+      "n": 109,
+      "tag": "@alt",
+      "text": "menu de juin"
+    },
+    {
+      "n": 110,
+      "tag": "@alt",
+      "text": "English June menu"
+    },
+    {
+      "n": 111,
+      "tag": "@alt",
+      "text": "Menu de l'été"
+    },
+    {
+      "n": 112,
+      "tag": "@alt",
+      "text": "Soirée à thème d'aout"
+    },
+    {
+      "n": 113,
+      "tag": "@alt",
+      "text": "summer menu English version"
+    },
+    {
+      "n": 114,
+      "tag": "@alt",
+      "text": "Menu de septembre"
+    },
+    {
+      "n": 115,
+      "tag": "@alt",
+      "text": "September menu"
+    },
+    {
+      "n": 116,
+      "tag": "@alt",
+      "text": "Soirée côte de boeuf 12/09/24"
+    },
+    {
+      "n": 117,
+      "tag": "@alt",
+      "text": "Soirée Guinguette 26/09/24"
+    },
+    {
+      "n": 118,
+      "tag": "@alt",
+      "text": "Bistrot du grand Liot verrines sucré salé 41"
+    },
+    {
+      "n": 119,
+      "tag": "@alt",
+      "text": "Bistrot du Grand Liot charcuterie"
+    },
+    {
+      "n": 120,
+      "tag": "@alt",
+      "text": "Bistrot du Grand Liot tartine speck camembert"
+    },
+    {
+      "n": 121,
+      "tag": "@alt",
+      "text": "Bistrot du Grand Liot verrines salé"
+    },
+    {
+      "n": 122,
+      "tag": "@alt",
+      "text": "Restaurant Bistrot du Grand Liot Cookie et Brownie"
+    },
+    {
+      "n": 123,
+      "tag": "@alt",
+      "text": "Restaurant Bistrot du Grand Liot saumon"
+    },
+    {
+      "n": 124,
+      "tag": "@alt",
+      "text": "Mini Gourmandise restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 125,
+      "tag": "@alt",
+      "text": "Mini Gourmandise restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 126,
+      "tag": "@alt",
+      "text": "Tarte au figue restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 127,
+      "tag": "@alt",
+      "text": "Sucré traiteur Bistrot du Grand Liot"
+    },
+    {
+      "n": 128,
+      "tag": "@alt",
+      "text": "Plat du Restaurant Bistrot du grand Liot"
+    },
+    {
+      "n": 129,
+      "tag": "@alt",
+      "text": "Découpe de Saumon Bistrot du Grand Liot"
+    },
+    {
+      "n": 130,
+      "tag": "@alt",
+      "text": "Formule barbecue Restaurant Bistrot du Grand Liot"
+    },
+    {
+      "n": 131,
+      "tag": "@alt",
+      "text": "Découpe du porc rayon de sologne 41"
+    },
+    {
+      "n": 132,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 133,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 134,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

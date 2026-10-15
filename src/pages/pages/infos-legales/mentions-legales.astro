@@ -1,0 +1,35 @@
+---
+// Mentions légales. Blocks 6-10 of pages-infos-legales-mentions-legales-html, verbatim; the "xxxxx" gaps become [דרוש תוכן: …] (client list).
+// The host line ("Hébergeur : E-monsite") stays verbatim: changing it needs a ruling (preserve.json).
+import LegalPage from "../../../layouts/LegalPage.astro";
+import { t, approved } from "../../../lib/content";
+import { showPlaceholders } from "../../../lib/site";
+
+const P = "pages-infos-legales-mentions-legales-html";
+const I = "pages-infos-legales";
+
+const isGap = (s: string) => /^x{3,}$/i.test(s);
+const parts = (text: string, labels: string[]) => {
+  let i = 0;
+  return text.split(/(x{3,})/i).map((s) => (isGap(s) ? { gap: labels[i++] ?? "donnée manquante" } : { s }));
+};
+const address = parts(t(P, 7), ["adresse de l'éditeur"]);
+const phone = t(P, 8).match(/^(.*?)(\d{2}(?: \d{2}){4})$/);
+if (!phone) throw new Error("mentions: phone number not found in block 8");
+const [, telLabel, telNumber] = phone;
+const telHref = `tel:+33${telNumber.replace(/\s/g, "").slice(1)}`;
+// p7-fix-v5 item 7: block 10 fuses "Hébergeur", "Crédit photo" and "Le site" (three lines on the old page); cut before each label, words unchanged.
+const last = t(P, 10).split(/\s+(?=Crédit photo :|Le site )/).map((line) => parts(line, ["numéro SIRET", "numéro de TVA"]));
+---
+<LegalPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/pages/infos-legales/mentions-legales.html"
+  h1={t(P, 6)}
+  crumbs={[{ label: t(I, 1), href: "/" }, { label: t(I, 6), href: "/pages/infos-legales/" }, { label: t(P, 6) }]}
+>
+  {(showPlaceholders || !address.some((x) => "gap" in x)) && <p>{address.map((x) => ("gap" in x ? <span lang="he">[דרוש תוכן: {x.gap}]</span> : x.s))}</p>}
+  <p>{telLabel}<a href={telHref} dir="ltr">{telNumber}</a></p>
+  <p>{t(P, 9)}</p>
+  {last.filter((line) => showPlaceholders || !line.some((x) => "gap" in x)).map((line) => <p>{line.map((x) => ("gap" in x ? <span lang="he">[דרוש תוכן: {x.gap}]</span> : x.s))}</p>)}
+</LegalPage>

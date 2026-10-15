@@ -1,0 +1,350 @@
+[
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 22,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 23,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 24,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 25,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 26,
+  "text": "Réservations Gites",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 27,
+  "text": "Réservations Mariage",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 28,
+  "text": "Newsletter",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 29,
+  "text": "Nos dernières actus",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 30,
+  "text": "Contact",
+  "reason": "Old header/footer navigation; the site header and footer carry the navigation"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 31,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 32,
+  "text": "Mention legales",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 33,
+  "text": "CGU",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 34,
+  "text": "CGV",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 35,
+  "text": "RGPD",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 36,
+  "text": "Franck Chemin",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 37,
+  "text": "One Seb photos",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 38,
+  "text": "Margaud Noée",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 39,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 40,
+  "text": "Gestion des cookies",
+  "reason": "Old footer, legal links and cookie button; the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 41,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 42,
+  "text": "Logoentete",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 43,
+  "text": "brand",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 44,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 45,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 46,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 47,
+  "text": "Balade en foret sologne",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 48,
+  "text": "Plan du domaine",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 49,
+  "text": "notre ferme pédagogique",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 50,
+  "text": "Bloc sanitaire",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 51,
+  "text": "Dortoir",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 52,
+  "text": "Refectoire",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 53,
+  "text": "plan de la petite colonie",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 54,
+  "text": "Cabane de jeux extérieur",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 55,
+  "text": "Kitchenette maison des animateurs",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 56,
+  "text": "Aire de jeux",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 57,
+  "text": "Soirée jeu de camp",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 58,
+  "text": "Etang à 800M",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 59,
+  "text": "Aire de camping",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 60,
+  "text": "Site naturel",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 61,
+  "text": "Plan grande colonie",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 62,
+  "text": "2eme salle d'activité intérieur",
+  "reason": "Alt of a photo of the old slider; the photos are shipped in the pan rail and plans with their own approved or scanned alts"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 63,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 64,
+  "text": "Scroll top",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 65,
+  "text": "Fermer",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 66,
+  "text": "Copy link",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 67,
+  "text": "Share",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 68,
+  "text": "Partager",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 69,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 70,
+  "text": "Share Buttons",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 71,
+  "text": "Partager",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 72,
+  "text": "Tout voir",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 73,
+  "text": "AddToAny Utility Frame",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ },
+ {
+  "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+  "n": 74,
+  "text": "Cookies",
+  "reason": "Old template attribute (logo, burger, search, share/cookie widget labels), not shipped"
+ }
+]

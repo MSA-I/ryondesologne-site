@@ -1,0 +1,27 @@
+---
+import Icon from "./kit/Icon.astro";
+import { ft, NAV, PHONES, HISTORY } from "../lib/site";
+interface Props {
+  /** href of the current page */
+  current?: string;
+  light?: string;
+}
+const { current, light } = Astro.props;
+// the number part of a phone label never breaks; the words before it may wrap
+const splitTel = (label: string) => { const m = label.match(/^(.*?)(\d{2}(?: \d{2}){4})$/); return m ? { text: m[1], num: m[2] } : { text: "", num: label }; };
+const here = (href: string) => (href === current ? "page" : undefined);
+---
+<header class="entete" data-site-studio-component="header" data-light={light}>
+  <a class="logo" href="/" aria-label={ft("logo-link")}><img data-site-studio-logo src="/media/logo/logo.svg" width="200" height="174" alt="" /></a>
+  <a class="histoire" href={HISTORY.href} aria-current={here(HISTORY.href)}>{HISTORY.label}</a>
+  <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="nav" aria-label={ft("menu-button-open")} data-label-open={ft("menu-button-open")} data-label-close={ft("menu-button-close")} data-kit="icon"><Icon name="menu" /></button>
+  <nav id="nav" class="nav" aria-label={ft("nav-main")} data-kit="nav" data-site-studio-component="nav">
+    <ul class="nav-liste">
+      {NAV.map((item) => <li><a href={item.href} aria-current={here(item.href)}>{item.label}</a></li>)}
+    </ul>
+    <ul class="nav-plus">
+      <li><a href={HISTORY.href} aria-current={here(HISTORY.href)}>{HISTORY.label}</a></li>
+      {PHONES.map((p) => <li><a class="nav-tel" href={`tel:${p.tel}`} dir="ltr">{splitTel(p.label).text}<span class="tel-num">{splitTel(p.label).num}</span></a></li>)}
+    </ul>
+  </nav>
+</header>

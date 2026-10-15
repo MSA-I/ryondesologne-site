@@ -1,0 +1,111 @@
+---
+// Restaurant / Traiteur (DESIGN §12 offer page). Text from pages-le-restaurant-html (blocks cited), notices, facts; no typed copy.
+// Blocks 6, 7-25 are used; 1-5 and 26-71 (nav, share widget, footer, attributes) are listed in 06-build/omitted/T21.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import Door from "../../components/kit/Door.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, approved, notice } from "../../lib/content";
+import { showPlaceholders } from "../../lib/site";
+
+const P = "pages-le-restaurant-html";
+const PAGE = "/pages/le-restaurant.html";
+
+// External destinations of the old page (hrefs are not in the block text; 01-scan/raw/pages-le-restaurant-html.html).
+const ZENCHEF = "https://bookings.zenchef.com/results?rid=371471&pid=1001";
+const PDF_GROUPES = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+
+// Old <title> and meta description, verbatim (preserve.json seo-title; 01-scan/raw).
+const title = "Restaurant & traiteur en Sologne : Bistrot du grand liot";
+const description =
+  "Restaurant & traiteur en Sologne près de Romorantin : cuisine maison, repas de groupes, mariages, évènements et restauration pour vos séjours.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("le-restaurant: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// The opening's price stat: "à partir de 16€ par personne", cut from block 8 (it is in the original and in its approved rewrite).
+const price = t(P, 8).match(/(à partir de) (\d+\s?€) (par personne)/);
+if (!price) throw new Error("le-restaurant: price phrase not found in block 8");
+// The pull quote: a sentence of block 13, verbatim.
+const quote = t(P, 13).match(/Pas de superflu[^.]*\./)?.[0];
+if (!quote) throw new Error("le-restaurant: pull-quote sentence not found in block 13");
+
+const light = { use: "restaurant" as const, photoId: "28c71597-b1bc-46c8-92a7-2f185bc7f681-field" };
+const doorLight = { use: "gites" as const, photoId: "mariage-11-field" };
+const spaces = [
+  { h: 20, p: 21 },
+  { h: 22, p: 23 },
+  { h: 24, p: 25 },
+];
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="28c71597-b1bc-46c8-92a7-2f185bc7f681-1120x840"
+  printBox={560}
+  cta={{ href: ZENCHEF, label: t(P, 15) }}
+  stats={[{ lead: price[1], figure: price[2], words: price[3] }]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="resto-traiteur" marginPrint={marginPrint(0)}>
+    <p>{t(P, 8)}</p>
+    <Cta2 href={PDF_GROUPES} label={t(P, 9)} icon="file" />
+    <p>{t(P, 10)}</p>
+    {showPlaceholders && <p lang="he">[דרוש תוכן: canal traiteur]</p>}
+    {showPlaceholders && <p class="chap-avis">{t(P, 11)} <span lang="he">[דרוש תוכן: plaquette traiteur mariage]</span></p>}
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 12)} titleId="resto-bistrot">
+    <p>{t(P, 13)}</p>
+    <p>{t(P, 14)}</p>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 16)} titleId="resto-saison" marginPrint={marginPrint(1)} side="start">
+    <p class="chap-avis">{notice("restaurant-winter-closing")}</p>
+    <p class="chap-avis">{notice("restaurant-winter-reopening")}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 19)} titleId="resto-espaces" wide>
+    {spaces.map((s) => (
+      <div>
+        <h3>{t(P, s.h)}</h3>
+        <p>{t(P, s.p)}</p>
+      </div>
+    ))}
+  </Chapter>
+
+  <div slot="end">
+    <div class="resto-rail"><PanRail page={PAGE} /></div>
+    <Door
+      title={t("album", 8)}
+      titleId="porte-album-restaurant-titre"
+      line={approved("meta-description", "album-restaurant")}
+      href="/album/restaurant/"
+      linkLabel={t("album", 6)}
+      printId="28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496"
+      printEffect="reveal"
+      box={248}
+      light={doorLight}
+    />
+  </div>
+</OfferPage>
+
+<style is:global>
+  .resto-rail { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) 0; }
+</style>

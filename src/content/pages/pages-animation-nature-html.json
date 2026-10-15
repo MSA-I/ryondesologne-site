@@ -1,0 +1,391 @@
+{
+  "id": "pages-animation-nature-html",
+  "url": "https://www.rayondesologne.fr/pages/animation-nature.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Objectif zéro voiture pour votre séjour!"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "Rien de mieux que de tazoner ( en bérichon prendre le temps de..) durant votre séjour et pour cela nous avons tout pensé sur place pour que toute la famille puisse profiter d'occupations sur place sans avoir à reprendre la voiture!"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "En pleine nature !"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Nous sommes au plein milieu des bois et des prairies donc les Balades à pied, à velo, à cheval feront surement parties de votre séjour."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Lire un livre au bord de l'étang, Ecouter les oiseaux chanter, ou même bronzer sur nos transats.."
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "A faire en famille !"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Découvrir la mini ferme (lapin, chèvre, canard, mouton...), profiter de l'aire de jeux à l'entrée du site !"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Programmer une partie de pêche ou défier vos amis à la pétanque comme au babyfoot!"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Entre amis !"
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "Faire un feu de camps voir un feu de cheminée en plein hiver!"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Profiter d'un marché d'agriculteurs, gouter au miel du domaine et encore participer à une degustation de vin.. Tout peut se faire à la maison!"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Nous voulons vous faire découvrir la Sologne même si votre séjour ne dure qu'une nuit, grâce à la cuisine, à la décoration, aux animations proposées sur place. Cette découverte s'inscrit dans une démarche de partenariat local, avec des agriculteurs, des artisans, des artistes, photographes de la Région centre val de Loire... Grace à cette vitrine locale, nous soutenons d'autres initiatives régionales tout en essayant au maximum de limiter notre impact sur l'environnement, car nous voulons promouvoir les valeurs du tourisme durable."
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "En compagnie d'animaux"
+    },
+    {
+      "n": 19,
+      "tag": "p",
+      "text": "-Mini ferme"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "-Découverte des animaux de la mare"
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "-Initiation apiculture et dégustation de miel"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "-Observatoires en foret -Pêche de poissons (mais on relache attention) -Balade d'âne en calèche -Brame du cerf -Découverte faune et flore grâce à une chasse aux trésors ;)"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "Nos partenaires"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "-Massage en pleine nature"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "-Sylvothérapie, Méditation, Yoga... -Vente de produits locaux et artisanaux -Atelier culinaire charcuterie, foie gras, pain..."
+    },
+    {
+      "n": 26,
+      "tag": "p",
+      "text": "-Stage de survie en pleine nature"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "-Atelier cosmétique maison"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "-Escape game"
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "-Balade en 2CV, en Trottinette électrique"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "Pour réserver des services en amont de votre visite n'hésitez pas à nous demander les contacts!"
+    },
+    {
+      "n": 31,
+      "tag": "p",
+      "text": "Et si on prenait finalement la voiture pour découvrir les sites touristiques de proximité?"
+    },
+    {
+      "n": 32,
+      "tag": "p",
+      "text": "Cité médiévale de Mennetou/cher, Zoo de Beauval, Chateau de Chambord, Center parc... Nous avons sélectionné pour vous plus de 50 activités à faire à moins d'une heure du domaine!"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Cliquez pour découvrir ce que nous avons recensé à 1h de la Maison"
+    },
+    {
+      "n": 34,
+      "tag": "p",
+      "text": "PS : si vous venez du Sud gardez vous une journée pour monter jusqu'à Paris à seulement 2h, cela serait dommage de ne pas faire une étape par la capitale en utilisant la gare de proximité!"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 36,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 37,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 38,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 40,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 41,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 42,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 43,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 44,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 45,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 46,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 53,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 54,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 55,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 56,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 57,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 58,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 59,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 60,
+      "tag": "@alt",
+      "text": "En famille a la nature"
+    },
+    {
+      "n": 61,
+      "tag": "@alt",
+      "text": "Chevres ferme pedagogique rayon de sologne41320"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "verre de vin"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "Brame du cerf sologne"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Oenologie rayon de sologne"
+    },
+    {
+      "n": 65,
+      "tag": "@alt",
+      "text": "en pleine nature sologne"
+    },
+    {
+      "n": 66,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 67,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 68,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 69,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 70,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 71,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 72,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 73,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 74,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 75,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 76,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 77,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

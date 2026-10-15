@@ -1,0 +1,85 @@
+---
+// /actualites/<cat>/ (DESIGN §12 News): the same album rows, only the articles of that category; the other categories
+// as plain links above. H1 = the old category page's H1 (newsindex block 6), labels verbatim.
+import { getCollection } from "astro:content";
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import Base from "../../../layouts/Base.astro";
+import AlbumRows from "../../../components/AlbumRows.astro";
+import Breadcrumbs from "../../../components/kit/Breadcrumbs.astro";
+import { t } from "../../../lib/content";
+import { img } from "../../../lib/assets";
+
+const CATS = ["blog", "cuisine", "sorties", "voyages"] as const;
+export function getStaticPaths() {
+  return ["blog", "cuisine", "sorties", "voyages"].map((cat) => ({ params: { cat }, props: { cat } }));
+}
+const { cat } = Astro.props as { cat: (typeof CATS)[number] };
+const ID = `actualites-${cat}`;
+const path = `/actualites/${cat}/`;
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("actualites/[cat]: 05-assets/assets.json not found above " + process.cwd());
+}
+// Old <title> and meta description, verbatim (01-scan/raw); the approved rewrites arrive with T38.
+const raw = readFileSync(join(findSite(), "01-scan", "raw", `${ID}.html`), "utf8");
+const h1 = t(ID, 6);
+const title = raw.match(/<title>([^<]*)<\/title>/)?.[1]?.trim() ?? h1;
+const description = raw.match(/<meta name="description" content="([^"]*)"/)?.[1]?.trim() ?? h1;
+
+const news = (await getCollection("news"))
+  .map((e) => e.data)
+  .filter((d) => d.category === cat)
+  .sort((a, b) => b.isoDate.localeCompare(a.isoDate) || a.url.localeCompare(b.url));
+const printable = (id: string) => {
+  try { img(id, { box: 248, sizes: "248px" }); return true; } catch { return false; }
+};
+const thumbable = (id: string) => {
+  try { img(id, { box: 96, sizes: "96px" }); return true; } catch { return false; }
+};
+const rows = news.map((d) => ({
+  key: d.id,
+  label: d.title,
+  date: d.date,
+  href: new URL(d.url).pathname,
+  printId: d.images.find(printable),
+  thumbId: d.images.find(thumbable), // touch screens: every row shows its own post's print, small
+}));
+const index = t("actualites", 6);
+const cats = CATS.map((c) => ({ label: t(`actualites-${c}`, 6), href: `/actualites/${c}/`, current: c === cat }));
+// "Accueil" and the news label are the old page's own link texts (newsindex blocks 1 and 6).
+const crumbs =
+  h1 === index
+    ? [{ label: t(ID, 1), href: "/" }, { label: index }]
+    : [{ label: t(ID, 1), href: "/" }, { label: index, href: "/actualites/" }, { label: h1 }];
+---
+<Base title={title} description={description} canonicalPath={path} current="/actualites/">
+  <div class="news-cats" data-site-studio-component="news-categories">
+    <Breadcrumbs items={crumbs} />
+    <nav aria-label={index}>
+      <ul>{cats.map((c) => <li><a href={c.href} aria-current={c.current ? "page" : undefined}>{c.label}</a></li>)}</ul>
+    </nav>
+  </div>
+  <AlbumRows rows={rows} news>
+    <h1 slot="title" class="album-titre">{h1}</h1>
+  </AlbumRows>
+</Base>
+
+<style is:global>
+  .news-cats { padding: var(--space-6) var(--pad) 0; }
+  .news-cats ul { display: flex; flex-wrap: wrap; gap: 0 var(--space-4); margin: 0; padding: 0; list-style: none; }
+  .news-cats nav a {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-size: var(--fs-meta); line-height: var(--lh-small);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  .news-cats nav a[aria-current="page"] { font-weight: var(--fw-label); }
+  .news-cats nav a:active { text-decoration-thickness: 2px; }
+  .album-rows { min-height: 0; padding-top: var(--space-3); }
+</style>

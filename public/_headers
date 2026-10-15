@@ -1,0 +1,25 @@
+# Host-neutral headers file (Netlify / Cloudflare Pages syntax). See 06-build/security-headers.md for other hosts.
+# frame-ancestors can only be sent as a header (a CSP meta ignores it).
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Content-Security-Policy: frame-ancestors 'self'
+  X-Frame-Options: SAMEORIGIN
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/media/*
+  Cache-Control: public, max-age=2592000
+
+/medias/*
+  Cache-Control: public, max-age=2592000
+
+/site.webmanifest
+  Content-Type: application/manifest+json

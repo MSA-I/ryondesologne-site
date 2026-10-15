@@ -1,0 +1,61 @@
+---
+// La maison des invités (DESIGN §12 lodging page). Text from pages-la-maison-des-invites-html (blocks cited), no typed copy;
+// title and description are the approved rewrites. Blocks 6-24 are used except 16 (a photo caption; 21 = planner heading, 22-24 = legend); 1-5, 16, 25-144 (nav, calendar
+// markup, share widget, footer, attributes) are listed in 06-build/omitted/T28.json.
+import LodgingPage from "../../layouts/LodgingPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, approved, fact, factTel } from "../../lib/content";
+
+const P = "pages-la-maison-des-invites-html";
+const PAGE = "/pages/la-maison-des-invites.html";
+const RES = "pages-reservations-html";
+
+const title = approved("meta-title", P);
+const description = approved("meta-description", P);
+
+// Destinations of the old links (01-scan/raw/pages-la-maison-des-invites-html.html).
+const PDF_MAISON = "/medias/files/maison-des-invites-rayon-de-sologne-41-compressed.pdf";
+const VISIT = "https://my.matterport.com/show/?m=gFXW73G3tSp&play=1&lang=fr&hl=2&brand=0&title=0&vr=0&ss=143&sr=-.08,.39";
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+const PDF_OPTIONS = "/medias/files/option-gite-rayon-de-sologne-compresse.pdf";
+
+// Opening stat, cut from the client's own list line (block 10).
+const rooms = t(P, 10).match(/(\d+) (chambres)/);
+if (!rooms) throw new Error("invites: rooms phrase not found in block 10");
+
+const light = { use: "gites" as const, photoId: "mariage-11-field" };
+---
+<LodgingPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  pageId={P}
+  h1={t(P, 6)}
+  light="gites"
+  printId="terrasse-maison-des-invites-gite-rayon-de-sologne"
+  printBox={512}
+  capacity={{ figure: rooms[1], words: rooms[2] }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  planner={{ page: "pages-la-maison-des-invites", key: "OSMB-123001-8", legend: [22, 23, 24].map((n) => t(P, n)).join(" ") }}
+  plannerTitle={t(P, 21)}
+  parent={{ label: t(P, 3), href: "/pages/reservations.html" }}
+  booking={{ href: "/pages/reservations.html#reserver", label: t(RES, 104) }}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: t(P, 6) }]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="invites-ouvrier" marginPrint={{ id: "rayondesolognephotojeuxexterieur41-1120x840", box: 248 }}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <ul class="lodging-liste">
+      {[10, 11, 12, 13, 14].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+    <p>{t(P, 15)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <Cta2 href={PDF_MAISON} label={t(P, 17)} icon="file" />
+    <Cta2 href={VISIT} label={t(P, 18)} newTab />
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 19)} icon="file" />
+    <Cta2 href={PDF_OPTIONS} label={t(P, 20)} icon="file" />
+  </Chapter>
+</LodgingPage>

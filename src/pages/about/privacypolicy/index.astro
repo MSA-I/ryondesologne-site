@@ -1,0 +1,18 @@
+---
+// Privacy policy page. The old page holds only its H1 (about-privacypolicy has no body block): the body stays a placeholder on the client
+// list. No policy text is written here; how the site handles data is for the client to word.
+import LegalPage from "../../../layouts/LegalPage.astro";
+import { t, approved } from "../../../lib/content";
+import { showPlaceholders } from "../../../lib/site";
+
+const P = "about-privacypolicy";
+---
+<LegalPage
+  title={t(P, 6)}
+  description={approved("meta-description", P)}
+  canonicalPath="/about/privacypolicy/"
+  h1={t(P, 6)}
+  crumbs={[{ label: t(P, 1), href: "/" }, { label: t(P, 6) }]}
+>
+  {showPlaceholders && <p lang="he">[דרוש תוכן: texte de la politique de confidentialité — la page d'origine n'a que son titre]</p>}
+</LegalPage>

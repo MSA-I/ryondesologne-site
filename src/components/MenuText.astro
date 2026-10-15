@@ -1,0 +1,33 @@
+---
+// One verbatim menu transcription as text (a11y 1.1.1 / 1.4.5): the title as sub-heading, each section heading smaller, the lines as a
+// list without bullets. Text exactly as stored. `hidden` = visually hidden (screen readers only).
+import { menuId, type Menu } from "../lib/menus";
+interface Props { menu: Menu; level?: 2 | 3; hidden?: boolean }
+const { menu, level = 2, hidden = false } = Astro.props;
+const H = `h${level}` as "h2" | "h3";
+const Hs = `h${level + 1}` as "h3" | "h4";
+---
+<div class:list={["menu-text", hidden && "visually-hidden"]} id={menuId(menu)} data-site-studio-component="menu-text">
+  {menu.title != null && <H class="menu-titre">{menu.title}</H>}
+  {menu.sections.map((s) => (
+    <div class="menu-section">
+      {s.heading != null && <Hs class="menu-sous-titre">{s.heading}</Hs>}
+      <ul class="menu-lignes" role="list">
+        {s.lines.map((l) => <li class="menu-ligne">{l}</li>)}
+      </ul>
+    </div>
+  ))}
+</div>
+
+<style>
+  .menu-text { color: var(--encre); min-width: 0; overflow-wrap: anywhere; }
+  .menu-text .menu-titre { margin: 0 0 var(--space-3); font-weight: var(--fw-h2-text); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); text-wrap: balance; }
+  .menu-text .menu-section { margin: 0 0 var(--space-3); }
+  .menu-text .menu-sous-titre { margin: 0 0 var(--space-1); font-weight: var(--fw-label); font-size: var(--fs-ui-h); line-height: var(--lh-small); text-wrap: balance; }
+  .menu-text .menu-lignes { list-style: none; margin: 0; padding: 0; }
+  .menu-text .menu-ligne { margin: 0 0 var(--space-1); padding: 0; font-size: var(--fs-small); line-height: var(--lh-small); }
+  @media (max-width: 760px) {
+    .menu-text .menu-titre { font-size: var(--fs-ui-h); }
+    .menu-text .menu-ligne { font-size: var(--fs-body-phone); }
+  }
+</style>

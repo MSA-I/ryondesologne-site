@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import Cta from "../components/kit/Cta.astro";
+import { ft, NAV } from "../lib/site";
+
+// 404 (DESIGN §12 quiet page on the brume ground): noindex, not in the sitemap.
+// Text only from functional-text.json (404.message, 404.home) and the main navigation (lib/site.ts NAV).
+const message = ft("404.message");
+---
+<Base title={message} description={message} canonicalPath="/404.html" noindex>
+  <article class="page-404" data-site-studio-component="error-page">
+    <h1 class="page-404-titre">{message}</h1>
+    <Cta href="/" label={ft("404.home")} />
+    <ul class="page-404-liens">
+      {NAV.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
+    </ul>
+  </article>
+</Base>
+
+<style is:global>
+  .page-404 {
+    display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-4);
+    max-width: var(--measure);
+    background: var(--brume); color: var(--encre);
+    padding: var(--nav-panel-top) var(--pad) var(--space-6);
+  }
+  .page-404-titre {
+    margin: 0; overflow-wrap: anywhere;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+  .page-404-liens { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+  .page-404-liens a {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-size: var(--fs-lead); line-height: var(--lh-lead);
+    color: var(--encre);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  .page-404-liens a:active { opacity: 0.7; }
+
+  @media (max-width: 760px) {
+    .page-404 { padding-bottom: var(--space-5); }
+    .page-404-titre { font-size: var(--fs-display-phone); }
+    .page-404-liens a { font-size: var(--fs-lead-phone); }
+  }
+</style>

@@ -1,0 +1,106 @@
+---
+// Anniversaire (DESIGN §12 offer page). Text from pages-une-salle-pour-un-anniversaire-html (blocks cited), no typed copy.
+// Blocks 1, 3, 6-25 and 64-66 are used (1 and 3 as breadcrumb labels; 16 of the home lives here as the lead);
+// the rest (nav, calendar cells, share widget, footer, attributes) is listed in 06-build/omitted/T26.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import PlannerEmbed from "../../components/PlannerEmbed.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, blocks, fact, factTel } from "../../lib/content";
+
+const P = "pages-une-salle-pour-un-anniversaire-html";
+const PAGE = "/pages/une-salle-pour-un-anniversaire.html";
+
+// PDF at its old path (01-scan/raw: href of block 21).
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "salle d'anniversaire pres de romorantin : Rayon de sologne";
+const description =
+  "louez une salle pour anniversaire près de romorantin : jusqu'à 50 personnes, couchages sur place, traiteur en option et formule soirée.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("anniversaire: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// Opening stat, cut from the client's own list item (block 18).
+const beds = t(P, 18).match(/(jusqu'à) (\d+) (lits individuels)/);
+if (!beds) throw new Error("anniversaire: beds phrase not found in block 18");
+// The pull quote: a sentence of block 10, verbatim.
+const quote = t(P, 10).match(/Chacun son ambiance[^!]*!/)?.[0];
+if (!quote) throw new Error("anniversaire: pull-quote sentence not found in block 10");
+
+const light = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+const included = blocks(P, 13, 18);
+const planners = [
+  { h: 23, p: [24], legend: 25, key: "OSMB-123001-1", id: "disponibilites" },
+  { h: 64, p: [65], legend: 66, key: "OSMB-123001-4", id: undefined },
+];
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="anniversaire-grand-liot-langon-41321-1120x840"
+  printBox={560}
+  cta={{ href: "#disponibilites", label: t("pages-reservations-html", 104) }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  stats={[{ lead: beds[1], figure: beds[2], words: beds[3] }]}
+  crumbs={[
+    { label: t(P, 1), href: "/" },
+    { label: t(P, 3), href: "/pages/reservations.html" },
+    { label: t(P, 6) },
+  ]}
+>
+  <Chapter tone="creme" title={t(P, 7)} titleId="anniv-surprise" marginPrint={marginPrint(0)}>
+    <p>{t("home", 16)}</p>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 11)} titleId="anniv-inclus">
+    <p>{t(P, 12)}</p>
+    <ul>
+      {included.map((b) => <li>{b.text}</li>)}
+    </ul>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 19)} titleId="anniv-traiteur">
+    <p>{t(P, 20)}</p>
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 21)} icon="file" />
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 22)} titleId="anniv-salles" wide>
+    {planners.map((s) => (
+      <section aria-labelledby={`anniv-${s.key}`}>
+        <h3 id={`anniv-${s.key}`}>{t(P, s.h)}</h3>
+        {s.p.map((n) => <p>{t(P, n)}</p>)}
+        <PlannerEmbed page="pages-une-salle-pour-un-anniversaire" key={s.key} legend={t(P, s.legend)} id={s.id} />
+      </section>
+    ))}
+  </Chapter>
+
+  <div slot="end">
+    <div class="anniv-rail"><PanRail page={PAGE} /></div>
+  </div>
+</OfferPage>
+
+<style is:global>
+  .anniv-rail { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) 0; }
+</style>

@@ -1,0 +1,606 @@
+{
+  "id": "album-seminaire-reunion",
+  "url": "https://www.rayondesologne.fr/album/seminaire-reunion/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "photos Séminaire Réunion"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 6"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "amenagement ludique pour seminaire"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "Regroupement entreprise reunion rayon de sologne centre france 41"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "groupe parc du manoir rayon de sologne"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Anniversaire grand liot langon 41320"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "fete d anniversaire location salle"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Semianire rayon de sologne terrasse langon"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "terrasse salle langon exterieur"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 1"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "devant guinguette"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Salle langon modulable reunion rayon de sologne"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "salle langon modulable"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 5"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "espace devant la guinguette préau"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Salle restaurant groupe proche romorantin pour anniversaire"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "salle romorantin pour un repas"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 7"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "espace jeux proche guinguette"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Salle anniversaire rayon de sologne"
+    },
+    {
+      "n": 26,
+      "tag": "p",
+      "text": "salle romo pour un anniversaire"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 2"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "soiree entreprise colorcon"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 4"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "soiree entreprise"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320 3"
+    },
+    {
+      "n": 32,
+      "tag": "p",
+      "text": "soiree colorcon"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 6"
+    },
+    {
+      "n": 34,
+      "tag": "p",
+      "text": "inauguration seminaire"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320"
+    },
+    {
+      "n": 36,
+      "tag": "p",
+      "text": "animation fete de village"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "Soiree rayon de sologne et juillet 41320"
+    },
+    {
+      "n": 38,
+      "tag": "p",
+      "text": "concert chez rayon de sologne"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 5"
+    },
+    {
+      "n": 40,
+      "tag": "p",
+      "text": "conference sous la guinguette"
+    },
+    {
+      "n": 41,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 4"
+    },
+    {
+      "n": 42,
+      "tag": "p",
+      "text": "espace de travail au sein du manoir"
+    },
+    {
+      "n": 43,
+      "tag": "a",
+      "text": "Salle groupe restaurant proche romorantin"
+    },
+    {
+      "n": 44,
+      "tag": "p",
+      "text": "salle réunion travail"
+    },
+    {
+      "n": 45,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 3"
+    },
+    {
+      "n": 46,
+      "tag": "p",
+      "text": "reunion booster"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "Salle anniversaire romorantin 41"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 2"
+    },
+    {
+      "n": 49,
+      "tag": "p",
+      "text": "booster camp reseau entreprendre"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320 1"
+    },
+    {
+      "n": 51,
+      "tag": "p",
+      "text": "grange pour un repas associatif"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Rayondesolognephotoseminairegrange41 1"
+    },
+    {
+      "n": 53,
+      "tag": "p",
+      "text": "salle grange seminaire"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "Rayondesolognephotoseminairegrange41"
+    },
+    {
+      "n": 55,
+      "tag": "p",
+      "text": "grange pour repas dinatoire"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "Seminaire domaine rayon de sologne 41320"
+    },
+    {
+      "n": 57,
+      "tag": "p",
+      "text": "aire de jeux"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320 1"
+    },
+    {
+      "n": 59,
+      "tag": "p",
+      "text": "reunion équipe"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320"
+    },
+    {
+      "n": 61,
+      "tag": "p",
+      "text": "travail en sous groupe en extérieur"
+    },
+    {
+      "n": 62,
+      "tag": "a",
+      "text": "Charline rayon de sologne 41320"
+    },
+    {
+      "n": 63,
+      "tag": "p",
+      "text": "exterieur"
+    },
+    {
+      "n": 64,
+      "tag": "a",
+      "text": "Seminaire soiree du 2 juillet 2026 rayon de sologne 41320"
+    },
+    {
+      "n": 65,
+      "tag": "a",
+      "text": "Porte ouverte septembre 2026 visite sans rdv et gratuite hebergement salle reception salle reunion 2h de paris rayon de sologne"
+    },
+    {
+      "n": 66,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 67,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 68,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 69,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 70,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 71,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 72,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 73,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 74,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 75,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 76,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 77,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 78,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 79,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 80,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 81,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 82,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 83,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 84,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 85,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 86,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 87,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 6"
+    },
+    {
+      "n": 88,
+      "tag": "@alt",
+      "text": "Regroupement entreprise reunion rayon de sologne centre france 41"
+    },
+    {
+      "n": 89,
+      "tag": "@alt",
+      "text": "Anniversaire grand liot langon 41320"
+    },
+    {
+      "n": 90,
+      "tag": "@alt",
+      "text": "Semianire rayon de sologne terrasse langon"
+    },
+    {
+      "n": 91,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 1"
+    },
+    {
+      "n": 92,
+      "tag": "@alt",
+      "text": "Salle langon modulable reunion rayon de sologne"
+    },
+    {
+      "n": 93,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 5"
+    },
+    {
+      "n": 94,
+      "tag": "@alt",
+      "text": "Salle restaurant groupe proche romorantin pour anniversaire"
+    },
+    {
+      "n": 95,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 7"
+    },
+    {
+      "n": 96,
+      "tag": "@alt",
+      "text": "Salle anniversaire rayon de sologne"
+    },
+    {
+      "n": 97,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 2"
+    },
+    {
+      "n": 98,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 4"
+    },
+    {
+      "n": 99,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320 3"
+    },
+    {
+      "n": 100,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 6"
+    },
+    {
+      "n": 101,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320"
+    },
+    {
+      "n": 102,
+      "tag": "@alt",
+      "text": "Soiree rayon de sologne et juillet 41320"
+    },
+    {
+      "n": 103,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 5"
+    },
+    {
+      "n": 104,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 4"
+    },
+    {
+      "n": 105,
+      "tag": "@alt",
+      "text": "Salle groupe restaurant proche romorantin"
+    },
+    {
+      "n": 106,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 3"
+    },
+    {
+      "n": 107,
+      "tag": "@alt",
+      "text": "Salle anniversaire romorantin 41"
+    },
+    {
+      "n": 108,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 2"
+    },
+    {
+      "n": 109,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320 1"
+    },
+    {
+      "n": 110,
+      "tag": "@alt",
+      "text": "Rayondesolognephotoseminairegrange41 1"
+    },
+    {
+      "n": 111,
+      "tag": "@alt",
+      "text": "Rayondesolognephotoseminairegrange41"
+    },
+    {
+      "n": 112,
+      "tag": "@alt",
+      "text": "Seminaire domaine rayon de sologne 41320"
+    },
+    {
+      "n": 113,
+      "tag": "@alt",
+      "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320 1"
+    },
+    {
+      "n": 114,
+      "tag": "@alt",
+      "text": "Melanie malfoy photographie reunion equipe rayon de sologne 41320"
+    },
+    {
+      "n": 115,
+      "tag": "@alt",
+      "text": "Charline rayon de sologne 41320"
+    },
+    {
+      "n": 116,
+      "tag": "@alt",
+      "text": "Seminaire soiree du 2 juillet 2026 rayon de sologne 41320"
+    },
+    {
+      "n": 117,
+      "tag": "@alt",
+      "text": "Porte ouverte septembre 2026 visite sans rdv et gratuite hebergement salle reception salle reunion 2h de paris rayon de sologne"
+    },
+    {
+      "n": 118,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 119,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 120,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

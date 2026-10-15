@@ -1,0 +1,341 @@
+{
+  "id": "album",
+  "url": "https://www.rayondesologne.fr/album/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Album"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "56"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "Restaurant"
+    },
+    {
+      "n": 9,
+      "tag": "span",
+      "text": "41"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "Photos Manoir"
+    },
+    {
+      "n": 11,
+      "tag": "span",
+      "text": "19"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Photos Auberge"
+    },
+    {
+      "n": 13,
+      "tag": "span",
+      "text": "11"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Photos colonie"
+    },
+    {
+      "n": 15,
+      "tag": "span",
+      "text": "72"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Photos mariage"
+    },
+    {
+      "n": 17,
+      "tag": "span",
+      "text": "31"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "photos Séminaire Réunion"
+    },
+    {
+      "n": 19,
+      "tag": "p",
+      "text": "Mai 1"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 25,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 34,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 35,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 36,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 37,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 38,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 39,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 40,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Restaurant"
+    },
+    {
+      "n": 42,
+      "tag": "@alt",
+      "text": "Photos Manoir"
+    },
+    {
+      "n": 43,
+      "tag": "@alt",
+      "text": "Photos Auberge"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "Photos colonie"
+    },
+    {
+      "n": 45,
+      "tag": "@alt",
+      "text": "Photos mariage"
+    },
+    {
+      "n": 46,
+      "tag": "@alt",
+      "text": "photos Séminaire Réunion"
+    },
+    {
+      "n": 47,
+      "tag": "@alt",
+      "text": "Mai 1"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "English may menu"
+    },
+    {
+      "n": 49,
+      "tag": "@alt",
+      "text": "Mariage rayon de sologne x et x ingrid thierry photographe 001 websize"
+    },
+    {
+      "n": 50,
+      "tag": "@alt",
+      "text": "Chambre nuptiale manoir rayon de sologne41320"
+    },
+    {
+      "n": 51,
+      "tag": "@alt",
+      "text": "Mariage x et x rayon de sologne 41320"
+    },
+    {
+      "n": 52,
+      "tag": "@alt",
+      "text": "Mariage x et x 804 2 websize"
+    },
+    {
+      "n": 53,
+      "tag": "@alt",
+      "text": "Mariage x et x rayon de sologne 41320 16"
+    },
+    {
+      "n": 54,
+      "tag": "@alt",
+      "text": "Photo de charline"
+    },
+    {
+      "n": 55,
+      "tag": "@alt",
+      "text": "Photos des marie s rayon de sologne 41 1"
+    },
+    {
+      "n": 56,
+      "tag": "@alt",
+      "text": "Salle d eau colonie rayon de sologne"
+    },
+    {
+      "n": 57,
+      "tag": "@alt",
+      "text": "Salle de repas colonie restaurant rayon de sologne"
+    },
+    {
+      "n": 58,
+      "tag": "@alt",
+      "text": "Espace de travail salle colonie rayon de sologne"
+    },
+    {
+      "n": 59,
+      "tag": "@alt",
+      "text": "Cuisine de la colonie restaurant rayon de sologne"
+    },
+    {
+      "n": 60,
+      "tag": "@alt",
+      "text": "Couloir dortoir chambre colonie rayon de sologne"
+    },
+    {
+      "n": 61,
+      "tag": "@alt",
+      "text": "Chambre 2 colonie dortoir rayon de sologne"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "Chambre 1 de la colonie rayon de sologne"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "Bar du restaurant salle rayon de sologne"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Terrasse de la colonie avec tables exterieures rayon de sologne"
+    },
+    {
+      "n": 65,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 66,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 67,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

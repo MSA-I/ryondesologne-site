@@ -1,0 +1,195 @@
+/* Site shell: skip link, header (DESIGN §9), phone panel, footer (DESIGN §10). Values are tokens (tokens.css). */
+
+/* ---------- board reset (04-direction/board/D/style.css lines 60-72; base.css does not carry it) ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+ul { list-style: none; margin: 0; padding: 0; }
+:focus-visible { border-radius: var(--radius-focus); }
+/* 2.4.11: a focused control scrolls clear of the open consent banner (consent.js sets --consent-h from its box, 0 when closed) */
+html { scroll-padding-bottom: var(--consent-h, 0px); }
+
+/* ---------- skip link ---------- */
+.saut {
+  position: absolute; z-index: 20; top: var(--space-1); inset-inline-start: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  background: var(--brume-creme); color: var(--encre);
+  font-weight: var(--fw-action); font-size: var(--fs-action);
+  transform: translateY(-200%);
+}
+.saut:focus { transform: none; }
+
+main:focus { outline: none; }
+
+/* ---------- header: no bar, no background; it lies on each page's opening field ---------- */
+/* The header is its own stacking context above every opening layer (.fond, .clamp-*, the home brume); the strip itself lets
+   pointers through (the brume clearing follows the pointer under it), only the logo, links and button take them. */
+.entete {
+  position: absolute; z-index: 5; top: 0; inset-inline: 0;
+  display: flex; align-items: center; gap: var(--space-3);
+  padding: var(--space-3) var(--pad);
+  pointer-events: none;
+}
+.entete > * { pointer-events: auto; }
+.logo {
+  display: block; flex: none; width: var(--logo-width); height: var(--logo-height);
+}
+.logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+.histoire, .nav a {
+  display: inline-flex; align-items: center; min-height: var(--tap-min);
+  font-weight: var(--fw-nav); font-size: var(--fs-nav); letter-spacing: var(--tr-nav);
+  text-decoration: none; white-space: nowrap;
+}
+.histoire, .menu-bouton, .nav { position: relative; z-index: 1; } /* above the opening field that follows in the page */
+.histoire[aria-current="page"], .nav a[aria-current="page"] {
+  text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+}
+.nav { margin-inline-start: auto; }
+.nav-liste { display: flex; gap: clamp(var(--space-3), 2.2vw, var(--space-4)); }
+.nav-plus { display: none; }
+.menu-bouton { display: none; }
+
+@media (hover: hover) and (pointer: fine) {
+  .histoire:hover, .nav a:hover {
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+  }
+}
+.histoire:active, .nav a:active { text-decoration: underline; text-underline-offset: var(--underline-offset); }
+
+/* an opening field that is dark (the light prop) turns the header light */
+.entete[data-light="dark"] { color: var(--on-dark); }
+.entete[data-light="dark"] .logo img { filter: invert(1); }
+.entete[data-light="dark"] .menu-bouton:focus-visible,
+.entete[data-light="dark"] .histoire:focus-visible { outline-color: var(--focus-on-dark); }
+/* inline nav only (>=1101px): below that the links sit on the brume-creme panel and keep the ink ring */
+@media (min-width: 1101px) {
+  .entete[data-light="dark"] .nav a:focus-visible { outline-color: var(--focus-on-dark); }
+}
+
+/* Literal breakpoints (media queries cannot read tokens): disclosure menu up to 1100px, inline nav at --fs-nav-tablet 1101-1279px, --fs-nav from 1280px. */
+@media (max-width: 1279px) and (min-width: 1101px) {
+  .nav-liste { gap: var(--space-3); }
+  .histoire, .nav a { font-size: var(--fs-nav-tablet); }
+}
+
+/* ---------- phone and tablet (<=1100px): logo left, 48 px disclosure button right, the panel below ---------- */
+@media (max-width: 1100px) {
+  .entete { padding: var(--space-2) var(--pad); }
+  .histoire { display: none; }
+  .menu-bouton {
+    display: inline-flex; align-items: center; justify-content: center; flex: none;
+    width: var(--menu-button); height: var(--menu-button); margin-inline-start: auto; padding: 0;
+    border: 0; border-radius: var(--radius-icon);
+    background: transparent; color: inherit; cursor: pointer;
+  }
+  .menu-bouton:active { opacity: 0.7; }
+  .nav {
+    display: none; position: absolute; z-index: 10;
+    top: var(--nav-panel-top); inset-inline: var(--pad); margin: 0;
+    padding: var(--space-3); border-radius: var(--radius-nav) var(--radius-nav) 0 0;
+    min-height: calc(100vh - var(--nav-panel-top)); min-height: calc(100svh - var(--nav-panel-top)); /* a sheet that reaches the viewport bottom: no lower edge to lose against the page */
+    background: var(--brume-creme); color: var(--encre);
+  }
+  .nav[data-open] { display: block; }
+  .nav-liste { flex-direction: column; gap: 0; }
+  .nav a { display: flex; width: 100%; font-size: var(--fs-nav-panel); }
+  .nav-plus { display: flex; flex-direction: column; margin-top: var(--space-3); }
+  .nav a.nav-tel {
+    display: block; min-height: 0; padding-block: calc((var(--tap-min) - 1lh) / 2);
+    font-weight: var(--fw-action); text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1); white-space: normal;
+  }
+  .nav a:focus-visible { outline-color: var(--focus); }
+}
+
+.tel-num { white-space: nowrap; }
+
+/* ---------- footer: flat brume ground, ink text ---------- */
+.pied {
+  background: var(--brume); color: var(--encre);
+  padding: var(--space-5) var(--pad) var(--space-4);
+  font-size: var(--fs-small); line-height: var(--lh-small);
+}
+.pied p { margin: 0 0 var(--space-2); }
+.pied ul { margin: 0; padding: 0; list-style: none; }
+.pied-avis { max-width: var(--measure-ask); margin-bottom: var(--space-5); }
+.pied-grille {
+  display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--space-4) var(--space-3);
+  padding-bottom: var(--space-4);
+}
+.pied-marque { grid-column: 1 / span 4; }
+.pied-offres { grid-column: 6 / span 2; }
+.pied-suite { grid-column: 8 / span 2; }
+.pied-contact { grid-column: 10 / span 3; font-style: normal; }
+.pied-nom { font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-figure); line-height: var(--lh-figure); }
+.pied-descriptif { font-weight: var(--fw-small); }
+
+.pied-liens a, .pied-reseaux a, .pied-contact a[href^="tel:"] {
+  display: inline-flex; align-items: center; min-height: var(--tap-min);
+  font-weight: var(--fw-action);
+  text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+}
+.pied-contact a[href^="tel:"] { display: inline-block; min-height: 0; padding-block: calc((var(--tap-min) - 1lh) / 2); } /* inline-block: the words before the number keep their space and may wrap, the number does not */
+.pied-reseaux { display: flex; gap: var(--space-3); }
+.cta-pied { margin-top: var(--space-1); }
+.pied-offres a, .pied-suite a {
+  display: inline-flex; align-items: center; min-height: var(--tap-min);
+  text-decoration: none; font-weight: var(--fw-small);
+}
+
+.pied-bas {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2) var(--space-4);
+  padding-top: var(--space-3); font-size: var(--fs-meta);
+}
+.pied-bas p { margin: 0; }
+.pied-legal { display: flex; flex-wrap: wrap; gap: 0 var(--space-1); }
+.pied-legal a, .pied-credits a {
+  display: inline-flex; align-items: center; justify-content: center; min-height: var(--tap-min); min-width: var(--tap-min);
+  padding-inline: var(--space-1); /* hit area by padding, not by type size */
+  text-decoration: none;
+}
+.pied-credits { display: flex; flex-wrap: wrap; align-items: center; gap: 0 var(--space-1); }
+.pied-cookies {
+  appearance: none; background: none; border: 0; margin: 0; padding: 0 var(--space-1); min-height: var(--tap-min); min-width: var(--tap-min);
+  color: inherit; font: inherit; cursor: pointer;
+  text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+}
+.pied a:active, .pied-cookies:active { text-decoration: underline; text-underline-offset: var(--underline-offset); }
+@media (hover: hover) and (pointer: fine) {
+  .pied-offres a:hover, .pied-suite a:hover, .pied-legal a:hover, .pied-credits a:hover {
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+  }
+}
+
+/* tablet (761-1180): two columns of two blocks, the link lists get room between lines */
+@media (min-width: 761px) and (max-width: 1180px) {
+  .pied-marque { grid-column: 1 / span 6; }
+  .pied-contact { grid-column: 7 / span 6; }
+  .pied-offres { grid-column: 1 / span 6; grid-row: 2; }
+  .pied-suite { grid-column: 7 / span 6; grid-row: 2; }
+}
+@media (max-width: 1180px) {
+  .pied-offres li + li, .pied-suite li + li { margin-top: var(--space-1); }
+  .pied-offres a, .pied-suite a { padding-block: var(--space-1); line-height: var(--lh-small); }
+}
+
+/* phone: contact first (full width), then brand, then offers and the domaine side by side; the bottom row stacks */
+@media (max-width: 760px) {
+  .pied { padding-block: var(--space-4) var(--space-3); }
+  .pied-avis { margin-bottom: var(--space-4); }
+  .pied-grille { grid-template-columns: 1fr 1fr; gap: var(--space-3) var(--space-2); padding-bottom: var(--space-3); }
+  .pied-bas { padding-top: var(--space-2); }
+  .pied-offres li + li, .pied-suite li + li { margin-top: 0; }
+  .pied-offres a, .pied-suite a { padding-block: 0; }
+  .pied-contact { grid-column: 1 / -1; grid-row: 1; }
+  .pied-marque { grid-column: 1 / -1; grid-row: 2; }
+  .pied-offres { grid-column: 1; grid-row: 3; }
+  .pied-suite { grid-column: 2; grid-row: 3; }
+  .pied-bas { flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+}
+
+/* ---------- wrapped H1 on phones: the display leading (0.95) lets a descender touch the next line; 1.05 is the DESIGN cap ---------- */
+@media (max-width: 760px) {
+  main h1:not(.titre-nom) { line-height: var(--lh-quote) !important; } /* !important: the page-scoped H1 rules are more specific; the home name keeps its own */
+}

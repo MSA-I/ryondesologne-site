@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+import Ouverture from "../components/home/Ouverture.astro";
+import Usages from "../components/home/Usages.astro";
+import Preuves from "../components/home/Preuves.astro";
+import Portes from "../components/home/Portes.astro";
+import Album from "../components/home/Album.astro";
+import Propos from "../components/home/Propos.astro";
+
+// Old home <title> and meta description, verbatim (01-scan/raw/home.html). T38 completes the SEO layer.
+const title = "Domaine en Sologne - Mariages, Séminaires & gites de groupes";
+const description =
+  "Domaine en Sologne près de Romorantin : mariages, séminaires, classes vertes, colonies et gites XXl de groupe avec hébergement sur place";
+---
+<Base title={title} description={description} canonicalPath="/" current="/" home>
+  <Ouverture />
+  <Usages />
+  <Preuves />
+  <Portes />
+  <Album />
+  <Propos />
+</Base>

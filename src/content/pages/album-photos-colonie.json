@@ -1,0 +1,266 @@
+{
+  "id": "album-photos-colonie",
+  "url": "https://www.rayondesologne.fr/album/photos-colonie/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Photos colonie"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Plan de chambre petite colonie"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "Plan de chambre grande colonie"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "Salle d eau colonie rayon de sologne 1"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "Salle de repas colonie restaurant rayon de sologne 1"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Espace de travail salle colonie rayon de sologne 1"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Cuisine de la colonie restaurant rayon de sologne 1"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Couloir dortoir chambre colonie rayon de sologne 1"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Chambre 2 colonie dortoir rayon de sologne 1"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Chambre 1 de la colonie rayon de sologne 1"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Bar du restaurant salle rayon de sologne 1"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Terrasse de la colonie avec tables exterieures rayon de sologne 1"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 32,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 33,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 34,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 35,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 36,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 37,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 38,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 39,
+      "tag": "@alt",
+      "text": "Plan de chambre petite colonie"
+    },
+    {
+      "n": 40,
+      "tag": "@alt",
+      "text": "Plan de chambre grande colonie"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Salle d eau colonie rayon de sologne 1"
+    },
+    {
+      "n": 42,
+      "tag": "@alt",
+      "text": "Salle de repas colonie restaurant rayon de sologne 1"
+    },
+    {
+      "n": 43,
+      "tag": "@alt",
+      "text": "Espace de travail salle colonie rayon de sologne 1"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "Cuisine de la colonie restaurant rayon de sologne 1"
+    },
+    {
+      "n": 45,
+      "tag": "@alt",
+      "text": "Couloir dortoir chambre colonie rayon de sologne 1"
+    },
+    {
+      "n": 46,
+      "tag": "@alt",
+      "text": "Chambre 2 colonie dortoir rayon de sologne 1"
+    },
+    {
+      "n": 47,
+      "tag": "@alt",
+      "text": "Chambre 1 de la colonie rayon de sologne 1"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "Bar du restaurant salle rayon de sologne 1"
+    },
+    {
+      "n": 49,
+      "tag": "@alt",
+      "text": "Terrasse de la colonie avec tables exterieures rayon de sologne 1"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 51,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 52,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

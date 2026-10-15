@@ -1,0 +1,306 @@
+{
+  "id": "pages-coordonnees-html",
+  "url": "https://www.rayondesologne.fr/pages/coordonnees.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Charline et Maxime"
+    },
+    {
+      "n": 7,
+      "tag": "h2",
+      "text": "(photo prise au mariage de x et x)"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Rayon de Sologne"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "Domaine du Grand Liot"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "2380 C Rte de Romorantin, 41230 Langon-sur-Cher, France"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Restaurant : 02 34 33 11 39 www.bistrotdugrandliot.fr"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Gites, salle de mariage et séminaire 06 04 47 54 92"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "1er contact gite (demande d'informations, plaquette, tarifs, photos)"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "reservationsrayondesologne@gmail.com"
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "1er contact mariage (demande d'informations, plaquette, tarifs, photos)"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "rayondesologne@gmail.com"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Réservation séminaire"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "direction.rayondesologne@gmail.com"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "cliquez ici pour réserver au restaurant"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Instagram"
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "ou (cliquez sur le lien pour acceder à la page souhaitée)"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Facebook"
+    },
+    {
+      "n": 23,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 24,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 25,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 26,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 32,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 40,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 41,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 42,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 43,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 44,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 45,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 46,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 47,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "Maxime et charline sainjon rayon de sologne 41"
+    },
+    {
+      "n": 49,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 51,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 52,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 53,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 55,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 56,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 57,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 58,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 59,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 60,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

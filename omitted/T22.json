@@ -1,0 +1,2096 @@
+[
+ {
+  "page": "pages-reservations-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header carries the navigation"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 28,
+  "text": "Partager",
+  "reason": "Old share widget (AddToAny), not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 29,
+  "text": "Facebook",
+  "reason": "Old share widget (AddToAny), not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 30,
+  "text": "X",
+  "reason": "Old share widget (AddToAny), not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 31,
+  "text": "Email",
+  "reason": "Old share widget (AddToAny), not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 32,
+  "text": "Réservations Gites",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 33,
+  "text": "Réservations Mariage",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 34,
+  "text": "Newsletter",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 35,
+  "text": "Nos dernières actus",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 36,
+  "text": "Contact",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 37,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 38,
+  "text": "Mention legales",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 39,
+  "text": "CGU",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 40,
+  "text": "CGV",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 41,
+  "text": "RGPD",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 42,
+  "text": "Franck Chemin",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 43,
+  "text": "One Seb photos",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 44,
+  "text": "Margaud Noée",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 45,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 46,
+  "text": "Gestion des cookies",
+  "reason": "Old footer/legal/credits/cookie button; the site footer carries them"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 62,
+  "text": "Octobre 2026Novembre 2026Décembre 2026Janvier 2027Février 2027Mars 2027Avril 2027Mai 2027Juin 2027Juillet 2027Août 2027Septembre 2027Octobre 2027Novembre 2027Décembre 2027Janvier 2028Février 2028Mars 2028Avril 2028Mai 2028Juin 2028Juillet 2028Août 2028Septembre 2028",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 63,
+  "text": "Suivant",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 64,
+  "text": "Octobre 2026",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 65,
+  "text": "Octobre",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 66,
+  "text": "2026",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 67,
+  "text": "L",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 68,
+  "text": "M",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 69,
+  "text": "J",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 70,
+  "text": "V",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 71,
+  "text": "S",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 72,
+  "text": "D",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 73,
+  "text": "1",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 74,
+  "text": "2",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 75,
+  "text": "3",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 76,
+  "text": "4",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 77,
+  "text": "5",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 78,
+  "text": "6",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 79,
+  "text": "7",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 80,
+  "text": "8",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 81,
+  "text": "9",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 82,
+  "text": "10",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 83,
+  "text": "11",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 84,
+  "text": "12",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 85,
+  "text": "13",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 86,
+  "text": "14",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 87,
+  "text": "15",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 88,
+  "text": "16",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 89,
+  "text": "17",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 90,
+  "text": "18",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 91,
+  "text": "19",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 92,
+  "text": "20",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 93,
+  "text": "21",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 94,
+  "text": "22",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 95,
+  "text": "23",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 96,
+  "text": "24",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 97,
+  "text": "25",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 98,
+  "text": "26",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 99,
+  "text": "27",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 100,
+  "text": "28",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 101,
+  "text": "29",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 102,
+  "text": "30",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 103,
+  "text": "31",
+  "reason": "Planner widget markup (month names, weekdays, day numbers); the client widget refills it at run time"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 116,
+  "text": "( function() { var widgetProduit = AllianceReseaux.Widget.Instance( \"Produit\", { idPanier:\"U3RSU1M\", idIntegration:646, langue:\"fr\", ui:\"OSMB-123001-4\" } ); widgetProduit.Initialise(); })(); ( function() { var widgetProduit = AllianceReseaux.Widget.Instance( \"Produit\", { idPanier:\"U3RSU1M\", idIntegration:646, langue:\"fr\", ui:\"OSMB-123001-4\" } ); widgetProduit.Initialise(); })();",
+  "reason": "Planner init script text; the client planner is embedded through PlannerEmbed"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 121,
+  "text": "possibilité d'utiliser le convertible qui est dans le salon pour vous permettre de vous proposer 5 espaces de couchages séparés.",
+  "reason": "Fragment already inside block 120 (same sentence, shown once)"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 130,
+  "text": "Logoentete",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 131,
+  "text": "Logoentete",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 132,
+  "text": "brand",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 133,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 134,
+  "text": "BurgerMenu",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 135,
+  "text": "Votre recherche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 136,
+  "text": "Mois précédent",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 137,
+  "text": "Sélectionnez le mois",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 138,
+  "text": "Mois suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 139,
+  "text": "Suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 140,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 141,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 142,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 143,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 144,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 145,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 146,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 147,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 148,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 149,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 150,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 151,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 152,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 153,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 154,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 155,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 156,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 157,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 158,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 159,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 160,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 161,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 162,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 163,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 164,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 165,
+  "text": "22/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 166,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 167,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 168,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 169,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 170,
+  "text": "26/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 171,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n425,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 172,
+  "text": "27/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 173,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 174,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 175,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 176,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 177,
+  "text": "Réserver",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 178,
+  "text": "Découvrir plus en détails notre Colonie + salle des fêtes",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 179,
+  "text": "Mois précédent",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 180,
+  "text": "Sélectionnez le mois",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 181,
+  "text": "Mois suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 182,
+  "text": "Suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 183,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 184,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 185,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 186,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 187,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 188,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 189,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 190,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 191,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 192,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 193,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 194,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 195,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 196,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 197,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 198,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 199,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 200,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 201,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 202,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 203,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 204,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 205,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 206,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 207,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 208,
+  "text": "22/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 209,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 210,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 211,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 212,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 213,
+  "text": "26/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 214,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 215,
+  "text": "27/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 216,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 217,
+  "text": "28/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 218,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n680,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 219,
+  "text": "29/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 220,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n1190,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 221,
+  "text": "30/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 222,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n1190,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 223,
+  "text": "31/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 224,
+  "text": "Réserver",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 225,
+  "text": "Mois précédent",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 226,
+  "text": "Sélectionnez le mois",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 227,
+  "text": "Mois suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 228,
+  "text": "Suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 229,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 230,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 231,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 232,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 233,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 234,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 235,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 236,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 237,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 238,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 239,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 240,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 241,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 242,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 243,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 244,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 245,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 246,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 247,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 248,
+  "text": "Séjour trop proche pour effectuer une réservation\nPrix indicatifs :\n297,50 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 249,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 250,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 251,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 252,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 253,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 254,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 255,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 256,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 257,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 258,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 259,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 260,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 261,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 262,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 263,
+  "text": "Réserver",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 264,
+  "text": "Mois précédent",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 265,
+  "text": "Sélectionnez le mois",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 266,
+  "text": "Mois suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 267,
+  "text": "Suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 268,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 269,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 270,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 271,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 272,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 273,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 274,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 275,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 276,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 277,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 278,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 279,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 280,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 281,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 282,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 283,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 284,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 285,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 286,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 287,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 288,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 289,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 290,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 291,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 292,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 293,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 294,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 295,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 296,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 297,
+  "text": "26/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 298,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 299,
+  "text": "27/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 300,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 301,
+  "text": "28/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 302,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n108,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 303,
+  "text": "29/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 304,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n180,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 305,
+  "text": "30/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 306,
+  "text": "Hébergement disponible. Cliquez pour plus d'information\nPrix indicatifs :\n180,00 € / 1 nuit",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 307,
+  "text": "31/10/2026",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 308,
+  "text": "Réserver",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 309,
+  "text": "Mois précédent",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 310,
+  "text": "Sélectionnez le mois",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 311,
+  "text": "Mois suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 312,
+  "text": "Suivant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 313,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 314,
+  "text": "Lundi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 315,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 316,
+  "text": "Mardi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 317,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 318,
+  "text": "Mercredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 319,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 320,
+  "text": "Jeudi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 321,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 322,
+  "text": "Vendredi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 323,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 324,
+  "text": "Samedi",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 325,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 326,
+  "text": "Dimanche",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 327,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 328,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 329,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 330,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 331,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 332,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 333,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 334,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 335,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 336,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 337,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 338,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 339,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 340,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 341,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 342,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 343,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 344,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 345,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 346,
+  "text": "Hébergement non disponible à cette date",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 347,
+  "text": "Réserver",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 348,
+  "text": "Velo vintage dans le parc de l auberge rayon de sologne41320 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 349,
+  "text": "Velo vintage dans le parc de l auberge rayon de sologne41320 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 350,
+  "text": "Espace ceremonie sous les sols pleureurs rayon de sologne 41320 2",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 351,
+  "text": "Espace ceremonie sous les sols pleureurs rayon de sologne 41320 2",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 352,
+  "text": "Pancartes monsieur et madame espace ceremonie laique sous les sols pleureurs dans le parc de l auberge rayon de sologne41320 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 353,
+  "text": "Pancartes monsieur et madame espace ceremonie laique sous les sols pleureurs dans le parc de l auberge rayon de sologne41320 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 354,
+  "text": "Bouquets de fleurs rayon de sologne 41320 4",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 355,
+  "text": "Bouquets de fleurs rayon de sologne 41320 4",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 356,
+  "text": "Bouc ferme pedagogique rayon de sologne41320",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 357,
+  "text": "Bouc ferme pedagogique rayon de sologne41320",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 358,
+  "text": "Panneau bienvenue mariage x et x Rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 359,
+  "text": "Panneau bienvenue mariage x et x Rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 360,
+  "text": "Vue chambre maries manoir rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 361,
+  "text": "Vue chambre maries manoir rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 362,
+  "text": "Rayon de sologne Gite, salle de mariage séminaire  et Restaurant proche de Romorantin",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 363,
+  "text": "Rayon de sologne Gite, salle de mariage séminaire  et Restaurant proche de Romorantin",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 364,
+  "text": "L espace devant la guinguette rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 365,
+  "text": "L espace devant la guinguette rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 366,
+  "text": "Ceremonie laique saule pleureur rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 367,
+  "text": "Ceremonie laique saule pleureur rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 368,
+  "text": "en bord de lac sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 369,
+  "text": "en bord de lac sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 370,
+  "text": "Rayon de sologne melaniemalfoy 10",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 371,
+  "text": "Rayon de sologne melaniemalfoy 10",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 372,
+  "text": "Vue aerienne rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 373,
+  "text": "Vue aerienne rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 374,
+  "text": "Table champetre rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 375,
+  "text": "Table champetre rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 376,
+  "text": "Ferme pedagogique grand liot rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 377,
+  "text": "Ferme pedagogique grand liot rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 378,
+  "text": "kart à pédale et velo en foret rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 379,
+  "text": "kart à pédale et velo en foret rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 380,
+  "text": "Balade en foret",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 381,
+  "text": "Balade en foret",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 382,
+  "text": "Atelier rayon de sologne 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 383,
+  "text": "Atelier rayon de sologne 1",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 384,
+  "text": "mini ferme rayon de sologne romorantin",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 385,
+  "text": "mini ferme rayon de sologne romorantin",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 386,
+  "text": "Aire de jeux rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 387,
+  "text": "Aire de jeux rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 388,
+  "text": "balancelle manoir rayon de sologne parc",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 389,
+  "text": "balancelle manoir rayon de sologne parc",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 390,
+  "text": "Plan rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 391,
+  "text": "Plan rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 392,
+  "text": "Etang rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 393,
+  "text": "Etang rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 394,
+  "text": "Enfant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 395,
+  "text": "Enfant",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 396,
+  "text": "Photo couple rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 397,
+  "text": "Photo couple rayon de sologne",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 398,
+  "text": "Contact",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 399,
+  "text": "Gestion des cookies",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 400,
+  "text": "Scroll top",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 401,
+  "text": "Cookies",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 402,
+  "text": "Fermer",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 403,
+  "text": "Copy link",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 404,
+  "text": "Share",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 405,
+  "text": "Partager",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 406,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 407,
+  "text": "Share Buttons",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 408,
+  "text": "Partager",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 409,
+  "text": "Tout voir",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ },
+ {
+  "page": "pages-reservations-html",
+  "n": 410,
+  "text": "AddToAny Utility Frame",
+  "reason": "Old template attribute (alt, aria-label, title, placeholder) of header, planner, share or cookie widgets, not shipped"
+ }
+]

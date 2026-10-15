@@ -1,0 +1,82 @@
+---
+// One chapter of an inner page (DESIGN §12): "creme" = a reading column on brume-crème with a print in the margin;
+// "light" = the offer's own light (blurred photograph under its clamp) with the PullQuote in the margin. Callers alternate them.
+import "../styles/kit.css";
+import Light from "./kit/Light.astro";
+import Print from "./kit/Print.astro";
+interface Props {
+  tone: "creme" | "light";
+  title?: string;
+  titleId?: string;
+  /** required for tone "light" */
+  light?: { use: "restaurant" | "seminaire" | "gites" | "colonie"; photoId: string; crop?: "sky" };
+  /** print in the margin (opens with the reveal effect); a row with status "produced" */
+  marginPrint?: { id: string; box: number };
+  /** which side the margin holds its print */
+  side?: "start" | "end";
+  /** several short sub-sections side by side instead of one reading column */
+  wide?: boolean;
+  class?: string;
+}
+const { tone, title, titleId, light, marginPrint, side = "end", wide = false, class: cls } = Astro.props;
+if (tone === "light" && !light) throw new Error("Chapter: tone light needs a light");
+const dark = tone === "light" && light?.use === "restaurant";
+---
+<section
+  class:list={["chap", `chap--${tone}`, dark && "chap--dark", wide && "chap--wide", `chap--${side}`, cls]}
+  aria-labelledby={title ? titleId : undefined}
+>
+  {tone === "light" && light && <Light {...light} />}
+  <div class="chap-grid">
+    <div class="chap-text">
+      {title && <h2 id={titleId} class="chap-titre" data-effect="kinetic">{title}</h2>}
+      <div class="chap-corps"><slot /></div>
+    </div>
+    <div class="chap-marge">
+      {marginPrint && <Print id={marginPrint.id} box={marginPrint.box} sizes={`${marginPrint.box}px`} effect="reveal" class="chap-print" />}
+      <slot name="quote" />
+    </div>
+  </div>
+</section>
+
+<style is:global>
+  .chap { position: relative; isolation: isolate; overflow: hidden; padding: var(--space-5) var(--pad); color: var(--encre); }
+  .chap--creme { background: var(--brume-creme); }
+  .chap--dark { color: var(--on-dark); }
+  .chap--dark .cta2:focus-visible { outline-color: var(--focus-on-dark); }
+  .chap-grid { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: var(--space-4); }
+  .chap-titre {
+    margin: 0 0 var(--space-4); max-width: 18em;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-quote); line-height: var(--lh-quote); letter-spacing: 0;
+    text-wrap: balance;
+  }
+  .chap-corps { max-width: var(--measure); }
+  .chap-corps p { margin: 0 0 var(--space-3); font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .chap-corps .chap-avis { font-size: var(--fs-lead); line-height: var(--lh-lead); }
+  .chap-corps .cta2 { margin: 0 0 var(--space-3); }
+  .chap-corps h3 { margin: 0 0 var(--space-2); font-weight: var(--fw-h2-text); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); text-wrap: balance; }
+  .chap-print { width: min(100%, var(--print-width)); }
+  .chap--wide .chap-corps { max-width: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28ch), 1fr)); gap: var(--space-4) var(--gap-columns); }
+  .chap--wide .chap-corps p { max-width: var(--measure-note); }
+
+  /* up to 1180 px the margin column is in the flow: the print (at its box) or the pull quote follows the reading column at full measure */
+  .chap-marge { min-width: 0; }
+  .chap-marge .chap-print { width: min(100%, var(--print-width)); }
+  .chap-marge .pullquote { max-width: var(--measure-line); }
+  @media (min-width: 1181px) {
+    /* both tones share one grid: the reading column starts on the --pad line, the margin holds the print or the pull quote on its right */
+    .chap--creme .chap-grid, .chap--light .chap-grid { grid-template-columns: minmax(0, var(--measure)) minmax(0, 1fr); column-gap: var(--gap-columns); }
+    .chap-text { grid-column: 1; grid-row: 1; }
+    .chap-marge { grid-column: 2; grid-row: 1; align-self: end; }
+    .chap-marge .chap-print { margin-inline-start: auto; }
+    .chap--wide .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap--wide .chap-text, .chap--wide .chap-marge { grid-column: 1; grid-row: auto; }
+    .chap--wide .chap-marge .chap-print { margin-inline-start: 0; }
+  }
+  @media (max-width: 760px) {
+    .chap-titre { font-size: var(--fs-figure-phone); }
+    .chap-corps p { font-size: var(--fs-body-phone); }
+    .chap-corps .chap-avis { font-size: var(--fs-lead-phone); }
+  }
+</style>

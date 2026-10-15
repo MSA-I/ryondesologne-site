@@ -1,0 +1,86 @@
+---
+import Cta from "./kit/Cta.astro";
+import Cta2 from "./kit/Cta2.astro";
+import { ft, NAV, PHONES, HISTORY } from "../lib/site";
+import { t, fact } from "../lib/content";
+
+// Texts come from home blocks 43-45 (review ask), 48-50 (domaine links), 51-60 (bottom row) through t().
+// Not in the content files, kept as the board shows them: the two network names (proper nouns of the external links)
+// and the title line (the old site's <title>, 01-scan/pages/home.json).
+const REVIEW = "https://g.page/r/CXnSsVb4mGzgEAE/review";
+const TITLE_LINE = "Domaine en Sologne - Mariages, Séminaires & gites de groupes";
+const SOCIAL = [
+  { label: "Instagram", href: "https://www.instagram.com/rayondesologne/?hl=fr" },
+  { label: "Facebook", href: "https://www.facebook.com/charlineetmaxime/" },
+];
+const CREDITS = [
+  { n: 56, href: "https://franckchemin.fr/" },
+  { n: 57, href: "https://www.onesebphotos.com/" },
+  { n: 58, href: "https://www.margauxnoee.com/" },
+  { n: 59, href: "https://www.malfoyphotographe.fr/" },
+];
+const LEGAL = [
+  { n: 52, href: "/pages/infos-legales/mentions-legales.html" },
+  { n: 53, href: "/pages/infos-legales/conditions-generales-d-utilisation-cgu.html" },
+  { n: 54, href: "/pages/infos-legales/conditions-generales-de-vente-cgv.html" },
+  { n: 55, href: "/about/privacypolicy/" },
+];
+const DOMAINE = [
+  { n: 48, href: "/newsletters/subscribe/" },
+  { n: 49, href: "/actualites/" },
+  { n: 50, href: "/contact/contact.html" },
+];
+const bloc51 = t("home", 51); // "© Rayon de Sologne - - - - - Crédits photos : - - -"
+const droits = bloc51.split(" - ")[0];
+const marque = droits.replace(/^©\s*/, "");
+const credits = bloc51.match(/Crédits photos :/)?.[0] ?? "";
+// the number part of a phone label never breaks; the words before it may wrap
+const splitTel = (label: string) => { const m = label.match(/^(.*?)(\d{2}(?: \d{2}){4})$/); return m ? { text: m[1], num: m[2] } : { text: "", num: label }; };
+const OFFERS = NAV.slice(1);
+---
+<footer class="pied" data-site-studio-component="footer">
+  <div class="pied-avis">
+    <p><Cta2 href={REVIEW} label={t("home", 43)} /></p>
+    <p>{t("home", 44)}</p>
+    <p>{t("home", 45)}</p>
+  </div>
+
+  <div class="pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom">{marque}</p>
+      <p class="pied-descriptif">{TITLE_LINE}</p>
+      <ul class="pied-liens">
+        <li><a href={HISTORY.href}>{HISTORY.label}</a></li>
+      </ul>
+      <ul class="pied-reseaux">
+        {SOCIAL.map((s) => <li><a href={s.href}>{s.label}</a></li>)}
+      </ul>
+    </div>
+    <nav class="pied-offres" aria-label={ft("footer-offers")}>
+      <ul>
+        {OFFERS.map((o) => <li><a href={o.href}>{o.label}</a></li>)}
+      </ul>
+    </nav>
+    <nav class="pied-suite" aria-label={ft("footer-domain")}>
+      <ul>
+        {DOMAINE.map((d) => <li><a href={d.href}>{t("home", d.n)}</a></li>)}
+      </ul>
+    </nav>
+    <address class="pied-contact">
+      <p>{fact("address-name")}<br />{fact("address-street")}<br />{fact("address-postcode")} {fact("address-city")}</p>
+      <p>{PHONES.map((p, i) => <><a href={`tel:${p.tel}`} dir="ltr">{splitTel(p.label).text}<span class="tel-num">{splitTel(p.label).num}</span></a>{i < PHONES.length - 1 && <br />}</>)}</p>
+      <p><Cta class="cta-pied" href="/contact/contact.html" label={t("home", 50)} /></p>
+    </address>
+  </div>
+
+  <div class="pied-bas">
+    <p class="pied-droits">{droits}</p>
+    <ul class="pied-legal">
+      {LEGAL.map((l) => <li><a href={l.href}>{t("home", l.n)}</a></li>)}
+      <li><button type="button" class="pied-cookies" data-site-studio-consent-open>{t("home", 60)}</button></li>
+    </ul>
+    <p class="pied-credits">{credits}
+      {CREDITS.map((c) => <a href={c.href}>{t("home", c.n)}</a>)}
+    </p>
+  </div>
+</footer>

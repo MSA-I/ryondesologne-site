@@ -1,0 +1,322 @@
+{
+  "id": "actualites-cuisine-newsletter-octobre-2022-html",
+  "url": "https://www.rayondesologne.fr/actualites/cuisine/newsletter-octobre-2022.html",
+  "category": "cuisine",
+  "title": "Newsletter Octobre 2022",
+  "date": "Le 10/10/2022",
+  "isoDate": "2022-10-10",
+  "author": "charline sainjon",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Newsletter Octobre 2022"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 9,
+      "tag": "time",
+      "text": "Le 10/10/2022"
+    },
+    {
+      "n": 10,
+      "tag": "time",
+      "text": "Mis à jour le 18/10/2022"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Dans"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Actualités"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Cela fait longtemps que nous n'avons pas donné de nouvelles, et pour l'ocasion le Rayon de Sologne revient avec sa newsletter."
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Retrouvez :"
+    },
+    {
+      "n": 15,
+      "tag": "li",
+      "text": "Les gagnants de la tombola du Grand Liot"
+    },
+    {
+      "n": 16,
+      "tag": "li",
+      "text": "Nos chiffres de l'été ainsi que les travaux de la grange"
+    },
+    {
+      "n": 17,
+      "tag": "li",
+      "text": "Nos nouveautés"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "Vous trouverez ci-joint notre newsletter en PDF"
+    },
+    {
+      "n": 19,
+      "tag": "p",
+      "text": "Au plaisir de vous accueillir,"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Manon de Rayon de Sologne"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "newsletter-octobre-2-.pdf"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "(1.73 Mo)"
+    },
+    {
+      "n": 23,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 24,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 25,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 26,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 32,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 40,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 41,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 42,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 43,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 44,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 45,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 46,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 47,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 49,
+      "tag": "@alt",
+      "text": "Newsletter octobre 2"
+    },
+    {
+      "n": 50,
+      "tag": "@title",
+      "text": "Newsletter octobre 2"
+    },
+    {
+      "n": 51,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 52,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 53,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 55,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 56,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 57,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 58,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 59,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 60,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 61,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 62,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ],
+  "images": []
+}

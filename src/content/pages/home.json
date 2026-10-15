@@ -1,0 +1,421 @@
+{
+  "id": "home",
+  "url": "https://www.rayondesologne.fr/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "RAYON DE SOLOGNE UNE EXPÉRIENCE AUTHENTIQUE"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Contactez-nous"
+    },
+    {
+      "n": 8,
+      "tag": "h2",
+      "text": "À propos de nous"
+    },
+    {
+      "n": 9,
+      "tag": "p",
+      "text": "RayonDeSologne, s'installe en milieu rural dans une démarche responsable, durable et engagée au coeur d'un Domaine 100% nature mais avec toutes les commodités à moins de 10 minutes! Où nous trouver ? Au domaine du Grand Liot à Langon sur Cher (41) en Sologne, en Région Centre Val de Loire à 8 minutes de la sortie d'autoroute de Romorantin capitale de la Sologne (41200)."
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Rayon de Sologne est une entreprise familiale créé par Maxime et Charline SAINJON qui est devenue un vrai lieu de vie, où nous avons à coeur de vous accueillir pour un repas, recevoir votre classe en séjour, vos vacances de famille à quelques pas du zoo de beauval, du chateau de chambord ou bien meme celui de cheverny, une réunion de travail, votre mariage ou même un week- end entre copains voir fêter l'anniversaire surprise de mari !"
+    },
+    {
+      "n": 11,
+      "tag": "h2",
+      "text": "Organiser un Mariage"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Notre domaine vous propose un cadre champêtre chic et bohème pour votre mariage."
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Vous rêver de vous unir dans un cadre simple et authentique, qui soit proche de votre quotidien pour créer une fête qui vous ressemble ? La grange, notre grande salle de réception accueille de 50 à 150 personnes assises et avons sur place plus de 120 couchages en chambre et en dortoir sans pour autant nous définir comme un hotel!"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Pour d'infos pour vous Marier au domaine !"
+    },
+    {
+      "n": 15,
+      "tag": "h2",
+      "text": "Louer une salle d'anniversaire"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Vous recherchez une salle à louer pour fêter un anniversaire près de romorantin???"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Rayon de Sologne vous accueille toute l'année avec ces 2 salles conviviales, avec possibilités de couchages sur place et service traiteur en option."
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Pour d'infos pour organiser une fête!"
+    },
+    {
+      "n": 19,
+      "tag": "h2",
+      "text": "QUELS SERVICES RESERVER CHEZ RDS ?"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Cliquez sur une des images ci-dessous et découvrez les prestations de Rayon de Sologne !"
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "Traiteur du grand liot"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "Salle de réunion en Loir et Cher"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "Gites de groupes"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "Classes vertes et colonies"
+    },
+    {
+      "n": 25,
+      "tag": "div",
+      "text": "Colonie"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Restaurant"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "Faites appel à notre service traiteur ou réservez une table au bistrot d'avril à octobre !"
+    },
+    {
+      "n": 28,
+      "tag": "div",
+      "text": "Colonie"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Séminaire"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "Location de salles de réunion sur le domaine en fonction de la taille de votre groupe."
+    },
+    {
+      "n": 31,
+      "tag": "div",
+      "text": "Colonie"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Gites de groupe"
+    },
+    {
+      "n": 33,
+      "tag": "p",
+      "text": "Découvrez ici nos 5 gites indépendants les uns des autres location à la nuitée comme à la semaine."
+    },
+    {
+      "n": 34,
+      "tag": "div",
+      "text": "Colonie"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Colonie &"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Classe verte & Colonie"
+    },
+    {
+      "n": 37,
+      "tag": "p",
+      "text": "Classes vertes et colonies sont accueillies toute l'année en semaine pour des séjours de 1 à 6 nuits."
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "Ne laissez pas les autres réserver avant vous, contactez nous ici !"
+    },
+    {
+      "n": 39,
+      "tag": "p",
+      "text": "Le domaine est ouvert toute l'année et nous serions heureux d'échanger avec vous sur votre projet !"
+    },
+    {
+      "n": 40,
+      "tag": "p",
+      "text": "Nous avons créé ce lieu de vie en 2022 dans le seul but de vous faciliter l'organisation de votre séjour. En choisissant cette destination nature, vous faites le choix de décompresser et de vous dépayser en un claquement de doigt. Nous sommes disponibles par téléphone du lundi au vendredi et pouvons organiser des visites en semaine sur RDV."
+    },
+    {
+      "n": 41,
+      "tag": "p",
+      "text": "Charline & Maxime"
+    },
+    {
+      "n": 42,
+      "tag": "p",
+      "text": "Une dernière chose, si vous êtes arrivés ici, ce n'est pas un hasard! Votre séjour vous a enchanté, l'hebergement a accueilli toute votre famille, votre mariage, une cousinade ou encore un séminaire! Faites le savoir et transmettez nous, votre retour, c'est indispensable pous nous et pour nos futurs clients! C'est toujours rassurant de savoir comment les précédents locataires ont vécu leur séjour!"
+    },
+    {
+      "n": 43,
+      "tag": "a",
+      "text": "Votre avis c'est ici!"
+    },
+    {
+      "n": 44,
+      "tag": "p",
+      "text": "Un grand merci de votre contribution"
+    },
+    {
+      "n": 45,
+      "tag": "p",
+      "text": "A bientot l'équipe de Rayon de Sologne"
+    },
+    {
+      "n": 46,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 51,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 60,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 61,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 63,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 65,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 66,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 67,
+      "tag": "@title",
+      "text": "la salle de mariage rayon de sologne 41320"
+    },
+    {
+      "n": 68,
+      "tag": "@alt",
+      "text": "la salle de mariage rayon de sologne 41320"
+    },
+    {
+      "n": 69,
+      "tag": "@title",
+      "text": "Le parc du manoir rayon de sologne 41320"
+    },
+    {
+      "n": 70,
+      "tag": "@alt",
+      "text": "Le parc du manoir rayon de sologne 41320"
+    },
+    {
+      "n": 71,
+      "tag": "@alt",
+      "text": "x x mariage chez rayon de sologne 41320"
+    },
+    {
+      "n": 72,
+      "tag": "@alt",
+      "text": "salle Anniversaire grand liot langon 41320 proche romorantin"
+    },
+    {
+      "n": 73,
+      "tag": "@alt",
+      "text": "Colonie"
+    },
+    {
+      "n": 74,
+      "tag": "@alt",
+      "text": "Colonie"
+    },
+    {
+      "n": 75,
+      "tag": "@alt",
+      "text": "Colonie"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Colonie"
+    },
+    {
+      "n": 77,
+      "tag": "@alt",
+      "text": "maxime chef traiteur bistrot du grand liot rayon de sologne 41320"
+    },
+    {
+      "n": 78,
+      "tag": "@alt",
+      "text": "decoration de la salle et de la place du village rayon de sologne 41320"
+    },
+    {
+      "n": 79,
+      "tag": "@alt",
+      "text": "Avis gite de groupe rayon de sologne bistrot du grand liot 41 salle mariage seminaire gite xxl traiteur"
+    },
+    {
+      "n": 80,
+      "tag": "@alt",
+      "text": "Label rayon de sologne tourisme handicap accueil velo gite meuble 3 etoiles"
+    },
+    {
+      "n": 81,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 82,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 83,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

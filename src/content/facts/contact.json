@@ -1,0 +1,93 @@
+{
+  "id": "contact",
+  "items": {
+    "address-name": {
+      "value": "Domaine du Grand Liot",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 9
+      }
+    },
+    "address-street": {
+      "value": "2380 C Rte de Romorantin",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 10
+      }
+    },
+    "address-postcode": {
+      "value": "41320",
+      "scan": "41230",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 10
+      }
+    },
+    "address-city": {
+      "value": "Langon-sur-Cher",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 10
+      }
+    },
+    "address-country": {
+      "value": "France",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 10
+      }
+    },
+    "phone-restaurant": {
+      "value": "02 34 33 11 39",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 11
+      },
+      "tel": "+33234331139"
+    },
+    "phone-domaine": {
+      "value": "06 04 47 54 92",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 12
+      },
+      "tel": "+33604475492"
+    },
+    "phone-camps": {
+      "value": "07 60 03 86 21",
+      "source": {
+        "page": "pages-infos-legales-mentions-legales-html",
+        "n": 8
+      },
+      "tel": "+33760038621"
+    },
+    "email-gites": {
+      "value": "reservationsrayondesologne@gmail.com",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 14
+      }
+    },
+    "email-mariage": {
+      "value": "rayondesologne@gmail.com",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 16
+      }
+    },
+    "email-seminaire": {
+      "value": "direction.rayondesologne@gmail.com",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 18
+      }
+    },
+    "website-restaurant": {
+      "value": "www.bistrotdugrandliot.fr",
+      "source": {
+        "page": "pages-coordonnees-html",
+        "n": 11
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+---
+// Animation nature (DESIGN §12 area page). Text from pages-animation-nature-html; no typed copy.
+// The short lines that open each part (blocks 8, 11, 14, 18, 23, 31) are the chapter headings, verbatim; block 7 is the lead under the H1.
+// Blocks 1-5, 35-77 (nav, share widget, footer, attributes) are listed in 06-build/omitted/T31.json.
+import StoryPage from "../../layouts/StoryPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t } from "../../lib/content";
+
+const P = "pages-animation-nature-html";
+const PAGE = "/pages/animation-nature.html";
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "un gite avec animation famille sur place";
+const description =
+  "Un havre de paix en pleine foret ou tout est sur place, gite, table d'hotes, animations locales, sport et nature! Un séjour clef en main où les animations viennent à vous";
+
+const light = { use: "gites" as const, photoId: "etang-rayon-de-sologne-field" };
+// Pull quotes: verbatim excerpts of the chapter's own text.
+const quoteFamille = t(P, 12);
+const quoteAnimaux = t(P, 21).replace(/^-/, "");
+// p7-fix-v5 item 8: hyphen-led client lines ("-Mini ferme", and several "-X -Y" run together in one block) render as list items, text unchanged, hyphen dropped into the marker.
+const items = (n: number) => t(P, n).split(/(?:^|\s)-(?=\S)/).map((x) => x.trim()).filter(Boolean);
+const quoteVoiture = t(P, 32).match(/^[^.]*\./)?.[0];
+if (!quoteVoiture) throw new Error("animation-nature: pull-quote sentence not found in block 32");
+---
+<StoryPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  fieldId="etang-rayon-de-sologne-field"
+  print={{ id: "chevres-ferme-pedagogique-rayon-de-sologne41320-1120x840", box: 560 }}
+>
+  <p slot="lead">{t(P, 7)}</p>
+
+  <Chapter tone="creme" title={t(P, 8)} titleId="nature-bois" marginPrint={{ id: "field-gfe5a020ed-1920", box: 248 }}>
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 11)} titleId="nature-famille">
+    <p>{t(P, 12)}</p>
+    <p>{t(P, 13)}</p>
+    <PullQuote slot="quote" text={quoteFamille} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 14)} titleId="nature-amis" marginPrint={{ id: "oenologie-rayon-de-sologne", box: 248 }} side="start">
+    <p>{t(P, 15)}</p>
+    <p>{t(P, 16)}</p>
+    <p>{t(P, 17)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 18)} titleId="nature-animaux">
+    <ul class="nature-liste">
+      {[19, 20, 21, 22].flatMap(items).map((x) => <li>{x}</li>)}
+    </ul>
+    <PullQuote slot="quote" text={quoteAnimaux} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 23)} titleId="nature-partenaires">
+    <ul class="nature-liste">
+      {[24, 25, 26, 27, 28, 29].flatMap(items).map((x) => <li>{x}</li>)}
+    </ul>
+    <p>{t(P, 30)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 31)} titleId="nature-voiture">
+    <p>{t(P, 32)}</p>
+    <Cta2 href="/pages/notre-territoire-la-sologne.html" label={t(P, 33)} />
+    <p>{t(P, 34)}</p>
+    <PullQuote slot="quote" text={quoteVoiture} />
+  </Chapter>
+</StoryPage>
+
+<style is:global>
+  .nature-liste { margin: 0 0 var(--space-3); padding-inline-start: var(--space-4); list-style: disc; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .nature-liste li { margin: 0 0 var(--space-1); }
+  @media (max-width: 760px) { .nature-liste { font-size: var(--fs-body-phone); } }
+</style>

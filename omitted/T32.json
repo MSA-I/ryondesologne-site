@@ -1,0 +1,986 @@
+[
+ {
+  "page": "reservation",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 8,
+  "text": "Date de début",
+  "reason": "Date search of a one-item list (Date de début / Date de fin / OK): no booking back end; the visitor requests dates on the wedding page (DESIGN §12, search removed as approved)"
+ },
+ {
+  "page": "reservation",
+  "n": 9,
+  "text": "Date de fin",
+  "reason": "Date search of a one-item list (Date de début / Date de fin / OK): no booking back end; the visitor requests dates on the wedding page (DESIGN §12, search removed as approved)"
+ },
+ {
+  "page": "reservation",
+  "n": 10,
+  "text": "OK",
+  "reason": "Date search of a one-item list (Date de début / Date de fin / OK): no booking back end; the visitor requests dates on the wedding page (DESIGN §12, search removed as approved)"
+ },
+ {
+  "page": "reservation",
+  "n": 16,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 17,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 18,
+  "text": "Newsletter",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 19,
+  "text": "Nos dernières actus",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 20,
+  "text": "Contact",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 21,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 22,
+  "text": "Mention legales",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 23,
+  "text": "CGU",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 24,
+  "text": "CGV",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 25,
+  "text": "RGPD",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 26,
+  "text": "Franck Chemin",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 27,
+  "text": "One Seb photos",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 28,
+  "text": "Margaud Noée",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 29,
+  "text": "Malfoy Melanie",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 30,
+  "text": "Gestion des cookies",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation",
+  "n": 31,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 32,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 33,
+  "text": "brand",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 34,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 35,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 36,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 37,
+  "text": "Du",
+  "reason": "Attribute of a removed control"
+ },
+ {
+  "page": "reservation",
+  "n": 38,
+  "text": "Au",
+  "reason": "Attribute of a removed control"
+ },
+ {
+  "page": "reservation",
+  "n": 39,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 40,
+  "text": "Scroll top",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation",
+  "n": 41,
+  "text": "Cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 32,
+  "text": "Oct. 2026",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 33,
+  "text": "Lun",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 34,
+  "text": "Mar",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 35,
+  "text": "Mer",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 36,
+  "text": "Jeu",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 37,
+  "text": "Ven",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 38,
+  "text": "Sam",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 39,
+  "text": "Dim",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 40,
+  "text": "28",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 41,
+  "text": "29",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 42,
+  "text": "30",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 43,
+  "text": "1",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 44,
+  "text": "2",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 45,
+  "text": "3",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 46,
+  "text": "4",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 47,
+  "text": "5",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 48,
+  "text": "6",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 49,
+  "text": "7",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 50,
+  "text": "8",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 51,
+  "text": "9",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 52,
+  "text": "10",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 53,
+  "text": "11",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 54,
+  "text": "12",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 55,
+  "text": "13",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 56,
+  "text": "14",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 57,
+  "text": "15",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 58,
+  "text": "16",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 59,
+  "text": "17",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 60,
+  "text": "18",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 61,
+  "text": "19",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 62,
+  "text": "20",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 63,
+  "text": "21",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 64,
+  "text": "22",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 65,
+  "text": "23",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 66,
+  "text": "24",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 67,
+  "text": "25",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 68,
+  "text": "26",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 69,
+  "text": "27",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 70,
+  "text": "28",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 71,
+  "text": "29",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 72,
+  "text": "30",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 73,
+  "text": "31",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 74,
+  "text": "1",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 75,
+  "text": "2",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 76,
+  "text": "3",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 77,
+  "text": "4",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 78,
+  "text": "5",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 79,
+  "text": "6",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 80,
+  "text": "7",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 81,
+  "text": "8",
+  "reason": "Rendered availability calendar of the old booking plugin (month grid): no booking back end; dates are requested through the form"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 82,
+  "text": "Disponible À confirmer Indisponible",
+  "reason": "Calendar legend (Disponible / À confirmer / Indisponible) of the removed calendar"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 84,
+  "text": "Du",
+  "reason": "Rendered by MailForm (Du / Au / Valider) through t()"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 85,
+  "text": "Au",
+  "reason": "Rendered by MailForm (Du / Au / Valider) through t()"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 86,
+  "text": "Valider",
+  "reason": "Rendered by MailForm (Du / Au / Valider) through t()"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 87,
+  "text": "Partager",
+  "reason": "AddToAny share widget not shipped (global constraint 2)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 88,
+  "text": "Facebook",
+  "reason": "AddToAny share widget not shipped (global constraint 2)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 89,
+  "text": "X",
+  "reason": "AddToAny share widget not shipped (global constraint 2)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 90,
+  "text": "Email",
+  "reason": "AddToAny share widget not shipped (global constraint 2)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 91,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 92,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 93,
+  "text": "Newsletter",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 94,
+  "text": "Nos dernières actus",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 95,
+  "text": "Contact",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 96,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 97,
+  "text": "Mention legales",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 98,
+  "text": "CGU",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 99,
+  "text": "CGV",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 100,
+  "text": "RGPD",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 101,
+  "text": "Franck Chemin",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 102,
+  "text": "One Seb photos",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 103,
+  "text": "Margaud Noée",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 104,
+  "text": "Malfoy Melanie",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 105,
+  "text": "Gestion des cookies",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 106,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 107,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 108,
+  "text": "brand",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 109,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 110,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 111,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 112,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 113,
+  "text": "Scroll top",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 114,
+  "text": "Cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 115,
+  "text": "Fermer",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 116,
+  "text": "Copy link",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 117,
+  "text": "Share",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 118,
+  "text": "Partager",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 119,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 120,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 121,
+  "text": "Partager",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 122,
+  "text": "Tout voir",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "reservation-salle-de-mariage-html",
+  "n": 123,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 11,
+  "text": "Anti-spam",
+  "reason": "IconCaptcha not shipped (mail-app form, no server)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 12,
+  "text": "Cliquez pour valider",
+  "reason": "IconCaptcha not shipped (mail-app form, no server)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 13,
+  "text": "IconCaptcha ©",
+  "reason": "IconCaptcha not shipped (mail-app form, no server)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 15,
+  "text": "Enregistrer",
+  "reason": "IconCaptcha not shipped (mail-app form, no server)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 16,
+  "text": "Réservations Gites",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 17,
+  "text": "Réservations Mariage",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 18,
+  "text": "Newsletter",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 19,
+  "text": "Nos dernières actus",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 20,
+  "text": "Contact",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 21,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 22,
+  "text": "Mention legales",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 23,
+  "text": "CGU",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 24,
+  "text": "CGV",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 25,
+  "text": "RGPD",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 26,
+  "text": "Franck Chemin",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 27,
+  "text": "One Seb photos",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 28,
+  "text": "Margaud Noée",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 29,
+  "text": "Malfoy Melanie",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 30,
+  "text": "Gestion des cookies",
+  "reason": "Shared navigation/footer, rebuilt by the header and footer components (T08)"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 31,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 32,
+  "text": "Logoentete",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 33,
+  "text": "brand",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 34,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 35,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 36,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 38,
+  "text": "IconCaptcha by Fabian Wennink",
+  "reason": "Attribute of a removed control"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 39,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 40,
+  "text": "Scroll top",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ },
+ {
+  "page": "newsletters-subscribe",
+  "n": 41,
+  "text": "Cookies",
+  "reason": "Attribute of the old theme chrome (header, search, cookie, share widgets); not shipped or rebuilt by the shared components"
+ }
+]

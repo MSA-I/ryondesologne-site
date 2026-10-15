@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import AlbumRows from "../AlbumRows.astro";
+import { t } from "../../lib/content";
+import { albumCount } from "../album-count";
+
+// Home section 5 "Album" (DESIGN §6, §14), ported from board D. Copy: album.json block 6 (title), names 8..18; counts = the real photo count
+// of each built album (Moshe 2026-10-14, albumCount); hrefs from the albums collection; the four prints are the directed set.
+const P = "album";
+const albums = await getCollection("albums");
+const path = (id: string) => new URL(albums.find((a) => a.id === id)!.data.url).pathname;
+const set = [
+  { id: "album-restaurant", key: "restaurant", n: 8, printId: "28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496" },
+  { id: "album-photos-manoir", key: "photos-manoir", n: 10 },
+  { id: "album-photos-auberge", key: "photos-auberge", n: 12 },
+  { id: "album-photos-colonie", key: "photos-colonie", n: 14, printId: "aire-de-jeux-rayon-de-sologne-496x496" },
+  { id: "album-photos-mariage", key: "photos-mariage", n: 16, printId: "etang-rayon-de-sologne-496x496" },
+  { id: "album-seminaire-reunion", key: "seminaire-reunion", n: 18, printId: "seminaire-dans-la-grange-rayon-de-sologne-41320-496x496" },
+];
+const rows = set.map((s) => ({ key: s.key, label: t(P, s.n), count: String(albumCount(s.key)), href: path(s.id), printId: s.printId }));
+---
+<section class="album" data-part="gallery" aria-labelledby="album-titre">
+  <AlbumRows rows={rows} light="colonie" start="restaurant">
+    <h2 slot="title" id="album-titre" class="album-titre" data-effect="kinetic"><a href="/album/">{t(P, 6)}</a></h2>
+  </AlbumRows>
+</section>
+<style is:global>
+  /* home rhythm (DESIGN §6): the section is as tall as its rows, not a full screen; the print sits beside the rows' column,
+     one --space-5 gap from their right edge, and --space-5 closes the band (no empty blue under the last row). */
+  .album > .album-rows { min-height: 0; padding-bottom: var(--space-5); }
+  @media (min-width: 761px) {
+    .album > .album-rows { grid-template-columns: minmax(0, 34em) max-content; justify-content: start; }
+  }
+</style>

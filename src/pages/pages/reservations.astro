@@ -1,0 +1,315 @@
+---
+// Réservations Gites (DESIGN §12 offer page). Text from pages-reservations-html (blocks cited), notices, facts; no typed copy.
+// Blocks 6-27 and 47-129 are used (22 through its approved rewrite rw-gites-22; 113 is replaced by notice 114 + the Matterport label cut from it);
+// 1-5, 28-46, 62-104, 116, 130-410 (nav, share widget, footer, planner markup, attributes) are listed in 06-build/omitted/T22.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import PlannerEmbed from "../../components/PlannerEmbed.astro";
+import Door from "../../components/kit/Door.astro";
+import Cta from "../../components/kit/Cta.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import Stat from "../../components/kit/Stat.astro";
+import { t, approved, notice, fact, factTel } from "../../lib/content";
+
+const P = "pages-reservations-html";
+const PAGE = "/pages/reservations.html";
+
+// Old <title> and meta description, verbatim (01-scan/raw/pages-reservations-html.html).
+const title = "Réservation de gites de groupe en sologne : rayon de sologne";
+const description =
+  "Consultez les disponibilités et réservez en ligne nos gites en Sologne près de romorantin : de 4 à 55 couchages, salles et options traiteur";
+
+// Destinations of the old page (hrefs are not in the block text; 01-scan/raw). PDFs ship at their old paths.
+const PDF_DOMAINE = "/medias/files/accueil-groupes-rayon-de-sologne-salle-gite-traiteur-avec-compression-1-.pdf";
+const PDF_OPTIONS = "/medias/files/option-gite-rayon-de-sologne-compresse.pdf";
+const PDF_TRAITEUR = "/medias/files/plaquette-traiteur-gite-rayon-de-sologne-avec-compression.pdf";
+const MATTERPORT = (ss: number, sr: string) =>
+  `https://my.matterport.com/show/?m=gFXW73G3tSp&play=1&lang=fr&hl=2&brand=0&title=0&vr=0&ss=${ss}&sr=${sr}`;
+const MARIAGE = "/pages/salle-de-mariage-et-reception.html";
+const CONTACT = "/contact/contact.html";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("reservations: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+const light = { use: "gites" as const, photoId: "mariage-11-field" };
+const lightColonie = { use: "colonie" as const, photoId: "aire-de-jeux-rayon-de-sologne-field" };
+const lightSem = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+
+// The pull quote: a sentence of block 47, verbatim.
+const quote = t(P, 47).match(/Plus besoin d'attendre[^!]*!/)?.[0];
+if (!quote) throw new Error("reservations: pull-quote sentence not found in block 47");
+// The colonie visit label sits at the end of block 113 (its text before it is notice 114).
+const colonieVisit = t(P, 113).match(/Découvrez la visite virtuelle de la colonie/)?.[0];
+if (!colonieVisit) throw new Error("reservations: colonie visit label not found in block 113");
+
+// Capacity stat cut from each lodging heading (blocks 15, 16, 18, 19, 20): "jusqu'à 38 couchages", "de 15 personnes", "de 4 à 8 personnes".
+const capacity = (n: number) => {
+  const m = t(P, n).match(/(jusqu'à|de) (\d+(?: à \d+)?) (couchages|personnes)/);
+  if (!m) throw new Error(`reservations: capacity phrase not found in block ${n}`);
+  return { lead: m[1], figure: m[2], words: m[3] };
+};
+
+type Lodging = {
+  id: string;
+  h: number;
+  key: string;
+  paras: number[];
+  notice: string;
+  visit: { href: string; label: string };
+  more?: { href: string; n: number };
+  anchor?: string;
+};
+const manoir: Lodging = {
+  id: "manoir", h: 15, key: "OSMB-123001-1", paras: [56, 57, 58], notice: "gites-notice-59",
+  visit: { href: MATTERPORT(143, "-.08,.39"), label: t(P, 60) },
+  more: { href: "/pages/le-manoir-du-grand-liot.html", n: 61 }, anchor: "reserver",
+};
+const colonie: Lodging = {
+  id: "colonie", h: 16, key: "OSMB-123001-4", paras: [105, 106, 107, 108, 109, 110, 111, 112], notice: "gites-notice-114",
+  visit: { href: MATTERPORT(1, "-.2,-.86"), label: colonieVisit },
+  more: { href: "/pages/colonie-et-salle-des-fetes.html", n: 115 },
+};
+const auberge: Lodging = {
+  id: "auberge", h: 18, key: "OSMB-123001-5", paras: [117, 118, 119, 120, 122], notice: "gites-notice-123",
+  visit: { href: MATTERPORT(104, "-.31,.92"), label: t(P, 124) },
+};
+const invites: Lodging = {
+  id: "invites", h: 19, key: "OSMB-123001-8", paras: [125, 126], notice: "gites-notice-127",
+  visit: { href: MATTERPORT(249, "-.09,-.61"), label: t(P, 128) },
+};
+// The old panel repeats the "Ce petit duplex" paragraph first, then the shared paragraphs and the 2028 notice (scan keeps each text once).
+const hirondelles: Lodging = {
+  id: "hirondelles", h: 20, key: "OSMB-123001-16", paras: [129], notice: "gites-notice-123",
+  visit: { href: "", label: "" },
+};
+const lodgings = [manoir, colonie, auberge, invites, hirondelles];
+
+// Doors: the lodging pages, Anniversaire, Animation nature, three albums.
+const AN = "pages-animation-nature-html";
+// p7-final-pages-a item 3a: the old HTML was `gite<span>s</span>` (rendered "gites"); the scan inserted a space. Joined at render, as on nos-gites.
+const gitesLabel = (s: string) => s.replace(/gite s(?=\s|$)/, "gites");
+const lodgingDoors = [
+  { id: "manoir", title: t(P, 15), line: t("pages-le-manoir-du-grand-liot-html", 7), label: t(P, 61), href: "/pages/le-manoir-du-grand-liot.html", print: "manoir-grand-liot-rayon-de-sologne-1-1120x840", light },
+  { id: "colonie", title: t(P, 16), line: t("pages-colonie-et-salle-des-fetes-html", 9), label: t(P, 115), href: "/pages/colonie-et-salle-des-fetes.html", print: "anniversaire-grand-liot-langon-41321-1120x840", light: lightColonie },
+  { id: "auberge", title: t(P, 18), line: t("pages-l-auberge-du-grand-liot-html", 9), label: t(P, 18).split(" : ")[0], href: "/pages/l-auberge-du-grand-liot.html", print: "la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-1120x840", light },
+  { id: "invites", title: t(P, 19), line: t("pages-la-maison-des-invites-html", 8), label: t(P, 19).split(" : ")[0], href: "/pages/la-maison-des-invites.html", print: "rayondesolognephotojeuxexterieur41-1120x840", light },
+  { id: "hirondelles", title: t(P, 20), line: t("pages-la-maison-des-invites-1791124532-html", 8), label: t(P, 20).split(" : ")[0], href: "/pages/la-maison-des-invites-1791124532.html", print: "vue-aerienne-rayon-de-sologne-par-onesebphoto-1120x840", light },
+  { id: "nos-gites", title: gitesLabel(t("pages-nos-gites-html", 6)), line: t("pages-nos-gites-html", 8), label: gitesLabel(t("pages-nos-gites-html", 6)), href: "/pages/nos-gites.html", print: "chambre-nuptiale-du-manoir-rayon-de-sologne413202-1-1024x768", light },
+];
+const albumDoors = [
+  { id: "manoir", n: 10, meta: "album-photos-manoir", href: "/album/photos-manoir/", print: "1664010048575-1-496x496", light },
+  { id: "auberge", n: 12, meta: "album-photos-auberge", href: "/album/photos-auberge/", print: "jardin-auberge-496x496", light },
+  { id: "colonie", n: 14, meta: "album-photos-colonie", href: "/album/photos-colonie/", print: "aire-de-jeux-rayon-de-sologne-496x496", light: lightColonie },
+];
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="mariage-11-1066x800"
+  printBox={533}
+  cta={{ href: "#reserver", label: t(P, 104) }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+>
+  <!-- p7-final-pages-a item 3b: the jump list sits directly under the opening (it was in the third chapter); its name is that chapter's heading -->
+  <div class="res-saut-bande">
+    <nav class="res-saut" aria-labelledby="res-fete">
+      <ul>
+        {lodgings.map((g) => <li><a href={`#res-${g.id}`}>{t(P, g.h)}</a></li>)}
+      </ul>
+    </nav>
+  </div>
+
+  <Chapter tone="creme" class="res-chap" marginPrint={marginPrint(0)}>
+    <p>{t(P, 7)}</p>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <Cta2 href={PDF_DOMAINE} label={t(P, 12)} icon="file" />
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 13)} titleId="res-comment">
+    {[47, 48, 49, 50, 51, 52, 53].map((n) => <p>{t(P, n)}</p>)}
+    <Cta2 href={PDF_OPTIONS} label={t(P, 54)} icon="file" />
+    <Cta2 href={PDF_TRAITEUR} label={t(P, 55)} icon="file" />
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" class="res-chap" title={t(P, 14)} titleId="res-fete" marginPrint={marginPrint(1)} side="start">
+    {[manoir, colonie].map((g) => {
+      const c = capacity(g.h);
+      return (
+        <section class="res-gite" aria-labelledby={`res-${g.id}`}>
+          <h3 id={`res-${g.id}`}>{t(P, g.h)}</h3>
+          <div class="res-cap"><span class="res-cap-lead">{c.lead}</span><Stat figure={c.figure} words={c.words} /></div>
+          {g.paras.map((n) => <p>{t(P, n)}</p>)}
+          <p class="chap-avis">{notice(g.notice)}</p>
+          <Cta2 href={g.visit.href} label={g.visit.label} newTab />
+          {g.more && <Cta2 href={g.more.href} label={t(P, g.more.n)} />}
+          <PlannerEmbed page="pages-reservations" legend="" key={g.key} id={g.anchor} />
+        </section>
+      );
+    })}
+  </Chapter>
+
+  <Chapter tone="light" class="res-chap" light={light} title={t(P, 17)} titleId="res-petit" marginPrint={marginPrint(2)}>
+    {[auberge, invites, hirondelles].map((g) => {
+      const c = capacity(g.h);
+      return (
+        <section class="res-gite" aria-labelledby={`res-${g.id}`}>
+          <h3 id={`res-${g.id}`}>{t(P, g.h)}</h3>
+          <div class="res-cap"><span class="res-cap-lead">{c.lead}</span><Stat figure={c.figure} words={c.words} /></div>
+          {g.paras.map((n) => <p>{t(P, n)}</p>)}
+          <p class="chap-avis">{notice(g.notice)}</p>
+          {g.visit.href && <Cta2 href={g.visit.href} label={g.visit.label} newTab />}
+          <PlannerEmbed page="pages-reservations" legend="" key={g.key} />
+        </section>
+      );
+    })}
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 21)} titleId="res-mariage">
+    <p>{t(P, 22)}</p>
+    <Cta2 href={MARIAGE} label={t(P, 23)} />
+  </Chapter>
+
+  <div class="res-rail">
+    <h2 id="res-exterieurs" class="chap-titre" data-effect="kinetic">{t(P, 24)}</h2>
+    <PanRail page={PAGE} />
+  </div>
+
+  <Chapter tone="light" light={light} title={t(P, 25)} titleId="res-plusieurs">
+    <p>{t(P, 26)}</p>
+    <p><Cta href={CONTACT} label={t(P, 27)} subject="Réservations Gites" /></p>
+    <p><a class="res-mail" href={`mailto:${fact("email-gites")}`} dir="ltr">{fact("email-gites")}</a></p>
+  </Chapter>
+
+  <div slot="end">
+    <div class="res-doors">
+      {lodgingDoors.map((d) => (
+        <Door
+          title={d.title}
+          titleId={`porte-${d.id}-titre`}
+          line={d.line}
+          href={d.href}
+          linkLabel={d.label}
+          printId={d.print}
+          printEffect="reveal"
+          box={248}
+          light={d.light}
+        />
+      ))}
+      <Door
+        title={t("home", 15)}
+        titleId="porte-anniversaire-titre"
+        line={t("home", 17)}
+        href="/pages/une-salle-pour-un-anniversaire.html"
+        linkLabel={t("home", 18)}
+        printId="salle-seminaire-grand-liot-1120x840"
+        printEffect="reveal"
+        box={248}
+        light={lightSem}
+      />
+      <Door
+        title={t(AN, 6)}
+        titleId="porte-animation-titre"
+        line={t(AN, 7)}
+        href="/pages/animation-nature.html"
+        linkLabel={t(AN, 6)}
+        printId="chevres-ferme-pedagogique-rayon-de-sologne41320-1120x840"
+        printEffect="reveal"
+        box={248}
+        light={lightColonie}
+      />
+      {albumDoors.map((d) => (
+        <Door
+          title={t("album", d.n)}
+          titleId={`porte-album-${d.id}-titre`}
+          line={approved("meta-description", d.meta)}
+          href={d.href}
+          linkLabel={t("album", 6)}
+          printId={d.print}
+          printEffect="reveal"
+          box={248}
+          light={d.light}
+        />
+      ))}
+    </div>
+    <Chapter tone="creme">
+      <p>{t(P, 10)}</p>
+      <p>{t(P, 11)}</p>
+    </Chapter>
+  </div>
+</OfferPage>
+
+<style is:global>
+  .res-rail { background: var(--brume); color: var(--encre); padding: var(--space-5) 0; }
+  .res-rail .chap-titre { padding: 0 var(--pad); }
+  .res-gite { margin: 0 0 var(--space-6); }
+  .res-gite h3 { scroll-margin-top: var(--space-6); }
+  .res-saut { margin: 0 0 var(--space-5); }
+  .res-saut ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-1) var(--gap-columns); grid-template-columns: repeat(auto-fit, minmax(min(100%, 22em), 1fr)); }
+  .res-saut a {
+    display: flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); font-size: var(--fs-action);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  /* tablet: the 3-column chapter leaves ~40 px margins; the margin print goes under the text instead of a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.res-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.res-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.res-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+  .res-gite h3 { scroll-margin-top: var(--space-6); }
+  .res-saut-bande { background: var(--brume-creme); color: var(--encre); padding: var(--space-4) var(--pad) 0; }
+  .res-saut { margin: 0; }
+  .res-saut ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-1) var(--gap-columns); grid-template-columns: repeat(auto-fit, minmax(min(100%, 22em), 1fr)); }
+  .res-saut a {
+    display: flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); font-size: var(--fs-action);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  /* tablet: the 3-column chapter leaves ~40 px margins; the margin print goes under the text instead of a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.res-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.res-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.res-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+  .res-gite:last-child { margin-bottom: 0; }
+  .res-cap { display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--space-1); margin: 0 0 var(--space-3); }
+  .res-cap-lead { font-weight: var(--fw-small); font-size: var(--fs-meta); line-height: var(--lh-small); }
+  .res-doors .door { min-height: 0; }
+  .res-doors { background: var(--brume); }
+  /* phones: the eleven closing doors are compact rows (title + cta2); the print and the one-line text are not shown (the line stays for screen readers) */
+  @media (max-width: 760px) {
+    .res-doors .door { padding-block: var(--space-3); gap: var(--space-1); }
+    .res-doors .door-title { font-size: var(--fs-quote); line-height: var(--lh-quote); max-width: none; }
+    .res-doors .door-body { gap: 0; }
+    .res-doors .door-print { display: none; }
+    .res-doors .door-text { max-width: none; }
+    .res-doors .door-line { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .res-doors .door-text .cta2 { margin: 0; }
+  }
+  .res-mail {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); font-size: var(--fs-action);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+</style>

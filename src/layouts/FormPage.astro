@@ -1,0 +1,68 @@
+---
+// Form-page template (DESIGN §12 "Réservation pages" / Newsletter): Base + a short opening on the page's own light
+// (H1 lower-left, optional breadcrumbs) + the verbatim lines (default slot) beside the field kit (slot "form", optional).
+import "../styles/kit.css";
+import Base from "./Base.astro";
+import Light from "../components/kit/Light.astro";
+import Breadcrumbs from "../components/kit/Breadcrumbs.astro";
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  h1: string;
+  light: { use: "restaurant" | "seminaire" | "gites" | "colonie"; photoId: string; crop?: "sky" };
+  crumbs?: { label: string; href?: string }[];
+  /** id of the heading in the "form" slot that names the form region */
+  formTitleId?: string;
+}
+const { title, description, canonicalPath, h1, light, crumbs, formTitleId } = Astro.props;
+const hasForm = Astro.slots.has("form");
+---
+<Base title={title} description={description} canonicalPath={canonicalPath} current={canonicalPath}>
+  <section class="fp-ouv" data-site-studio-component="form-opening">
+    <Light {...light} />
+    <div class="fp-haut">{crumbs && <Breadcrumbs items={crumbs} />}</div>
+    <h1 class="fp-titre">{h1}</h1>
+  </section>
+  <div class:list={["fp-corps", !hasForm && "fp-corps--seul"]}>
+    <div class="fp-lignes"><slot /></div>
+    {hasForm && <section class="fp-form" aria-labelledby={formTitleId}><slot name="form" /></section>}
+  </div>
+  <slot name="end" />
+</Base>
+
+<style is:global>
+  .fp-ouv {
+    position: relative; isolation: isolate; overflow: hidden; color: var(--encre);
+    min-height: 40vh; min-height: 40svh;
+    display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-4);
+    padding: var(--space-6) var(--pad) var(--space-4);
+  }
+  .fp-titre {
+    margin: 0; max-width: 11em;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+  .fp-corps {
+    display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--gap-columns); align-items: start;
+    padding: var(--space-5) var(--pad); background: var(--brume-creme); color: var(--encre);
+  }
+  .fp-corps--seul { grid-template-columns: minmax(0, 1fr); }
+  .fp-lignes { min-width: 0; max-width: var(--measure); display: grid; gap: var(--space-3); }
+  .fp-lignes p, .fp-lignes ul { margin: 0; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .fp-lignes h2, .fp-form h2 {
+    margin: 0; font-weight: var(--fw-h2-text); font-size: var(--fs-h2-text); line-height: var(--lh-h2-text); text-wrap: balance;
+  }
+  .fp-form { min-width: 0; padding: var(--space-4); background: var(--brume); display: grid; gap: var(--space-3); }
+  @media (max-width: 960px) {
+    .fp-corps { grid-template-columns: minmax(0, 1fr); row-gap: var(--space-5); }
+  }
+  @media (max-width: 760px) {
+    .fp-ouv { min-height: 0; }
+    .fp-titre { font-size: var(--fs-display-phone); max-width: none; }
+    .fp-lignes p, .fp-lignes ul { font-size: var(--fs-body-phone); }
+    .fp-form { padding: var(--space-3); }
+    .fp-corps { padding-block: var(--space-4); }
+  }
+</style>

@@ -1,0 +1,147 @@
+---
+// Accueillir votre réunion (DESIGN §12 meeting-room page, séminaire light). Text from pages-accueillir-votre-reunion-html (blocks cited); no typed copy.
+// The rates 60 / 250 / 500 € are shown as the old page gives them, cut from blocks 16-19 as stats (not harmonised with the other pages).
+// Unused blocks are listed in 06-build/omitted/T30.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Stat from "../../components/kit/Stat.astro";
+import Cta from "../../components/kit/Cta.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t } from "../../lib/content";
+import { NAV } from "../../lib/site";
+
+const P = "pages-accueillir-votre-reunion-html";
+const REQ = "pages-salle-seminaire-privatisee-html";
+const PAGE = "/pages/accueillir-votre-reunion.html";
+const SEM = "/pages/salle-de-mariage-et-reception-1762943209.html";
+const SUBJECT = NAV.find((i) => i.href === SEM)!.label; // "Réservations Séminaires"
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "salle de séminaire dans le 41 pour 100 personnes proche romorantin";
+const description =
+  "accueil de reunion, seminaire à la journée ou en séjour dans le 41 proche de romorantin 41200 jusqu'à 150 personnes avec possiblités traiteur et couchages sur place";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("accueillir-votre-reunion: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// Rates: the words before the figure and the figure, cut from blocks 16, 18, 19; block 17 is shown as its own line above its two rates.
+const cut = (s: string) => {
+  const m = s.match(/^(.*?:)\s*(\d+\s?€)\s*$/);
+  if (!m) throw new Error("accueillir-votre-reunion: rate line not parsed: " + s);
+  return { lead: m[1], figure: m[2] };
+};
+const small = cut(t(P, 16));
+const dayB = cut(t(P, 18));
+const dayEve = cut(t(P, 19));
+// P7 final item 1: the pull quote (block 8) repeated the sentence of the chapter above it; every other sentence of the page sits within a screen of the quote, so there is none.
+
+const light = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="img-20220915-100341-1120x840"
+  printBox={560}
+  cta={{ href: "/contact/contact.html", label: t(REQ, 24), subject: SUBJECT }}
+  crumbs={[
+    { label: t(P, 1), href: "/" },
+    { label: SUBJECT, href: SEM },
+    { label: t(P, 6) },
+  ]}
+>
+  <div slot="satellite" class="reunion-tarif">
+    <div class="reunion-prix reunion-prix--petite">
+      <span class="ouv-stat-lead">{small.lead}</span><Stat figure={small.figure} words="" />
+    </div>
+    <p class="ouv-stat-lead reunion-grande">{t(P, 17)}</p>
+    {[dayB, dayEve].map((r, i) => (
+      <div class={`reunion-prix reunion-prix--g${i + 1}`}>
+        <span class="ouv-stat-lead">{r.lead}</span><Stat figure={r.figure} words="" />
+      </div>
+    ))}
+  </div>
+  <Chapter tone="creme" class="reunion-chap" marginPrint={marginPrint(0)}>
+    <p>{t(P, 7)}</p>
+    <p>{t(P, 8)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 9)}</p>
+    <ul class="reunion-liste">
+      {[10, 11, 12, 13].map((n) => <li>{t(P, n)}</li>)}
+    </ul>
+  </Chapter>
+
+  <Chapter tone="creme" class="reunion-chap" side="start">
+    <p>{t(P, 14)}</p>
+    <Cta2 href="/pages/le-restaurant.html" label={t(P, 2)} />
+    <p>{t(P, 15)}</p>
+    <Cta2 href={SEM} label={t(REQ, 23)} />
+  </Chapter>
+
+  <Chapter tone="light" class="reunion-chap" light={light}>
+    <div class="ferme-bande">
+      <div class="ferme-liens">
+        <Cta2 href={SEM} label={SUBJECT} />
+      </div>
+      <Cta href="/contact/contact.html" label={t(REQ, 24)} subject={SUBJECT} />
+    </div>
+  </Chapter>
+</OfferPage>
+
+<style is:global>
+  /* three prices, each under its own label: labels share one row, figures the row below (subgrid keeps the baselines); at 1181 px and up all three on one row,
+     tablet: the small room alone, then the large-room label with its two prices side by side (all inside the left column, clear of the print); phones stacked */
+  .reunion-tarif {
+    flex-basis: 100%; margin-block-start: var(--space-2);
+    display: grid; grid-template-columns: repeat(2, auto); grid-template-rows: repeat(5, auto); justify-content: start;
+    column-gap: var(--space-4); row-gap: var(--space-1);
+  }
+  .reunion-prix { display: grid; grid-template-rows: subgrid; row-gap: var(--space-1); align-content: start; }
+  .reunion-prix--petite { grid-column: 1 / -1; grid-row: 1 / span 2; }
+  .reunion-grande { grid-column: 1 / -1; grid-row: 3; margin: var(--space-2) 0 0; align-self: end; }
+  .reunion-prix--g1 { grid-column: 1; grid-row: 4 / span 2; }
+  .reunion-prix--g2 { grid-column: 2; grid-row: 4 / span 2; }
+  .reunion-prix .ouv-stat-lead { white-space: normal; }
+  @media (min-width: 1181px) {
+    .reunion-tarif { grid-template-columns: repeat(3, auto); grid-template-rows: auto auto auto; column-gap: var(--space-5); }
+    .reunion-prix--petite { grid-column: 1; grid-row: 2 / span 2; }
+    .reunion-grande { grid-column: 2 / span 2; grid-row: 1; margin: 0; }
+    .reunion-prix--g1 { grid-column: 2; grid-row: 2 / span 2; }
+    .reunion-prix--g2 { grid-column: 3; grid-row: 2 / span 2; }
+    .reunion-prix .ouv-stat-lead { white-space: nowrap; }
+  }
+  @media (max-width: 760px) {
+    .reunion-tarif { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; row-gap: var(--space-3); }
+    .reunion-prix, .reunion-grande { grid-column: 1; grid-row: auto; grid-template-rows: none; }
+    .reunion-grande { margin: 0 0 calc(var(--space-2) * -1); }
+  }
+  .reunion-liste { margin: 0 0 var(--space-3); padding-inline-start: 1.1em; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .reunion-liste li { margin: 0 0 var(--space-1); }
+  @media (max-width: 760px) { .reunion-liste { font-size: var(--fs-body-phone); } }
+  /* one closing band: the cta2 links, then the request pill, spaced */
+  .ferme-bande { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-5); }
+  .ferme-liens { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); }
+  .chap-corps .ferme-liens .cta2 { margin: 0; }
+  .ferme-bande .cta { padding-block: var(--space-2); text-align: center; }
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.reunion-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.reunion-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.reunion-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+</style>

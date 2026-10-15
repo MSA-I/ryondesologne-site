@@ -1,0 +1,312 @@
+{
+  "id": "actualites-newsletter-fevrier-2023-html",
+  "url": "https://www.rayondesologne.fr/actualites/newsletter-fevrier-2023.html",
+  "category": "actualites",
+  "title": "Newsletter février 2023",
+  "date": "Le 02/02/2023",
+  "isoDate": "2023-02-02",
+  "author": "charline sainjon",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Newsletter février 2023"
+    },
+    {
+      "n": 7,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 9,
+      "tag": "time",
+      "text": "Le 02/02/2023"
+    },
+    {
+      "n": 10,
+      "tag": "p",
+      "text": "Newsletter février 2023 #14"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Cela fait longtemps que nous n'avons pas donné de nouvelles et pour l'occasion Rayon de Sologne revient avec sa newsletter."
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Vous retrouverez :"
+    },
+    {
+      "n": 13,
+      "tag": "li",
+      "text": "Nos dates à retenir"
+    },
+    {
+      "n": 14,
+      "tag": "li",
+      "text": "Nos avancées et changements au domaine"
+    },
+    {
+      "n": 15,
+      "tag": "li",
+      "text": "Nos nouveautés"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Vous retrouverez ci-joint notre newsletter en PDF"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "Au plaisir de vous accueillir"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "L'équipe de Rayon de Sologne"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "newsletter-fevrier-2023.pdf"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "(2.33 Mo)"
+    },
+    {
+      "n": 21,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 22,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 23,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 24,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 39,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 40,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 42,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 43,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 44,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 45,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 46,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 47,
+      "tag": "@alt",
+      "text": "Newsletter fevrier 2023"
+    },
+    {
+      "n": 48,
+      "tag": "@title",
+      "text": "Newsletter fevrier 2023"
+    },
+    {
+      "n": 49,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 50,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 51,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 52,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 53,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 54,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 55,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 56,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 57,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 58,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 59,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 60,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ],
+  "images": []
+}

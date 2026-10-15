@@ -1,0 +1,29 @@
+---
+import "../../styles/kit.css";
+// One stroked set drawn for the site (DESIGN §4 Icons): --icon-stroke, round caps and joins, currentColor.
+type Name = "arrow" | "menu" | "file" | "external" | "error" | "prev" | "next" | "close";
+interface Props {
+  name: Name;
+  class?: string;
+}
+const { name, class: cls } = Astro.props;
+const paths: Record<Exclude<Name, "menu">, string[]> = {
+  arrow: ["M4 12h15M13 6l6 6-6 6"],
+  next: ["M4 12h15M13 6l6 6-6 6"],
+  prev: ["M20 12H5M11 6l-6 6 6 6"],
+  file: ["M6 3h8l4 4v14H6z", "M14 3v4h4", "M9 13h6M9 17h6"],
+  external: ["M14 4h6v6", "M20 4l-9 9", "M18 14v6H4V6h6"],
+  error: ["M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z", "M12 8v5", "M12 16v.01"],
+  close: ["M6 6l12 12M18 6L6 18"],
+};
+---
+{name === "menu" ? (
+  <svg class:list={["icon", "icon-menu", cls]} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+    <path class="icon-menu-line" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22" />
+    <path d="M7 16 27 16" />
+  </svg>
+) : (
+  <svg class:list={["icon", `icon-${name}`, cls]} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    {paths[name].map((d) => <path d={d} />)}
+  </svg>
+)}

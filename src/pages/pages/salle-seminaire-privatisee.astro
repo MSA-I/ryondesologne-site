@@ -1,0 +1,195 @@
+---
+// Salles de réunion (DESIGN §12 meeting-room page, séminaire light). Text from pages-salle-seminaire-privatisee-html (blocks cited) and
+// the three merged drafts (page, page-1, page-2: one room each, no duplicate of this page's text); no typed copy.
+// Unused blocks (nav, share widget, footer, attributes, the repeated H2, draft footers) are listed in 06-build/omitted/T30.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import Lightbox from "../../components/Lightbox.astro";
+import Print from "../../components/kit/Print.astro";
+import Cta from "../../components/kit/Cta.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, fact, factTel } from "../../lib/content";
+import { img } from "../../lib/assets";
+import { NAV, ft } from "../../lib/site";
+
+const P = "pages-salle-seminaire-privatisee-html";
+const D1 = "pages-page-1-html"; // first room
+const D2 = "pages-page-html"; // Salle Langon
+const D3 = "pages-page-2-html"; // la salle du manoir
+const PAGE = "/pages/salle-seminaire-privatisee.html";
+const SEM = "/pages/salle-de-mariage-et-reception-1762943209.html";
+const PDF_SEMINAIRE = "/medias/files/plaquette-seminaire-reunion-rayon-de-sologne-team-building-loir-et-cher-proche-orleans-tours-avec-couchages-compressed.pdf";
+const SUBJECT = NAV.find((i) => i.href === SEM)!.label; // "Réservations Séminaires"
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "Salle de réunion en loir et cher : Rayon de Sologne";
+const description =
+  "Location de salles de réunion en Sologne près de Romorantin : Espaces privatifs de 5 à 150 personnes, accès PMR et service traiteur sur place.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("salle-seminaire-privatisee: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// P7 final item 4: the pull quote (a sentence of block 11) repeated the paragraph one screen above; no other sentence of the page is far enough from the quote, so there is none.
+
+// The old page's room and catering photos ("en cliquant sur chaque photo"): produced rows of the old page's 10 thumbnails, in the old order.
+// The 10th (6cfec457-448f-494e-b511-bf217d73b4bd, "maxime chef traiteur ...") now has a produced row (p7-assets).
+const GALLERY: string[] = [
+  "rayondesolognephotoseminairegrange41-seminaire-reunion",
+  "seminaire-domaine-rayon-de-sologne-41320-5-seminaire-reunion",
+  "espace-salon-cheminee-gite-de-groupe-50-personne-rayon-de-sologne-960x720",
+  "semianire-rayon-de-sologne-terrasse-langon-seminaire-reunion",
+  "salle-de-repas-colonie-restaurant-rayon-de-sologne-1-photos-colonie",
+  "39bd872c-f634-4589-b476-ca318ac8332a",
+  "5643f6ca-c330-4c30-985d-a83fc83bd27d",
+  "86947761-35c1-46b2-aac0-fd7b12faab8f-news",
+  "28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496",
+  "6cfec457-448f-494e-b511-bf217d73b4bd",
+];
+const THUMB = 160;
+const thumbs = GALLERY.map((id) => ({ id, d: img(id, { box: THUMB, sizes: `${THUMB}px` }) }));
+// Lightbox: the largest box each row allows (<= 1000), falling back to smaller ones.
+const lbItems = GALLERY.map((id) => {
+  for (const b of [1000, 800, 720, 640, 498, 438, 248]) {
+    try {
+      const sizes = `(max-width: 760px) 100vw, ${b}px`;
+      const d = img(id, { box: b, sizes });
+      return { alt: d.alt, box: b, sizes, sources: d.sources, src: d.src, width: d.width, height: d.height };
+    } catch { /* next */ }
+  }
+  throw new Error("salle-seminaire-privatisee: no lightbox size for " + id);
+});
+
+// Phone and e-mail sit inside block 26: they become links, the text is unchanged.
+const phone = fact("phone-domaine");
+const phoneTel = factTel("phone-domaine");
+const mail = fact("email-seminaire");
+const phoneDots = phone.replace(/ /g, ".");
+const around = (text: string, needle: string) => {
+  const i = text.indexOf(needle);
+  return i < 0 ? null : [text.slice(0, i), text.slice(i + needle.length)];
+};
+const line26 = around(t(P, 26), phoneDots);
+const mail26 = line26 ? around(line26[0], mail) : null;
+if (!line26 || !mail26) throw new Error("salle-seminaire-privatisee: phone / mail not found in block 26");
+
+const strip = (s: string) => s.replace(/^-/, "");
+const light = { use: "seminaire" as const, photoId: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" };
+const rooms = [
+  { d: D1, p: [7, 8, 9, 10] },
+  { d: D2, p: [7, 8, 9, 10] },
+  { d: D3, p: [7, 8] },
+];
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="seminaire-dans-la-grange-rayon-de-sologne-41320-1120x840"
+  printBox={560}
+  cta={{ href: "/contact/contact.html", label: t(P, 24), subject: SUBJECT }}
+  phone={{ label: phone, tel: phoneTel }}
+  crumbs={[
+    { label: t(P, 1), href: "/" },
+    { label: SUBJECT, href: SEM },
+    { label: t(P, 6) },
+  ]}
+>
+  <Chapter tone="creme" class="salles-chap" marginPrint={marginPrint(0)}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+    <p>{t(P, 11)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 12)} titleId="salles-liste">
+    <ul class="salles-liste">
+      {[13, 14, 15, 16, 17].map((n) => <li>{strip(t(P, n))}</li>)}
+    </ul>
+  </Chapter>
+
+  <Chapter tone="creme" class="salles-grille" wide>
+    {rooms.map((r) => (
+      <div>
+        <h3>{t(r.d, 6)}</h3>
+        {r.p.map((n) => <p>{t(r.d, n)}</p>)}
+      </div>
+    ))}
+    <div class="salles-plan">
+      <Print id="panneau-plan-domaine-pdf" box={720} sizes="(max-width: 760px) 100vw, 720px" effect="reveal" />
+    </div>
+    <ul class="salles-photos">
+      {thumbs.map((p, i) => (
+        <li>
+          <button type="button" class="salles-photo" aria-haspopup="dialog" data-lightbox-open={i} aria-label={p.d.alt ? undefined : ft("lightbox-dialog")}>
+            <Print id={p.id} box={THUMB} sizes={`${THUMB}px`} />
+          </button>
+        </li>
+      ))}
+    </ul>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 18)} titleId="salles-traiteur">
+    <p>{t(P, 19)}</p>
+    <Cta2 href="/pages/le-restaurant.html" label={t(P, 20)} />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 21)} titleId="salles-hebergement" class="salles-chap" marginPrint={marginPrint(1)} side="start">
+    <p>{t(P, 22)}</p>
+    <Cta2 href={SEM} label={t(P, 23)} />
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 24)} titleId="salles-devis">
+    <p>{t(P, 25)}</p>
+    <p dir="auto">{mail26[0]}<a href={`mailto:${mail}`} dir="ltr">{mail}</a>{mail26[1]}<a href={`tel:${phoneTel}`} dir="ltr">{phoneDots}</a>{line26[1]}</p>
+    <div class="ferme-bande">
+      <div class="ferme-liens">
+        <Cta2 href={PDF_SEMINAIRE} label={t(P, 27)} icon="file" />
+        <Cta2 href={SEM} label={SUBJECT} />
+      </div>
+      <Cta href="/contact/contact.html" label={t(P, 24)} subject={SUBJECT} />
+    </div>
+  </Chapter>
+  <Lightbox items={lbItems} />
+</OfferPage>
+
+<style is:global>
+  .salles-liste { margin: 0 0 var(--space-3); padding-inline-start: 1.1em; font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .salles-liste li { margin: 0 0 var(--space-1); }
+  .chap-corps > .salles-plan { grid-column: 1 / -1; max-width: 720px; }
+  /* the old page's photos as small square thumbnails under the plan; each opens the lightbox */
+  .chap-corps > .salles-photos { grid-column: 1 / -1; list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .salles-photo { display: block; width: 96px; height: 96px; padding: 0; border: 0; background: none; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+  .salles-photos .salles-photo .print, .salles-photos .salles-photo .print img { width: 100%; height: 100%; }
+  .salles-photos .salles-photo .print img { object-fit: cover; }
+  .salles-photo:active { opacity: 0.86; }
+  @media (hover: hover) and (pointer: fine) { .salles-photo:hover { opacity: 0.88; } }
+  @media (min-width: 761px) { .salles-photo { width: 120px; height: 120px; } }
+  /* the three rooms fill three equal columns (auto-fit left a fourth, empty track at desktop widths); the plan takes the next row */
+  @media (min-width: 1000px) { .chap.salles-grille .chap-corps { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (min-width: 761px) and (max-width: 999px) { .chap.salles-grille .chap-corps { grid-template-columns: minmax(0, 1fr); } }
+  /* one closing band: the cta2 links, then the request pill, spaced */
+  .ferme-bande { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4) var(--space-5); }
+  .ferme-liens { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); }
+  .chap-corps .ferme-liens .cta2 { margin: 0; }
+  .ferme-bande .cta { padding-block: var(--space-2); text-align: center; }
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.salles-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.salles-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.salles-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+  @media (max-width: 760px) { .salles-liste { font-size: var(--fs-body-phone); } }
+</style>

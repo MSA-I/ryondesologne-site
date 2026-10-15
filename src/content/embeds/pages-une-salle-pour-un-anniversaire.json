@@ -1,0 +1,21 @@
+{
+  "page": "pages-une-salle-pour-un-anniversaire",
+  "items": [
+    {
+      "key": "OSMB-123001-1",
+      "containerHtml": "<div id=\"widget-produit-OSMB-123001-1\" class=\"WidgetDirect\"></div>",
+      "scriptSrc": [
+        "//gadget.open-system.fr/widgets-libs/rel/noyau-1.0.min.js"
+      ],
+      "init": "( function() {\n\tvar widgetProduit = AllianceReseaux.Widget.Instance( \"Produit\", { idPanier:\"U3RSU1M\", idIntegration:646, langue:\"fr\", ui:\"OSMB-123001-1\" } );\n\twidgetProduit.Initialise();\n})();"
+    },
+    {
+      "key": "OSMB-123001-4",
+      "containerHtml": "<div id=\"widget-produit-OSMB-123001-4\" class=\"WidgetDirect\"></div>",
+      "scriptSrc": [
+        "//gadget.open-system.fr/widgets-libs/rel/noyau-1.0.min.js"
+      ],
+      "init": "( function() {\n\tvar widgetProduit = AllianceReseaux.Widget.Instance( \"Produit\", { idPanier:\"U3RSU1M\", idIntegration:646, langue:\"fr\", ui:\"OSMB-123001-4\" } );\n\twidgetProduit.Initialise();\n})();"
+    }
+  ]
+}

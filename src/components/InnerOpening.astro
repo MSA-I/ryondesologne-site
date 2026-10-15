@@ -1,0 +1,95 @@
+---
+// Inner-page opening (DESIGN §12): the page's own light, the H1 lower-left in Imbue, one sharp print right, the rouille pill,
+// the phone and the stats as satellites. The print is on the first screen: no reveal, eager and high priority.
+import "../styles/kit.css";
+import Light from "./kit/Light.astro";
+import Print from "./kit/Print.astro";
+import Cta from "./kit/Cta.astro";
+import Stat from "./kit/Stat.astro";
+import Breadcrumbs from "./kit/Breadcrumbs.astro";
+interface Props {
+  h1: string;
+  light: { use: "restaurant" | "seminaire" | "gites" | "colonie"; photoId: string; crop?: "sky" };
+  printId: string;
+  /** css width of the print on desktop (<= its max_css_width) */
+  printBox: number;
+  cta: { href: string; label: string; subject?: boolean | string };
+  phone?: { label: string; tel: string };
+  /** `lead` = the words that come before the figure in the sentence ("à partir de") */
+  stats?: { figure: string; words: string; lead?: string; source?: string }[];
+  crumbs?: { label: string; href?: string }[];
+}
+const { h1, light, printId, printBox, cta, phone, stats = [], crumbs } = Astro.props;
+const dark = light.use === "restaurant";
+---
+<section class:list={["ouv", dark && "ouv--dark"]} style={`--ouv-print:${printBox}px`} data-site-studio-component="inner-opening">
+  <Light {...light} eager priority="low" />
+  <div class="ouv-haut">{crumbs && <Breadcrumbs items={crumbs} />}</div>
+  <div class="ouv-texte">
+    <h1 class="ouv-titre">{h1}</h1>
+    <div class="ouv-satellites">
+      <Cta href={cta.href} label={cta.label} subject={cta.subject} />
+      {phone && <a class="ouv-tel" href={`tel:${phone.tel}`} dir="ltr">{phone.label}</a>}
+      {stats.map((s) => (
+        <div class="ouv-stat">
+          {s.lead && <span class="ouv-stat-lead">{s.lead}</span>}
+          <Stat figure={s.figure} words={s.words} source={s.source} />
+        </div>
+      ))}
+      <slot name="satellite" />
+    </div>
+  </div>
+  <Print
+    id={printId}
+    box={printBox}
+    sizes={`(max-width: 760px) 100vw, ${printBox}px`}
+    loading="eager"
+    fetchpriority="high"
+    class="ouv-print"
+  />
+</section>
+
+<style is:global>
+  .ouv {
+    position: relative; isolation: isolate; overflow: hidden;
+    min-height: 100vh; min-height: 100svh;
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, min(var(--ouv-print), 40vw));
+    grid-template-rows: auto 1fr; column-gap: var(--gap-columns); row-gap: var(--space-4);
+    padding: var(--space-6) var(--pad) var(--space-5);
+    color: var(--encre);
+  }
+  .ouv--dark { color: var(--on-dark); }
+  .ouv--dark :focus-visible { outline-color: var(--focus-on-dark); }
+  .ouv-haut { grid-column: 1 / -1; grid-row: 1; }
+  .ouv-texte { grid-column: 1; grid-row: 2; align-self: end; display: flex; flex-direction: column; gap: var(--space-4); }
+  .ouv-print { grid-column: 2; grid-row: 2; align-self: end; width: 100%; }
+  .ouv-titre {
+    margin: 0; max-width: 11em;
+    font-family: var(--font-display); font-weight: var(--fw-display);
+    font-size: var(--fs-display-2); line-height: var(--lh-display-2); letter-spacing: var(--tr-display);
+    text-wrap: balance;
+  }
+  .ouv-satellites { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-4); }
+  .ouv-tel {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-weight: var(--fw-action); font-size: var(--fs-action);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  /* a long request label wraps onto two lines inside the pill: tight leading and small block padding keep it near --btn-height */
+  .ouv .cta { padding-block: var(--space-1); line-height: 1.2; text-align: center; }
+  .ouv-stat { display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--space-1); }
+  .ouv-stat-lead { font-weight: var(--fw-small); font-size: var(--fs-meta); line-height: var(--lh-small); }
+  .ouv .ouv-satellites > [lang="he"] { font-size: var(--fs-meta); }
+
+  @media (max-width: 760px) {
+    .ouv {
+      min-height: 0; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto;
+      padding: var(--space-6) var(--pad) var(--space-5);
+    }
+    .ouv-texte { grid-row: 2; }
+    .ouv-print { grid-column: 1; grid-row: 3; }
+    .ouv-titre { font-size: var(--fs-display-phone); max-width: none; }
+    .ouv-stat-lead { font-size: var(--fs-meta-phone); }
+  }
+</style>

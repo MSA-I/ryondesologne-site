@@ -1,0 +1,621 @@
+{
+  "id": "reservation-salle-de-mariage-html",
+  "url": "https://www.rayondesologne.fr/reservation/salle-de-mariage.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Salle de mariage"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "Location salle mariage en sologne proche romorantin"
+    },
+    {
+      "n": 8,
+      "tag": "li",
+      "text": "Capacité maximum : 150 personne(s)"
+    },
+    {
+      "n": 9,
+      "tag": "li",
+      "text": "Surface : 200.00 m²"
+    },
+    {
+      "n": 10,
+      "tag": "li",
+      "text": "Référence : mariage wkd"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "Le planning des réservations est ouvert à partir d'avril 2023 !"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Le domaine est disponible du vendredi 10h au dimanche 15H"
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "(possibilité de rallonger ces horaires)"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "Pour une fête en semaine, merci de prendre contact avec le Domaine."
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "Pour qu'une réservation soit définitive, il sera necessaire de nous renvoyer le contrat de location et verser un acompte de 30% à la signature, 30% 2 mois avant la fête et le solde le jour J. Nous mettons en place des clauses d'annulations spécifiques au Covid pour ne pas perdre vos acomptes."
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Tarif privatisation pour un mariage en semaine 2nuits, 3jours (entre lundi et jeudi)"
+    },
+    {
+      "n": 17,
+      "tag": "p",
+      "text": "4000€ en mai, juin, juillet, aout, septembre"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "3000€ avril, octobre, décembre"
+    },
+    {
+      "n": 19,
+      "tag": "p",
+      "text": "3000€ janvier, février, mars, novembre"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Tarif privatisation pour un mariage week end, 2 nuits, 3 jours (du vendredi midi au dimanche après-midi)"
+    },
+    {
+      "n": 21,
+      "tag": "p",
+      "text": "5000€ en mai, juin, juillet, août, septembre"
+    },
+    {
+      "n": 22,
+      "tag": "p",
+      "text": "4500€ en avril, octobre, décembre"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "4000€ janvier, février, mars, novembre"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "Équipements :"
+    },
+    {
+      "n": 25,
+      "tag": "li",
+      "text": "Salle de 150 personnes assises + piste de danse Ou 170 personnes assises 115 couchages en dur (option)"
+    },
+    {
+      "n": 26,
+      "tag": "p",
+      "text": "Conditions de réservation"
+    },
+    {
+      "n": 27,
+      "tag": "p",
+      "text": "Type de réservation : A la nuit"
+    },
+    {
+      "n": 28,
+      "tag": "p",
+      "text": "Nombre de nuit(s) minimum 3"
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "Conditions particulières"
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "La reservation ne sera effective, qu'une fois le contrat de location reçu et l'acompte versé."
+    },
+    {
+      "n": 31,
+      "tag": "p",
+      "text": "Prix de base : gratuit"
+    },
+    {
+      "n": 32,
+      "tag": "td",
+      "text": "Oct. 2026"
+    },
+    {
+      "n": 33,
+      "tag": "th",
+      "text": "Lun"
+    },
+    {
+      "n": 34,
+      "tag": "th",
+      "text": "Mar"
+    },
+    {
+      "n": 35,
+      "tag": "th",
+      "text": "Mer"
+    },
+    {
+      "n": 36,
+      "tag": "th",
+      "text": "Jeu"
+    },
+    {
+      "n": 37,
+      "tag": "th",
+      "text": "Ven"
+    },
+    {
+      "n": 38,
+      "tag": "th",
+      "text": "Sam"
+    },
+    {
+      "n": 39,
+      "tag": "th",
+      "text": "Dim"
+    },
+    {
+      "n": 40,
+      "tag": "div",
+      "text": "28"
+    },
+    {
+      "n": 41,
+      "tag": "div",
+      "text": "29"
+    },
+    {
+      "n": 42,
+      "tag": "div",
+      "text": "30"
+    },
+    {
+      "n": 43,
+      "tag": "div",
+      "text": "1"
+    },
+    {
+      "n": 44,
+      "tag": "div",
+      "text": "2"
+    },
+    {
+      "n": 45,
+      "tag": "div",
+      "text": "3"
+    },
+    {
+      "n": 46,
+      "tag": "div",
+      "text": "4"
+    },
+    {
+      "n": 47,
+      "tag": "div",
+      "text": "5"
+    },
+    {
+      "n": 48,
+      "tag": "div",
+      "text": "6"
+    },
+    {
+      "n": 49,
+      "tag": "div",
+      "text": "7"
+    },
+    {
+      "n": 50,
+      "tag": "div",
+      "text": "8"
+    },
+    {
+      "n": 51,
+      "tag": "div",
+      "text": "9"
+    },
+    {
+      "n": 52,
+      "tag": "div",
+      "text": "10"
+    },
+    {
+      "n": 53,
+      "tag": "div",
+      "text": "11"
+    },
+    {
+      "n": 54,
+      "tag": "div",
+      "text": "12"
+    },
+    {
+      "n": 55,
+      "tag": "div",
+      "text": "13"
+    },
+    {
+      "n": 56,
+      "tag": "div",
+      "text": "14"
+    },
+    {
+      "n": 57,
+      "tag": "div",
+      "text": "15"
+    },
+    {
+      "n": 58,
+      "tag": "div",
+      "text": "16"
+    },
+    {
+      "n": 59,
+      "tag": "div",
+      "text": "17"
+    },
+    {
+      "n": 60,
+      "tag": "div",
+      "text": "18"
+    },
+    {
+      "n": 61,
+      "tag": "div",
+      "text": "19"
+    },
+    {
+      "n": 62,
+      "tag": "div",
+      "text": "20"
+    },
+    {
+      "n": 63,
+      "tag": "div",
+      "text": "21"
+    },
+    {
+      "n": 64,
+      "tag": "div",
+      "text": "22"
+    },
+    {
+      "n": 65,
+      "tag": "div",
+      "text": "23"
+    },
+    {
+      "n": 66,
+      "tag": "div",
+      "text": "24"
+    },
+    {
+      "n": 67,
+      "tag": "div",
+      "text": "25"
+    },
+    {
+      "n": 68,
+      "tag": "div",
+      "text": "26"
+    },
+    {
+      "n": 69,
+      "tag": "div",
+      "text": "27"
+    },
+    {
+      "n": 70,
+      "tag": "div",
+      "text": "28"
+    },
+    {
+      "n": 71,
+      "tag": "div",
+      "text": "29"
+    },
+    {
+      "n": 72,
+      "tag": "div",
+      "text": "30"
+    },
+    {
+      "n": 73,
+      "tag": "div",
+      "text": "31"
+    },
+    {
+      "n": 74,
+      "tag": "div",
+      "text": "1"
+    },
+    {
+      "n": 75,
+      "tag": "div",
+      "text": "2"
+    },
+    {
+      "n": 76,
+      "tag": "div",
+      "text": "3"
+    },
+    {
+      "n": 77,
+      "tag": "div",
+      "text": "4"
+    },
+    {
+      "n": 78,
+      "tag": "div",
+      "text": "5"
+    },
+    {
+      "n": 79,
+      "tag": "div",
+      "text": "6"
+    },
+    {
+      "n": 80,
+      "tag": "div",
+      "text": "7"
+    },
+    {
+      "n": 81,
+      "tag": "div",
+      "text": "8"
+    },
+    {
+      "n": 82,
+      "tag": "p",
+      "text": "Disponible À confirmer Indisponible"
+    },
+    {
+      "n": 83,
+      "tag": "div",
+      "text": "Réserver"
+    },
+    {
+      "n": 84,
+      "tag": "div",
+      "text": "Du"
+    },
+    {
+      "n": 85,
+      "tag": "div",
+      "text": "Au"
+    },
+    {
+      "n": 86,
+      "tag": "button",
+      "text": "Valider"
+    },
+    {
+      "n": 87,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 88,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 89,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 90,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 91,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 92,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 93,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 94,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 95,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 96,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 97,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 98,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 99,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 100,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 101,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 102,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 103,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 104,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 105,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 106,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 107,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 108,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 109,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 110,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 111,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 112,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 113,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 114,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 115,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 116,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 117,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 118,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 119,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 120,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 121,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 122,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 123,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

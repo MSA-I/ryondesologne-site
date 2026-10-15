@@ -1,0 +1,231 @@
+{
+  "id": "pages-page-2-html",
+  "url": "https://www.rayondesologne.fr/pages/page-2.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h2",
+      "text": "La salle du manoir"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "Le troisième espace que nous vous proposons, une salle de 80m2, vous pourrez faire une réunion au coin du feu, d’avoir un espace de travail et un espace repas distinct, le tout dans un bâtiment rempli d’histoire et de charme."
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "Les murs blancs de la salle principale vous permettre de faire de la video-projection sans difficulté. Idéale pour une réunion jusqu'à 30, elle peut accueillir pour un repas jusqu'à 60 personnes."
+    },
+    {
+      "n": 9,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 10,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 11,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 12,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 18,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 27,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 28,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 29,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 30,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 31,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 32,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 33,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 34,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 35,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 36,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 37,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 38,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 39,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 40,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 41,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 42,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 43,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 44,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 45,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

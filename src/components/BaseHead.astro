@@ -1,0 +1,180 @@
+---
+// Charset first, then title, description, canonical, then Open Graph, Twitter and JSON-LD (T38).
+// Everything SEO derives here from the three props Base passes: no copy is typed for a page.
+//  - title/description: the page's own (old text verbatim); an approved round-2b meta-title / meta-description
+//    for the same page (03-copy/approved.json -> src/content/approved.json) replaces it;
+//  - og:image: the page's og-* asset (the 8 produced), else the home one;
+//  - JSON-LD: home = WebSite + LodgingBusiness + Restaurant (facts shown in the footer / site scan, no rating,
+//    no reviews, no hours); BlogPosting on news articles.
+import approvedList from "../content/approved.json";
+import { decodeEntities, excerpt, CRUMB_ONLY, HOME_LABEL } from "../lib/seo";
+import { img, asset } from "../lib/assets";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  noindex?: boolean;
+}
+const { title: passedTitle, description: passedDescription, canonicalPath, noindex = false } = Astro.props;
+const ORIGIN = "https://www.rayondesologne.fr";
+const SITE_NAME = "Rayon de Sologne";
+const abs = (p: string) => new URL(p, ORIGIN).href;
+
+// ---- title / description ----------------------------------------------------------------------------------------
+// Old <title>/<meta> text can carry HTML entities as scanned; the head wants the plain text (Astro escapes it).
+const decode = decodeEntities;
+
+// page id of 03-copy/approved.json from the path: /pages/a.html -> pages-a-html, /album/x/ -> album-x
+const pageKey = (p: string) =>
+  p === "/"
+    ? "home"
+    : p.replace(/^\//, "").replace(/\/?index\.html$/, "").replace(/\/$/, "").replace(/[/.]/g, "-");
+const key = pageKey(canonicalPath);
+const approvedMeta = (where: "meta-title" | "meta-description") =>
+  (approvedList as { page: string; where: string; approved: string }[]).find(
+    (e) => e.where === where && (e.page === key || (e.page.length === 60 && key.startsWith(e.page))),
+  )?.approved;
+const title = decode((approvedMeta("meta-title") ?? passedTitle).trim());
+const approvedDescription = approvedMeta("meta-description");
+// news descriptions (/actualites/**) are body excerpts: entities decoded once, at most 160 characters, cut at a word end with "…".
+// An approved meta always wins and is left as approved.
+const description = approvedDescription
+  ? decode(approvedDescription.trim())
+  : canonicalPath.startsWith("/actualites")
+    ? excerpt(passedDescription, 160)
+    : decode(passedDescription.trim());
+if (!title || !description) throw new Error(`BaseHead: empty title or description on ${canonicalPath}`);
+
+const canonical = abs(canonicalPath);
+
+// ---- Open Graph image: the page's og-* asset, else the home one ----------------------------------------------------
+const OG_PAGES = new Set([
+  "/pages/le-restaurant.html",
+  "/pages/reservations.html",
+  "/pages/salle-de-mariage-et-reception.html",
+  "/pages/salle-de-mariage-et-reception-1762943209.html",
+  "/pages/colonies-classes-vertes-ecole-alternative.html",
+  "/pages/une-salle-pour-un-anniversaire.html",
+  "/pages/presentation.html",
+]);
+const ogFile = canonicalPath === "/" ? "og-home" : OG_PAGES.has(canonicalPath) ? `og-${canonicalPath.split("/").pop()!.replace(/\.html$/, "")}` : "og-home";
+const ogImage = abs(`/media/og/${ogFile}.jpg`);
+
+// ---- news articles (date and URL from the scan) --------------------------------------------------------------------
+type News = { url: string; title: string; isoDate: string };
+const newsByPath = new Map<string, News>();
+for (const m of Object.values(import.meta.glob("../content/news/*.json", { eager: true })) as { default?: News }[]) {
+  const d = (m.default ?? m) as News;
+  newsByPath.set(new URL(d.url).pathname, d);
+}
+const article = newsByPath.get(canonicalPath);
+// the article's own first image (absolute URL), the home og image as the fallback
+let articleImage: string | undefined;
+for (const id of (article as (News & { images?: string[] }) | undefined)?.images ?? []) {
+  try {
+    const box = Math.min(asset(id).max_css_width ?? 640, 640);
+    articleImage = abs(img(id, { box, sizes: `${box}px` }).src);
+    break;
+  } catch { /* not printable: next */ }
+}
+
+// ---- JSON-LD graph -------------------------------------------------------------------------------------------------
+// Business facts: footer of every page + the scanned Coordonnées JSON-LD (street, postcode 41320, geo); phones per offer.
+const ADDRESS = {
+  "@type": "PostalAddress",
+  streetAddress: "2380 C Rte de Romorantin",
+  addressLocality: "Langon-sur-Cher",
+  postalCode: "41320",
+  addressCountry: "FR",
+};
+const GEO = { "@type": "GeoCoordinates", latitude: 47.3060531, longitude: 1.80832 };
+const graph: Record<string, unknown>[] = [];
+if (!noindex) {
+  if (canonicalPath === "/") {
+    graph.push(
+      { "@type": "WebSite", "@id": `${ORIGIN}/#website`, name: SITE_NAME, url: `${ORIGIN}/`, inLanguage: "fr" },
+      {
+        "@type": "LodgingBusiness",
+        "@id": `${ORIGIN}/#lodging`,
+        name: SITE_NAME,
+        url: `${ORIGIN}/`,
+        image: ogImage,
+        logo: abs("/media/logo/logo.svg"),
+        telephone: "+33604475492",
+        address: ADDRESS,
+        geo: GEO,
+        sameAs: ["https://www.instagram.com/rayondesologne/?hl=fr"],
+      },
+      {
+        "@type": "Restaurant",
+        "@id": `${ORIGIN}/#restaurant`,
+        name: "Bistrot du Grand Liot",
+        url: abs("/pages/le-restaurant.html"),
+        logo: abs("/media/logo/logo.svg"),
+        telephone: "+33234331139",
+        address: ADDRESS,
+        geo: GEO,
+        parentOrganization: { "@id": `${ORIGIN}/#lodging` },
+      },
+    );
+  }
+  // inner pages that render no Breadcrumbs component (those that do emit their own list: never two on one page)
+  const lastCrumb = CRUMB_ONLY[canonicalPath];
+  if (lastCrumb) {
+    graph.push({
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: HOME_LABEL, item: `${ORIGIN}/` },
+        { "@type": "ListItem", position: 2, name: lastCrumb, item: canonical },
+      ],
+    });
+  }
+  if (article) {
+    graph.push({
+      "@type": "BlogPosting",
+      headline: decode(article.title),
+      datePublished: article.isoDate,
+      image: articleImage ?? ogImage,
+      mainEntityOfPage: canonical,
+      author: { "@type": "Organization", name: SITE_NAME, url: `${ORIGIN}/` },
+      publisher: { "@type": "Organization", name: SITE_NAME, url: `${ORIGIN}/` },
+    });
+  }
+}
+// ---- theme-color: the page's first-screen ground, as a DESIGN token value (a meta attribute cannot read a custom property) ----
+// --brume #c6dbe9: home and the pages that open on a field, the flat brume pages; --brume-creme #ebf3f9: plain pages (news, legal, privacy).
+const BRUME_CREME = "#ebf3f9";
+const BRUME = "#c6dbe9";
+const PLAIN_PREFIXES = ["/actualites", "/pages/infos-legales", "/about/privacypolicy"];
+const themeColor = PLAIN_PREFIXES.some((p) => canonicalPath.startsWith(p)) ? BRUME_CREME : BRUME;
+// home: the LCP image (the blurred field of the opening, same call as home/Ouverture.astro) is requested first, ahead of the font preloads
+const fieldImg = canonicalPath === "/" ? img("etang-rayon-de-sologne-field", { box: 640, sizes: "100vw", blurred: true }) : undefined;
+const homeField = fieldImg && fieldImg.sources[0] ? { type: fieldImg.sources[0].type, srcset: fieldImg.sources[0].srcset, src: fieldImg.src } : undefined;
+const jsonld = graph.length ? JSON.stringify({ "@context": "https://schema.org", "@graph": graph }) : undefined;
+---
+<meta charset="utf-8" />
+{homeField && <link rel="preload" as="image" type={homeField.type} href={homeField.src} imagesrcset={homeField.srcset} imagesizes="100vw" fetchpriority="high" />}
+<meta name="theme-color" media="(prefers-color-scheme: light)" content={themeColor} />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content={themeColor} />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+<meta property="og:type" content={article ? "article" : "website"} />
+<meta property="og:site_name" content={SITE_NAME} />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+{/* inner pages: the display face and the body face start with the HTML, not after the stylesheet (Base preloads its own pair on the home) */}
+{canonicalPath !== "/" && <link rel="preload" as="font" type="font/woff2" href="/fonts/imbue-latin-1.woff2" crossorigin />}
+{canonicalPath !== "/" && <link rel="preload" as="font" type="font/woff2" href="/fonts/alegreya-sans-latin-1.woff2" crossorigin />}
+{jsonld && <script type="application/ld+json" set:html={jsonld} />}

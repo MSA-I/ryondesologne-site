@@ -1,0 +1,1934 @@
+[
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 7,
+  "text": "Location de salles de réunion en Loir-et-Cher",
+  "reason": "Repeats the H2 of block 6 word for word; block 6 is promoted to the H1"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 28,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 29,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 30,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 31,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 32,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 33,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 34,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 35,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 36,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 37,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 38,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 39,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 40,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 41,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 42,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 43,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 44,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 45,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 46,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 47,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 48,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 49,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 50,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 51,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 52,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 53,
+  "text": "Rayondesolognephotoseminairegrange41",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 54,
+  "text": "Seminaire domaine rayon de sologne 41320 5",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 55,
+  "text": "Espace salon cheminee gite de groupe 50 personne rayon de sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 56,
+  "text": "Semianire rayon de sologne terrasse langon",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 57,
+  "text": "Salle de repas colonie restaurant rayon de sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 58,
+  "text": "Restaurant / Traiteur",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 59,
+  "text": "traiteur rayon de sologne pour votre team building reunion seminaire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 60,
+  "text": "traiteur bistrot du grand chez rayon de sologne pour votre seminaire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 61,
+  "text": "Bistrot du grand liot rayon de sologne 41320",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 62,
+  "text": "bistrot du grand liot 41 traiteur rayon de sologne photo melanie malfoy",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 63,
+  "text": "maxime chef traiteur bistrot du grand liot rayon de sologne 41320",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 64,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 65,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 66,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 67,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 68,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 69,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 70,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 71,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 72,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 73,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 74,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 75,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 11,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 12,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 13,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 14,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 15,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 16,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 17,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 18,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 19,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 20,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 21,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 22,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 23,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 24,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 25,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 26,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 27,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 28,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 29,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 30,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 31,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 32,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 33,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 34,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 35,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 36,
+  "text": "salle a partager rayon de sologne 41320",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 37,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 38,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 39,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 40,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 41,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 42,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 43,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 44,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 45,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 46,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 47,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-1-html",
+  "n": 48,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 11,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 12,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 13,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 14,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 15,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 16,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 17,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 18,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 19,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 20,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 21,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 22,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 23,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 24,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 25,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 26,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 27,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 28,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 29,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 30,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 31,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 32,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 33,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 34,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 35,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 36,
+  "text": "2eme salle a partager rayon de sologne 41320",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 37,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 38,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 39,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 40,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 41,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 42,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 43,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 44,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 45,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 46,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 47,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-html",
+  "n": 48,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 9,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 10,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 11,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 12,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 13,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 14,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 15,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 16,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 17,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 18,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 19,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 20,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 21,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 22,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 23,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 24,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 25,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 26,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 27,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 28,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 29,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 30,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 31,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 32,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 33,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 34,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 35,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 36,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 37,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 38,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 39,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 40,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 41,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 42,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 43,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 44,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-2-html",
+  "n": 45,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 18,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 19,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 20,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 21,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 22,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 23,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 24,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 25,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 26,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 27,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 28,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 29,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 30,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 31,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 32,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 33,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 34,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 35,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 36,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 37,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 38,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 39,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 40,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 41,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 42,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 43,
+  "text": "en bord de lac sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 44,
+  "text": "en bord de lac sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 45,
+  "text": "grange rayon de sologne salle seminaire mariage avec mobilier",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 46,
+  "text": "grange rayon de sologne salle seminaire mariage avec mobilier",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 47,
+  "text": "Salle reception mariage rayon de sologne 41320 onesebphoto",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 48,
+  "text": "Salle reception mariage rayon de sologne 41320 onesebphoto",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 49,
+  "text": "la place de village rayon de sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 50,
+  "text": "la place de village rayon de sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 51,
+  "text": "colonie chez rayon de sologne 41 salle séminaire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 52,
+  "text": "colonie chez rayon de sologne 41 salle séminaire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 53,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 54,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 55,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 56,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 57,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 58,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 59,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 60,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 61,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 62,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 63,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-la-grange-salle-de-seminaire-html",
+  "n": 64,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 1,
+  "text": "Accueil",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 2,
+  "text": "Restaurant / Traiteur",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 6,
+  "text": "La grange",
+  "reason": "Repeats the page's own subject (La grange); the H1 is block 6 of the La grange page"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 7,
+  "text": "Ce dernier espace de 200 m2 est le plus beau d'entre tous.",
+  "reason": "Duplicate: the 200 m2 of the room is already in block 11 of the La grange page; 'Ce dernier espace' only makes sense in the old draft sequence"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 10,
+  "text": "Faq mariage",
+  "reason": "Wedding FAQ PDF attachment of an unpublished draft; not a seminar document"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 11,
+  "text": "Taille : 15.42 Mo",
+  "reason": "File size of the wedding FAQ attachment (draft)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 12,
+  "text": "Télécharger",
+  "reason": "Download button of the wedding FAQ attachment (draft)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 13,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 14,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 15,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 16,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 17,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 18,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 19,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 20,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 21,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 22,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 23,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 24,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 25,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 26,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 27,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 28,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 29,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 30,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 31,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 32,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 33,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 34,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 35,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 36,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 37,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 38,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 39,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 40,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 41,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 42,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 43,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 44,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 45,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 46,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 47,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 48,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-page-3-html",
+  "n": 49,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 3,
+  "text": "Réservations Gites",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 4,
+  "text": "Réservations Mariage",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 5,
+  "text": "Réservations Séminaires",
+  "reason": "Old header navigation; the site header (T08) carries the navigation"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 20,
+  "text": "Partager",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 21,
+  "text": "Facebook",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 22,
+  "text": "X",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 23,
+  "text": "Email",
+  "reason": "AddToAny share widget, not shipped (no third party)"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 24,
+  "text": "Réservations Gites",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 25,
+  "text": "Réservations Mariage",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 26,
+  "text": "Newsletter",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 27,
+  "text": "Nos dernières actus",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 28,
+  "text": "Contact",
+  "reason": "Old footer link; the site footer carries it"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 29,
+  "text": "© Rayon de Sologne - - - - - Crédits photos : - - -",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 30,
+  "text": "Mention legales",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 31,
+  "text": "CGU",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 32,
+  "text": "CGV",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 33,
+  "text": "RGPD",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 34,
+  "text": "Franck Chemin",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 35,
+  "text": "One Seb photos",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 36,
+  "text": "Margaud Noée",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 37,
+  "text": "Malfoy Melanie",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 38,
+  "text": "Gestion des cookies",
+  "reason": "Old footer (credits, legal links, cookie button); the site footer and consent banner carry them"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 39,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 40,
+  "text": "Logoentete",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 41,
+  "text": "brand",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 42,
+  "text": "Gîtes Ruraux et Insolites en Centre Val De Loire",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 43,
+  "text": "BurgerMenu",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 44,
+  "text": "Votre recherche",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 45,
+  "text": "Salle réunion rayon de sologne",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 46,
+  "text": "Rayon de sologne melaniemalfoy 14",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 47,
+  "text": "Rayon de sologne melaniemalfoy 14",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 48,
+  "text": "Gestion des cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 49,
+  "text": "Scroll top",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 50,
+  "text": "Cookies",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 51,
+  "text": "Fermer",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 52,
+  "text": "Copy link",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 53,
+  "text": "Share",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 54,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 55,
+  "text": "Trouver instantanément un service à ajouter",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 56,
+  "text": "Share Buttons",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 57,
+  "text": "Partager",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 58,
+  "text": "Tout voir",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-accueillir-votre-reunion-html",
+  "n": 59,
+  "text": "AddToAny Utility Frame",
+  "reason": "Attribute of the old page chrome or widget (alt, title, aria-label, placeholder); images take their alt from assets.json, widgets are not shipped"
+ },
+ {
+  "page": "pages-salle-seminaire-privatisee-html",
+  "n": 11,
+  "text": "Pour cela, nous avons 5 salles ... Nous avons des salles de 5 à 150 personnes pour s'adapter à la taille de votre groupe.",
+  "reason": "NOT omitted, listed only: kept verbatim because it carries other text; its phrase 'en cliquant sur chaque photo' is no longer true (rooms merged, not linked) - client question"
+ }
+]

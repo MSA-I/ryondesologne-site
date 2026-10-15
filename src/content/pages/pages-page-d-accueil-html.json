@@ -1,0 +1,491 @@
+{
+  "id": "pages-page-d-accueil-html",
+  "url": "https://www.rayondesologne.fr/pages/page-d-accueil.html",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "p",
+      "text": "ACCUEIL Un lieu de partage et d'infos"
+    },
+    {
+      "n": 7,
+      "tag": "p",
+      "text": "LE RESTAURANT Ouvert à tous toute l'année pour manger des produits frais et de saison"
+    },
+    {
+      "n": 8,
+      "tag": "p",
+      "text": "LA PLACE CENTRALE Idéale pour boire un café, danser..."
+    },
+    {
+      "n": 9,
+      "tag": "h1",
+      "text": "RAYON DE SOLOGNE UNE EXPÉRIENCE AUTHENTIQUE Découvrez la Sologne à 2h de Paris!"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "Comment a commencé notre aventure ?"
+    },
+    {
+      "n": 11,
+      "tag": "p",
+      "text": "RayonDeSologne, s'installe en milieu rural dans une démarche responsable, durable et engagée au coeur d'un Domaine 100% nature mais avec toutes les commodités à moins de 10 minutes!"
+    },
+    {
+      "n": 12,
+      "tag": "p",
+      "text": "Où nous trouver ? Au domaine du Grand Liot à Langon sur Cher (41) en Sologne, en Région Centre Val de Loire à 8 minutes de la sortie d'autoroute de Romorantin capitale de la Sologne (41200)."
+    },
+    {
+      "n": 13,
+      "tag": "p",
+      "text": "Nous ne sommes pas des spécialistes de l'écologie, nous avons à coeur de vous accueillir pour un repas, vos vacances en famille, votre mariage ou même un week-end entre copains tout en essayant de limiter notre impact!"
+    },
+    {
+      "n": 14,
+      "tag": "p",
+      "text": "L'objectif principal de la maison : couper avec le quotidien, grâce à la campagne, un bon restaurant , une chambre confortable et des activités nature et sport !"
+    },
+    {
+      "n": 15,
+      "tag": "p",
+      "text": "On rencontre, on découvre, on partage, on prend le temps d'être ensemble, tout cela en consommant local et de saison de l'assiette aux activités de loisirs que nous vous proposerons sur place. Allez découvrir les villages alentours, les magnifiques points de vues que vous offre la Sologne!"
+    },
+    {
+      "n": 16,
+      "tag": "p",
+      "text": "Vous pourrez faire le choix de vous isoler pour profiter du calme du lieu, ou partir à la rencontre des autres convives grâce à nos espaces partagés."
+    },
+    {
+      "n": 17,
+      "tag": "h1",
+      "text": "VOUS SOUHAITEZ EN SAVOIR DAVANTAGE ? Cliquez sur une des images ci-dessous et découvrez un magnifique domaine bordé de plus de 100 hectares de forêt en Sologne! Idéal pour une venue en famille !"
+    },
+    {
+      "n": 18,
+      "tag": "div",
+      "text": "Organiser un Mariage"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "En savoir plus"
+    },
+    {
+      "n": 20,
+      "tag": "p",
+      "text": "Notre domaine vous propose un cadre champêtre chic et bohème pour votre mariage . La grange, notre salle de mariage accueille jusqu'à 168 personnes et pouvons garder à dormir plus de 115 personnes en chambre et en dortoir sans pour autant être un hotel afin de prolonger le séjour avec vos invités en toute sécurité!"
+    },
+    {
+      "n": 21,
+      "tag": "div",
+      "text": "Colonie"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "En savoir plus Colonie & Classe verte"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "Le grand Liot est le centre de vacances pour les enfants agréé jeunesse et sport et éducation nationale! Nous pouvons accueillir une 100ène d'enfants dès la maternelle en dur ou en camping . Ce lieu voit grandir des enfants de la région centre au travers de classes découvertes ou de colonies, depuis 40 ans! Soyez les prochains à venir avec votre groupe!"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "Vous souhaitez réunir jusqu'à 50 personnes et organiser une petite fête avec une salle et du couchage sur place proche de Romorantin ? Nous pouvons vous proposer en fonction de la taille de votre famille !"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Une salle pour un anniversaire"
+    },
+    {
+      "n": 26,
+      "tag": "div",
+      "text": "Séjourner"
+    },
+    {
+      "n": 27,
+      "tag": "div",
+      "text": "en Gite"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "En savoir plus sur nos Gites"
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "Trois gites de groupe complètement indépendants les uns des autres sont sur le domaine et peuvent accueillir des groupes avec grande capacité tout comme une famille avec des enfants..."
+    },
+    {
+      "n": 30,
+      "tag": "p",
+      "text": "Il ne vous reste plus qu'à choisir celui qui vous correspond le plus et choisir les options qui vous faciliteront votre séjour!"
+    },
+    {
+      "n": 31,
+      "tag": "div",
+      "text": "Le restaurant"
+    },
+    {
+      "n": 32,
+      "tag": "div",
+      "text": "Le bistrot du Grand Liot"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "En savoir plus"
+    },
+    {
+      "n": 34,
+      "tag": "p",
+      "text": "Le bistrot du grand liot est un restaurant bistronomique qui utilise des produits de saison et faits maison OUVERT midis et soirs pour les habitants des environs!"
+    },
+    {
+      "n": 35,
+      "tag": "p",
+      "text": "Une seconde salle privatisée peut accueillir les groupes, associations, séminaires jusqu'à 50 personnes!"
+    },
+    {
+      "n": 36,
+      "tag": "div",
+      "text": "Organiser un séminaire!"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "En savoir plus"
+    },
+    {
+      "n": 38,
+      "tag": "p",
+      "text": "Vous êtes chef d'entreprise ou responsable de service et vous souhaitez organiser de la cohésion d'équipe , des animations teambuilding ou cherchez simplement un lieu pour regrouper des collaborateurs proche de romorantin ? Nous accueillons aussi bien à la journée que pour un court séjour, des entreprises, séminaires, associations en besoin de se réunir pour un séjour ludique ou plus à vocation travail. Notre domaine pourra s'adapter à vos demandes avec nos salles de réunion, notre service traiteur ou encore nos logements!"
+    },
+    {
+      "n": 39,
+      "tag": "p",
+      "text": "Le domaine est ouvert toute l'année et nous serions heureux d'échanger avec vous sur votre projet! Nous avons créé ce lieu de vie dans l'optique de vous simplifier toute l'organisation en vous proposant de nombreux services annexes sur place."
+    },
+    {
+      "n": 40,
+      "tag": "p",
+      "text": "Nous sommes disponibles par téléphone du mardi au samedi et pouvons organiser des visites en semaine. Nous vous conseillons de tester le restaurant lors de votre visite. Maxime vous accueille du mercredi midi au samedi soir et vous fera découvrir son univers!"
+    },
+    {
+      "n": 41,
+      "tag": "p",
+      "text": "Inscrivez vous ICI et recevez notre actualité sans devoir la chercher! Inscription à la newsletter, vous recevrez 1 mail par trimestre pour suivre l'actu de Rayon De Sologne (Attention la confirmation à la newsletter arrivera dans vos spams pensez à les consulter)"
+    },
+    {
+      "n": 42,
+      "tag": "button",
+      "text": "OK"
+    },
+    {
+      "n": 43,
+      "tag": "span",
+      "text": "Partager"
+    },
+    {
+      "n": 44,
+      "tag": "span",
+      "text": "Facebook"
+    },
+    {
+      "n": 45,
+      "tag": "span",
+      "text": "X"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "Email"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 48,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 49,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 50,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 52,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 61,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 64,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 65,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 66,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 67,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 68,
+      "tag": "@title",
+      "text": "Bar accueil rayon de sologne"
+    },
+    {
+      "n": 69,
+      "tag": "@alt",
+      "text": "Bar accueil rayon de sologne"
+    },
+    {
+      "n": 70,
+      "tag": "@title",
+      "text": "Salle de jeux rayon de sologne"
+    },
+    {
+      "n": 71,
+      "tag": "@alt",
+      "text": "Salle de jeux rayon de sologne"
+    },
+    {
+      "n": 72,
+      "tag": "@title",
+      "text": "20210311 145504 resized 1"
+    },
+    {
+      "n": 73,
+      "tag": "@alt",
+      "text": "20210311 145504 resized 1"
+    },
+    {
+      "n": 74,
+      "tag": "@alt",
+      "text": "Rayon de sologne Gite, salle de mariage séminaire  et Restaurant proche de Romorantin"
+    },
+    {
+      "n": 75,
+      "tag": "@alt",
+      "text": "Mariage"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Colonie"
+    },
+    {
+      "n": 77,
+      "tag": "@alt",
+      "text": "Anniversaire grand liot 41"
+    },
+    {
+      "n": 78,
+      "tag": "@title",
+      "text": "Une salle pour un anniversaire"
+    },
+    {
+      "n": 79,
+      "tag": "@alt",
+      "text": "Sologne gite de groupe region centre rayon de sologne 1"
+    },
+    {
+      "n": 80,
+      "tag": "@alt",
+      "text": "Table hotes rayon de sologne"
+    },
+    {
+      "n": 81,
+      "tag": "@alt",
+      "text": "Séminaire en région centre"
+    },
+    {
+      "n": 82,
+      "tag": "@title",
+      "text": "Rayon de sologne sainjon charline et maxime repreneur grand liot 1"
+    },
+    {
+      "n": 83,
+      "tag": "@alt",
+      "text": "Rayon de sologne sainjon charline et maxime repreneur grand liot 1"
+    },
+    {
+      "n": 84,
+      "tag": "@title",
+      "text": "Affiche"
+    },
+    {
+      "n": 85,
+      "tag": "@alt",
+      "text": "Affiche"
+    },
+    {
+      "n": 86,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 87,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 88,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    },
+    {
+      "n": 89,
+      "tag": "@aria-label",
+      "text": "Fermer"
+    },
+    {
+      "n": 90,
+      "tag": "@title",
+      "text": "Copy link"
+    },
+    {
+      "n": 91,
+      "tag": "@aria-label",
+      "text": "Share"
+    },
+    {
+      "n": 92,
+      "tag": "@title",
+      "text": "Partager"
+    },
+    {
+      "n": 93,
+      "tag": "@title",
+      "text": "Trouver instantanément un service à ajouter"
+    },
+    {
+      "n": 94,
+      "tag": "@title",
+      "text": "Share Buttons"
+    },
+    {
+      "n": 95,
+      "tag": "@aria-label",
+      "text": "Partager"
+    },
+    {
+      "n": 96,
+      "tag": "@title",
+      "text": "Tout voir"
+    },
+    {
+      "n": 97,
+      "tag": "@title",
+      "text": "AddToAny Utility Frame"
+    }
+  ]
+}

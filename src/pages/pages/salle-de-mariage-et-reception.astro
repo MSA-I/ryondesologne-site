@@ -1,0 +1,162 @@
+---
+// Réservations Mariage (DESIGN §12 offer page). Text from pages-salle-de-mariage-et-reception-html (blocks cited), facts; no typed copy.
+// Used blocks: 6-21, 60-63, 83-110 (not 22-59 calendar cells, not 64-82 share/footer, not 103 which sits inside 102, not the attributes);
+// the rest is listed in 06-build/omitted/T23.json. No wedding-couple names anywhere (photo titles that carry them are not used).
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import PlannerEmbed from "../../components/PlannerEmbed.astro";
+import Door from "../../components/kit/Door.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, blocks, approved, fact, factTel } from "../../lib/content";
+import { showPlaceholders } from "../../lib/site";
+
+const P = "pages-salle-de-mariage-et-reception-html";
+const RES = "reservation-salle-de-mariage-html";
+const PAGE = "/pages/salle-de-mariage-et-reception.html";
+
+// External destinations of the old page (hrefs are not in the block text; 01-scan/raw/pages-salle-de-mariage-et-reception-html.html).
+const MATTERPORT = "https://my.matterport.com/show/?m=gFXW73G3tSp&play=1&lang=fr&hl=2&brand=0&title=0&vr=0&ss=274&sr=3.03,.74";
+const MARIAGES_NET = "https://www.mariages.net/domaine-mariage/rayon-de-sologne--e257691/tours/6576";
+const PINTEREST = "https://fr.pinterest.com/ledomainerayondesologne/";
+const PDF_MARIAGE = "/medias/files/presentation-domaine-mariage-rayon-de-sologne-2026-2028.pdf-compressed.pdf";
+
+// Old <title> and meta description, verbatim (preserve.json seo-title; 01-scan/raw).
+const title = "Domaine de mariage en Sologne avec hebergement";
+const description =
+  "Domaine de mariage en Sologne près de Romorantin : grange de reception, jusqu'à 120 couchages, cérémonie extérieure et traiteur sur place.";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("salle-de-mariage: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string; max_css_width?: number }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced");
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i].id, box: Math.min(248, margins[i].max_css_width ?? 248) } : undefined);
+
+// The opening's stat: "Une grange de réception jusqu'à 150 invités", cut from block 13 (verbatim words).
+const stat = t(P, 13).match(/^(.*?) (\d+) (invités)$/);
+if (!stat) throw new Error("salle-de-mariage: stat sentence not found in block 13");
+// Block 6 (the old H2 before the H1): its "7m de haut" is an open fact (LEDGER Content), shown as a gap marker.
+const OPEN = "7m de haut";
+const lead = t(P, 6);
+if (!lead.includes(OPEN)) throw new Error("salle-de-mariage: open fact not found in block 6");
+const [leadBefore, leadAfter] = lead.split(OPEN);
+// Pull quotes: a sentence of block 9 (not the list item 93 it would repeat) and a sentence of block 16, verbatim.
+const quoteWhy = t(P, 9).match(/La Sologne est idéale[^.]*./)?.[0];
+const quoteWeekend = t(P, 16).match(/Au domaine[^!]*!/)?.[0];
+if (!quoteWhy) throw new Error("salle-de-mariage: pull-quote sentence not found in block 9");
+if (!quoteWeekend) throw new Error("salle-de-mariage: pull-quote sentence not found in block 16");
+
+const light = { use: "gites" as const, photoId: "mariage-11-field" };
+const why = blocks(P, 83, 101);
+const tarifs = blocks(P, 106, 107);
+const email = fact("email-mariage");
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 7)}
+  light={light}
+  printId="mariage-11-1066x800"
+  printBox={533}
+  cta={{ href: "/reservation/salle-de-mariage.html", label: t(RES, 83) }}
+  phone={{ label: fact("phone-domaine"), tel: factTel("phone-domaine") }}
+  stats={[{ lead: stat[1], figure: stat[2], words: stat[3] }]}
+>
+  <Fragment slot="satellite">
+    <a class="ouv-tel mar-mail" href={`mailto:${email}`} dir="ltr">{email}</a>
+  </Fragment>
+
+  <Chapter tone="creme" class="mar-chap" title={t(P, 8)} titleId="mariage-champetre" marginPrint={marginPrint(0)}>
+    <p class="chap-avis">{t("home", 13)}</p>
+    {showPlaceholders && <h3>{leadBefore}<span lang="he">[דרוש תוכן: hauteur de la grange]</span>{leadAfter}</h3>}
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+    <p>{t(P, 11)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 12)} titleId="mariage-pourquoi">
+    <ul class="mar-liste">
+      {why.map((b) => <li>{b.text}</li>)}
+    </ul>
+    <PullQuote slot="quote" text={quoteWhy} />
+  </Chapter>
+
+  <Chapter tone="creme" class="mar-chap" title={t(P, 13)} titleId="mariage-grange" marginPrint={marginPrint(1)} side="start">
+    <p>{t(P, 14)}</p>
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 15)} titleId="mariage-couchages">
+    <p>{t(P, 16)}</p>
+    <p>{t(P, 17)}</p>
+    <p>{t(P, 18)}</p>
+    <PullQuote slot="quote" text={quoteWeekend} />
+  </Chapter>
+
+  <Chapter tone="creme" class="mar-chap" title={t(P, 19)} titleId="mariage-tarifs" marginPrint={marginPrint(2)}>
+    <p>{t(P, 102)}</p>
+    <p>{t(P, 105)}</p>
+    <ul class="mar-tarifs">
+      {tarifs.map((b) => <li>{b.text}</li>)}
+    </ul>
+    <p>{t(P, 108)}</p>
+    <p>{t(P, 109)}</p>
+    <Cta2 href={PDF_MARIAGE} label={t(P, 110)} icon="file" />
+  </Chapter>
+
+  <Chapter tone="light" light={light} title={t(P, 21)} titleId="mariage-disponibilites">
+    <PlannerEmbed page="pages-salle-de-mariage-et-reception" key="OSMB-123001-2" legend={t(P, 104)} id="disponibilites" />
+  </Chapter>
+
+  <Chapter tone="creme" title={t(P, 60)} titleId="mariage-visite">
+    <Cta2 href={MATTERPORT} label={t(P, 61)} newTab />
+    <Cta2 href={MARIAGES_NET} label={t(P, 62)} newTab />
+    <Cta2 href={PINTEREST} label={t(P, 63)} newTab />
+  </Chapter>
+
+  <div slot="end">
+    <div class="mar-rail"><PanRail page={PAGE} /></div>
+    <Door
+      title={t("album", 16)}
+      titleId="porte-album-mariage-titre"
+      line={approved("meta-description", "album-photos-mariage")}
+      href="/album/photos-mariage/"
+      linkLabel={t(P, 20)}
+      printId="mariage-boheme-rayon-de-sologne-photos-mariage"
+      printEffect="reveal"
+      box={248}
+      light={light}
+    />
+  </div>
+</OfferPage>
+
+<style is:global>
+  .mar-rail { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) 0; }
+  /* opening satellites on one row: pill, phone, stat and e-mail share the row and its left edge */
+  .ouv-satellites:has(.mar-mail) { flex-wrap: wrap; align-items: center; column-gap: var(--space-3); }
+  .ouv-satellites:has(.mar-mail) .ouv-stat { max-width: 13em; }
+
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.mar-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.mar-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.mar-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+  .mar-liste { margin: 0; padding-inline-start: var(--space-4); }
+  .mar-liste li { margin: 0 0 var(--space-2); font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  .mar-tarifs { list-style: none; margin: 0 0 var(--space-3); padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3) var(--gap-columns); }
+  .mar-tarifs li { font-size: var(--fs-reading); line-height: var(--lh-reading); }
+  @media (max-width: 760px) {
+    .mar-liste li, .mar-tarifs li { font-size: var(--fs-body-phone); }
+    .mar-tarifs { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

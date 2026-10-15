@@ -1,0 +1,23 @@
+---
+import { img } from "../../lib/assets";
+interface Props {
+  id: string;
+  box: number;
+  sizes: string;
+  class?: string;
+  loading?: "lazy" | "eager";
+  fetchpriority?: "high";
+  effect?: "reveal";
+  alt?: string;
+}
+const { id, box, sizes, class: cls, loading, fetchpriority, effect, alt } = Astro.props;
+const d = img(id, { box, sizes, loading, fetchpriority, alt });
+---
+<picture class:list={["print", cls]} data-effect={effect}>
+  {d.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes={sizes} />)}
+  <img src={d.src} width={d.width} height={d.height} alt={d.alt} loading={d.loading} fetchpriority={d.fetchpriority} decoding="async" />
+</picture>
+<style>
+  .print { display: block; }
+  .print img { display: block; max-width: 100%; height: auto; border-radius: var(--radius-print); }
+</style>

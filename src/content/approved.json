@@ -1,0 +1,2930 @@
+[
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:header-history-link",
+    "approved": "L'HISTOIRE DU LIEU",
+    "proposal": "lab-history",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:logo-link",
+    "approved": "Rayon de Sologne, retour à l'accueil",
+    "proposal": "lab-logo-link",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:menu-button-open",
+    "approved": "Ouvrir le menu",
+    "proposal": "lab-menu-open",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:menu-button-close",
+    "approved": "Fermer le menu",
+    "proposal": "lab-menu-close",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:skip-link",
+    "approved": "Aller au contenu principal",
+    "proposal": "lab-skip",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:nav-main",
+    "approved": "Navigation principale",
+    "proposal": "lab-nav-main",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:footer-offers",
+    "approved": "Offres du domaine",
+    "proposal": "lab-footer-offers",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:footer-domain",
+    "approved": "Le domaine",
+    "proposal": "lab-footer-domain",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:scroll-top",
+    "approved": "Retour en haut de page",
+    "proposal": "lab-scroll-top",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:pan-rail-region",
+    "approved": "Photos du domaine, à faire défiler horizontalement",
+    "proposal": "lab-rail",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:pan-rail-prev",
+    "approved": "Photos précédentes",
+    "proposal": "lab-rail-prev",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "label:pan-rail-next",
+    "approved": "Photos suivantes",
+    "proposal": "lab-rail-next",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "label:lightbox-dialog",
+    "approved": "Photo agrandie",
+    "proposal": "lab-lb-dialog",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "label:lightbox-prev",
+    "approved": "Photo précédente",
+    "proposal": "lab-lb-prev",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "label:lightbox-next",
+    "approved": "Photo suivante",
+    "proposal": "lab-lb-next",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-jema-41-les-2-et-3-avril-2022-html",
+    "kind": "draft",
+    "where": "label:lightbox-close",
+    "approved": "Fermer",
+    "proposal": "lab-lb-close",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-restaurant",
+    "approved": "Restaurant",
+    "proposal": "lab-aud-resto",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-gites",
+    "approved": "Gîtes, anniversaires et séminaires",
+    "proposal": "lab-aud-gites",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-mariage",
+    "approved": "Mariage",
+    "proposal": "lab-aud-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-seminaire",
+    "approved": "Séminaires",
+    "proposal": "lab-aud-sem",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-colonies",
+    "approved": "Colonies, Classes vertes",
+    "proposal": "lab-aud-col",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:contact-audience-traiteur",
+    "approved": "Traiteur",
+    "proposal": "lab-aud-traiteur",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:form.sending",
+    "approved": "Ouverture de votre messagerie…",
+    "proposal": "lab-form-sending",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:form.sent",
+    "approved": "Votre message est prêt dans votre messagerie. Il part quand vous l'envoyez depuis celle-ci. Si rien ne s'ouvre, écrivez-nous à l'adresse affichée sur cette page.",
+    "proposal": "lab-form-sent",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:form.error",
+    "approved": "Un champ est vide ou incorrect. Vérifiez-le, puis réessayez.",
+    "proposal": "lab-form-error",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:form.error-required",
+    "approved": "Ce champ est obligatoire.",
+    "proposal": "lab-form-required",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "label:form.error-email",
+    "approved": "Saisissez une adresse e-mail valide.",
+    "proposal": "lab-form-email",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "rewrite",
+    "where": "label:consent-banner-text",
+    "original": "dépose des cookies pour améliorer votre expérience de navigation, mesurer l'audience du site internet, afficher des publicités personnalisées, réaliser des campagnes ciblées et personnaliser l'interface du site.",
+    "approved": "Ce site dépose des cookies pour mesurer son audience. Vous pouvez accepter ou refuser, et changer votre choix à tout moment depuis le lien Gestion des cookies, en bas de page.",
+    "proposal": "cookie-text",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "reservation",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Réservation",
+    "approved": "Réserver la salle de mariage en Sologne | Rayon de Sologne",
+    "proposal": "m-resa-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "reservation",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Choisissez votre date de début et de fin pour réserver la salle de mariage de Rayon de Sologne, en Sologne près de Romorantin. Surface de 200 m².",
+    "proposal": "m-resa-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "contactez nous pour faire un devis personalisé pour votre groupe",
+    "approved": "Contactez-nous pour un devis personnalisé pour votre groupe",
+    "proposal": "m-contact-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "rewrite",
+    "where": "meta-description",
+    "original": "A partir de ce formulaire, vous pouvez demander à recevoir la présentation du domaine pour votre anniversaire, mariage, cousinade ou seminaire",
+    "approved": "À partir de ce formulaire, vous pouvez demander à recevoir la présentation du domaine pour votre anniversaire, votre mariage, une cousinade ou un séminaire.",
+    "proposal": "m-contact-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "rewrite",
+    "where": "meta-description",
+    "original": "Organisez votre séminaire en sologne près de Romorantin : salles de réunion, jusqu'à 100 couchages sur places dont 21 couchages, traiteur sur place et espace team building.",
+    "approved": "Organisez votre séminaire en Sologne près de Romorantin : salles de réunion, hébergement sur place et traiteur, à 1h d'Orléans, Blois, Tours, Bourges et Châteauroux.",
+    "proposal": "m-sem-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-grange-salle-de-seminaire-html",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "salle seminaire region centre orleans tours blois bourges",
+    "approved": "La grange, salle de séminaire en Sologne | Rayon de Sologne",
+    "proposal": "m-grange-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-maison-des-invites-html",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Petit gite proche de beauval 4 chambres pas cher",
+    "approved": "La maison des invités : gîte pour professionnels | Rayon de Sologne",
+    "proposal": "m-mi-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-maison-des-invites-html",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Gîte de 80 m² avec 4 chambres de plain-pied pour les déplacements professionnels : location à la nuitée, kitchenette équipée et terrasse en bois, à Langon-sur-Cher.",
+    "proposal": "m-mi-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-infos-legales-mentions-legales-html",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Mentions légales du site rayondesologne.fr : directeur de la publication et propriété du site Rayon de Sologne, domaine du Grand Liot.",
+    "proposal": "m-ml",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-infos-legales-conditions-generales-d-utilisation-cgu-h",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Conditions générales d'utilisation du site rayondesologne.fr : propriété intellectuelle, liens hypertextes, responsabilité de l'éditeur et accès au site.",
+    "proposal": "m-cgu",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-infos-legales-conditions-generales-de-vente-cgv-html",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Conditions générales de vente de Rayon de Sologne : conditions d'annulation et contacts du domaine et du Bistrot du Grand Liot.",
+    "proposal": "m-cgv",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-infos-legales",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Infos légales de Rayon de Sologne : mentions légales, conditions générales d'utilisation (CGU) et conditions générales de vente (CGV).",
+    "proposal": "m-infos",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "about-privacypolicy",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Politique de confidentialité du site de Rayon de Sologne, domaine du Grand Liot à Langon-sur-Cher.",
+    "proposal": "m-privacy",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "newsletters-subscribe",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Inscrivez-vous à la newsletter de Rayon de Sologne : informations et bons plans du domaine, une fois par trimestre.",
+    "proposal": "m-news-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Les actualités de Rayon de Sologne : menus du Bistrot du Grand Liot, soirées à thème, portes ouvertes et nouvelles du domaine.",
+    "proposal": "m-actus-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Le blog de Rayon de Sologne : nos articles sur les mariages champêtres et d'hiver au domaine, en Sologne.",
+    "proposal": "m-blog-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Album",
+    "approved": "Album photos du domaine | Rayon de Sologne",
+    "proposal": "m-album-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Les photos de Rayon de Sologne, album par album : restaurant, manoir, auberge, colonie, mariage, séminaires et réunions.",
+    "proposal": "m-album-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Restaurant",
+    "approved": "Photos du restaurant Bistrot du Grand Liot | Rayon de Sologne",
+    "proposal": "m-alb-restaurant-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos du restaurant Bistrot du Grand Liot : plats, pâtisseries et menus.",
+    "proposal": "m-alb-restaurant-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Photos Manoir",
+    "approved": "Photos du manoir | Rayon de Sologne",
+    "proposal": "m-alb-manoir-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos du manoir de Rayon de Sologne : chambres, salon avec cheminée, cuisine, salle de bain et espace boudoir.",
+    "proposal": "m-alb-manoir-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Photos Auberge",
+    "approved": "Photos de l'auberge | Rayon de Sologne",
+    "proposal": "m-alb-auberge-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos de l'auberge de Rayon de Sologne : salon, chambres, salle de bain, douche, jardin et plans des chambres.",
+    "proposal": "m-alb-auberge-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Photos colonie",
+    "approved": "Photos de la colonie | Rayon de Sologne",
+    "proposal": "m-alb-colonie-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos de la colonie de Rayon de Sologne : dortoirs, salle de repas, cuisine, salle d'eau, terrasse et plans des chambres.",
+    "proposal": "m-alb-colonie-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos de mariage chez Rayon de Sologne : tables décorées, plan de table champêtre, cérémonies en extérieur et étang du domaine.",
+    "proposal": "m-alb-mariage-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Photos des séminaires, réunions et anniversaires chez Rayon de Sologne : salles, terrasse et espaces du domaine.",
+    "proposal": "m-alb-sem-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-portes-ouvertes-du-domaine-le-2-juillet-2022-html",
+    "kind": "draft",
+    "where": "meta-description",
+    "approved": "Portes ouvertes du domaine du Grand Liot le samedi 2 juillet : rénovation des gîtes, Bistrot du Grand Liot et mini ferme. Service unique le midi de 12h à 14h, pensez à réserver votre table.",
+    "proposal": "m-po-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-des-photos-du-manoir-renove-html",
+    "kind": "rewrite",
+    "where": "meta-description",
+    "original": "manoir-rayon-de-sologne.pdf (5.09 Mo) N'hésitez pas à cliquer sur le lien pour voir en avant première les photos du gite rénové!",
+    "approved": "Découvrez en avant-première les photos du gîte rénové, le manoir de Rayon de Sologne, dans le PDF à consulter depuis cette page.",
+    "proposal": "m-photos-d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-decembre-html",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Menu de décembre",
+    "approved": "Menu des fêtes de décembre | Bistrot du Grand Liot",
+    "proposal": "m-dec1-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-decembre-1-html",
+    "kind": "rewrite",
+    "where": "meta-title",
+    "original": "Menu de décembre",
+    "approved": "Menu de décembre : formule ou carte | Bistrot du Grand Liot",
+    "proposal": "m-dec2-t",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:logo-2023",
+    "approved": "Logo Rayon de Sologne",
+    "proposal": "alt-logo-2023",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:logo-vector",
+    "approved": "Logo Rayon de Sologne",
+    "proposal": "alt-logo-vector",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:etang-rayon-de-sologne-clearing",
+    "approved": "L'étang du domaine dans la brume",
+    "proposal": "alt-etang-rayon-de-sologne-clearing",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:etang-rayon-de-sologne-496x372",
+    "approved": "L'étang du domaine dans la brume",
+    "proposal": "alt-etang-rayon-de-sologne-496x372",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:etang-rayon-de-sologne-496x496",
+    "approved": "L'étang du domaine dans la brume",
+    "proposal": "alt-etang-rayon-de-sologne-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496",
+    "approved": "Dressage d'une assiette en cuisine, Bistrot du Grand Liot",
+    "proposal": "alt-28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:seminaire-dans-la-grange-rayon-de-sologne-41320-496x496",
+    "approved": "Groupe de séminaire assis face à l'écran, dans la grange",
+    "proposal": "alt-seminaire-dans-la-grange-rayon-de-sologne-41320-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:mariage-11-496x620",
+    "approved": "Lit de repos en fer devant la maison en pierre du domaine",
+    "proposal": "alt-mariage-11-496x620",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:mariage-11-496x496",
+    "approved": "Lit de repos en fer devant la maison en pierre du domaine",
+    "proposal": "alt-mariage-11-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:aire-de-jeux-rayon-de-sologne-496x496",
+    "approved": "Tour de jeux en bois avec toboggan sur l'aire de jeux du domaine",
+    "proposal": "alt-aire-de-jeux-rayon-de-sologne-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:28c71597-b1bc-46c8-92a7-2f185bc7f681-1120x840",
+    "approved": "Dressage d'une assiette en cuisine, Bistrot du Grand Liot",
+    "proposal": "alt-28c71597-b1bc-46c8-92a7-2f185bc7f681-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:seminaire-dans-la-grange-rayon-de-sologne-41320-1120x840",
+    "approved": "Séminaire dans la grange, présentation projetée sur le mur",
+    "proposal": "alt-seminaire-dans-la-grange-rayon-de-sologne-41320-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:mariage-11-1066x800",
+    "approved": "Lit de repos en fer devant la maison en pierre du domaine",
+    "proposal": "alt-mariage-11-1066x800",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+    "kind": "draft",
+    "where": "alt:aire-de-jeux-rayon-de-sologne-612x460",
+    "approved": "Tour de jeux en bois avec toboggan sur l'aire de jeux du domaine",
+    "proposal": "alt-aire-de-jeux-rayon-de-sologne-612x460",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:salle-seminaire-grand-liot-1120x840",
+    "approved": "Salle de séminaire du Grand Liot, tables dressées",
+    "proposal": "alt-salle-seminaire-grand-liot-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-nos-gites-html",
+    "kind": "draft",
+    "where": "alt:chambre-nuptiale-du-manoir-rayon-de-sologne413202-1-1024x768",
+    "approved": "Chambre nuptiale du manoir",
+    "proposal": "alt-chambre-nuptiale-du-manoir-rayon-de-sologne413202-1-1024x768",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-manoir-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:manoir-grand-liot-rayon-de-sologne-1-1120x840",
+    "approved": "Le manoir et sa pelouse",
+    "proposal": "alt-manoir-grand-liot-rayon-de-sologne-1-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-l-auberge-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-1120x840",
+    "approved": "Chambre du marié à l'auberge",
+    "proposal": "alt-la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-1120x8",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-maison-des-invites-html",
+    "kind": "draft",
+    "where": "alt:rayondesolognephotojeuxexterieur41-1120x840",
+    "approved": "Toboggan de l'aire de jeux extérieure",
+    "proposal": "alt-rayondesolognephotojeuxexterieur41-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-maison-des-invites-1791124532-html",
+    "kind": "draft",
+    "where": "alt:vue-aerienne-rayon-de-sologne-par-onesebphoto-1120x840",
+    "approved": "Vue aérienne du domaine Rayon de Sologne",
+    "proposal": "alt-vue-aerienne-rayon-de-sologne-par-onesebphoto-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonie-et-salle-des-fetes-html",
+    "kind": "draft",
+    "where": "alt:anniversaire-grand-liot-langon-41321-1120x840",
+    "approved": "Salle d'anniversaire décorée de ballons, table dressée",
+    "proposal": "alt-anniversaire-grand-liot-langon-41321-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-accueillir-votre-reunion-html",
+    "kind": "draft",
+    "where": "alt:img-20220915-100341-1120x840",
+    "approved": "Salle de réunion aux murs verts, tables en bois",
+    "proposal": "alt-img-20220915-100341-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:chambres-hotes-sologne-960x720",
+    "approved": "Fleurs sauvages dans la campagne de Sologne",
+    "proposal": "alt-chambres-hotes-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "kind": "draft",
+    "where": "alt:chevres-ferme-pedagogique-rayon-de-sologne41320-1120x840",
+    "approved": "Deux chèvres de la ferme pédagogique",
+    "proposal": "alt-chevres-ferme-pedagogique-rayon-de-sologne41320-1120x840",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-presentation-html",
+    "kind": "draft",
+    "where": "alt:plan-rayon-de-sologne-2023",
+    "approved": "Plan du domaine Rayon de Sologne",
+    "proposal": "alt-plan-rayon-de-sologne-2023",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:img-20221116-181627-412",
+    "approved": "Plat de viande rosée et carottes dans une assiette noire",
+    "proposal": "alt-img-20221116-181627-412",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:img-20221116-181707-873",
+    "approved": "Dessert dressé dans une assiette verte",
+    "proposal": "alt-img-20221116-181707-873",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:velo-vintage-dans-le-parc-de-l-auberge-rayon-de-sologne41320-1",
+    "approved": "Vélo vintage dans le parc de l'auberge",
+    "proposal": "alt-velo-vintage-dans-le-parc-de-l-auberge-rayon-de-sologne41320",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:vue-chambre-maries",
+    "approved": "Fenêtre à petits carreaux de la chambre des mariés, soleil à travers le feuillage",
+    "proposal": "alt-vue-chambre-maries",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:espace-ceremonie-sous-les-sols-pleureurs-rayon-de-sologne-41320-2",
+    "approved": "Espace de cérémonie sous les saules pleureurs",
+    "proposal": "alt-espace-ceremonie-sous-les-sols-pleureurs-rayon-de-sologne-41",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:bar-a-soft-mariage",
+    "approved": "Bar à softs du mariage, bocaux de boissons sur une caisse en bois",
+    "proposal": "alt-bar-a-soft-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:campagne-chic-mariage-rayon-de-sologne",
+    "approved": "Table de mariage dressée, décor champêtre chic",
+    "proposal": "alt-campagne-chic-mariage-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:au-pied-du-chene-rayon-de-solognze",
+    "approved": "Mariés devant une voiture ancienne bleue, au pied d'un chêne",
+    "proposal": "alt-au-pied-du-chene-rayon-de-solognze",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:5643f6ca-c330-4c30-985d-a83fc83bd27d",
+    "approved": "Dressage d'une assiette par le traiteur",
+    "proposal": "alt-5643f6ca-c330-4c30-985d-a83fc83bd27d",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:39bd872c-f634-4589-b476-ca318ac8332a",
+    "approved": "Cuisinier au travail, photo en noir et blanc",
+    "proposal": "alt-39bd872c-f634-4589-b476-ca318ac8332a",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+    "kind": "draft",
+    "where": "alt:chambre-2-personnes-petite-colonie",
+    "approved": "Chambre de lits simples sous les combles, petite colonie",
+    "proposal": "alt-chambre-2-personnes-petite-colonie",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:soiree-rayon-de-sologne-et-juillet-41320-4",
+    "approved": "Partie de ping-pong en extérieur lors d'une soirée, tentes rayées au fond",
+    "proposal": "alt-soiree-rayon-de-sologne-et-juillet-41320-4",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-nos-gites-html",
+    "kind": "draft",
+    "where": "alt:comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-sologne",
+    "approved": "Tableau comparatif des gîtes de groupe du domaine",
+    "proposal": "alt-comparatif-gite-de-groupe-en-sologne-gite-xxl-rayon-de-solog",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-manoir-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:rayondesolognephotochambremanoir41",
+    "approved": "Chambre du manoir",
+    "proposal": "alt-rayondesolognephotochambremanoir41",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-manoir-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:salle-de-bain-attenante-a-la-chambre-nuptiale-dans-le-manoir-rayon-de-sologne41320",
+    "approved": "Salle de bain attenante à la chambre nuptiale, dans le manoir",
+    "proposal": "alt-salle-de-bain-attenante-a-la-chambre-nuptiale-dans-le-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-manoir-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:coinsalondanslamanoirchezrayondesologne41320",
+    "approved": "Coin salon dans le manoir",
+    "proposal": "alt-coinsalondanslamanoirchezrayondesologne41320",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-maison-des-invites-html",
+    "kind": "draft",
+    "where": "alt:terrasse-maison-des-invites-gite-rayon-de-sologne",
+    "approved": "Terrasse de la maison des invités",
+    "proposal": "alt-terrasse-maison-des-invites-gite-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonie-et-salle-des-fetes-html",
+    "kind": "draft",
+    "where": "alt:salle-de-repas-colonie-restaurant-rayon-de-sologne",
+    "approved": "Salle de repas de la colonie",
+    "proposal": "alt-salle-de-repas-colonie-restaurant-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonie-et-salle-des-fetes-html",
+    "kind": "draft",
+    "where": "alt:cuisine-de-la-colonie-restaurant-rayon-de-sologne",
+    "approved": "Cuisine de la colonie",
+    "proposal": "alt-cuisine-de-la-colonie-restaurant-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-seminaire-privatisee-html",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-5",
+    "approved": "Grange aménagée pour un séminaire, longues tables et banderoles devant la scène",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-5",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-seminaire-privatisee-html",
+    "kind": "draft",
+    "where": "alt:1690368633784",
+    "approved": "Équipe en réunion autour d'une longue table de la salle de séminaire",
+    "proposal": "alt-1690368633784",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-seminaire-privatisee-html",
+    "kind": "draft",
+    "where": "alt:panneau-plan-domaine-pdf",
+    "approved": "Plan du domaine",
+    "proposal": "alt-panneau-plan-domaine-pdf",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-votre-lieu-de-reception-de-",
+    "kind": "draft",
+    "where": "alt:salle-reception-seminaire-mariage-rayon-de-sologne-par-onesebphoto-news",
+    "approved": "Salle de réception de la grange sous les guirlandes lumineuses, tables rondes dressées",
+    "proposal": "alt-salle-reception-seminaire-mariage-rayon-de-sologne-par-onese",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-grange-salle-de-seminaire-html",
+    "kind": "draft",
+    "where": "alt:grange-salle-mobilier-7",
+    "approved": "Grange aménagée pour un repas, tables rondes dressées",
+    "proposal": "alt-grange-salle-mobilier-7",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-accueillir-votre-reunion-html",
+    "kind": "draft",
+    "where": "alt:rayon-de-sologne-melaniemalfoy-14",
+    "approved": "Salle de la grange, tables rondes et enseigne Rayon de Sologne",
+    "proposal": "alt-rayon-de-sologne-melaniemalfoy-14",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:carte-touristique-rayon-de-sologne-proche-romorantin",
+    "approved": "Carte touristique de la Sologne",
+    "proposal": "alt-carte-touristique-rayon-de-sologne-proche-romorantin",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-animation-nature-html",
+    "kind": "draft",
+    "where": "alt:oenologie-rayon-de-sologne",
+    "approved": "Verre de vin blanc servi lors d'une animation d'oenologie",
+    "proposal": "alt-oenologie-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "contact-contact-html",
+    "kind": "draft",
+    "where": "alt:rayon-de-sologne-sainjon-charline-et-maxime-repreneur-grand-liot",
+    "approved": "Les deux cogérants du domaine, portrait en noir et blanc",
+    "proposal": "alt-rayon-de-sologne-sainjon-charline-et-maxime-repreneur-grand-",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-se-relaxer",
+    "approved": "Sologne : se relaxer",
+    "proposal": "alt-sologne-se-relaxer",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-se-promener",
+    "approved": "Sologne : se promener",
+    "proposal": "alt-sologne-se-promener",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-ressentir",
+    "approved": "Sologne : ressentir",
+    "proposal": "alt-sologne-ressentir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-ralentir",
+    "approved": "Sologne : ralentir",
+    "proposal": "alt-sologne-ralentir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-observer",
+    "approved": "Sologne : observer",
+    "proposal": "alt-sologne-observer",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-experimenter",
+    "approved": "Sologne : expérimenter",
+    "proposal": "alt-sologne-experimenter",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-etre-pied-nu",
+    "approved": "Sologne : être pied nu",
+    "proposal": "alt-sologne-etre-pied-nu",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-ecouter",
+    "approved": "Sologne : écouter",
+    "proposal": "alt-sologne-ecouter",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-deguster",
+    "approved": "Sologne : déguster",
+    "proposal": "alt-sologne-deguster",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-notre-territoire-la-sologne-html",
+    "kind": "draft",
+    "where": "alt:sologne-deambuler",
+    "approved": "Sologne : déambuler",
+    "proposal": "alt-sologne-deambuler",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:terrasse-restaurant-rayon-de-sologne-1-960x720",
+    "approved": "Vue aérienne en noir et blanc des bâtiments du domaine",
+    "proposal": "alt-terrasse-restaurant-rayon-de-sologne-1-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:2nd-salle-restaurant-rayon-de-sologne-bistrot-du-grand-liot-1-960x720",
+    "approved": "Seconde salle du restaurant Bistrot du Grand Liot, tables dressées",
+    "proposal": "alt-2nd-salle-restaurant-rayon-de-sologne-bistrot-du-grand-liot-",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:mini-tarte-citron-rayon-de-sologne-960x720",
+    "approved": "Mini tarte au citron",
+    "proposal": "alt-mini-tarte-citron-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:veau-marengo-bistrot-du-grand-liot-960x720",
+    "approved": "Veau marengo du Bistrot du Grand Liot",
+    "proposal": "alt-veau-marengo-bistrot-du-grand-liot-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:img-0909-960x720",
+    "approved": "Tarte aux figues du Bistrot du Grand Liot",
+    "proposal": "alt-img-0909-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:soupe-de-fraises-480x360",
+    "approved": "Soupe de fraises du Bistrot du Grand Liot",
+    "proposal": "alt-soupe-de-fraises-480x360",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:manoir-rayon-de-sologne-960x720",
+    "approved": "Salon du manoir avec piano et grandes tables, sous les poutres",
+    "proposal": "alt-manoir-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:chambre-manoir-rayon-de-sologne-960x720",
+    "approved": "Chambre du manoir, lit bleu et plateau de petit déjeuner",
+    "proposal": "alt-chambre-manoir-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:cour-du-manoir-rayon-de-sologne-960x720",
+    "approved": "Cour du manoir, façade en pierre et transats sur la pelouse",
+    "proposal": "alt-cour-du-manoir-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:salon-auberge-rayon-de-sologne-960x720",
+    "approved": "Salon de l'auberge, table et chaises devant un mur bleu",
+    "proposal": "alt-salon-auberge-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:chambre-rdc-960x720",
+    "approved": "Chambre de l'auberge au rez-de-chaussée, lit double et lits superposés",
+    "proposal": "alt-chambre-rdc-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:jardin-auberge-960x720",
+    "approved": "Jardin de l'auberge sous un saule pleureur",
+    "proposal": "alt-jardin-auberge-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:terrasse-gite-xxl-manoir-rayon-de-sologne-720x540",
+    "approved": "Terrasse du gîte XXL du manoir, table de pique-nique en bois et volets blancs",
+    "proposal": "alt-terrasse-gite-xxl-manoir-rayon-de-sologne-720x540",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:salon-cheminee-du-manoir-720x540",
+    "approved": "Salon du manoir avec cheminée et poutres apparentes",
+    "proposal": "alt-salon-cheminee-du-manoir-720x540",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:espacebibliothequedanslemanoirchezrayondesologne41320-720x540",
+    "approved": "Décoration de pampa orange dans l'espace bibliothèque du manoir",
+    "proposal": "alt-espacebibliothequedanslemanoirchezrayondesologne41320-720x54",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:salle-de-reception-illuminee-rayon-de-sologne-41320-960x720",
+    "approved": "Grange illuminée en bleu, tables rondes dressées pour une réception",
+    "proposal": "alt-salle-de-reception-illuminee-rayon-de-sologne-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:grange-decoree-pour-un-mariage-rayon-de-sologne-41320-960x720",
+    "approved": "Grange décorée de voilages et de guirlandes, tables dressées",
+    "proposal": "alt-grange-decoree-pour-un-mariage-rayon-de-sologne-41320-960x72",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:la-grange-de-nuit-rayon-de-sologne-41320-960x720",
+    "approved": "La grange de nuit, soirée dansante sous des lumières colorées",
+    "proposal": "alt-la-grange-de-nuit-rayon-de-sologne-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:belle-grange-rayon-de-sologne-960x720",
+    "approved": "Grange blanche avec un coeur en osier accroché à la porte",
+    "proposal": "alt-belle-grange-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-960x720",
+    "approved": "Chambre du marié à l'auberge",
+    "proposal": "alt-la-chambre-du-marie-a-l-auberge-rayon-de-sologne41320-960x72",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:mariage-chez-rayon-de-sologne-41320-960x720",
+    "approved": "Mariés qui dansent entourés de leurs invités",
+    "proposal": "alt-mariage-chez-rayon-de-sologne-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:sous-la-guinguette-chez-rayon-de-sologne-41320-960x720",
+    "approved": "Sous la guinguette, grange éclairée de guirlandes lumineuses",
+    "proposal": "alt-sous-la-guinguette-chez-rayon-de-sologne-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:bouquets-de-fleurs-rayon-de-sologne-41320-3-960x720",
+    "approved": "Paniers de pétales de fleurs pour un mariage",
+    "proposal": "alt-bouquets-de-fleurs-rayon-de-sologne-41320-3-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:terrasse-maison-des-invites-gite-rayon-de-sologne-960x720",
+    "approved": "Terrasse de la maison des invités",
+    "proposal": "alt-terrasse-maison-des-invites-gite-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:salle-langon-modulable-reunion-rayon-de-sologne-960x720",
+    "approved": "Salle modulable de Langon, tables blanches pour une réunion",
+    "proposal": "alt-salle-langon-modulable-reunion-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:regroupement-entreprise-reunion-rayon-de-sologne-centre-france-41-seminaire-reunion",
+    "approved": "Groupe en plein air, bras levés",
+    "proposal": "alt-regroupement-entreprise-reunion-rayon-de-sologne-centre-fran",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:semianire-rayon-de-sologne-terrasse-langon-960x720",
+    "approved": "Séminaire en plein air dans la cour, devant les bâtiments du domaine",
+    "proposal": "alt-semianire-rayon-de-sologne-terrasse-langon-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:espace-salon-cheminee-gite-de-groupe-50-personne-rayon-de-sologne-960x720",
+    "approved": "Salon avec cheminée du gîte de groupe",
+    "proposal": "alt-espace-salon-cheminee-gite-de-groupe-50-personne-rayon-de-so",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:espace-babyfoot-piano-gite-de-groupe-xxl-rayon-de-sologne-960x720",
+    "approved": "Baby-foot et piano dans le gîte de groupe XXL",
+    "proposal": "alt-espace-babyfoot-piano-gite-de-groupe-xxl-rayon-de-sologne-96",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:img-20211224-163126-resized-20220105-100526521-720x540",
+    "approved": "Salon-bibliothèque du gîte, canapé bleu et étagères de livres",
+    "proposal": "alt-img-20211224-163126-resized-20220105-100526521-720x540",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-3-960x720",
+    "approved": "Séminaire dans la grange, équipe debout et réunie au centre de la salle",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-3-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:entreechezrayondesolgnegitedegroupeenregioncentre41320-960x720",
+    "approved": "Panneau lumineux Rayon de Sologne, restaurant et gîtes, à l'entrée du domaine",
+    "proposal": "alt-entreechezrayondesolgnegitedegroupeenregioncentre41320-960x7",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:terrasse-de-la-colonie-avec-tables-exterieures-rayon-de-sologne-1-photos-colonie",
+    "approved": "Allée bordée de tonneaux sous le panneau du Bistrot du Grand Liot",
+    "proposal": "alt-terrasse-de-la-colonie-avec-tables-exterieures-rayon-de-solo",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:ciel-etoile-salle-de-reception-rayon-de-sologne-41320-960x720",
+    "approved": "Réception dans la grange sous les guirlandes lumineuses",
+    "proposal": "alt-ciel-etoile-salle-de-reception-rayon-de-sologne-41320-960x72",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:img-20220903-140414-960x720",
+    "approved": "Repas d'anniversaire en extérieur, convives sous les arbres",
+    "proposal": "alt-img-20220903-140414-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:stage-ferme-pedagogique-rayon-de-sologne-41320-960x720",
+    "approved": "Enfants autour d'un âne à la ferme pédagogique",
+    "proposal": "alt-stage-ferme-pedagogique-rayon-de-sologne-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:salle-anniversaire-rayon-de-sologne-960x720",
+    "approved": "Salle d'anniversaire décorée de ballons, table dressée",
+    "proposal": "alt-salle-anniversaire-rayon-de-sologne-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:salle-restaurant-groupe-proche-romorantin-pour-anniversaire-seminaire-reunion",
+    "approved": "Salle de réunion, tables dressées devant un mur vert",
+    "proposal": "alt-salle-restaurant-groupe-proche-romorantin-pour-anniversaire-",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:salle-anniversaire-romorantin-41-960x720",
+    "approved": "Salle d'anniversaire, tables dressées",
+    "proposal": "alt-salle-anniversaire-romorantin-41-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:anniversaire-grand-liot-langon-41320-960x720",
+    "approved": "Salle d'anniversaire décorée de ballons, table dressée",
+    "proposal": "alt-anniversaire-grand-liot-langon-41320-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:anniversaire-grand-liot-41-960x720",
+    "approved": "Anniversaire en plein air, convives sous les arbres",
+    "proposal": "alt-anniversaire-grand-liot-41-960x720",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:soiree-rayon-de-sologne-et-juillet-41320-4-720x540",
+    "approved": "Partie de ping-pong en extérieur lors d'une soirée, tentes rayées au fond",
+    "proposal": "alt-soiree-rayon-de-sologne-et-juillet-41320-4-720x540",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:salon-auberge-rayon-de-sologne-photos-auberge",
+    "approved": "Salon de l'auberge, table et chaises devant un mur bleu",
+    "proposal": "alt-salon-auberge-rayon-de-sologne-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:auberge-rayon-de-sologne-photos-auberge",
+    "approved": "L'auberge et son saule pleureur",
+    "proposal": "alt-auberge-rayon-de-sologne-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:jardin-auberge-photos-auberge",
+    "approved": "Jardin de l'auberge sous un saule pleureur",
+    "proposal": "alt-jardin-auberge-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:chmabre-auberge-rayondesologne-photos-auberge",
+    "approved": "Chambre de l'auberge, lit de repos et veste suspendue",
+    "proposal": "alt-chmabre-auberge-rayondesologne-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:chambre-rdc-photos-auberge",
+    "approved": "Chambre de l'auberge au rez-de-chaussée, lit double et lits superposés",
+    "proposal": "alt-chambre-rdc-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:chambre-3-etage-photos-auberge",
+    "approved": "Chambre de l'auberge à l'étage, sous les combles, couvre-lit jaune",
+    "proposal": "alt-chambre-3-etage-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:plan-rayon-de-sologne-grand-liot-photos-auberge",
+    "approved": "Plan du domaine du Grand Liot",
+    "proposal": "alt-plan-rayon-de-sologne-grand-liot-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:1682164896711-photos-auberge",
+    "approved": "Salle équipée de tables et de chaises, avec un bar",
+    "proposal": "alt-1682164896711-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:plan-de-chambres-auberge-rdc-photos-auberge",
+    "approved": "Plan des chambres de l'auberge au rez-de-chaussée",
+    "proposal": "alt-plan-de-chambres-auberge-rdc-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-auberge",
+    "kind": "draft",
+    "where": "alt:plan-de-chambres-auberge-e-tage-photos-auberge",
+    "approved": "Plan des chambres de l'auberge à l'étage",
+    "proposal": "alt-plan-de-chambres-auberge-e-tage-photos-auberge",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:salle-d-eau-colonie-rayon-de-sologne-1-photos-colonie",
+    "approved": "Salle d'eau de la colonie",
+    "proposal": "alt-salle-d-eau-colonie-rayon-de-sologne-1-photos-colonie",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:salle-de-repas-colonie-restaurant-rayon-de-sologne-1-photos-colonie",
+    "approved": "Salle de repas de la colonie",
+    "proposal": "alt-salle-de-repas-colonie-restaurant-rayon-de-sologne-1-photos-",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:espace-de-travail-salle-colonie-rayon-de-sologne-1-photos-colonie",
+    "approved": "Espace de travail de la salle de la colonie, tables hautes et fauteuils verts",
+    "proposal": "alt-espace-de-travail-salle-colonie-rayon-de-sologne-1-photos-co",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:cuisine-de-la-colonie-restaurant-rayon-de-sologne-1-photos-colonie",
+    "approved": "Cuisine de la colonie",
+    "proposal": "alt-cuisine-de-la-colonie-restaurant-rayon-de-sologne-1-photos-c",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:couloir-dortoir-chambre-colonie-rayon-de-sologne-1-photos-colonie",
+    "approved": "Couloir du dortoir de la colonie, rideaux verts",
+    "proposal": "alt-couloir-dortoir-chambre-colonie-rayon-de-sologne-1-photos-co",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:chambre-2-colonie-dortoir-rayon-de-sologne-1-photos-colonie",
+    "approved": "Dortoir de la colonie, lits superposés",
+    "proposal": "alt-chambre-2-colonie-dortoir-rayon-de-sologne-1-photos-colonie",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:chambre-1-de-la-colonie-rayon-de-sologne-1-photos-colonie",
+    "approved": "Dortoir de la colonie, lits simples et rideau vert",
+    "proposal": "alt-chambre-1-de-la-colonie-rayon-de-sologne-1-photos-colonie",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-colonie",
+    "kind": "draft",
+    "where": "alt:bar-du-restaurant-salle-rayon-de-sologne-1-photos-colonie",
+    "approved": "Bar de la salle de restaurant de la colonie",
+    "proposal": "alt-bar-du-restaurant-salle-rayon-de-sologne-1-photos-colonie",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:photo-couple-rayon-de-sologne-photos-manoir",
+    "approved": "Mariés qui dansent entre deux piliers en pierre",
+    "proposal": "alt-photo-couple-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:arche-naturelle-manoir-rayon-de-sologne-photos-manoir",
+    "approved": "Mariés dans la lumière entre deux piliers en pierre, l'arche naturelle du manoir",
+    "proposal": "alt-arche-naturelle-manoir-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:campagne-chic-mariage-rayon-de-sologne-photos-manoir",
+    "approved": "Table de mariage dressée, décor champêtre chic",
+    "proposal": "alt-campagne-chic-mariage-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:mariage-a-rayon-de-sologne-photos-manoir",
+    "approved": "Mariés qui marchent sur la pelouse devant le manoir, fumigènes colorés",
+    "proposal": "alt-mariage-a-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:manoir-rayon-de-sologne-photos-manoir",
+    "approved": "Salon du manoir avec piano et grandes tables, sous les poutres",
+    "proposal": "alt-manoir-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:chambre-manoir-rayon-de-sologne-photos-manoir",
+    "approved": "Chambre du manoir, lit bleu et plateau de petit déjeuner",
+    "proposal": "alt-chambre-manoir-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:plan-rayon-de-sologne-2023-photos-manoir",
+    "approved": "Plan du domaine Rayon de Sologne",
+    "proposal": "alt-plan-rayon-de-sologne-2023-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:table-champetre-rayon-de-sologne-photos-manoir",
+    "approved": "Longue table champêtre dressée en extérieur",
+    "proposal": "alt-table-champetre-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:anniversaire-grand-liot-41-photos-manoir",
+    "approved": "Anniversaire en plein air, convives sous les arbres",
+    "proposal": "alt-anniversaire-grand-liot-41-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220527-122217-471-photos-manoir",
+    "approved": "Baby-foot dans le manoir",
+    "proposal": "alt-img-20220527-122217-471-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:vue-aerienne-rayon-de-sologne-photos-manoir",
+    "approved": "Vue aérienne du domaine Rayon de Sologne",
+    "proposal": "alt-vue-aerienne-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:salon-cheminee-du-manoir-photos-manoir",
+    "approved": "Salon du manoir avec cheminée et poutres apparentes",
+    "proposal": "alt-salon-cheminee-du-manoir-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:espace-boudoir-rayon-de-sologne-photos-manoir",
+    "approved": "Espace boudoir du manoir, fauteuils et parquet",
+    "proposal": "alt-espace-boudoir-rayon-de-sologne-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220331-093421-resized-20220404-101631576-photos-manoir",
+    "approved": "Vase en verre et herbes sèches sur une étagère",
+    "proposal": "alt-img-20220331-093421-resized-20220404-101631576-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220331-092952-resized-20220404-101631801-photos-manoir",
+    "approved": "Salle de bain sous les combles, baignoire et plante suspendue",
+    "proposal": "alt-img-20220331-092952-resized-20220404-101631801-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220330-232819-resized-20220404-101632218-photos-manoir",
+    "approved": "Couloir en parquet sous les poutres",
+    "proposal": "alt-img-20220330-232819-resized-20220404-101632218-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220330-232508-resized-20220404-101632602-photos-manoir",
+    "approved": "Escalier en bois et étagères",
+    "proposal": "alt-img-20220330-232508-resized-20220404-101632602-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220330-232017-resized-20220404-101632995-photos-manoir",
+    "approved": "Douche et étagère jaune",
+    "proposal": "alt-img-20220330-232017-resized-20220404-101632995-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220330-231424-resized-20220404-101633177-photos-manoir",
+    "approved": "Commode ancienne et miroir sous les poutres",
+    "proposal": "alt-img-20220330-231424-resized-20220404-101633177-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220331-093221-resized-20220401-095526608-photos-manoir",
+    "approved": "Panneau wifi et fauteuils turquoise",
+    "proposal": "alt-img-20220331-093221-resized-20220401-095526608-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220213-081940-resized-20220401-095528673-photos-manoir",
+    "approved": "Soleil bas derrière les arbres du domaine, clôture au premier plan",
+    "proposal": "alt-img-20220213-081940-resized-20220401-095528673-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220228-114002-resized-20220228-114337637-photos-manoir",
+    "approved": "Grande salle aux poutres apparentes du manoir",
+    "proposal": "alt-img-20220228-114002-resized-20220228-114337637-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:img-20220226-112838-resized-20220228-114336637-photos-manoir",
+    "approved": "Fauteuil suspendu en macramé, accroché à un arbre, le manoir au fond",
+    "proposal": "alt-img-20220226-112838-resized-20220228-114336637-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896795-photos-manoir",
+    "approved": "Salon avec piano et cheminée",
+    "proposal": "alt-1682164896795-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:ceremonie-laique-chene-rayon-de-sologne-1-photos-manoir",
+    "approved": "Chêne de la cérémonie laïque, bancs installés au pied de l'arbre",
+    "proposal": "alt-ceremonie-laique-chene-rayon-de-sologne-1-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896684-photos-manoir",
+    "approved": "Bougeoir, livres et objets de décoration sur une table",
+    "proposal": "alt-1682164896684-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896660-photos-manoir",
+    "approved": "Machine à coudre ancienne et livre posés sur un bureau",
+    "proposal": "alt-1682164896660-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896636-photos-manoir",
+    "approved": "Baby-foot et bar en bois dans une salle du manoir",
+    "proposal": "alt-1682164896636-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896863-photos-manoir",
+    "approved": "Fauteuil, livre ouvert et plaid",
+    "proposal": "alt-1682164896863-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896891-photos-manoir",
+    "approved": "Vases et herbes de pampa près d'une fenêtre",
+    "proposal": "alt-1682164896891-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:1682164896914-photos-manoir",
+    "approved": "Bibliothèque du manoir, étagères de livres",
+    "proposal": "alt-1682164896914-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-manoir",
+    "kind": "draft",
+    "where": "alt:chambre-nuptiale-manoir-rayon-de-sologne41320-photos-manoir",
+    "approved": "Chambre nuptiale du manoir, lit à couvre-lit jaune",
+    "proposal": "alt-chambre-nuptiale-manoir-rayon-de-sologne41320-photos-manoir",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:salle-de-seminaire-rayon-de-sologne-41-photos-mariage",
+    "approved": "Grange à l'enseigne Rayon de Sologne, tables rondes dressées",
+    "proposal": "alt-salle-de-seminaire-rayon-de-sologne-41-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:etang-rayon-de-sologne-photos-mariage",
+    "approved": "Brume sur l'étang, feuillages d'automne",
+    "proposal": "alt-etang-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:rayon-de-sologne-melaniemalfoy-12-photos-mariage",
+    "approved": "Table d'honneur fleurie sous l'enseigne Rayon de Sologne, dans la grange",
+    "proposal": "alt-rayon-de-sologne-melaniemalfoy-12-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:photo-couple-rayon-de-sologne-1-photos-mariage",
+    "approved": "Mariés qui dansent entre deux piliers en pierre",
+    "proposal": "alt-photo-couple-rayon-de-sologne-1-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:arche-naturelle-manoir-rayon-de-sologne-1-photos-mariage",
+    "approved": "Mariés dans la lumière entre deux piliers en pierre, l'arche naturelle du manoir",
+    "proposal": "alt-arche-naturelle-manoir-rayon-de-sologne-1-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:plateau-mignardise-traiteur-rayon-de-sologne-bistrot-grand-liot-1-restaurant",
+    "approved": "Plateau de bouchées apéritives sur une ardoise, par le traiteur",
+    "proposal": "alt-plateau-mignardise-traiteur-rayon-de-sologne-bistrot-grand-l",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:campagne-chic-mariage-rayon-de-sologne-1-photos-mariage",
+    "approved": "Table de mariage dressée, décor champêtre chic",
+    "proposal": "alt-campagne-chic-mariage-rayon-de-sologne-1-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:ronde-de-maries-rayon-de-sologne-photos-mariage",
+    "approved": "Mariés qui s'embrassent dans un nuage de fumée rose",
+    "proposal": "alt-ronde-de-maries-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mariage-boheme-rayon-de-sologne-photos-mariage",
+    "approved": "Table ronde dressée en extérieur",
+    "proposal": "alt-mariage-boheme-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:bar-a-soft-mariage-photos-mariage",
+    "approved": "Bar à softs du mariage, bocaux de boissons sur une caisse en bois",
+    "proposal": "alt-bar-a-soft-mariage-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mariage-album-2-photos-mariage",
+    "approved": "Mariés sous les branches d'un saule pleureur",
+    "proposal": "alt-mariage-album-2-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:boheme-chic-rayon-de-sologne-photos-mariage",
+    "approved": "Table dressée, assiette en porcelaine et fleurs",
+    "proposal": "alt-boheme-chic-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mur-rayon-de-sologne-photos-mariage",
+    "approved": "Mur de la grange à l'enseigne Rayon de Sologne, composition florale",
+    "proposal": "alt-mur-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:felchage-rayon-de-sologne-photos-mariage",
+    "approved": "Panneau de fléchage en bois blanc à plusieurs flèches",
+    "proposal": "alt-felchage-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:plan-de-table-champetre-rayon-de-sologne-photos-mariage",
+    "approved": "Porte vitrée donnant sur la salle de la grange, table ronde dressée",
+    "proposal": "alt-plan-de-table-champetre-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:table-des-maries-rayon-de-sologne-photos-mariage",
+    "approved": "Table des mariés ornée d'une composition florale",
+    "proposal": "alt-table-des-maries-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:salle-mariage-41-rayon-de-sologne-photos-mariage",
+    "approved": "Salle vide de la grange, roue de charrette contre le mur",
+    "proposal": "alt-salle-mariage-41-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:vaisselle-vintage-rayon-de-sologne-photos-mariage",
+    "approved": "Vaisselle vintage dressée sur une table de mariage",
+    "proposal": "alt-vaisselle-vintage-rayon-de-sologne-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:salle-mariage-rayon-de-sologne-41-photos-mariage",
+    "approved": "Grange à l'enseigne Rayon de Sologne, table dressée au premier plan",
+    "proposal": "alt-salle-mariage-rayon-de-sologne-41-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-20230506-132656-photos-mariage",
+    "approved": "Bouquet de fleurs sauvages dans un petit flacon en verre brun",
+    "proposal": "alt-img-20230506-132656-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-20230506-133711-photos-mariage",
+    "approved": "Pelouse prête pour une cérémonie en extérieur, marronnier en fleurs",
+    "proposal": "alt-img-20230506-133711-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-20230506-133752-photos-mariage",
+    "approved": "Pelouse et rangées de chaises installées pour une cérémonie en extérieur",
+    "proposal": "alt-img-20230506-133752-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mariage-chez-rayon-de-sologne-41320-photos-mariage",
+    "approved": "Mariés dansant au milieu des invités, photo en noir et blanc",
+    "proposal": "alt-mariage-chez-rayon-de-sologne-41320-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:robe-de-marie-e-champetre-chez-rayon-de-sologne-41320-photos-mariage",
+    "approved": "Robe de mariée suspendue à la fenêtre, machine à coudre ancienne au premier plan",
+    "proposal": "alt-robe-de-marie-e-champetre-chez-rayon-de-sologne-41320-photos",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:sous-la-guinguette-chez-rayon-de-sologne-41320-photos-mariage",
+    "approved": "Sous la guinguette, grange éclairée de guirlandes lumineuses",
+    "proposal": "alt-sous-la-guinguette-chez-rayon-de-sologne-41320-photos-mariag",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0893-photos-mariage",
+    "approved": "Chemin gravillonné éclairé de guirlandes dans la cour, de nuit",
+    "proposal": "alt-img-0893-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0896-photos-mariage",
+    "approved": "Bar extérieur au crépuscule, dans la cour du domaine",
+    "proposal": "alt-img-0896-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0894-photos-mariage",
+    "approved": "Invités rassemblés dans la cour du domaine",
+    "proposal": "alt-img-0894-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0895-photos-mariage",
+    "approved": "Mariés dansant au milieu des invités, photo en noir et blanc",
+    "proposal": "alt-img-0895-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0897-photos-mariage",
+    "approved": "Mariés face à face sous un arbre, fleurs blanches autour d'eux",
+    "proposal": "alt-img-0897-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0898-photos-mariage",
+    "approved": "Trois jeunes femmes qui rient et lèvent les bras, photo en noir et blanc",
+    "proposal": "alt-img-0898-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0910-photos-mariage",
+    "approved": "Longue table décorée de fleurs dans la grange",
+    "proposal": "alt-img-0910-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0911-photos-mariage",
+    "approved": "Soirée dans la grange, éclairage orange",
+    "proposal": "alt-img-0911-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0903-photos-mariage",
+    "approved": "Mariés et invités bras levés, photo de groupe en noir et blanc",
+    "proposal": "alt-img-0903-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0902-photos-mariage",
+    "approved": "Mariés qui s'embrassent devant leurs invités, photo en noir et blanc",
+    "proposal": "alt-img-0902-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0901-photos-mariage",
+    "approved": "Tente de réception éclairée dans la cour, à la tombée du jour",
+    "proposal": "alt-img-0901-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0942-photos-mariage",
+    "approved": "Cérémonie dans la grange, mariés debout devant leurs invités",
+    "proposal": "alt-img-0942-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0943-photos-mariage",
+    "approved": "Mariés dans une baignoire ancienne sur la pelouse, roue de charrette derrière eux",
+    "proposal": "alt-img-0943-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0944-photos-mariage",
+    "approved": "Secrétaire ancien et fleurs, coin pour écrire des lettres aux mariés",
+    "proposal": "alt-img-0944-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0938-photos-mariage",
+    "approved": "Mariés sous une arche de verdure et de fleurs",
+    "proposal": "alt-img-0938-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0937-photos-mariage",
+    "approved": "Mariés enlacés dans un champ sous un ciel sombre",
+    "proposal": "alt-img-0937-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0935-photos-mariage",
+    "approved": "Cour du domaine sous des guirlandes lumineuses, à la tombée du jour",
+    "proposal": "alt-img-0935-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:img-0936-photos-mariage",
+    "approved": "Longue table dressée aux bougies, dans la grange",
+    "proposal": "alt-img-0936-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mariage-001-photos-mariage",
+    "approved": "Grange aux tables rondes, enseigne Rayon de Sologne",
+    "proposal": "alt-mariage-001-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-photos-mariage",
+    "kind": "draft",
+    "where": "alt:mariage-album-1-photos-mariage",
+    "approved": "Grange éclairée en soirée, voilages et tables rondes",
+    "proposal": "alt-mariage-album-1-photos-mariage",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:mini-tarte-citron-rayon-de-sologne-restaurant",
+    "approved": "Mini tarte au citron",
+    "proposal": "alt-mini-tarte-citron-rayon-de-sologne-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:veau-marengo-bistrot-du-grand-liot-restaurant",
+    "approved": "Veau marengo du Bistrot du Grand Liot",
+    "proposal": "alt-veau-marengo-bistrot-du-grand-liot-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:1664010048634-restaurant",
+    "approved": "Brochettes de melon et de jambon cru",
+    "proposal": "alt-1664010048634-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:avril-24-restaurant",
+    "approved": "Menu d'avril du Bistrot du Grand Liot",
+    "proposal": "alt-avril-24-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:juin-restaurant",
+    "approved": "Menu de juin du Bistrot du Grand Liot",
+    "proposal": "alt-juin-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:img-0909-restaurant",
+    "approved": "Tarte aux figues du Bistrot du Grand Liot",
+    "proposal": "alt-img-0909-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-restaurant",
+    "kind": "draft",
+    "where": "alt:de-coupe-du-port-rayon-de-sologne-41-restaurant",
+    "approved": "Découpe d'un jambon sur son support, par le cuisinier",
+    "proposal": "alt-de-coupe-du-port-rayon-de-sologne-41-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:anniversaire-grand-liot-langon-41320-seminaire-reunion",
+    "approved": "Salle d'anniversaire décorée de ballons, table dressée",
+    "proposal": "alt-anniversaire-grand-liot-langon-41320-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:semianire-rayon-de-sologne-terrasse-langon-seminaire-reunion",
+    "approved": "Séminaire en plein air dans la cour, devant les bâtiments du domaine",
+    "proposal": "alt-semianire-rayon-de-sologne-terrasse-langon-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:salle-langon-modulable-reunion-rayon-de-sologne-seminaire-reunion",
+    "approved": "Salle modulable de Langon, tables blanches pour une réunion",
+    "proposal": "alt-salle-langon-modulable-reunion-rayon-de-sologne-seminaire-re",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:soiree-rayon-de-sologne-et-juillet-41320-7-seminaire-reunion",
+    "approved": "Partie de ping-pong en extérieur lors d'une soirée, tentes rayées au fond",
+    "proposal": "alt-soiree-rayon-de-sologne-et-juillet-41320-7-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:salle-anniversaire-rayon-de-sologne-seminaire-reunion",
+    "approved": "Salle d'anniversaire décorée de ballons, table dressée",
+    "proposal": "alt-salle-anniversaire-rayon-de-sologne-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-6-seminaire-reunion",
+    "approved": "Grange aménagée pour un séminaire, longues tables et banderoles devant la scène",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-6-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-5-seminaire-reunion",
+    "approved": "Grange aménagée pour un séminaire, longues tables et banderoles devant la scène",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-5-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-4-seminaire-reunion",
+    "approved": "Séminaire autour d'une table ronde, salle aux poutres apparentes",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-4-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:salle-groupe-restaurant-proche-romorantin-seminaire-reunion",
+    "approved": "Salle de restaurant dressée pour un groupe",
+    "proposal": "alt-salle-groupe-restaurant-proche-romorantin-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-3-seminaire-reunion",
+    "approved": "Grange pleine, participants debout",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-3-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:salle-anniversaire-romorantin-41-seminaire-reunion",
+    "approved": "Salle d'anniversaire, tables dressées",
+    "proposal": "alt-salle-anniversaire-romorantin-41-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-2-seminaire-reunion",
+    "approved": "Équipe en tee-shirts colorés réunie sur la pelouse",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-2-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-1-seminaire-reunion",
+    "approved": "Grange dressée pour un repas, longues tables",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-1-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:rayondesolognephotoseminairegrange41-1-seminaire-reunion",
+    "approved": "Grange pendant un séminaire, participants dans la salle",
+    "proposal": "alt-rayondesolognephotoseminairegrange41-1-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:rayondesolognephotoseminairegrange41-seminaire-reunion",
+    "approved": "Participants en activité dans la grange",
+    "proposal": "alt-rayondesolognephotoseminairegrange41-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-domaine-rayon-de-sologne-41320-seminaire-reunion",
+    "approved": "Équipe en tee-shirts colorés près de la tour de jeux du domaine",
+    "proposal": "alt-seminaire-domaine-rayon-de-sologne-41320-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:melanie-malfoy-photographie-reunion-equipe-rayon-de-sologne-41320-seminaire-reunion",
+    "approved": "Équipe en pause sur des canapés d'extérieur, dans le jardin",
+    "proposal": "alt-melanie-malfoy-photographie-reunion-equipe-rayon-de-sologne-",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:charline-rayon-de-sologne-41320-seminaire-reunion",
+    "approved": "Trois personnes en discussion dans la cour du domaine",
+    "proposal": "alt-charline-rayon-de-sologne-41320-seminaire-reunion",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album-seminaire-reunion",
+    "kind": "draft",
+    "where": "alt:seminaire-soiree-du-2-juillet-2026-rayon-de-sologne-41320-seminaire-reunion",
+    "approved": "Soirée dans la cour du domaine, invités sous les guirlandes lumineuses",
+    "proposal": "alt-seminaire-soiree-du-2-juillet-2026-rayon-de-sologne-41320-se",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "album",
+    "kind": "draft",
+    "where": "alt:jardin-auberge-496x496",
+    "approved": "Jardin de l'auberge sous un saule pleureur",
+    "proposal": "alt-jardin-auberge-496x496",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-article-dans-la-nouvelle-republique-html",
+    "kind": "draft",
+    "where": "alt:la-nr-grand-liot-news",
+    "approved": "Article paru dans La Nouvelle République",
+    "proposal": "alt-la-nr-grand-liot-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-article-nouvelle-republique-mai-2022-html",
+    "kind": "draft",
+    "where": "alt:article-nouvelle-republique-15-mai-2022-news",
+    "approved": "Article de La Nouvelle République, mai 2022",
+    "proposal": "alt-article-nouvelle-republique-15-mai-2022-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-article-presse-le-petit-solognot-html",
+    "kind": "draft",
+    "where": "alt:20210512-112352-news",
+    "approved": "Article du Petit Solognot",
+    "proposal": "alt-20210512-112352-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-l-elegance-intemporelle-pou",
+    "kind": "draft",
+    "where": "alt:ambiance-cosy-sous-la-guinguette-rayon-de-sologne-41320-news",
+    "approved": "Grange éclairée de guirlandes, ambiance cosy sous la guinguette",
+    "proposal": "alt-ambiance-cosy-sous-la-guinguette-rayon-de-sologne-41320-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-l-elegance-intemporelle-pou",
+    "kind": "draft",
+    "where": "alt:bouquet-de-fleur-lk-deco-chez-rayon-de-sologne-41320-news",
+    "approved": "Bouquet de fleurs blanches et bleues dans la grange",
+    "proposal": "alt-bouquet-de-fleur-lk-deco-chez-rayon-de-sologne-41320-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-un-mariage-cle-en-main-pour",
+    "kind": "draft",
+    "where": "alt:86947761-35c1-46b2-aac0-fd7b12faab8f-news",
+    "approved": "Mains d'un cuisinier garnissant une assiette",
+    "proposal": "alt-86947761-35c1-46b2-aac0-fd7b12faab8f-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-un-mariage-en-pleine-nature",
+    "kind": "draft",
+    "where": "alt:export-rayon-de-sologne-407-2-news",
+    "approved": "Espace de cérémonie laïque sous un saule pleureur, bancs en rangées",
+    "proposal": "alt-export-rayon-de-sologne-407-2-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-un-mariage-en-pleine-nature",
+    "kind": "draft",
+    "where": "alt:bouquets-de-fleurs-rayon-de-sologne-41320-4-news",
+    "approved": "Cornets de pétales de fleurs pour un mariage",
+    "proposal": "alt-bouquets-de-fleurs-rayon-de-sologne-41320-4-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-blog-rayon-de-sologne-votre-lieu-de-reception-de-",
+    "kind": "draft",
+    "where": "alt:vue-aerienne-rayon-de-sologne-par-onesebphoto-news",
+    "approved": "Vue aérienne du domaine au coucher du soleil",
+    "proposal": "alt-vue-aerienne-rayon-de-sologne-par-onesebphoto-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-brunch-au-bistrot-html",
+    "kind": "draft",
+    "where": "alt:formule-brunch-news",
+    "approved": "Affiche du brunch du dimanche au Bistrot du Grand Liot",
+    "proposal": "alt-formule-brunch-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-c-est-bientot-noel-au-bistrot-html",
+    "kind": "draft",
+    "where": "alt:publication-instagram-bistrotdugrandliot-news",
+    "approved": "Cartes de Noël tenues à la main",
+    "proposal": "alt-publication-instagram-bistrotdugrandliot-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-carte-touristique-de-sologne-html",
+    "kind": "draft",
+    "where": "alt:carte-touristique-sologne-news",
+    "approved": "Carte touristique de la Sologne",
+    "proposal": "alt-carte-touristique-sologne-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-comme-le-veut-la-tradition-html",
+    "kind": "draft",
+    "where": "alt:beaujolais-nouveau-bistrot-du-grand-liot-news",
+    "approved": "Bouteille de beaujolais nouveau et planche de charcuterie",
+    "proposal": "alt-beaujolais-nouveau-bistrot-du-grand-liot-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-cuisine-fermeture-exceptionnelle-html",
+    "kind": "draft",
+    "where": "alt:design-sans-titre-news",
+    "approved": "Affiche de fermeture du restaurant",
+    "proposal": "alt-design-sans-titre-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-cuisine-menu-d-avril-html",
+    "kind": "draft",
+    "where": "alt:avril-24-news",
+    "approved": "Menu d'avril du Bistrot du Grand Liot",
+    "proposal": "alt-avril-24-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-cuisine-salon-de-la-gastronomie-html",
+    "kind": "draft",
+    "where": "alt:jgs2022-invitationweb-500x300px-news",
+    "approved": "Bannière d'invitation au salon de la gastronomie à Romorantin",
+    "proposal": "alt-jgs2022-invitationweb-500x300px-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-des-photos-du-manoir-renove-html",
+    "kind": "draft",
+    "where": "alt:espace-boudoir-rayon-de-sologne-news",
+    "approved": "Espace boudoir du manoir, fauteuils et parquet",
+    "proposal": "alt-espace-boudoir-rayon-de-sologne-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-ferme-pedagogique-le-13-mars-html",
+    "kind": "draft",
+    "where": "alt:coloree-art-atelier-ecole-affiche-1-news",
+    "approved": "Affiche de la ferme pédagogique le 13 mars, avec des poules devant le bâtiment",
+    "proposal": "alt-coloree-art-atelier-ecole-affiche-1-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-fermeture-annuelle-du-bistrot-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:fermeture-annuelle-news",
+    "approved": "Affiche de la fermeture annuelle du Bistrot du Grand Liot",
+    "proposal": "alt-fermeture-annuelle-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-fermeture-temporaire-html",
+    "kind": "draft",
+    "where": "alt:fermeture-temporaire-news",
+    "approved": "Affiche de la fermeture temporaire du restaurant",
+    "proposal": "alt-fermeture-temporaire-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-formation-a-l-ecole-ducasse-html",
+    "kind": "draft",
+    "where": "alt:assiette-ecole-ducasse-bistrot-du-grand-liot-news",
+    "approved": "Assiette dressée lors de la formation à l'école Ducasse",
+    "proposal": "alt-assiette-ecole-ducasse-bistrot-du-grand-liot-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-formule-express-html",
+    "kind": "draft",
+    "where": "alt:fb-sto-insta-16-2-news",
+    "approved": "Affiche de la formule express du Bistrot du Grand Liot",
+    "proposal": "alt-fb-sto-insta-16-2-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-grand-jeu-concours-html",
+    "kind": "draft",
+    "where": "alt:grand-jeu-concours-2-news",
+    "approved": "Affiche du grand jeu concours du Bistrot du Grand Liot",
+    "proposal": "alt-grand-jeu-concours-2-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-j-10-salon-du-mariage-portes-ouvertes-html",
+    "kind": "draft",
+    "where": "alt:fly-portes-ouvertes-news",
+    "approved": "Affiche du salon du mariage et des portes ouvertes",
+    "proposal": "alt-fly-portes-ouvertes-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-jema-41-les-2-et-3-avril-2022-html",
+    "kind": "draft",
+    "where": "alt:coloree-art-atelier-ecole-affiche-news",
+    "approved": "Affiche des JEMA les 2 et 3 avril 2022",
+    "proposal": "alt-coloree-art-atelier-ecole-affiche-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-la-formule-brunch-est-arrivee-html",
+    "kind": "draft",
+    "where": "alt:com-brunch-post-news",
+    "approved": "Affiche de la formule brunch du Bistrot du Grand Liot",
+    "proposal": "alt-com-brunch-post-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-les-soirees-d-avril-au-bistrot-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:soire-es-a-the-me-avril-news",
+    "approved": "Affiche des soirées à thème d'avril au Bistrot du Grand Liot",
+    "proposal": "alt-soire-es-a-the-me-avril-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-les-soirees-du-bistrot-pour-mars-html",
+    "kind": "draft",
+    "where": "alt:soire-e-du-bistrot-news",
+    "approved": "Affiche des soirées du Bistrot du Grand Liot pour mars",
+    "proposal": "alt-soire-e-du-bistrot-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-au-bistrot-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:04-03-2-news",
+    "approved": "Menu saisonnier du Bistrot du Grand Liot pour mars, avril et mai",
+    "proposal": "alt-04-03-2-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-decembre-1-html",
+    "kind": "draft",
+    "where": "alt:menu-2023-2025-news",
+    "approved": "Menu de décembre du Bistrot du Grand Liot",
+    "proposal": "alt-menu-2023-2025-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-decembre-html",
+    "kind": "draft",
+    "where": "alt:menu-2023-2024-news",
+    "approved": "Menu de décembre du Bistrot du Grand Liot",
+    "proposal": "alt-menu-2023-2024-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-html",
+    "kind": "draft",
+    "where": "alt:menu-de-fe-vrier-news",
+    "approved": "Menu de février du Bistrot du Grand Liot",
+    "proposal": "alt-menu-de-fe-vrier-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-janvier-1-html",
+    "kind": "draft",
+    "where": "alt:menu-de-janvier-news",
+    "approved": "Menu de janvier du Bistrot du Grand Liot",
+    "proposal": "alt-menu-de-janvier-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-juin-au-bistrot-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:juin-news",
+    "approved": "Menu de juin du Bistrot du Grand Liot",
+    "proposal": "alt-juin-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-de-septembre-pour-les-groupes-html",
+    "kind": "draft",
+    "where": "alt:menu-de-septembre-9-news",
+    "approved": "Menu de septembre pour les groupes du Bistrot du Grand Liot",
+    "proposal": "alt-menu-de-septembre-9-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-des-portes-ouvertes-2023-html",
+    "kind": "draft",
+    "where": "alt:menu-portes-ouvertes-3-2-news",
+    "approved": "Menu des portes ouvertes du Bistrot du Grand Liot",
+    "proposal": "alt-menu-portes-ouvertes-3-2-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-du-mois-de-mars-html",
+    "kind": "draft",
+    "where": "alt:menu-du-mois-de-mars-news",
+    "approved": "Menu du mois de mars du Bistrot du Grand Liot",
+    "proposal": "alt-menu-du-mois-de-mars-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-du-restaurant-pour-l-ete-html",
+    "kind": "draft",
+    "where": "alt:menu-carte-bistrot-du-grand-liot-restaurant-rayon-de-sologne-41-ete-guinguette-news",
+    "approved": "Carte du Bistrot du Grand Liot pour l'été",
+    "proposal": "alt-menu-carte-bistrot-du-grand-liot-restaurant-rayon-de-sologne",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-menu-septembre-octobre-25-bistrot-du-grand-liot-p",
+    "kind": "draft",
+    "where": "alt:menu-carte-bistrot-grand-liot-restaurant-proche-romorantin-vierzon-rayon-de-sologne-septembre-octobre-2025-news",
+    "approved": "Carte du Bistrot du Grand Liot, menu d'automne 2025",
+    "proposal": "alt-menu-carte-bistrot-grand-liot-restaurant-proche-romorantin-v",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-on-parle-de-nous-html",
+    "kind": "draft",
+    "where": "alt:rds-news",
+    "approved": "Article de presse publié après le conseil municipal de la ville de Saran",
+    "proposal": "alt-rds-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-participation-aux-journees-gastronomiques-html",
+    "kind": "draft",
+    "where": "alt:journe-e-gastronomiques-de-sologne-news",
+    "approved": "Main tenant des invitations bordeaux, en plein air",
+    "proposal": "alt-journe-e-gastronomiques-de-sologne-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-portes-ouvertes-2023-rayon-de-sologne-html",
+    "kind": "draft",
+    "where": "alt:newsletter-salon-news",
+    "approved": "Save the date des portes ouvertes de Rayon de Sologne",
+    "proposal": "alt-newsletter-salon-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-portes-ouvertes-du-domaine-en-2026-html",
+    "kind": "draft",
+    "where": "alt:porte-ouverte-rayon-de-sologne-mariage-seminaire-mariage-gite-de-groupe-news",
+    "approved": "Affiche des portes ouvertes du domaine en 2026",
+    "proposal": "alt-porte-ouverte-rayon-de-sologne-mariage-seminaire-mariage-git",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-portes-ouvertes-du-domaine-le-2-juillet-2022-html",
+    "kind": "draft",
+    "where": "alt:porte-ouverte-news",
+    "approved": "Affiche des portes ouvertes du domaine, le 2 juillet 2022",
+    "proposal": "alt-porte-ouverte-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-portes-ouvertes-les-25-26-fevrier-2023-html",
+    "kind": "draft",
+    "where": "alt:affiche-portes-ouvertes-news",
+    "approved": "Affiche des portes ouvertes des 25 et 26 février 2023",
+    "proposal": "alt-affiche-portes-ouvertes-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-prolongement-de-la-fermeture-html",
+    "kind": "draft",
+    "where": "alt:fermeture-temporaire-5-news",
+    "approved": "Affiche du prolongement de la fermeture du restaurant",
+    "proposal": "alt-fermeture-temporaire-5-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-retour-sur-nos-portes-ouvertes-html",
+    "kind": "draft",
+    "where": "alt:28c71597-b1bc-46c8-92a7-2f185bc7f681-news",
+    "approved": "Dressage d'une assiette en cuisine, Bistrot du Grand Liot",
+    "proposal": "alt-28c71597-b1bc-46c8-92a7-2f185bc7f681-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-soiree-a-theme-du-bistrot-pour-juin-html",
+    "kind": "draft",
+    "where": "alt:soire-es-a-the-me-news",
+    "approved": "Affiche des soirées à thème du bistrot pour juin",
+    "proposal": "alt-soire-es-a-the-me-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-soiree-burger-bistrot-du-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:affiche-soiree-burger-news",
+    "approved": "Affiche de la soirée burger du Bistrot du Grand Liot",
+    "proposal": "alt-affiche-soiree-burger-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-soiree-cote-de-boeuf-html",
+    "kind": "draft",
+    "where": "alt:soire-e-cote-de-boeuf-news",
+    "approved": "Affiche de la soirée côte de boeuf du Bistrot du Grand Liot",
+    "proposal": "alt-soire-e-cote-de-boeuf-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-soiree-raclette-html",
+    "kind": "draft",
+    "where": "alt:soire-e-raclette-news",
+    "approved": "Affiche de la soirée raclette au bistrot",
+    "proposal": "alt-soire-e-raclette-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-sorties-appel-a-candidature-html",
+    "kind": "draft",
+    "where": "alt:appel-candidature-rayondesologne-news",
+    "approved": "Visuel de l'appel à candidatures de Rayon de Sologne",
+    "proposal": "alt-appel-candidature-rayondesologne-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-stop-arreter-vous-html",
+    "kind": "draft",
+    "where": "alt:publi-jeudi-news",
+    "approved": "Visuel de l'annonce du Bistrot du Grand Liot aux entreprises",
+    "proposal": "alt-publi-jeudi-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-un-mariage-a-romorantin-departement-du-41-html",
+    "kind": "draft",
+    "where": "alt:salle-mariage-champetre-boheme-chic-news",
+    "approved": "Grange dressée pour un dîner de mariage, guirlandes lumineuses",
+    "proposal": "alt-salle-mariage-champetre-boheme-chic-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-venez-passer-la-journee-en-famille-html",
+    "kind": "draft",
+    "where": "alt:formule-speciale-1-news",
+    "approved": "Affiche de la formule spéciale famille du Bistrot du Grand Liot",
+    "proposal": "alt-formule-speciale-1-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-vous-etes-partants-html",
+    "kind": "draft",
+    "where": "alt:21-news",
+    "approved": "Visuel pour relancer les soirées à thème du jeudi soir au bistrot",
+    "proposal": "alt-21-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-voyages-chantier-nature-au-grand-liot-html",
+    "kind": "draft",
+    "where": "alt:presentation-news",
+    "approved": "Visuel de présentation des gérants, portrait des deux cogérants en tablier",
+    "proposal": "alt-presentation-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "actualites-voyages-quels-type-d-evenements-accueillerons-nou",
+    "kind": "draft",
+    "where": "alt:creation-tiers-lieux-rayon-de-sologne-news",
+    "approved": "Infographie sur la création d'un tiers-lieu",
+    "proposal": "alt-creation-tiers-lieux-rayon-de-sologne-news",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "draft",
+    "where": "alt:og-home",
+    "approved": "Vue aérienne du domaine Rayon de Sologne",
+    "proposal": "alt-og-home",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "draft",
+    "where": "alt:og-le-restaurant",
+    "approved": "Dressage d'une assiette en cuisine, Bistrot du Grand Liot",
+    "proposal": "alt-og-le-restaurant",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "draft",
+    "where": "alt:og-reservations",
+    "approved": "Salon du manoir avec piano et grandes tables, sous les poutres",
+    "proposal": "alt-og-reservations",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-html",
+    "kind": "draft",
+    "where": "alt:og-salle-de-mariage-et-reception",
+    "approved": "Grange illuminée en bleu, tables rondes dressées pour une réception",
+    "proposal": "alt-og-salle-de-mariage-et-reception",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "draft",
+    "where": "alt:og-salle-de-mariage-et-reception-1762943209",
+    "approved": "Salle modulable de Langon, tables blanches pour une réunion",
+    "proposal": "alt-og-salle-de-mariage-et-reception-1762943209",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-une-salle-pour-un-anniversaire-html",
+    "kind": "draft",
+    "where": "alt:og-une-salle-pour-un-anniversaire",
+    "approved": "Salle de séminaire du Grand Liot, tables dressées",
+    "proposal": "alt-og-une-salle-pour-un-anniversaire",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-presentation-html",
+    "kind": "draft",
+    "where": "alt:og-presentation",
+    "approved": "Vue aérienne du domaine Rayon de Sologne",
+    "proposal": "alt-og-presentation",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "rewrite",
+    "where": "body:traiteur",
+    "original": "Nous pouvons de vous accompagner, pour vos repas de chasse, votre anniversaire à la maison.. En tant cette fois que traiteur à domicile et nous nous adaptons à vos besoins avec ou sans service, livré chaud ou livré froid, nous vous proposons du sur mesure avec des formule à partir de 16€ par personne. C'est la même formule que nous proposons à nos clients qui séjournent dans nos gites car la qualité est importante pour nous - vous servir du frais, du fait maison en toutes saisons!",
+    "approved": "Nous vous accompagnons pour vos repas de chasse ou votre anniversaire à la maison, en tant que traiteur à domicile. Nous nous adaptons à vos besoins, avec ou sans service, livré chaud ou livré froid, et nous proposons du sur mesure avec des formules à partir de 16 € par personne. C'est la formule que nous servons aux clients de nos gîtes : du frais et du fait maison en toutes saisons, parce que la qualité compte pour nous.",
+    "proposal": "rw-resto-8",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-le-restaurant-html",
+    "kind": "rewrite",
+    "where": "body:terrasse",
+    "original": "De mai à septembre, nous vous acceuillons également sur la terrasse, qui donne sur des espaces naturels, une petite marre et surtout aucune nuissance sonore ;)",
+    "approved": "De mai à septembre, nous vous accueillons aussi sur la terrasse, qui donne sur des espaces naturels et une petite mare, sans aucune nuisance sonore.",
+    "proposal": "rw-resto-23",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-reservations-html",
+    "kind": "rewrite",
+    "where": "body",
+    "original": "Je vous invite à vous rendre sur la page qui vous propose de privatiser tout le domaine.",
+    "approved": "Nous vous invitons à vous rendre sur la page qui propose de privatiser tout le domaine.",
+    "proposal": "rw-gites-22",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-salle-de-mariage-et-reception-1762943209-html",
+    "kind": "rewrite",
+    "where": "body",
+    "original": "Si vous avez besoin de plus de chambres, nous disposons, si besoin de 16 autres chambres plus collectives au sein de notre dernier hebergement la colonie. je vous laisse regarder sur la visite virtuelle de ce logement si cela correspond à vos attentes",
+    "approved": "Si vous avez besoin de plus de chambres, nous disposons de 16 autres chambres plus collectives dans notre dernier hébergement, la colonie. Vous pouvez en voir la visite virtuelle pour juger si ce logement correspond à vos attentes.",
+    "proposal": "rw-sem-19",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+    "kind": "rewrite",
+    "where": "body",
+    "original": "Nous accueillons nos groupes dans une démarche écoresponsable et vous proposerons de nombreuses animations sur place grâce (via nos partenaires et grâce aux activités autonomes sur place).",
+    "approved": "Nous accueillons nos groupes dans une démarche écoresponsable. Nous proposons de nombreuses animations sur place, avec nos partenaires et en activités autonomes.",
+    "proposal": "rw-col-10",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-colonies-classes-vertes-ecole-alternative-html",
+    "kind": "rewrite",
+    "where": "body",
+    "original": "Nous avons l'immense joié également d'accueillir des séssions de formation BAFA, BPJEPS, BAFD ... tout au long de l'année c'est un vrai plaisir pour Charline étant ancienne Responsable de service Jeunesse durant 8 ans et formatrice BAFA de s'associer à la formation des jeunes sur le domaine.",
+    "approved": "Nous avons l'immense joie d'accueillir aussi des sessions de formation BAFA, BPJEPS, BAFD... tout au long de l'année. C'est un vrai plaisir pour Charline, ancienne responsable de service jeunesse pendant 8 ans et formatrice BAFA, de s'associer à la formation des jeunes sur le domaine.",
+    "proposal": "rw-col-11",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "pages-la-grange-salle-de-seminaire-html",
+    "kind": "rewrite",
+    "where": "body",
+    "original": "Notre grange est un élément centrale de notre activité évènementielle!",
+    "approved": "La grange est au coeur de notre activité évènementielle.",
+    "proposal": "rw-grange-8",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "rewrite",
+    "where": "cta",
+    "original": "Pour d'infos pour vous Marier au domaine !",
+    "approved": "Plus d'informations pour vous marier au domaine",
+    "proposal": "rw-home-14",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "home",
+    "kind": "rewrite",
+    "where": "cta",
+    "original": "Pour d'infos pour organiser une fête!",
+    "approved": "Plus d'informations pour organiser une fête",
+    "proposal": "rw-home-18",
+    "ledger_ref": "Copy-approved: 361"
+  },
+  {
+    "page": "*",
+    "kind": "footer",
+    "where": "footer:tagline",
+    "original": "Domaine en Sologne - Mariages, Séminaires & gites de groupes",
+    "approved": "Domaine en Sologne - Mariages, Séminaires & gites de groupes",
+    "note": "rounds/P7a.md #4.3: approved footer text, Moshe \"לאשר את שלושתם (מומלץ)\" 2026-10-15; not a rewrite kind, build output unchanged"
+  },
+  {
+    "page": "*",
+    "kind": "footer",
+    "where": "footer:address",
+    "original": "Domaine du Grand Liot\n2380 C Rte de Romorantin\n41230 Langon-sur-Cher",
+    "approved": "Domaine du Grand Liot\n2380 C Rte de Romorantin\n41320 Langon-sur-Cher",
+    "note": "rounds/P7a.md #4.3: approved footer text, Moshe \"לאשר את שלושתם (מומלץ)\" 2026-10-15; not a rewrite kind, build output unchanged; postcode 41230 -> 41320 correction, client to confirm"
+  }
+]

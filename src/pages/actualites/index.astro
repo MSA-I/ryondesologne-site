@@ -1,0 +1,79 @@
+---
+// /actualites/ (DESIGN §12 News): every article as an album row (date --fs-meta, title --fs-row, its category at the end);
+// the row under the pointer or focus shows its post's print. The four categories are plain links above; no filter.
+// Texts: newsindex docs (H1 + category labels, blocks 6 of each), articles from the news collection (title, date verbatim).
+// The old index listed 10 posts per page (Préc./1-5/Suiv.); the static page lists all 73 in one list (06-build/omitted/T35.json).
+import { getCollection } from "astro:content";
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import Base from "../../layouts/Base.astro";
+import AlbumRows from "../../components/AlbumRows.astro";
+import { t } from "../../lib/content";
+import { img } from "../../lib/assets";
+
+const PAGE = "actualites";
+const CATS = ["blog", "cuisine", "sorties", "voyages"] as const;
+const PRINTS = 20; // rows (newest first) that carry a print: the others keep the last one shown
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("actualites: 05-assets/assets.json not found above " + process.cwd());
+}
+// Old <title> and meta description, verbatim (01-scan/raw); the approved rewrites arrive with T38.
+const raw = readFileSync(join(findSite(), "01-scan", "raw", `${PAGE}.html`), "utf8");
+const title = raw.match(/<title>([^<]*)<\/title>/)?.[1]?.trim() ?? t(PAGE, 6);
+const description = raw.match(/<meta name="description" content="([^"]*)"/)?.[1]?.trim() ?? t(PAGE, 6);
+
+const news = (await getCollection("news")).map((e) => e.data).sort((a, b) => b.isoDate.localeCompare(a.isoDate) || a.url.localeCompare(b.url));
+const label = (cat: string) => (cat === "actualites" ? t(PAGE, 6) : t(`${PAGE}-${cat}`, 6));
+const printable = (id: string) => {
+  try { img(id, { box: 248, sizes: "248px" }); return true; } catch { return false; }
+};
+const thumbable = (id: string) => {
+  try { img(id, { box: 96, sizes: "96px" }); return true; } catch { return false; }
+};
+const rows = news.map((d, i) => {
+  const path = new URL(d.url).pathname;
+  return {
+    key: d.id,
+    label: d.title,
+    date: d.date,
+    count: label(d.category),
+    href: path,
+    printId: i < PRINTS ? d.images.find(printable) : undefined,
+    thumbId: d.images.find(thumbable), // touch screens: every row shows its own post's print, small
+  };
+});
+const cats = CATS.map((c) => ({ label: label(c), href: `/actualites/${c}/` }));
+---
+<Base title={title} description={description} canonicalPath="/actualites/" current="/actualites/">
+  <nav class="news-cats" aria-label={t(PAGE, 6)} data-site-studio-component="news-categories">
+    <ul>{cats.map((c) => <li><a href={c.href}>{c.label}</a></li>)}</ul>
+  </nav>
+  <AlbumRows rows={rows} news>
+    <h1 slot="title" class="album-titre">{t(PAGE, 6)}</h1>
+  </AlbumRows>
+</Base>
+
+<style is:global>
+  .news-cats { padding: var(--space-6) var(--pad) 0; }
+  .news-cats ul { display: flex; flex-wrap: wrap; gap: 0 var(--space-4); margin: 0; padding: 0; list-style: none; }
+  .news-cats a {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    font-size: var(--fs-meta); line-height: var(--lh-small);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+    touch-action: manipulation;
+  }
+  .news-cats a:active { text-decoration-thickness: 2px; }
+  /* 73 rows: the print stays in view beside the list (overflow: clip keeps the sticky parent) */
+  .album-rows { overflow: clip; min-height: 0; padding-top: var(--space-3); }
+  .album-rows .album-tirages { align-self: start; position: sticky; top: var(--space-5); grid-row: 1 / span 2; }
+  @media (max-width: 760px) {
+    .album-rows .album-tirages { position: static; }
+    .news-cats { padding-top: var(--space-6); }
+  }
+</style>

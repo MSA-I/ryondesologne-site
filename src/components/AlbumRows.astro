@@ -1,0 +1,135 @@
+---
+import Light from "./kit/Light.astro";
+import Print from "./kit/Print.astro";
+import Icon from "./kit/Icon.astro";
+
+// Full-width album rows with one print for the row under the pointer or focus (DESIGN §6 album, §11; ported from board D).
+// The caller puts the page heading in the "title" slot. Copy comes in through props (read by the caller with t()).
+interface Row { key: string; label: string; href: string; count?: string; date?: string; printId?: string; thumbId?: string }
+// news: dated rows in aligned columns, each row with its own small print on touch screens (the floating print is for pointers);
+// place: the print sits at the height of the row it shows (also at rest); compact: the section ends under its list.
+interface Props { rows: Row[]; light?: "colonie"; start?: string; news?: boolean; place?: boolean; compact?: boolean }
+const { rows, light, start, news = false, place = false, compact = false } = Astro.props;
+const shown = rows.find((r) => r.key === start && r.printId) ?? rows.find((r) => r.printId);
+const FIELD = { colonie: "aire-de-jeux-rayon-de-sologne-field" } as const;
+---
+<div class:list={["album-rows", news && "album-rows--news", compact && "album-rows--compact"]} data-album={shown?.key} data-place={place ? "" : undefined}>
+  {light && <Light use={light} photoId={FIELD[light]} crop="sky" />}
+  <slot name="title" />
+  <ul class="album-liste">
+    {rows.map((r) => (
+      <li>
+        <a href={r.href} data-album-lien={r.key}>
+          {news && (
+            <span class="album-mini" aria-hidden="true">
+              {(r.printId ?? r.thumbId) && <Print id={(r.printId ?? r.thumbId)!} box={96} sizes="96px" />}
+            </span>
+          )}
+          <span class="album-nom">{r.label}</span>
+          {r.date && <span class="album-date">{r.date}</span>}
+          {r.count && <span class="album-compte">{r.count}</span>}
+          <Icon name="arrow" class="album-fleche" />
+        </a>
+      </li>
+    ))}
+  </ul>
+  <div class="album-tirages">
+    {rows.filter((r) => r.printId).map((r) => (
+      <div class={`tirage-album${r.key === shown?.key ? " est-actif" : ""}`} data-album-tirage={r.key}>
+        <Print id={r.printId!} box={248} sizes="248px" />
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  import { initAllAlbumRows } from "../scripts/album-rows.js";
+  initAllAlbumRows();
+</script>
+
+<style is:global>
+  .album-rows {
+    position: relative; isolation: isolate; overflow: hidden;
+    display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--space-5);
+    grid-template-rows: auto 1fr;
+    padding: var(--space-5) var(--pad) var(--space-6);
+    min-height: 100vh; min-height: 100svh;
+    color: var(--encre);
+  }
+  .album-rows > .album-titre { grid-column: 1; grid-row: 1; margin: 0 0 var(--space-4); font-family: var(--font-display); font-weight: var(--fw-display); font-size: var(--fs-display); line-height: var(--lh-display); letter-spacing: var(--tr-display); text-wrap: balance; }
+  .album-rows .album-titre a { text-decoration: none; }
+  .album-rows .album-liste { grid-column: 1; grid-row: 2; display: grid; align-content: start; max-width: 34em; margin: 0; padding: 0; list-style: none; }
+  .album-rows .album-liste a {
+    display: flex; align-items: center; gap: var(--space-2); padding: var(--space-2) 0; min-height: 52px;
+    text-decoration: none; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  }
+  .album-rows .album-nom { font-size: var(--fs-row); font-weight: var(--fw-row); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+  .album-rows .album-date { font-size: var(--fs-meta); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .album-rows .album-compte { margin-left: auto; font-size: var(--fs-meta); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .album-rows .album-fleche { flex: none; opacity: 0; transition: opacity var(--dur-line) var(--ease-out); }
+  .album-rows .album-liste a:not(:has(.album-compte)) .album-fleche { margin-left: auto; }
+  .album-rows .album-liste a:focus-visible .album-fleche,
+  .album-rows .album-liste a:active .album-fleche { opacity: 1; }
+  .album-rows .album-liste a:active .album-nom { text-decoration-thickness: 2px; }
+
+  .album-rows .album-tirages { grid-column: 2; grid-row: 1 / span 2; display: grid; align-self: center; justify-self: start; will-change: transform; }
+  .album-rows .tirage-album {
+    grid-area: 1 / 1; width: var(--print-width);
+    visibility: hidden; opacity: 0; transition: opacity var(--dur-line) var(--ease-out);
+  }
+  /* the print keeps its own ratio and is shown whole (posters and flyers are never cropped) */
+  .album-rows .tirage-album img { width: 100%; height: auto; max-height: 360px; object-fit: contain; object-position: 0 0; }
+  .album-rows .tirage-album.est-actif { visibility: visible; opacity: 1; }
+
+  /* compact: the section ends under its list, with the same top air as the other inner pages */
+  .album-rows--compact { min-height: 0; padding-top: var(--space-6); }
+  .album-rows--compact .album-tirages { align-self: start; grid-row: 2; }
+
+  /* news rows: title, date and category in columns that line up from row to row */
+  .album-rows--news .album-liste { max-width: none; }
+  .album-rows--news .album-liste a { display: grid; grid-template-columns: minmax(0, 1fr) 9.5em 8em 24px; column-gap: var(--space-3); align-items: baseline; padding: var(--space-2) 0; }
+  .album-rows--news .album-mini { display: none; }
+  .album-rows--news .album-date { grid-column: 2; }
+  .album-rows--news .album-compte { grid-column: 3; margin-left: 0; }
+  .album-rows--news .album-fleche { grid-column: 4; align-self: center; margin-left: 0; }
+
+  @media (hover: hover) and (pointer: fine) {
+    .album-rows .album-titre a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: var(--underline-offset-display); }
+    .album-rows .album-liste a:hover .album-nom { text-decoration-thickness: 2px; }
+    .album-rows .album-liste a:hover .album-fleche { opacity: 1; }
+  }
+
+  @media (max-width: 760px) {
+    .album-rows { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto; min-height: 0; padding: var(--space-5) var(--pad); }
+    .album-rows > .album-titre { font-size: var(--fs-display-phone); }
+    .album-rows .album-liste { grid-row: 3; }
+    .album-rows .album-tirages { grid-column: 1; grid-row: 2; margin-bottom: var(--space-3); will-change: auto; }
+    .album-rows .album-compte, .album-rows .album-date { font-size: var(--fs-meta-phone); }
+    .album-rows--compact { padding-top: var(--space-6); }
+    .album-rows--compact .album-tirages { grid-row: 2; }
+    .album-rows--news .album-liste a { grid-template-columns: 9.5em minmax(0, 1fr); row-gap: 0; }
+    .album-rows--news .album-nom { grid-column: 1 / -1; grid-row: 1; }
+    .album-rows--news .album-date { grid-column: 1; grid-row: 2; }
+    .album-rows--news .album-compte { grid-column: 2; grid-row: 2; }
+    .album-rows--news .album-fleche { display: none; }
+  }
+
+  /* touch: no floating print; each news row carries its own small print (whole, never cropped) */
+  @media (hover: none), (pointer: coarse) {
+    .album-rows--news .album-tirages { display: none; }
+    .album-rows--news { grid-template-columns: minmax(0, 1fr); }
+    .album-rows--news > .album-titre, .album-rows--news .album-liste { grid-column: 1; }
+    .album-rows--news .album-mini { display: flex; grid-column: 1; grid-row: 1 / span 2; align-self: start; width: 72px; height: 56px; align-items: flex-start; justify-content: flex-start; }
+    .album-rows--news .album-mini .print { display: block; }
+    .album-rows--news .album-mini img { display: block; max-width: 72px; max-height: 56px; width: auto; height: auto; object-fit: contain; }
+    .album-rows--news .album-liste a { grid-template-columns: 72px 9.5em minmax(0, 1fr); column-gap: var(--space-3); row-gap: 0; align-items: baseline; }
+    .album-rows--news .album-nom { grid-column: 2 / -1; grid-row: 1; }
+    .album-rows--news .album-date { grid-column: 2; grid-row: 2; }
+    .album-rows--news .album-compte { grid-column: 3; grid-row: 2; }
+    .album-rows--news .album-fleche { display: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .album-rows .tirage-album, .album-rows .album-fleche { transition: none; }
+  }
+</style>

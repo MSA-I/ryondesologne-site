@@ -1,0 +1,33 @@
+---
+// Offer-page template (DESIGN §12 "Offer pages"): Base + InnerOpening + chapters (default slot) + closing parts (slot "end").
+// The header turns light when the offer's light is the dark restaurant one.
+import Base from "./Base.astro";
+import InnerOpening from "../components/InnerOpening.astro";
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  h1: string;
+  light: { use: "restaurant" | "seminaire" | "gites" | "colonie"; photoId: string; crop?: "sky" };
+  printId: string;
+  printBox: number;
+  cta: { href: string; label: string; subject?: boolean | string };
+  phone?: { label: string; tel: string };
+  stats?: { figure: string; words: string; lead?: string; source?: string }[];
+  crumbs?: { label: string; href?: string }[];
+}
+const { title, description, canonicalPath, h1, light, printId, printBox, cta, phone, stats, crumbs } = Astro.props;
+---
+<Base
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  current={canonicalPath}
+  light={light.use === "restaurant" ? "dark" : undefined}
+>
+  <InnerOpening h1={h1} light={light} printId={printId} printBox={printBox} cta={cta} phone={phone} stats={stats} crumbs={crumbs}>
+    <slot name="satellite" slot="satellite" />
+  </InnerOpening>
+  <slot />
+  <slot name="end" />
+</Base>

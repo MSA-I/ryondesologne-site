@@ -1,0 +1,134 @@
+---
+// Colonies, Classes vertes (DESIGN §12 offer page). Text from pages-colonies-classes-vertes-ecole-alternative-html (blocks cited), no typed copy.
+// Blocks 6-21 are used (10 and 11 through their approved rewrites rw-col-10/rw-col-11); 1-5 and 22-74 (nav, share widget, footer,
+// attributes) are listed in 06-build/omitted/T25.json.
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import OfferPage from "../../layouts/OfferPage.astro";
+import Chapter from "../../components/Chapter.astro";
+import PullQuote from "../../components/PullQuote.astro";
+import PanRail from "../../components/PanRail.astro";
+import Print from "../../components/kit/Print.astro";
+import Icon from "../../components/kit/Icon.astro";
+import Door from "../../components/kit/Door.astro";
+import Cta2 from "../../components/kit/Cta2.astro";
+import { t, approved } from "../../lib/content";
+import { img } from "../../lib/assets";
+import { ft, showPlaceholders } from "../../lib/site";
+
+const P = "pages-colonies-classes-vertes-ecole-alternative-html";
+const PAGE = "/pages/colonies-classes-vertes-ecole-alternative.html";
+
+// PDF at its old path (01-scan/raw: href of block 20).
+const PDF_PROJET = "/medias/files/projet-d-accueil-mineurs-rayon-de-sologne-1-compresse.pdf";
+
+// Old <title> and meta description, verbatim (01-scan/raw).
+const title = "Sejour vacances enfants, colonies, classes vertes region centre";
+const description =
+  "un centre de vacances qui accueille des groupes de jeunes depuis 40 ans en pleine nature, au contact des animaux à la campagne en region centre proche des chateaux et du zoo de beauval";
+
+function findSite(): string {
+  let d = resolve(process.cwd());
+  for (let i = 0; i < 6; i++) {
+    if (existsSync(join(d, "05-assets", "assets.json"))) return d;
+    d = dirname(d);
+  }
+  throw new Error("colonies: 05-assets/assets.json not found above " + process.cwd());
+}
+const rows = JSON.parse(readFileSync(join(findSite(), "05-assets", "assets.json"), "utf8")) as { id: string; role?: string; status: string; page?: string }[];
+const margins = rows.filter((r) => r.page === PAGE && r.role === "margin print" && r.status === "produced").map((r) => r.id);
+const marginPrint = (i: number) => (margins[i] ? { id: margins[i], box: 248 } : undefined);
+
+// Opening stats, cut from the client's own sentences (blocks 14 and 17).
+const youth = t(P, 14).match(/(jusqu'à) (\d+) (jeunes)/);
+if (!youth) throw new Error("colonies: capacity phrase not found in block 14");
+const places = t(P, 17).match(/(\d+) (places enfants)/);
+if (!places) throw new Error("colonies: places phrase not found in block 17");
+// The pull quote: block 14 in full.
+const quote = t(P, 14);
+
+const light = { use: "colonie" as const, photoId: "aire-de-jeux-rayon-de-sologne-field" };
+const plans = ["plan-rayon-de-sologne", "petite-colonie", "grande-colonie-1"].map((id) => {
+  // the link goes to the largest produced file of the plan (its widest jpg); the link is named by the plan's own alt
+  const d = img(id, { box: 433, sizes: "433px" });
+  const jpg = d.sources.find((s) => s.type === "image/jpeg") ?? d.sources[d.sources.length - 1];
+  const widest = jpg.srcset.split(", ").map((e) => { const [u, w] = e.split(" "); return { u, w: parseInt(w) }; }).sort((a, b) => b.w - a.w)[0];
+  return { id, href: widest.u };
+});
+---
+<OfferPage
+  title={title}
+  description={description}
+  canonicalPath={PAGE}
+  h1={t(P, 6)}
+  light={light}
+  printId="aire-de-jeux-rayon-de-sologne-612x460"
+  printBox={306}
+  cta={{ href: "/contact/contact.html", label: t(P, 12), subject: "Colonies, Classes vertes" }}
+  stats={[
+    { lead: youth[1], figure: youth[2], words: youth[3] },
+    { figure: places[1], words: places[2] },
+  ]}
+>
+  <Chapter tone="creme" class="col-chap" title={t(P, 7)} titleId="col-accueil" marginPrint={marginPrint(0)}>
+    <p>{t(P, 8)}</p>
+    <p>{t(P, 9)}</p>
+    <p>{t(P, 10)}</p>
+    <p>{t(P, 11)}</p>
+    <Cta2 href={PDF_PROJET} label={t(P, 20)} icon="file" />
+    {showPlaceholders && <p lang="he">[דרוש תוכן: numéro de téléphone et e-mail des séjours colonies et classes vertes]</p>}
+  </Chapter>
+
+  <Chapter tone="light" light={light}>
+    <p>{t(P, 13)}</p>
+    <p>{t(P, 15)}</p>
+    <p>{t(P, 16)}</p>
+    <p>{t(P, 17)}</p>
+    <p>{t(P, 18)}</p>
+    <PullQuote slot="quote" text={quote} />
+  </Chapter>
+
+  <Chapter tone="creme" class="col-plans" title={t(P, 19)} titleId="col-plan" wide>
+    {plans.map((p) => (
+      <a class="col-plan" href={p.href} target="_blank" rel="noopener">
+        <Print id={p.id} box={433} sizes="(max-width: 760px) 100vw, 433px" />
+        <span class="col-plan-icone"><Icon name="external" /></span>
+        <span class="visually-hidden">{ft("link.newtab-hint")}</span>
+      </a>
+    ))}
+  </Chapter>
+
+  <div slot="end">
+    <div class="col-rail"><PanRail page={PAGE} /></div>
+    <Door
+      title={t("album", 14)}
+      titleId="porte-album-colonie-titre"
+      line={approved("meta-description", "album-photos-colonie")}
+      href="/album/photos-colonie/"
+      linkLabel={t(P, 21)}
+      printId="aire-de-jeux-rayon-de-sologne-496x496"
+      printEffect="reveal"
+      box={248}
+      light={light}
+    />
+  </div>
+</OfferPage>
+
+<style is:global>
+  /* plans: each is a link to its largest file (new tab); full-width rows on phones */
+  .col-plan { position: relative; display: block; touch-action: manipulation; }
+  .col-plan .print { width: 100%; }
+  .col-plan-icone { position: absolute; inset-block-end: var(--space-1); inset-inline-end: var(--space-1); display: grid; place-items: center; width: var(--tap-min); height: var(--tap-min); border-radius: var(--radius-icon); background: var(--brume-creme); color: var(--encre); }
+  .col-plan-icone .icon { width: 24px; height: 24px; }
+  .col-plan:focus-visible { outline-offset: var(--focus-offset); }
+  @media (max-width: 760px) {
+    .chap.col-plans .chap-corps { grid-template-columns: minmax(0, 1fr); }
+  }
+  /* tablet: the 3-column chapter leaves ~25 px margins; the margin print goes under the text, not a sliver beside it */
+  @media (min-width: 761px) and (max-width: 1180px) {
+    .chap.col-chap .chap-grid { grid-template-columns: minmax(0, 1fr); }
+    .chap.col-chap .chap-text { grid-column: 1; grid-row: 1; }
+    .chap.col-chap .chap-marge { grid-column: 1; grid-row: 2; justify-self: start; align-self: start; }
+  }
+  .col-rail { background: var(--brume-creme); color: var(--encre); padding: var(--space-5) 0; }
+</style>

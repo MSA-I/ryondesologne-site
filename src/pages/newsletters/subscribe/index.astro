@@ -1,0 +1,28 @@
+---
+// Newsletter (DESIGN §12 form pages). Lines 6-10 verbatim; the consent sentence (14) renders inside MailForm. The form is the mail-app
+// MailForm to rayondesologne@gmail.com, subject "Inscription à la newsletter" (Moshe's ruling, OPEN 5). Blocks 11-13 (IconCaptcha)
+// are listed in omitted/T32.json.
+import FormPage from "../../../layouts/FormPage.astro";
+import MailForm from "../../../components/MailForm.astro";
+import { t, approved } from "../../../lib/content";
+
+const P = "newsletters-subscribe";
+---
+<FormPage
+  title={t(P, 10)}
+  description={approved("meta-description", P)}
+  canonicalPath="/newsletters/subscribe/"
+  h1={t(P, 6)}
+  light={{ use: "gites", photoId: "mariage-11-field" }}
+  formTitleId="news-form"
+>
+  <p class="fp-accroche">{t(P, 7)}</p>
+  <p>{t(P, 8)}</p>
+  <p>{t(P, 9)}</p>
+  <h2 slot="form" id="news-form">{t(P, 10)}</h2>
+  <MailForm slot="form" fields="newsletter" to="rayondesologne@gmail.com" subject={t(P, 10)} />
+</FormPage>
+
+<style is:global>
+  .fp-lignes .fp-accroche { font-weight: var(--fw-h2-text); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+</style>

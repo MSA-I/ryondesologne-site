@@ -1,0 +1,24 @@
+---
+import "../../styles/kit.css";
+import { img } from "../../lib/assets";
+interface Props {
+  use: "restaurant" | "seminaire" | "gites" | "colonie";
+  /** assets.json id of a `blurred: true` row (the *-field derivative) */
+  photoId: string;
+  crop?: "sky";
+  /** the light is on the first screen (page opening): the field loads eager instead of lazy */
+  eager?: boolean;
+  /** eager fields only: "high" when the field is the page's LCP candidate (album), "low" when a print is (inner openings) */
+  priority?: "high" | "low";
+}
+const { use, photoId, crop, eager = false, priority } = Astro.props;
+// blurred rows may exceed max_css_width: the blur hides resolution (T05 ruling); box = the file's own width.
+const d = img(photoId, { box: 4096, sizes: "100vw", blurred: true });
+---
+<div class:list={["fond", crop === "sky" && "fond-sky"]} data-light={use} aria-hidden="true">
+  <picture>
+    {d.sources.map((s) => <source type={s.type} srcset={s.srcset} sizes="100vw" />)}
+    <img src={d.src} width={d.width} height={d.height} alt="" loading={eager ? "eager" : "lazy"} decoding="async" fetchpriority={eager ? priority : undefined} />
+  </picture>
+  <span class={`clamp clamp-${use}`}></span>
+</div>

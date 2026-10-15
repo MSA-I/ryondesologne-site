@@ -1,0 +1,97 @@
+---
+import Icon from "./kit/Icon.astro";
+import { ft } from "../lib/site";
+
+// The page's lightbox (DESIGN §11): a <dialog> on brume-crème; the caller lists the prints and puts a
+// <button aria-haspopup="dialog" data-lightbox-open="<index>"> on each. Labels come from ft().
+interface Item {
+  alt: string;
+  box: number;
+  sizes: string;
+  sources: { type: string; srcset: string }[];
+  src: string;
+  width: number;
+  height: number;
+}
+interface Props { items: Item[] }
+const { items } = Astro.props;
+const json = JSON.stringify(items).replace(/</g, "\\u003c");
+---
+<dialog class="lightbox" aria-label={ft("lightbox-dialog")} data-site-studio-component="lightbox">
+  <div class="lb-scene">
+    <picture class="lb-print"></picture>
+  </div>
+  <div class="lb-barre">
+    <button type="button" class="lb-bouton" data-lb-prev aria-label={ft("lightbox-prev")} hidden={items.length < 2}><Icon name="prev" /></button>
+    <p class="lb-compteur" aria-live="polite"><span data-lb-i>1</span> / <span>{items.length}</span></p>
+    <button type="button" class="lb-bouton" data-lb-next aria-label={ft("lightbox-next")} hidden={items.length < 2}><Icon name="next" /></button>
+  </div>
+  <button type="button" class="lb-bouton lb-fermer" data-lb-close aria-label={ft("lightbox-close")}><Icon name="close" /></button>
+  <script type="application/json" set:html={json}></script>
+</dialog>
+
+<script>
+  import { initLightbox } from "../scripts/lightbox.js";
+  // the print element is created here, so the static HTML holds no <img> without a src; lightbox.js fills it when opened
+  const dlg = document.querySelector("dialog.lightbox");
+  const pic = dlg?.querySelector("picture");
+  if (pic && !pic.querySelector("img")) {
+    const data = dlg.querySelector('script[type="application/json"]');
+    const first = data ? JSON.parse(data.textContent || "[]")[0] : undefined;
+    const el = document.createElement("img");
+    el.alt = "";
+    el.decoding = "async";
+    if (first) { el.width = first.width; el.height = first.height; }
+    pic.append(el);
+  }
+  initLightbox();
+</script>
+
+<style is:global>
+  html:has(dialog.lightbox[open]) { overflow: hidden; }
+  .lightbox {
+    position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none;
+    margin: 0; padding: 0; border: 0;
+    background: var(--brume-creme); color: var(--encre);
+    overscroll-behavior: contain;
+  }
+  .lightbox::backdrop { background: var(--brume-creme); }
+  .lightbox[open] { display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+  .lb-scene {
+    min-height: 0; display: flex; align-items: center; justify-content: center;
+    padding: var(--space-5) var(--pad) var(--space-2);
+    touch-action: pan-y;
+  }
+  .lb-print { display: contents; }
+  .lb-print img {
+    display: block; width: auto; height: auto; max-width: min(100%, var(--lb-max, 100%)); max-height: 100%; object-fit: contain;
+    border-radius: var(--radius-print);
+    opacity: 1; transition: opacity var(--dur-line) var(--ease-out);
+    -webkit-user-drag: none; user-select: none;
+  }
+  .lb-print img.is-out { opacity: 0; }
+  .lb-barre {
+    display: flex; align-items: center; justify-content: center; gap: var(--space-3);
+    padding: var(--space-2) var(--pad) calc(var(--space-2) + env(safe-area-inset-bottom, 0px));
+  }
+  .lb-compteur { margin: 0; min-width: 6ch; text-align: center; font-size: var(--fs-meta); font-variant-numeric: tabular-nums; }
+  .lb-bouton {
+    display: grid; place-items: center; flex: none;
+    width: var(--menu-button); height: var(--menu-button); padding: 0;
+    border: 0; border-radius: var(--radius-icon); background: transparent; color: inherit;
+    cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+    transition: background var(--dur-line) var(--ease-out);
+  }
+  .lb-bouton[hidden] { display: none; }
+  .lb-bouton:active { background: var(--brume); }
+  .lb-fermer { position: absolute; inset-block-start: var(--space-2); inset-inline-end: var(--pad); }
+  @media (hover: hover) and (pointer: fine) {
+    .lb-bouton:hover { background: var(--brume); }
+  }
+  @media (max-width: 760px) {
+    .lb-scene { padding: var(--space-5) var(--space-2) var(--space-1); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lb-print img, .lb-bouton { transition: none; }
+  }
+</style>

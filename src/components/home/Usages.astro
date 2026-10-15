@@ -1,0 +1,175 @@
+---
+import Light from "../kit/Light.astro";
+import Print from "../kit/Print.astro";
+import Cta2 from "../kit/Cta2.astro";
+import { t } from "../../lib/content";
+import home from "../../content/pages/home.json";
+
+// Home section 2 "Une lumière par usage" (DESIGN §6 secondary move, §14 phone bands), ported from board D.
+// Copy: home.json blocks 19 (H2), 21-24 subtitles, 26/29/32/36 use + link labels, 27/30/33/37 lines, 38 closing link.
+// Each panel sits right after its use name in the DOM, so Tab reaches the selected use's link (the board put all panels after the four names).
+const H = "home";
+// Use names / link labels are the verbatim blocks: t() would apply the album-restaurant meta-title rewrite (original "Restaurant") to block 26 (lib/content.ts falls back to any page's rewrite; reported to the orchestrator).
+const raw = (n: number): string => (home as { blocks: { n: number; text: string }[] }).blocks.find((b) => b.n === n)!.text;
+const uses = [
+  { use: "restaurant", name: 26, sub: 21, line: 27, href: "/pages/le-restaurant.html", print: "28c71597-b1bc-46c8-92a7-2f185bc7f681-496x496", field: "28c71597-b1bc-46c8-92a7-2f185bc7f681-field" },
+  { use: "seminaire", name: 29, sub: 22, line: 30, href: "/pages/salle-seminaire-privatisee.html", print: "seminaire-dans-la-grange-rayon-de-sologne-41320-496x496", field: "seminaire-dans-la-grange-rayon-de-sologne-41320-field" },
+  { use: "gites", name: 32, sub: 23, line: 33, href: "/pages/nos-gites.html", print: "mariage-11-496x496", field: "mariage-11-field" },
+  { use: "colonie", name: 36, sub: 24, line: 37, href: "/pages/colonies-classes-vertes-ecole-alternative.html", print: "aire-de-jeux-rayon-de-sologne-496x496", field: "aire-de-jeux-rayon-de-sologne-field" },
+] as const;
+---
+<section class="usages" data-selected="restaurant" aria-labelledby="usages-titre">
+  <div class="usages-cadre">
+    <h2 id="usages-titre" class="usages-titre" data-effect="kinetic">{t(H, 19)}</h2>
+
+    <div class="index" role="group" aria-labelledby="usages-titre" data-withheld="lumiere-par-usage">
+      {uses.map((u) => (
+        <>
+          <button type="button" class="nom" data-beat={u.use === "restaurant" ? "4" : undefined} data-usage={u.use} aria-pressed={u.use === "restaurant" ? "true" : "false"} aria-controls={`p-${u.use}`}>{raw(u.name)}</button>
+          <div class="panneau" id={`p-${u.use}`} data-panneau={u.use} data-door>
+            <Print id={u.print} box={248} sizes="248px" class="tirage" />
+            <div class="ligne">
+              <p class="sous-titre">{t(H, u.sub)}</p>
+              <p class="phrase">{t(H, u.line)}</p>
+              <Cta2 href={u.href} label={raw(u.name)} />
+            </div>
+          </div>
+        </>
+      ))}
+    </div>
+
+    <div class="champs" aria-hidden="true">
+      {uses.map((u) => (
+        <div class="champ" data-champ={u.use}><Light use={u.use} photoId={u.field} /></div>
+      ))}
+    </div>
+
+    <p class="cloture"><a href="/contact/contact.html">{t(H, 38)}</a></p>
+  </div>
+</section>
+
+<script>
+  import { initAllUsages } from "../../scripts/usages.js";
+  initAllUsages();
+</script>
+
+<style is:global>
+  .usages {
+    position: relative; isolation: isolate; overflow: hidden;
+    min-height: 100vh; min-height: 100svh;
+    color: var(--encre);
+    transition: color var(--dur-field) var(--ease-out);
+  }
+  .usages[data-selected="restaurant"] { color: var(--on-dark); }
+  .usages[data-selected="restaurant"] :focus-visible { outline-color: var(--focus-on-dark); }
+
+  .usages .champs { position: absolute; inset: 0; z-index: -1; }
+  .usages .champ { position: absolute; inset: 0; overflow: hidden; opacity: 0; transition: opacity var(--dur-field) var(--ease-out); }
+  .usages[data-selected="restaurant"] .champ[data-champ="restaurant"],
+  .usages[data-selected="seminaire"] .champ[data-champ="seminaire"],
+  .usages[data-selected="gites"] .champ[data-champ="gites"],
+  .usages[data-selected="colonie"] .champ[data-champ="colonie"] { opacity: 1; }
+
+  .usages .usages-cadre {
+    min-height: 100vh; min-height: 100svh;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto;
+    padding: var(--space-6) var(--pad) var(--space-5);
+  }
+  .usages .usages-titre {
+    grid-column: 1; grid-row: 1;
+    margin: 0 0 var(--space-5);
+    font-family: var(--font-text); font-weight: var(--fw-ui-h); font-size: var(--fs-ui-h); line-height: var(--lh-ui-h); letter-spacing: 0;
+  }
+  /* desktop: names in column 1 (rows 1-4), the four panels stacked in column 2 */
+  .usages .index {
+    grid-column: 1; grid-row: 2; align-self: center;
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    column-gap: var(--gap-columns);
+  }
+  .usages .nom {
+    grid-column: 1;
+    appearance: none; background: none; border: 0; color: inherit; cursor: pointer;
+    display: block; width: 100%; text-align: left;
+    padding: var(--space-1) 0;
+    font-family: var(--font-display); font-size: var(--fs-display); line-height: var(--lh-display); letter-spacing: var(--tr-display);
+    font-weight: var(--fw-use);
+    touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+    transition: font-weight var(--dur-field) var(--ease-out);
+  }
+  .usages .nom[data-usage="restaurant"] { grid-row: 1; }
+  .usages .nom[data-usage="seminaire"] { grid-row: 2; }
+  .usages .nom[data-usage="gites"] { grid-row: 3; }
+  .usages .nom[data-usage="colonie"] { grid-row: 4; }
+  .usages .nom[aria-pressed="true"] { font-weight: var(--fw-use-selected); }
+  .usages .nom:active { font-weight: var(--fw-use-selected); }
+
+  .usages .panneau { grid-column: 2; grid-row: 1 / span 4; align-self: center; visibility: hidden; }
+  .usages .tirage { width: var(--print-width); clip-path: var(--shape-print-hidden); transition: clip-path var(--dur-print) var(--ease-out) var(--dur-delay-print); }
+  .usages .ligne { opacity: 0; max-width: var(--measure-line); transition: opacity var(--dur-line) var(--ease-out) var(--dur-delay-line); }
+  .usages .sous-titre { margin: var(--space-3) 0 var(--space-1); font-weight: var(--fw-action); font-size: var(--fs-small); font-style: normal; }
+  .usages .phrase { margin: 0 0 var(--space-2); font-size: var(--fs-lead); line-height: var(--lh-lead); }
+
+  .usages[data-selected="restaurant"] [data-panneau="restaurant"],
+  .usages[data-selected="seminaire"] [data-panneau="seminaire"],
+  .usages[data-selected="gites"] [data-panneau="gites"],
+  .usages[data-selected="colonie"] [data-panneau="colonie"] { visibility: visible; }
+  .usages[data-selected="restaurant"] [data-panneau="restaurant"] .tirage,
+  .usages[data-selected="seminaire"] [data-panneau="seminaire"] .tirage,
+  .usages[data-selected="gites"] [data-panneau="gites"] .tirage,
+  .usages[data-selected="colonie"] [data-panneau="colonie"] .tirage { clip-path: var(--shape-print); }
+  .usages[data-selected="restaurant"] [data-panneau="restaurant"] .ligne,
+  .usages[data-selected="seminaire"] [data-panneau="seminaire"] .ligne,
+  .usages[data-selected="gites"] [data-panneau="gites"] .ligne,
+  .usages[data-selected="colonie"] [data-panneau="colonie"] .ligne { opacity: 1; }
+
+  .usages .cloture { grid-column: 1; grid-row: 3; margin: var(--space-5) 0 0; font-size: var(--fs-ui-h); }
+  .usages .cloture a {
+    display: inline-flex; align-items: center; min-height: var(--tap-min);
+    text-decoration: underline; text-underline-offset: var(--underline-offset); text-decoration-thickness: var(--border-1);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .usages .nom:hover { font-weight: var(--fw-use-selected); }
+  }
+
+  /* phones: four permanent bands, each use on its own light, in scroll order (DESIGN §14) */
+  @media (max-width: 760px) {
+    .usages, .usages .usages-cadre { min-height: 0; }
+    .usages { color: var(--encre); }
+    .usages[data-selected="restaurant"] { color: var(--encre); }
+    .usages .champs, .usages .index { display: contents; }
+    .usages .usages-cadre { padding: 0; grid-template-rows: none; }
+    .usages .usages-titre { grid-column: 1; grid-row: 1; margin: 0; padding: var(--space-5) var(--pad) var(--space-3); background: var(--brume-creme); }
+    .usages .champ { position: relative; inset: auto; opacity: 1; grid-column: 1; z-index: 0; transition: none; }
+    .usages .champ[data-champ="restaurant"] { grid-row: 2 / span 2; }
+    .usages .champ[data-champ="seminaire"] { grid-row: 4 / span 2; }
+    .usages .champ[data-champ="gites"] { grid-row: 6 / span 2; }
+    .usages .champ[data-champ="colonie"] { grid-row: 8 / span 2; }
+    .usages .nom {
+      grid-column: 1; position: relative; z-index: 1;
+      padding: var(--space-5) var(--pad) var(--space-2);
+      font-size: var(--fs-display-phone); font-weight: var(--fw-use-phone); cursor: default;
+      transition: none;
+    }
+    .usages .nom[aria-pressed], .usages .nom:active, .usages .nom:hover { font-weight: var(--fw-use-phone); }
+    .usages .nom:focus-visible { outline-offset: var(--focus-offset-inset); }
+    .usages .nom[data-usage="restaurant"] { grid-row: 2; color: var(--on-dark); }
+    .usages .nom[data-usage="seminaire"] { grid-row: 4; }
+    .usages .nom[data-usage="gites"] { grid-row: 6; }
+    .usages .nom[data-usage="colonie"] { grid-row: 8; }
+    .usages .panneau { grid-row: auto; grid-column: 1; position: relative; z-index: 1; visibility: visible; padding: 0 var(--pad) var(--space-5); }
+    .usages .panneau[data-panneau="restaurant"] { grid-row: 3; color: var(--on-dark); }
+    .usages .panneau[data-panneau="seminaire"] { grid-row: 5; }
+    .usages .panneau[data-panneau="gites"] { grid-row: 7; }
+    .usages .panneau[data-panneau="colonie"] { grid-row: 9; }
+    .usages [data-panneau="restaurant"] :focus-visible,
+    .usages .nom[data-usage="restaurant"]:focus-visible { outline-color: var(--focus-on-dark); }
+    .usages .tirage { clip-path: none; transition: none; }
+    .usages .ligne { opacity: 1; transition: none; }
+    .usages .phrase { font-size: var(--fs-lead-phone); }
+    .usages .cloture { grid-column: 1; grid-row: 10; margin: 0; padding: var(--space-5) var(--pad); }
+  }
+</style>

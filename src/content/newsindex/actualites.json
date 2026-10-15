@@ -1,0 +1,491 @@
+{
+  "id": "actualites",
+  "url": "https://www.rayondesologne.fr/actualites/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Actualités"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "portes ouvertes du domaine en 2026"
+    },
+    {
+      "n": 8,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 10,
+      "tag": "span",
+      "text": "Le 27/08/2026"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "menu septembre octobre 25 bistrot du grand liot proche romorantin"
+    },
+    {
+      "n": 12,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 14,
+      "tag": "span",
+      "text": "Le 18/09/2025"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "menu du restaurant pour l'été"
+    },
+    {
+      "n": 16,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 18,
+      "tag": "span",
+      "text": "Le 30/05/2025"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Menu au Bistrot du Grand Liot"
+    },
+    {
+      "n": 20,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 22,
+      "tag": "span",
+      "text": "Le 01/03/2025"
+    },
+    {
+      "n": 23,
+      "tag": "p",
+      "text": "Nouveau menu saisonnier pour mars, avril et mai"
+    },
+    {
+      "n": 24,
+      "tag": "p",
+      "text": "Toujours des plats fait maison avec des produits frais et de saison, et maintenant à petit prix avec une formule à partir de 15,50€ !"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Formule express"
+    },
+    {
+      "n": 26,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 28,
+      "tag": "span",
+      "text": "Le 27/12/2024"
+    },
+    {
+      "n": 29,
+      "tag": "p",
+      "text": "Formule du jour rapide et efficace ! Du fais maison"
+    },
+    {
+      "n": 30,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 31,
+      "tag": "a",
+      "text": "Actualités"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Fermeture exceptionnelle"
+    },
+    {
+      "n": 33,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 35,
+      "tag": "span",
+      "text": "Le 21/12/2024"
+    },
+    {
+      "n": 36,
+      "tag": "p",
+      "text": "Fermeture excptionnelle du bistrot"
+    },
+    {
+      "n": 37,
+      "tag": "div",
+      "text": "Dans"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "Actualités"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Évènement du jeudi au Bistrot du Grand Liot soirée raclette"
+    },
+    {
+      "n": 40,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 41,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 42,
+      "tag": "span",
+      "text": "Le 04/10/2024"
+    },
+    {
+      "n": 43,
+      "tag": "p",
+      "text": "Voici la nouvelle soirée à thème organisée par le bistrot du Grand Liot !"
+    },
+    {
+      "n": 44,
+      "tag": "p",
+      "text": "Pour vos réservations bistrotdugrandliot.fr ou par téléphone 02 34 33 11 39"
+    },
+    {
+      "n": 45,
+      "tag": "a",
+      "text": "Soirée à thème du bistrot pour juin"
+    },
+    {
+      "n": 46,
+      "tag": "span",
+      "text": "Par"
+    },
+    {
+      "n": 47,
+      "tag": "a",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 48,
+      "tag": "span",
+      "text": "Le 30/05/2024"
+    },
+    {
+      "n": 49,
+      "tag": "p",
+      "text": "Voici les nouvelles soirées à thème organisées par le bistrot du Grand Liot."
+    },
+    {
+      "n": 50,
+      "tag": "p",
+      "text": "Pour vos réservations bistrotdugrandliot.fr ou par téléphone 02 34 33 11 39"
+    },
+    {
+      "n": 51,
+      "tag": "a",
+      "text": "Préc."
+    },
+    {
+      "n": 52,
+      "tag": "a",
+      "text": "1"
+    },
+    {
+      "n": 53,
+      "tag": "a",
+      "text": "2"
+    },
+    {
+      "n": 54,
+      "tag": "a",
+      "text": "3"
+    },
+    {
+      "n": 55,
+      "tag": "a",
+      "text": "4"
+    },
+    {
+      "n": 56,
+      "tag": "a",
+      "text": "5"
+    },
+    {
+      "n": 57,
+      "tag": "a",
+      "text": "Suiv."
+    },
+    {
+      "n": 58,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 59,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 60,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 61,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 62,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 63,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 64,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 65,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 66,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 67,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 68,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 69,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 70,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 71,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 72,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 73,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 74,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 75,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 76,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 77,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 78,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 79,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 80,
+      "tag": "@alt",
+      "text": "Porte ouverte rayon de sologne mariage seminaire mariage gite de groupe"
+    },
+    {
+      "n": 81,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 82,
+      "tag": "@alt",
+      "text": "Menu carte bistrot grand liot restaurant proche romorantin vierzon rayon de sologne septembre octobre 2025"
+    },
+    {
+      "n": 83,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 84,
+      "tag": "@alt",
+      "text": "Menu carte bistrot du grand liot restaurant rayon de sologne 41 ete guinguette"
+    },
+    {
+      "n": 85,
+      "tag": "@alt",
+      "text": "04 03 2"
+    },
+    {
+      "n": 86,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 87,
+      "tag": "@alt",
+      "text": "Fb sto insta 16 2"
+    },
+    {
+      "n": 88,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 89,
+      "tag": "@alt",
+      "text": "Design sans titre"
+    },
+    {
+      "n": 90,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 91,
+      "tag": "@alt",
+      "text": "E ve nement jeudi soire e raclette"
+    },
+    {
+      "n": 92,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 93,
+      "tag": "@alt",
+      "text": "Soire es a the me"
+    },
+    {
+      "n": 94,
+      "tag": "@alt",
+      "text": "charline sainjon"
+    },
+    {
+      "n": 95,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 96,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 97,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

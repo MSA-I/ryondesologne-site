@@ -1,0 +1,346 @@
+{
+  "id": "album-photos-auberge",
+  "url": "https://www.rayondesologne.fr/album/photos-auberge/",
+  "blocks": [
+    {
+      "n": 1,
+      "tag": "a",
+      "text": "Accueil"
+    },
+    {
+      "n": 2,
+      "tag": "a",
+      "text": "Restaurant / Traiteur"
+    },
+    {
+      "n": 3,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 4,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 5,
+      "tag": "a",
+      "text": "Réservations Séminaires"
+    },
+    {
+      "n": 6,
+      "tag": "h1",
+      "text": "Photos Auberge"
+    },
+    {
+      "n": 7,
+      "tag": "a",
+      "text": "Salon auberge rayon de sologne"
+    },
+    {
+      "n": 8,
+      "tag": "a",
+      "text": "Auberge rayon de sologne"
+    },
+    {
+      "n": 9,
+      "tag": "a",
+      "text": "Jardin auberge"
+    },
+    {
+      "n": 10,
+      "tag": "a",
+      "text": "Chmabre auberge rayondesologne"
+    },
+    {
+      "n": 11,
+      "tag": "a",
+      "text": "Chambre rdc"
+    },
+    {
+      "n": 12,
+      "tag": "a",
+      "text": "Chambre 3 etage"
+    },
+    {
+      "n": 13,
+      "tag": "a",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 14,
+      "tag": "a",
+      "text": "Chambre rdc 2"
+    },
+    {
+      "n": 15,
+      "tag": "a",
+      "text": "Chambre auberge à l'étage"
+    },
+    {
+      "n": 16,
+      "tag": "a",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 17,
+      "tag": "a",
+      "text": "Chambre auberge à l'étage"
+    },
+    {
+      "n": 18,
+      "tag": "a",
+      "text": "Salon et cuisine ouverte auberge rdc"
+    },
+    {
+      "n": 19,
+      "tag": "a",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 20,
+      "tag": "a",
+      "text": "Salle de bain auberge"
+    },
+    {
+      "n": 21,
+      "tag": "a",
+      "text": "Douche auberge"
+    },
+    {
+      "n": 22,
+      "tag": "a",
+      "text": "Plan rayon de sologne grand liot"
+    },
+    {
+      "n": 23,
+      "tag": "a",
+      "text": "1682164896711"
+    },
+    {
+      "n": 24,
+      "tag": "a",
+      "text": "Plan de chambres auberge rdc"
+    },
+    {
+      "n": 25,
+      "tag": "a",
+      "text": "Plan de chambres auberge e tage"
+    },
+    {
+      "n": 26,
+      "tag": "a",
+      "text": "Réservations Gites"
+    },
+    {
+      "n": 27,
+      "tag": "a",
+      "text": "Réservations Mariage"
+    },
+    {
+      "n": 28,
+      "tag": "a",
+      "text": "Newsletter"
+    },
+    {
+      "n": 29,
+      "tag": "a",
+      "text": "Nos dernières actus"
+    },
+    {
+      "n": 30,
+      "tag": "a",
+      "text": "Contact"
+    },
+    {
+      "n": 31,
+      "tag": "p",
+      "text": "© Rayon de Sologne - - - - - Crédits photos : - - -"
+    },
+    {
+      "n": 32,
+      "tag": "a",
+      "text": "Mention legales"
+    },
+    {
+      "n": 33,
+      "tag": "a",
+      "text": "CGU"
+    },
+    {
+      "n": 34,
+      "tag": "a",
+      "text": "CGV"
+    },
+    {
+      "n": 35,
+      "tag": "a",
+      "text": "RGPD"
+    },
+    {
+      "n": 36,
+      "tag": "a",
+      "text": "Franck Chemin"
+    },
+    {
+      "n": 37,
+      "tag": "a",
+      "text": "One Seb photos"
+    },
+    {
+      "n": 38,
+      "tag": "a",
+      "text": "Margaud Noée"
+    },
+    {
+      "n": 39,
+      "tag": "a",
+      "text": "Malfoy Melanie"
+    },
+    {
+      "n": 40,
+      "tag": "button",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 41,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 42,
+      "tag": "@alt",
+      "text": "Logoentete"
+    },
+    {
+      "n": 43,
+      "tag": "@aria-label",
+      "text": "brand"
+    },
+    {
+      "n": 44,
+      "tag": "@alt",
+      "text": "Gîtes Ruraux et Insolites en Centre Val De Loire"
+    },
+    {
+      "n": 45,
+      "tag": "@title",
+      "text": "BurgerMenu"
+    },
+    {
+      "n": 46,
+      "tag": "@placeholder",
+      "text": "Votre recherche"
+    },
+    {
+      "n": 47,
+      "tag": "@alt",
+      "text": "Salon auberge rayon de sologne"
+    },
+    {
+      "n": 48,
+      "tag": "@alt",
+      "text": "Auberge rayon de sologne"
+    },
+    {
+      "n": 49,
+      "tag": "@alt",
+      "text": "Jardin auberge"
+    },
+    {
+      "n": 50,
+      "tag": "@alt",
+      "text": "Chmabre auberge rayondesologne"
+    },
+    {
+      "n": 51,
+      "tag": "@alt",
+      "text": "Chambre rdc"
+    },
+    {
+      "n": 52,
+      "tag": "@alt",
+      "text": "Chambre 3 etage"
+    },
+    {
+      "n": 53,
+      "tag": "@alt",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 54,
+      "tag": "@alt",
+      "text": "Chambre rdc 2"
+    },
+    {
+      "n": 55,
+      "tag": "@alt",
+      "text": "Chambre auberge à l'étage"
+    },
+    {
+      "n": 56,
+      "tag": "@alt",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 57,
+      "tag": "@alt",
+      "text": "Chambre auberge à l'étage"
+    },
+    {
+      "n": 58,
+      "tag": "@alt",
+      "text": "Salon et cuisine ouverte auberge rdc"
+    },
+    {
+      "n": 59,
+      "tag": "@alt",
+      "text": "Chambre auberge rdc"
+    },
+    {
+      "n": 60,
+      "tag": "@alt",
+      "text": "Salle de bain auberge"
+    },
+    {
+      "n": 61,
+      "tag": "@alt",
+      "text": "Douche auberge"
+    },
+    {
+      "n": 62,
+      "tag": "@alt",
+      "text": "Plan rayon de sologne grand liot"
+    },
+    {
+      "n": 63,
+      "tag": "@alt",
+      "text": "1682164896711"
+    },
+    {
+      "n": 64,
+      "tag": "@alt",
+      "text": "Plan de chambres auberge rdc"
+    },
+    {
+      "n": 65,
+      "tag": "@alt",
+      "text": "Plan de chambres auberge e tage"
+    },
+    {
+      "n": 66,
+      "tag": "@aria-label",
+      "text": "Gestion des cookies"
+    },
+    {
+      "n": 67,
+      "tag": "@aria-label",
+      "text": "Scroll top"
+    },
+    {
+      "n": 68,
+      "tag": "@aria-label",
+      "text": "Cookies"
+    }
+  ]
+}

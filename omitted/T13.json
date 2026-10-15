@@ -1,0 +1,14 @@
+[
+  { "page": "pages-coordonnees-html", "n": 6, "text": "Charline et Maxime", "reason": "H1 of the merged Coordonnées page; the merged page's H1 is the Contact H1 (contact-contact-html n=6), the owners appear in the address block (contact n=7)" },
+  { "page": "pages-coordonnees-html", "n": 7, "text": "(photo prise au mariage de x et x)", "reason": "Caption of a wedding-couple photo: names private couples (orchestrator ruling, never rendered)" },
+  { "page": "pages-coordonnees-html", "n": 13, "text": "1er contact gite (demande d'informations, plaquette, tarifs, photos)", "reason": "Duplicate of contact n=16 for the same address (reservationsrayondesologne@gmail.com); n=16 is shown" },
+  { "page": "contact-contact-html", "n": 10, "text": "2380 route de Romorantin", "reason": "Street line replaced by the contact fact address-street (2380 C Rte de Romorantin, Coordonnées n=10)" },
+  { "page": "contact-contact-html", "n": 11, "text": "41230 Langon sur Cher", "reason": "Postcode corrected to 41320 (LEDGER SEO-local, Moshe round S); shown from the contact fact address-postcode" },
+  { "page": "pages-coordonnees-html", "n": 10, "text": "2380 C Rte de Romorantin, 41230 Langon-sur-Cher, France", "reason": "Shown from the contact facts with the postcode corrected to 41320; it is the link text of the Google Maps link" },
+  { "page": "pages-coordonnees-html", "n": 11, "text": "Restaurant : 02 34 33 11 39 www.bistrotdugrandliot.fr", "reason": "Split: audience label Restaurant + the phone as a tel: link + the site name as plain text (SEO-25, link not shipped)" },
+  { "page": "pages-coordonnees-html", "n": 12, "text": "Gites, salle de mariage et séminaire 06 04 47 54 92", "reason": "Same number as contact n=14; shown once under the approved audience label (Gîtes, anniversaires et séminaires)" },
+  { "page": "pages-coordonnees-html", "n": 23, "text": "Partager", "reason": "AddToAny share widget, not shipped (no third party)" },
+  { "page": "contact-contact-html", "n": 24, "text": "Anti-spam", "reason": "IconCaptcha not shipped (mail-app form, no server)" },
+  { "page": "contact-contact-html", "n": 25, "text": "Cliquez pour valider", "reason": "IconCaptcha not shipped (mail-app form, no server)" },
+  { "page": "contact-contact-html", "n": 26, "text": "IconCaptcha ©", "reason": "IconCaptcha not shipped (mail-app form, no server)" }
+]
